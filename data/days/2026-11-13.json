@@ -55,6 +55,50 @@
   "added": "2026-11-14"
  },
  {
+  "id": "5659b244a8",
+  "date": "2026-11-13",
+  "cat": "retail",
+  "sub": "de",
+  "title": "Рейтинг крупнейших продуктовых ритейлеров Германии: Schwarz и Rewe обгоняют Edeka и Aldi",
+  "summary": "По расчётам EHI для Lebensmittel Zeitung, офлайн-выручка 20 ведущих продуктовых сетей в 2025 году росла быстрее инфляции. Группа Schwarz (Lidl, Kaufland) и Rewe показали более высокие темпы роста, чем Edeka и Aldi. Параллельно картельное ведомство одобрило Rewe покупку части магазинов Tegut и изучает сделку с Feneberg.",
+  "url": "https://www.lebensmittelzeitung.net/handel/nachrichten/top-20-leh-das-sind-die-groessten-stationaeren-lebensmittelhaendler-194308",
+  "source": "Lebensmittel Zeitung",
+  "added": "2026-11-14"
+ },
+ {
+  "id": "b60ca5a12c",
+  "date": "2026-11-13",
+  "cat": "retail",
+  "sub": "ru",
+  "title": "Ozon автоматизирует прямые закупки у зарубежных поставщиков",
+  "summary": "Маркетплейс тестирует портал, где иностранные компании сами загружают товары, разрешительные документы и коммерческие условия. Раньше закупки у зарубежных партнёров велись вручную; новый сервис должен ускорить отбор поставщиков.",
+  "url": "https://new-retail.ru/novosti/retail/ozon_optimiziruet_poisk_postavshchikov_iz_za_granitsy/",
+  "source": "New Retail",
+  "added": "2026-11-14"
+ },
+ {
+  "id": "8c20eafdd7",
+  "date": "2026-11-13",
+  "cat": "retail",
+  "sub": "ru",
+  "title": "«Арнест» закрыл покупку российского бизнеса бытовой химии Reckitt",
+  "summary": "Группе перешёл завод в Клину, где выпускались Finish, Vanish, Calgon и Cillit Bang. Права на бренды в сделку не вошли (их продажу запретил 18-й пакет санкций ЕС), поэтому продукция будет переименована. Ранее «Арнест» выкупил российские активы Unilever, Heineken и Avon.",
+  "url": "https://www.retail.ru/news/arnest-priobrel-rossiyskie-aktivy-reckitt-benckiser-v-segmente-bytovoy-khimii-13-noyabrya-2026-284443/",
+  "source": "Retail.ru",
+  "added": "2026-11-14"
+ },
+ {
+  "id": "07154974d5",
+  "date": "2026-11-13",
+  "cat": "retail",
+  "sub": "us",
+  "title": "Clorox, Kimberly-Clark и Newell обновляют топ-менеджмент за счёт ветеранов P&G и Unilever",
+  "summary": "Производители потребительских товаров продолжают кадровые перестановки, привлекая руководителей с опытом в P&G, Unilever, PepsiCo, Colgate-Palmolive и SC Johnson. Главные требования к новым лидерам — опыт ИИ-трансформации, работы с данными и цифровой коммерцией в условиях инфляции.",
+  "url": "https://consumergoods.com/clorox-kimberly-clark-newell-among-cpgs-investing-senior-leadership",
+  "source": "Consumer Goods Technology",
+  "added": "2026-11-14"
+ },
+ {
   "id": "2f29c82dac",
   "date": "2026-11-13",
   "cat": "rg",
