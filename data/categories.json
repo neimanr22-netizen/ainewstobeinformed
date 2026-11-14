@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "id": "rbc",
+      "name": "РБК",
+      "note": "Новости с сайта rbc.ru, только бесплатные материалы (без РБК Pro и других материалов по подписке).",
+      "subs": [
+        {"id": "politics", "name": "Политика"},
+        {"id": "economics", "name": "Экономика"},
+        {"id": "business", "name": "Бизнес"},
+        {"id": "research", "name": "Исследования"},
+        {"id": "trends", "name": "Тренды"},
+        {"id": "city", "name": "Город"}
+      ]
+    },
+    {
+      "id": "rg",
+      "name": "RG RU",
+      "note": "Новости с сайта rg.ru («Российская газета»).",
+      "subs": [
+        {"id": "power", "name": "Власть"},
+        {"id": "eco-business", "name": "Экономика — Бизнес"},
+        {"id": "eco-finance", "name": "Экономика — Финансы"},
+        {"id": "eco-macro", "name": "Экономика — Макроэкономика"},
+        {"id": "eco-industries", "name": "Экономика — Отрасли"},
+        {"id": "eco-prices", "name": "Экономика — Товары и цены"},
+        {"id": "world", "name": "В мире"},
+        {"id": "incidents", "name": "Происшествия"}
+      ]
+    },
+    {"id": "world", "name": "Общие Мира", "subs": []},
+    {"id": "russia", "name": "Общие РФ", "subs": []},
+    {"id": "moscow", "name": "Новости Москвы", "subs": []},
+    {
+      "id": "politics",
+      "name": "Политика стран",
+      "subs": "countries"
+    },
+    {
+      "id": "macro",
+      "name": "Макроэкономика",
+      "subs": "countries"
+    },
+    {
+      "id": "retail",
+      "name": "Ритейл/FMCG и компании",
+      "subs": "countries"
+    },
+    {
+      "id": "oralcare",
+      "name": "Oral care",
+      "subs": "countries"
+    }
+  ],
+  "countries": [
+    {"id": "ru", "name": "Россия"},
+    {"id": "us", "name": "США"},
+    {"id": "eu", "name": "ЕС"},
+    {"id": "de", "name": "Германия"},
+    {"id": "at", "name": "Австрия"},
+    {"id": "ch", "name": "Швейцария"},
+    {"id": "cz", "name": "Чехия"},
+    {"id": "sk", "name": "Словакия"},
+    {"id": "hu", "name": "Венгрия"}
+  ]
+}
