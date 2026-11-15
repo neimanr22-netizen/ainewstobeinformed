@@ -388,10 +388,27 @@ def ecb_annual(cur):
         log(f'ЕЦБ курс {cur}/EUR:', {y: round(v, 4) for y, v in _FX[cur].items() if y >= Y1 - 3})
     return _FX[cur]
 
+def cbr_eur(years):
+    """Среднегодовой официальный курс Банка России: рублей за 1 EUR (ЕЦБ курс рубля не публикует с 2022 г.)."""
+    out = {}
+    for y in years:
+        r = get('https://www.cbr.ru/scripts/XML_dynamic.asp', {'date_req1': f'01/01/{y}', 'date_req2': f'31/12/{y}', 'VAL_NM_RQ': 'R01239'})
+        if r:
+            v = [float(a.replace(',', '.')) for a in re.findall(r'<Value>([\d,]+)</Value>', r.content.decode('cp1251'))]
+            if v: out[y] = sum(v) / len(v)
+    log('Банк России EUR/RUB:', {y: round(v, 4) for y, v in out.items()})
+    return out
+
 def finish_regions(d):
     """Пересчёт ВРП на душу из национальной валюты в EUR и сводка лет."""
     cur = d.get('currency_nat')
-    if cur:
+    if cur == 'RUB':
+        fx = cbr_eur(sorted({r['gdp_y'] for r in d['rows'] if r.get('gdp_y')}))
+        for r in d['rows']:
+            v, y = r.get('gdp_pc_nat'), r.get('gdp_y')
+            r['gdp_pc'] = v / fx[y] if v is not None and y in fx else None
+        d['sources'] = d['sources'] + [['Банк России: официальные курсы евро (среднегодовой курс для пересчёта в евро)', 'https://www.cbr.ru/currency_base/dynamics/']]
+    elif cur:
         fx = ecb_annual(cur)
         for r in d['rows']:
             v, y = r.get('gdp_pc_nat'), r.get('gdp_y')
@@ -664,6 +681,13 @@ def main():
             if cid == 'ch' and reg:
                 try: ch_patch(reg)
                 except Exception as ex: log('BFS: ошибка', repr(ex))
+        if not reg:
+            try:
+                old = json.load(open(os.path.join(OUT, cid + '.json'), encoding='utf-8')).get('regions')
+                if old and not manual_regions(cid):
+                    reg = old; log(f'{cid}: регионы не загрузились — оставлены прежние')
+            except Exception:
+                pass
         man = manual_regions(cid)
         if man and (not reg or man.get('override')):
             reg = man
