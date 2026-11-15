@@ -17,13 +17,15 @@ jobs:
         run: |
           curl -sSL -o ru_root.crt https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.crt || true
           curl -sSL -o ru_sub.crt https://gu-st.ru/content/lending/russian_trusted_sub_ca_pem.crt || true
-          cat /etc/ssl/certs/ca-certificates.crt ru_root.crt ru_sub.crt > $PWD/ca.pem
-          export CURL_CA_BUNDLE=$PWD/ca.pem
+          head -c 80 ru_root.crt; echo
+          cp /etc/ssl/certs/ca-certificates.crt ca.pem
+          for f in ru_root.crt ru_sub.crt; do grep -q "BEGIN CERTIFICATE" $f && cat $f >> ca.pem; done
+          export CA=$PWD/ca.pem
           mkdir out && cd out
           i=0
           for u in $URLS; do
             i=$((i+1))
-            code=$(curl -sSL -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36" -m 120 -o "f$i" -w "%{http_code} %{content_type} %{size_download}" "$u" 2>&1 || true)
+            code=$(curl -sSL --cacert "$CA" -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36" -m 120 -o "f$i" -w "%{http_code} %{content_type} %{size_download}" "$u" 2>&1 || true)
             echo "f$i $code $u" | tee -a index.txt
           done
           git init -q && git checkout -q -b probe
