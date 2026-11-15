@@ -1,0 +1,24 @@
+{
+ "source": "Investing.com",
+ "updated": "2026-11-15T15:28:48Z",
+ "pairs": {
+  "USDRUB": {
+   "name": "USD/RUB",
+   "first": "2025-01-01",
+   "last": "2026-11-13",
+   "rows": 488
+  },
+  "EURRUB": {
+   "name": "EUR/RUB",
+   "first": "2025-01-01",
+   "last": "2026-11-13",
+   "rows": 488
+  },
+  "EURUSD": {
+   "name": "EUR/USD",
+   "first": "2025-01-01",
+   "last": "2026-11-13",
+   "rows": 488
+  }
+ }
+}
