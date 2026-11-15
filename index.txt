@@ -1,0 +1,2 @@
+f1 200 text/html; charset=UTF-8 121389 https://web.archive.org/web/2026id_/https://rosstat.gov.ru/folder/12781
+f2 200 application/json 230 https://archive.org/wayback/available?url=rosstat.gov.ru/folder/12781
