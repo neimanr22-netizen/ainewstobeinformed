@@ -11,7 +11,8 @@
 ВБ SL.UEM.TOTL.ZS: 29 стран
 Евростат nama_10_gdp: 22 стран
 Евростат nama_10_pc: 22 стран
-Евростат nama_10_gdp: 0 стран
+Евростат nama_10_gdp: 22 стран
+Евростат nama_10_gdp: 22 стран
 Евростат prc_hicp_aind: 22 стран
 Евростат une_rt_a: 22 стран
 Евростат prc_hicp_manr: 22 стран
@@ -29,57 +30,59 @@ us: gdp=27, gdp_pc=27, net_exp=25, infl=27, income=26, unemp=27, rate=27, infl_m
 Census: население 51 штатов, 2025
 Census Gazetteer: площадь 51 штатов
 BEA: ВВП 51 штатов (SAGDP2__ALL_AREAS_1997_2025.csv), 2025
-eu: gdp=27, gdp_pc=27, net_exp=0, infl=27, income=26, unemp=26, rate=27, infl_m=301, rate_m=322
-  HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.DE/all?format=csv&startPeriod=1999-01
-  HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.DE?format=csv&startPeriod=1999-01
+  HTTP 404 https://data-api.ecb.europa.eu/service/data/ICP/M.EU.N.000000.4.ANR?format=csvdata&startPeriod=2000-01
+  HTTP 404 https://data-api.ecb.europa.eu/service/data/ICP/M.B6.N.000000.4.ANR?format=csvdata&startPeriod=2000-01
+  HTTP 404 https://data-api.ecb.europa.eu/service/data/ICP/M.B0.N.000000.4.ANR?format=csvdata&startPeriod=2000-01
+  ЕЦБ HICP I9: 301 мес., до 2025-12
+eu: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=26, rate=27, infl_m=301, rate_m=322
+  ЕЦБ HICP DE: 312 мес., до 2025-12
 de: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
-  HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.AT/all?format=csv&startPeriod=1999-01
-  HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.AT?format=csv&startPeriod=1999-01
+  ЕЦБ HICP AT: 312 мес., до 2025-12
 at: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
-ch: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=241, rate_m=322
+ch: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=321, rate_m=322
+  ЕЦБ HICP CZ: 312 мес., до 2025-12
 cz: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
+  ЕЦБ HICP SK: 312 мес., до 2025-12
   HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.SK/all?format=csv&startPeriod=1999-01
   HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.SK?format=csv&startPeriod=1999-01
 sk: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=18, infl_m=312, rate_m=214
+  ЕЦБ HICP HU: 312 мес., до 2025-12
 hu: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
-  HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.FR/all?format=csv&startPeriod=1999-01
-  HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.FR?format=csv&startPeriod=1999-01
+  ЕЦБ HICP FR: 312 мес., до 2025-12
 fr: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
-  HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.IT/all?format=csv&startPeriod=1999-01
-  HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.IT?format=csv&startPeriod=1999-01
+  ЕЦБ HICP IT: 312 мес., до 2025-12
 it: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
-  HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.ES/all?format=csv&startPeriod=1999-01
-  HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.ES?format=csv&startPeriod=1999-01
+  ЕЦБ HICP ES: 312 мес., до 2025-12
 es: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
-  HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.PT/all?format=csv&startPeriod=1999-01
-  HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.PT?format=csv&startPeriod=1999-01
+  ЕЦБ HICP PT: 312 мес., до 2025-12
 pt: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
-  HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.NL/all?format=csv&startPeriod=1999-01
-  HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.NL?format=csv&startPeriod=1999-01
+  ЕЦБ HICP NL: 312 мес., до 2025-12
 nl: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
-  HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.BE/all?format=csv&startPeriod=1999-01
-  HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BE?format=csv&startPeriod=1999-01
+  ЕЦБ HICP BE: 312 мес., до 2025-12
 be: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
-  HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.LU/all?format=csv&startPeriod=1999-01
-  HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.LU?format=csv&startPeriod=1999-01
+  ЕЦБ HICP LU: 312 мес., до 2025-12
 lu: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
+  ЕЦБ HICP LV: 312 мес., до 2025-12
   HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.LV/all?format=csv&startPeriod=1999-01
   HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.LV?format=csv&startPeriod=1999-01
 lv: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=13, infl_m=312, rate_m=154
+  ЕЦБ HICP LT: 312 мес., до 2025-12
   HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.LT/all?format=csv&startPeriod=1999-01
   HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.LT?format=csv&startPeriod=1999-01
 lt: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=12, infl_m=312, rate_m=142
+  ЕЦБ HICP EE: 312 мес., до 2025-12
   HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.EE/all?format=csv&startPeriod=1999-01
   HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.EE?format=csv&startPeriod=1999-01
 ee: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=16, infl_m=312, rate_m=190
-  HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.FI/all?format=csv&startPeriod=1999-01
-  HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.FI?format=csv&startPeriod=1999-01
+  ЕЦБ HICP FI: 312 мес., до 2025-12
 fi: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
+  ЕЦБ HICP SE: 312 мес., до 2025-12
 se: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
-no: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
+no: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=321, rate_m=322
+  ЕЦБ HICP DK: 312 мес., до 2025-12
 dk: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=312, rate_m=322
 cn: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=321, rate_m=322
-tr: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=25, infl_m=312, rate_m=297
+tr: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=25, infl_m=321, rate_m=297
 my: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=321, rate_m=322
   HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.SG/all?format=csv&startPeriod=1999-01
   HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.SG?format=csv&startPeriod=1999-01
