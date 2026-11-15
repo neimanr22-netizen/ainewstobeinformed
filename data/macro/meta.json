@@ -236,7 +236,7 @@
   ]
  },
  "datasets": {
-  "hicp_annual": "prc_hicp_aind",
-  "hicp_monthly": "prc_hicp_manr"
+  "hicp_annual": "prc_hicp_ainr",
+  "hicp_monthly": "prc_hicp_minr"
  }
 }
