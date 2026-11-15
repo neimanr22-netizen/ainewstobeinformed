@@ -31,7 +31,7 @@ const SRC = {
   gdp_pc:  {estat: ['Евростат: ВВП на душу населения, EUR (nama_10_pc)', ES('nama_10_pc')],
             imf: ['МВФ, World Economic Outlook: ВВП на душу населения, USD (NGDPDPC)', 'https://www.imf.org/external/datamapper/NGDPDPC@WEO/OEMDC/ADVEC/WEOWORLD'],
             wb: ['Всемирный банк: ВВП на душу населения, текущие USD (NY.GDP.PCAP.CD)', 'https://data.worldbank.org/indicator/NY.GDP.PCAP.CD'], usd: 1},
-  net_exp: {estat: ['Евростат: внешнее сальдо товаров и услуг, млн EUR (nama_10_gdp, B11)', ES('nama_10_gdp')],
+  net_exp: {estat: ['Евростат: экспорт (P6) минус импорт (P7) товаров и услуг, млн EUR (nama_10_gdp)', ES('nama_10_gdp')],
             wb: ['Всемирный банк: внешнее сальдо товаров и услуг, текущие USD (NE.RSB.GNFS.CD)', 'https://data.worldbank.org/indicator/NE.RSB.GNFS.CD'], usd: 1},
   infl:    {estat: ['Евростат: гармонизированный индекс потребительских цен (HICP), среднегодовой рост (prc_hicp_ainr)', ES('prc_hicp_ainr')],
             imf: ['МВФ, World Economic Outlook: инфляция, средние цены за год (PCPIPCH)', 'https://www.imf.org/external/datamapper/PCPIPCH@WEO/OEMDC/ADVEC/WEOWORLD'],
@@ -116,7 +116,7 @@ function drawLines(box, keys, series, I, est = {}){
   if (!vals.length){ box.innerHTML = '<div class="empty-msg">За выбранный период данных нет.</div>'; return; }
   let lo = Math.min(...vals), hi = Math.max(...vals);
   if (I.unit !== '%' && lo > 0 && !I.id.startsWith('net')) lo = Math.min(lo, 0);
-  const pad = (hi - lo) * 0.06 || Math.abs(hi) * 0.05 || 1, ticks = niceTicks(lo - (lo < 0 || I.unit === '%' ? pad : 0), hi + pad);
+  const pad = (hi - lo) * 0.06 || Math.abs(hi) * 0.05 || 1, ticks = niceTicks(lo < 0 ? lo - pad : Math.max(0, lo - pad), hi + pad);
   const y0 = ticks[0], y1 = ticks[ticks.length - 1];
   const X = i => m.l + (keys.length === 1 ? iw / 2 : i * iw / (keys.length - 1));
   const Y = v => m.t + ih - (v - y0) / (y1 - y0) * ih;
@@ -218,7 +218,9 @@ async function viewMacroCountry(id, q){
     const o = [...app.querySelectorAll('.msec[open]')].map(d => d.dataset.s); if (o.length) qs.set('open', o.join(','));
     history.replaceState(null, '', `#/stats/macro/${id}` + (qs.toString() ? '?' + qs : ''));
   };
-  app.querySelectorAll('.msec').forEach(d => d.addEventListener('toggle', sync));
+  const toEnd = () => app.querySelectorAll('.msec[open] .mwrap').forEach(w => { if (!w.dataset.s){ w.scrollLeft = w.scrollWidth; w.dataset.s = 1; } });
+  app.querySelectorAll('.msec').forEach(d => d.addEventListener('toggle', () => { sync(); toEnd(); }));
+  toEnd();
   const render = () => {
     sync();
     const I = ind(st.ind);
@@ -346,6 +348,7 @@ async function viewMacroCompare(q){
     drawLines($('#fxPlot'), keys, series, I, est);
     /* таблица: страны по строкам, периоды по столбцам (для месяцев — не больше 24 последних) */
     const tk = I.per === 'month' && keys.length > 24 ? keys.slice(-24) : keys;
+    setTimeout(() => { const w = $('#mTbl .mwrap'); if (w) w.scrollLeft = w.scrollWidth; });
     $('#mTbl').innerHTML = `<h3 class="mh3">Таблица${tk.length < keys.length ? ' <span class="muted">· последние 24 месяца периода</span>' : ''}</h3>
       <div class="tbl mwrap"><table class="src mt myears"><thead><tr><th class="rh">Страна</th>${tk.map(k => `<th class="num">${esc(keyLabel(k))}</th>`).join('')}</tr></thead><tbody>${
       series.map(s => `<tr><th class="rh"><i class="msw" style="background:${pal()[s.color]}"></i>${esc(s.name)}</th>${tk.map(k => `<td class="num">${fmt(s.v[k], I.dig)}${est[s.id].includes(k) ? '*' : ''}</td>`).join('')}</tr>`).join('')
@@ -356,7 +359,7 @@ async function viewMacroCompare(q){
     const I = ind(st.ind);
     if (!I){ $('#mPer').innerHTML = ''; render(); return; }
     const y1 = meta.updated.slice(0, 4);
-    allKeys = I.per === 'year' ? keysBetween('2000', y1, 'year') : keysBetween('2000-01', meta.updated.slice(0, 7), 'month');
+    allKeys = I.per === 'year' ? keysBetween('2000', y1, 'year') : keysBetween('2000-01', meta.last_month || meta.updated.slice(0, 7), 'month');
     if (!allKeys.includes(st.from)) st.from = allKeys[0];
     if (!allKeys.includes(st.to)) st.to = allKeys[allKeys.length - 1];
     $('#mPer').innerHTML = periodSelects(I, allKeys, st.from, st.to);

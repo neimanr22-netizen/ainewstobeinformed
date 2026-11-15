@@ -537,7 +537,8 @@ def main():
             json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
         meta_c.append({'id': cid, 'name': c['name'], 'iso3': c['iso3']})
 
-    meta = {'updated': TODAY.isoformat(), 'countries': meta_c,
+    last_m = max((max(json.load(open(os.path.join(OUT, x['id'] + '.json')))['monthly'].get(k) or {'0': 0}) for x in meta_c for k in ('infl_m', 'rate_m')))
+    meta = {'updated': TODAY.isoformat(), 'last_month': last_m, 'countries': meta_c,
             'eurusd': {str(y): round(v, 6) for y, v in usd.items()},
             'eurusd_months': {str(y): n for y, n in usd_n.items()},
             'sources': SRC,
