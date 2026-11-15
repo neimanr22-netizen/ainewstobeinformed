@@ -34,6 +34,7 @@ eu: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=26, rate=27, infl_m
 de: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=322, rate_m=322
 at: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=322, rate_m=322
 ch: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=250, rate_m=322
+BFS: ошибка KeyError("There is no item named 'xl/drawings/drawing1.xml' in the archive")
 cz: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=321, rate_m=322
   HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.SK/all?format=csv&startPeriod=1999-01
   HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.SK?format=csv&startPeriod=1999-01
@@ -67,8 +68,8 @@ my: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m
   HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.SG?format=csv&startPeriod=1999-01
 sg: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=0, infl_m=319, rate_m=0
 ph: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=321, rate_m=322
-  PSA метки: ['PHILIPPINES', '..National Capital Region (NCR)', '....City of Caloocan', '....City of Las Piñas', '....City of Makati  1/', '....City of Malabon', '....City of Mandaluyong', '....City of Manila', '....City of Marikina', '....City of Muntinlupa', '....City of Navotas', '....City of Parañaque', '....Pasay City', '....City of Pasig', '....Quezon City', '....City of San Juan', '....City of Taguig  2/', '....City of Valenzuela', '....Pateros', '..Cordillera Administrative Region (CAR)', '....Abra', '......Bangued', '......Boliney', '......Bucay', '......Bucloc', '......Daguioman', '......Danglas', '......Dolores', '......La Paz', '......Lacub', '......Lagangilang', '......Lagayan', '......Langiden', '......Licuan-Baay', '......Luba', '......Malibcong', '......Manabo', '......Peñarrubia', '......Pidigan', '......Pilar']
-PSA население регионов: 0
-  PSA ВРП, измерения: {'Region': ['..National Capital Region (NCR)', '..Cordillera Administrative Region (CAR)', '..Region I (Ilocos Region)', '..Region II (Cagayan Valley)', '..Region III (Central Luzon)', '..Region IV-A (CALABARZON)', '..MIMAROPA Region', '..Region V (Bicol Region)', '..Region VI (Western Visayas)', '..Negros Island Region (NIR)', '..Region VII (Central Visayas)', '..Region VIII (Eastern Visayas)', '..Region IX (Zamboanga Peninsula)', '..Region X (Northern Mindanao)', '..Region XI (Davao Region)', '..Region XII (SOCCSKSARGEN)', '..Region XIII (Caraga)', '..Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)', 'Philippines'], 'Type of Valuation': ['At Current Prices'], 'Year': ['2025']}
-PSA ВРП на душу: 1 2025
+  PXWeb 0772B5BPCP1.px: 19 значений; пример: [{'Region': ('1300000000', '..National Capital Region (NCR)'), 'Type of Valuation': ('0', 'At Current Prices'), 'Year': ('7', '2025'), 'value': 631279.0}, {'Region': ('1400000000', '..Cordillera Administrative Region (CAR)'), 'Type of Valuation': ('0', 'At Current Prices'), 'Year': ('7', '2025'), 'value': 249740.0}]
+  PXWeb 0221A6DLPD0.px: 5232 значений; пример: [{'Geographic Location': ('0000000000', '0000000000'), 'Parameter': ('2', '2024 Population'), 'value': 112727776.0}, {'Geographic Location': ('0000000000', '0000000000'), 'Parameter': ('3', '***Land Area (square kilometers)  a1/ a2/'), 'value': 300000.0}]
+PSA: регионов с населением 18 ; с ВРП 18 2025 ; без названия: []
+ЕЦБ курс PHP/EUR: {2023: 60.1626, 2024: 62.0072, 2025: 64.977}
 id: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=22, infl_m=321, rate_m=256
