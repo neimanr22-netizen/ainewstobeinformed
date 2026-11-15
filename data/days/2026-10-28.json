@@ -55,6 +55,28 @@
   "added": "2026-11-15"
  },
  {
+  "id": "90458d2e50",
+  "date": "2026-10-28",
+  "cat": "retail",
+  "sub": "hu",
+  "title": "Правительство Венгрии внесло законопроект об отмене «стоп-маржи»",
+  "summary": "Кабинет внёс в парламент законопроект об отмене ограничения торговых наценок на продукты питания и товары drogerie, действующего с марта 2025 года. В пояснении указано, что инфляция в этих категориях нормализовалась, а форинт укрепился; торговые сети давно добивались отмены меры.",
+  "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/10/arresstop-megszuntetes-kivezetes-kiskeresdelem-kormany",
+  "source": "Világgazdaság",
+  "added": "2026-11-15"
+ },
+ {
+  "id": "0628a1ba24",
+  "date": "2026-10-28",
+  "cat": "retail",
+  "sub": "us",
+  "title": "FTC потребовала от Walmart, Target и Instacart раскрыть, как личные данные влияют на цены",
+  "summary": "Федеральная торговая комиссия США направила девяти компаниям, включая Walmart, Target, Instacart и DoorDash, предписания о предоставлении данных о персонализированном ценообразовании. Регулятор хочет выяснить, зависят ли цены от программ лояльности или анализа личных данных; на ответ дано 45 дней.",
+  "url": "https://www.usnews.com/news/business/articles/2026-10-28/ftc-orders-walmart-delta-and-others-to-share-how-they-use-personal-data-to-set-prices-and-pay",
+  "source": "AP / U.S. News",
+  "added": "2026-11-15"
+ },
+ {
   "id": "482d9c7dc0",
   "date": "2026-10-28",
   "cat": "rg",
