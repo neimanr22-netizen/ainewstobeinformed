@@ -34,7 +34,8 @@ eu: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=26, rate=27, infl_m
 de: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=322, rate_m=322
 at: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=322, rate_m=322
 ch: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=250, rate_m=322
-BFS: ошибка KeyError("There is no item named 'xl/drawings/drawing1.xml' in the archive")
+ЕЦБ курс CHF/EUR: {2023: 0.9718, 2024: 0.9526, 2025: 0.937}
+BFS: ВВП на душу для 26 кантонов, 2024
 cz: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=321, rate_m=322
   HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.SK/all?format=csv&startPeriod=1999-01
   HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.SK?format=csv&startPeriod=1999-01
@@ -64,6 +65,7 @@ cn: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m
 ЕЦБ курс CNY/EUR: {2023: 7.66, 2024: 7.7875, 2025: 8.1185}
 tr: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=25, infl_m=321, rate_m=297
 my: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=321, rate_m=322
+ЕЦБ курс MYR/EUR: {2023: 4.932, 2024: 4.9503, 2025: 4.8339}
   HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.SG/all?format=csv&startPeriod=1999-01
   HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.SG?format=csv&startPeriod=1999-01
 sg: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=0, infl_m=319, rate_m=0
