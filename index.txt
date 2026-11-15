@@ -1,0 +1,22 @@
+f1 200 text/html; charset=UTF-8 975226 https://www.dosm.gov.my/portal-main/release-content/gross-domestic-product-gdp-by-state-2025
+f2 200 application/json 2 https://api.data.gov.my/data-catalogue?id=population_state&filter=overall_age@age,overall_sex@sex,overall_ethnicity@ethnicity&date_start=2025-01-01@date
+f3 200 text/html; charset=UTF-8 28759 https://www.dosm.gov.my/portal-main/downloads-log?id=10500
+f4 200 application/pdf 287593 https://www.dosm.gov.my/portal-main/downloads-log?id=10501
+f5 200 text/html; charset=UTF-8 28759 https://www.dosm.gov.my/portal-main/downloads-log?id=10502
+f6 200 application/pdf 641770 https://www.dosm.gov.my/portal-main/downloads-log?id=10503
+f7 200 text/html; charset=UTF-8 28759 https://www.dosm.gov.my/portal-main/downloads-log?id=10504
+f8 200 application/pdf 628824 https://www.dosm.gov.my/portal-main/downloads-log?id=10505
+f9 200 text/html; charset=UTF-8 28759 https://www.dosm.gov.my/portal-main/downloads-log?id=10506
+f10 200 application/pdf 665254 https://www.dosm.gov.my/portal-main/downloads-log?id=10507
+f11 200 text/html; charset=UTF-8 28759 https://www.dosm.gov.my/portal-main/downloads-log?id=10508
+f12 200 application/pdf 608823 https://www.dosm.gov.my/portal-main/downloads-log?id=10509
+f13 200 text/html; charset=UTF-8 28759 https://www.dosm.gov.my/portal-main/downloads-log?id=10510
+f14 200 application/pdf 851865 https://www.dosm.gov.my/portal-main/downloads-log?id=10511
+f15 200 text/html; charset=UTF-8 28759 https://www.dosm.gov.my/portal-main/downloads-log?id=10512
+f16 200 application/pdf 630919 https://www.dosm.gov.my/portal-main/downloads-log?id=10513
+f17 curl: (7) Failed to connect to www.dosm.gov.my port 443 after 15924 ms: Could not connect to server
+000  0 https://www.dosm.gov.my/portal-main/downloads-log?id=10514
+f18 200 application/pdf 645386 https://www.dosm.gov.my/portal-main/downloads-log?id=10515
+f19 200 text/html; charset=UTF-8 28759 https://www.dosm.gov.my/portal-main/downloads-log?id=10516
+f20 200 application/pdf 664001 https://www.dosm.gov.my/portal-main/downloads-log?id=10517
+f21 200 text/html; charset=UTF-8 28759 https://www.dosm.gov.my/portal-main/downloads-log?id=10518
