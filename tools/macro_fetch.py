@@ -252,24 +252,37 @@ def estat_regions():
 def regions_for(c, P, D, G, labels):
     if c['nuts'] is None:
         return None
+    def build(codes):
+        rows = []
+        for g in codes:
+            p, d, x = P.get(g), D.get(g), G.get(g)
+            if not (p or d or x):
+                continue
+            rows.append({'code': g, 'name': labels.get(g, g),
+                         'pop': p[1] if p else None, 'pop_y': p[0] if p else None,
+                         'dens': d[1] if d else None, 'dens_y': d[0] if d else None,
+                         'gdp_pc': x[1] if x else None, 'gdp_y': x[0] if x else None})
+        # только действующее деление: регионы с населением за последний год
+        ly = max((r['pop_y'] for r in rows if r['pop_y']), default=None)
+        if ly:
+            rows = [r for r in rows if r['pop_y'] == ly]
+        return rows
     if c['id'] == 'eu':
-        members = ['BE','BG','CZ','DK','DE','EE','IE','EL','ES','FR','HR','IT','CY','LV','LT','LU','HU','MT','NL','AT','PL','PT','RO','SI','SK','FI','SE']
-        codes = members
+        rows = build(['BE','BG','CZ','DK','DE','EE','IE','EL','ES','FR','HR','IT','CY','LV','LT','LU','HU','MT','NL','AT','PL','PT','RO','SI','SK','FI','SE'])
         title = 'Страны — члены ЕС'
     else:
-        lv = c['nuts']; cc = c['estat']
-        codes = sorted(g for g in set(P) | set(D) | set(G)
-                       if g.startswith(cc) and nuts_level(g) == lv and not g[len(cc):].startswith('Z') and 'ZZ' not in g)
-        title = {0: 'Страна', 1: 'Регионы NUTS 1', 2: 'Регионы NUTS 2', 3: 'Регионы NUTS 3'}[lv]
-    rows = []
-    for g in codes:
-        p, d, x = P.get(g), D.get(g), G.get(g)
-        if not (p or d or x):
-            continue
-        rows.append({'code': g, 'name': labels.get(g, g),
-                     'pop': p[1] if p else None, 'pop_y': p[0] if p else None,
-                     'dens': d[1] if d else None, 'dens_y': d[0] if d else None,
-                     'gdp_pc': x[1] if x else None, 'gdp_y': x[0] if x else None})
+        cc = c['estat']
+        def codes(lv):
+            return sorted(g for g in set(P) | set(D) | set(G)
+                          if g.startswith(cc) and nuts_level(g) == lv and not g[len(cc):].startswith('Z'))
+        lv = c['nuts']; rows = build(codes(lv))
+        if rows and not any(r['gdp_pc'] for r in rows):
+            # на этом уровне нет ВВП — пробуем более крупные регионы
+            for l2 in range(lv - 1, 0, -1):
+                r2 = build(codes(l2))
+                if len(r2) > 1 and any(r['gdp_pc'] for r in r2):
+                    log(f'  регионы {cc}: на уровне NUTS {lv} нет ВВП, берём NUTS {l2}'); rows, lv = r2, l2; break
+        title = {1: 'Регионы NUTS 1', 2: 'Регионы NUTS 2', 3: 'Регионы NUTS 3'}[lv]
     if not rows:
         return None
     rows.sort(key=lambda r: -(r['pop'] or 0))
@@ -513,6 +526,16 @@ def main():
         man = manual_regions(cid)
         if man and (not reg or man.get('override')):
             reg = man
+        elif man and reg and man.get('patch'):
+            pt = man['patch']
+            for r in reg['rows']:
+                x = pt['rows'].get(r['code'])
+                if x:
+                    for k, v in x.items():
+                        if r.get(k) is None: r[k] = v
+            reg['years'][pt['field']] = pt['years']
+            reg['sources'] += pt['sources']
+            if pt.get('note'): reg['note'] = (reg.get('note', '') + ' ' + pt['note']).strip()
 
         def used(k, d): return sorted(set(d.values()) if isinstance(d, dict) else set(d))
         data = {
