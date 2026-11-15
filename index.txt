@@ -1,0 +1,2 @@
+f1 200 text/html; charset=utf-8 387785 https://www.bfs.admin.ch/asset/de/je-d-04.02.06.03
+f2 200 text/html; charset=utf-8 171585 https://www.bfs.admin.ch/asset/en/je-e-04.02.06.03
