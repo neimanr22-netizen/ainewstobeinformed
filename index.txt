@@ -1,0 +1,26 @@
+f1 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://rosstat.gov.ru/statistics/accounts
+f2 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://rosstat.gov.ru/folder/210/document/13204
+f3 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://rosstat.gov.ru/compendium/document/13284
+f4 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://www.stats.gov.cn/sj/ndsj/2025/html/E02-05.xls
+f5 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://www.stats.gov.cn/sj/ndsj/2025/html/C02-05.xls
+f6 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://www.stats.gov.cn/sj/ndsj/2025/html/E03-09.xls
+f7 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://www.stats.gov.cn/sj/ndsj/2025/html/C03-09.xls
+f8 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://www.stats.gov.cn/sj/ndsj/2025/indexeh.htm
+f9 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://api.data.gov.my/data-catalogue?id=gdp_state_nominal&limit=2
+f10 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://api.data.gov.my/data-catalogue?id=gdp_state&limit=2
+f11 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB/2B
+f12 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB/1A
+f13 curl: (77) error adding trust anchors from file: /home/runner/work/ainewstobeinformed/ainewstobeinformed/ca.pem
+000  0 https://www.bps.go.id/en/statistics-table/3/V1ZSbFRUY3lTbFpEYTNsVWNGcDZjek53YkhsNFFUMDkjMw==/population-by-province.html
