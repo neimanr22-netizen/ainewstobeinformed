@@ -60,10 +60,14 @@ se: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m
 no: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=309, rate_m=322
 dk: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=321, rate_m=322
 cn: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=321, rate_m=322
+ЕЦБ курс CNY/EUR: {2023: 7.66, 2024: 7.7875, 2025: 8.1185}
 tr: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=25, infl_m=321, rate_m=297
 my: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=321, rate_m=322
   HTTP 404 https://stats.bis.org/api/v1/data/WS_CBPOL/M.SG/all?format=csv&startPeriod=1999-01
   HTTP 404 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.SG?format=csv&startPeriod=1999-01
 sg: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=0, infl_m=319, rate_m=0
 ph: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=321, rate_m=322
+  PSA метки: ['PHILIPPINES', '..National Capital Region (NCR)', '....City of Caloocan', '....City of Las Piñas', '....City of Makati  1/', '....City of Malabon', '....City of Mandaluyong', '....City of Manila', '....City of Marikina', '....City of Muntinlupa', '....City of Navotas', '....City of Parañaque', '....Pasay City', '....City of Pasig', '....Quezon City', '....City of San Juan', '....City of Taguig  2/', '....City of Valenzuela', '....Pateros', '..Cordillera Administrative Region (CAR)', '....Abra', '......Bangued', '......Boliney', '......Bucay', '......Bucloc', '......Daguioman', '......Danglas', '......Dolores', '......La Paz', '......Lacub', '......Lagangilang', '......Lagayan', '......Langiden', '......Licuan-Baay', '......Luba', '......Malibcong', '......Manabo', '......Peñarrubia', '......Pidigan', '......Pilar']
+PSA население регионов: 0
+PSA ВРП на душу: 1 2025
 id: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=22, infl_m=321, rate_m=256
