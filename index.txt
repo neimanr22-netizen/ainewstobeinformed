@@ -1,0 +1,6 @@
+f1 curl: (28) Connection timed out after 120000 milliseconds
+000  0 https://gks.ru/storage/mediabank/VRP_s_1998.xlsx
+f2 403 text/html 80 https://fedstat.ru/indicator/42928
+f3 403 text/html 80 https://www.fedstat.ru/indicator/31556
+f4 curl: (28) Connection timed out after 120000 milliseconds
+000  0 https://showdata.gks.ru/report/278930/
