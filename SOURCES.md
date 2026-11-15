@@ -4,14 +4,14 @@
 Здесь ссылки на источники (сайт или раздел сайта), а не на отдельные новости.
 Файл создаётся автоматически скриптом `tools/sources.py` — вручную не править.
 
-Всего: 205 сайтов, 671 новость. Обновлено: 15.11.2026.
+Всего: 209 сайтов, 681 новость. Обновлено: 15.11.2026.
 
 ## Оглавление
 
-- [Новостные порталы](#новостные-порталы) — 86 сайтов, 378 новостей
-- [Информационные агентства](#информационные-агентства) — 8 сайтов, 98 новостей
-- [Деловые и финансовые издания](#деловые-и-финансовые-издания) — 30 сайтов, 51 новость
-- [Отраслевые издания](#отраслевые-издания) — 29 сайтов, 55 новостей
+- [Новостные порталы](#новостные-порталы) — 89 сайтов, 381 новость
+- [Информационные агентства](#информационные-агентства) — 9 сайтов, 101 новость
+- [Деловые и финансовые издания](#деловые-и-финансовые-издания) — 30 сайтов, 53 новости
+- [Отраслевые издания](#отраслевые-издания) — 29 сайтов, 57 новостей
 - [Государственные органы и статистика](#государственные-органы-и-статистика) — 28 сайтов, 53 новости
 - [Сайты компаний](#сайты-компаний) — 6 сайтов, 6 новостей
 - [Сервисы пресс-релизов](#сервисы-пресс-релизов) — 2 сайта, 5 новостей
@@ -90,6 +90,7 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Epoch Times Slovensko](https://www.epochtimes.sk/)** | [Сайт целиком](https://www.epochtimes.sk/) | 1 | 15.10.2026 |
 | **[EUobserver](https://euobserver.com/)** | [Сайт целиком](https://euobserver.com/) | 1 | 09.11.2026 |
 | **[evangelisch.de](https://www.evangelisch.de/)** | [Сайт целиком](https://www.evangelisch.de/) | 1 | 08.11.2026 |
+| **[Forum24](https://forum24.cz/)** | [Сайт целиком](https://forum24.cz/) | 1 | 15.11.2026 |
 | **[Fox Baltimore](https://foxbaltimore.com/)** | [Страна и мир](https://foxbaltimore.com/news/nation-world/) | 1 | 05.11.2026 |
 | **[Heute](https://www.heute.at/)** | [Сайт целиком](https://www.heute.at/) | 1 | 09.10.2026 |
 | **[Hlavné správy](https://www.hlavnespravy.sk/)** | [Сайт целиком](https://www.hlavnespravy.sk/) | 1 | 16.10.2026 |
@@ -98,11 +99,13 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Just the News](https://justthenews.com/)** | [Власть](https://justthenews.com/government/) | 1 | 05.11.2026 |
 | **[Khaleej Times](https://www.khaleejtimes.com/)** | [Сайт целиком](https://www.khaleejtimes.com/) | 1 | 07.11.2026 |
 | **[KroneHit](https://www.kronehit.at/)** | [Новости](https://www.kronehit.at/news/) | 1 | 21.10.2026 |
+| **[KSAT](https://www.ksat.com/)** | [Сайт целиком](https://www.ksat.com/) | 1 | 15.11.2026 |
 | **[KY3](https://www.ky3.com/)** | [Сайт целиком](https://www.ky3.com/) | 1 | 07.11.2026 |
 | **[Kyiv Post](https://www.kyivpost.com/)** | [Сайт целиком](https://www.kyivpost.com/) | 1 | 03.11.2026 |
 | **[Meduza](https://meduza.io/)** | [Новости (англ.)](https://meduza.io/en/news/) | 1 | 10.11.2026 |
 | **[MenToday](https://www.mentoday.ru/)** | [Новости](https://www.mentoday.ru/life/news/) | 1 | 10.11.2026 |
 | **[Mississippi Today](https://mississippitoday.org/)** | [Сайт целиком](https://mississippitoday.org/) | 1 | 05.11.2026 |
+| **[Nachrichten Heute](https://nachrichten-heute.net/)** | [Сайт целиком](https://nachrichten-heute.net/) | 1 | 15.11.2026 |
 | **[Netky.sk](https://www.netky.sk/)** | [Сайт целиком](https://www.netky.sk/) | 1 | 28.10.2026 |
 | **[News.at](https://www.news.at/)** | [Экономика](https://www.news.at/wirtschaft/) | 1 | 14.10.2026 |
 | **[News4JAX](https://www.news4jax.com/)** | [Местные новости](https://www.news4jax.com/news/local/) | 1 | 27.10.2026 |
@@ -144,8 +147,8 @@ _Новостные агентства, которые первыми выпус
 
 | Сайт | Раздел | Новостей | Период |
 |---|---|---:|---|
-| **[Интерфакс](https://www.interfax.ru/)** | [В мире](https://www.interfax.ru/world/) | 30 | 12.10.2026 – 15.11.2026 |
-|  | [В России](https://www.interfax.ru/russia/) | 29 | 12.10.2026 – 15.11.2026 |
+| **[Интерфакс](https://www.interfax.ru/)** | [В мире](https://www.interfax.ru/world/) | 31 | 12.10.2026 – 15.11.2026 |
+|  | [В России](https://www.interfax.ru/russia/) | 30 | 12.10.2026 – 15.11.2026 |
 |  | [Экономика](https://www.interfax.ru/business/) | 16 | 12.10.2026 – 15.11.2026 |
 |  | [Москва](https://www.interfax.ru/moscow/) | 3 | 22.10.2026 – 31.10.2026 |
 | **[TASR (Teraz.sk)](https://www.teraz.sk/)** | [Экономика](https://www.teraz.sk/ekonomika/) | 7 | 08.10.2026 – 29.10.2026 |
@@ -155,6 +158,7 @@ _Новостные агентства, которые первыми выпус
 |  | [Мир](https://bernama.com/en/world/) | 1 | 09.11.2026 |
 | **[Agence Europe](https://agenceurope.eu/)** | [Бюллетень](https://agenceurope.eu/en/bulletin/) | 1 | 21.10.2026 |
 | **[Anadolu Agency](https://aa.com.tr/)** | [Европа](https://aa.com.tr/en/europe/) | 1 | 04.11.2026 |
+| **[SITA](https://sita.sk/)** | [Сайт целиком](https://sita.sk/) | 1 | 15.11.2026 |
 | **[ПРАЙМ](https://1prime.ru/)** | [Сайт целиком](https://1prime.ru/) | 1 | 28.10.2026 |
 | **[РИА Новости](https://ria.ru/)** | [Сайт целиком](https://ria.ru/) | 1 | 07.11.2026 |
 
@@ -164,20 +168,21 @@ _Экономика, рынки, компании, инвестиции_
 
 | Сайт | Раздел | Новостей | Период |
 |---|---|---:|---|
+| **[Economx](https://www.economx.hu/)** | [Экономика Венгрии](https://www.economx.hu/magyar-gazdasag/) | 3 | 14.10.2026 – 15.11.2026 |
+|  | [Экономика](https://www.economx.hu/gazdasag/) | 2 | 12.10.2026 – 29.10.2026 |
+|  | [Внутренние новости](https://www.economx.hu/belfold/) | 1 | 31.10.2026 |
 | **[cash.ch](https://www.cash.ch/)** | [Главные новости](https://www.cash.ch/news/top-news/) | 3 | 09.10.2026 – 20.10.2026 |
 |  | [Новости](https://www.cash.ch/news/) | 2 | 15.10.2026 |
 | **[E15](https://www.e15.cz/)** | [Результаты выборов](https://www.e15.cz/vysledky-voleb-a-referend/) | 2 | 11.10.2026 |
 |  | [Бизнес — продукты питания](https://www.e15.cz/byznys/potraviny/) | 1 | 30.10.2026 |
 |  | [Бизнес — торговля и услуги](https://www.e15.cz/byznys/obchod-a-sluzby/) | 1 | 13.10.2026 |
 |  | [Внутренняя политика](https://www.e15.cz/domaci/politika/) | 1 | 14.10.2026 |
-| **[Economx](https://www.economx.hu/)** | [Экономика](https://www.economx.hu/gazdasag/) | 2 | 12.10.2026 – 29.10.2026 |
-|  | [Экономика Венгрии](https://www.economx.hu/magyar-gazdasag/) | 2 | 14.10.2026 – 15.10.2026 |
-|  | [Внутренние новости](https://www.economx.hu/belfold/) | 1 | 31.10.2026 |
 | **[CNBC](https://www.cnbc.com/)** | [Сайт целиком](https://www.cnbc.com/) | 4 | 16.10.2026 – 28.10.2026 |
 | **[Pénzcentrum](https://www.penzcentrum.hu/)** | [Покупки](https://www.penzcentrum.hu/vasarlas/) | 2 | 13.10.2026 – 14.10.2026 |
 |  | [Экономика](https://www.penzcentrum.hu/gazdasag/) | 1 | 14.10.2026 |
 | **[Investing.com](https://www.investing.com/)** | [Новости фондового рынка](https://www.investing.com/news/stock-market-news/) | 1 | 13.10.2026 |
 |  | [Стенограммы](https://www.investing.com/news/transcripts/) | 1 | 29.10.2026 |
+| **[Portfolio.hu](https://www.portfolio.hu/)** | [Экономика](https://www.portfolio.hu/gazdasag/) | 2 | 28.10.2026 – 15.11.2026 |
 | **[TheStreet](https://www.thestreet.com/)** | [Комментарии к рынку](https://pro.thestreet.com/market-commentary/) | 1 | 10.11.2026 |
 |  | [Ритейл](https://www.thestreet.com/retail/) | 1 | 11.11.2026 |
 | **[Világgazdaság](https://www.vg.hu/)** | [Общественная жизнь](https://www.vg.hu/kozelet/) | 1 | 29.10.2026 |
@@ -196,7 +201,6 @@ _Экономика, рынки, компании, инвестиции_
 | **[Invezz](https://invezz.com/)** | [Сайт целиком](https://invezz.com/) | 1 | 14.11.2026 |
 | **[Moneycab](https://www.moneycab.com/)** | [Швейцария](https://www.moneycab.com/schweiz/) | 1 | 08.10.2026 |
 | **[onvista](https://www.onvista.de/)** | [Новости](https://www.onvista.de/news/) | 1 | 09.10.2026 |
-| **[Portfolio.hu](https://www.portfolio.hu/)** | [Экономика](https://www.portfolio.hu/gazdasag/) | 1 | 28.10.2026 |
 | **[Quartz](https://qz.com/)** | [Сайт целиком](https://qz.com/) | 1 | 30.10.2026 |
 | **[Simply Wall St](https://simplywall.st/)** | [Акции США](https://simplywall.st/stocks/us/) | 1 | 14.11.2026 |
 | **[StockAnalysis](https://stockanalysis.com/)** | [Сайт целиком](https://stockanalysis.com/) | 1 | 10.11.2026 |
@@ -212,7 +216,7 @@ _Ритейл и FMCG, стоматология и уход за полость�
 | Сайт | Раздел | Новостей | Период |
 |---|---|---:|---|
 | **[New Retail](https://new-retail.ru/)** | [Новости — ритейл](https://new-retail.ru/novosti/retail/) | 11 | 12.10.2026 – 13.11.2026 |
-| **[Retail.ru](https://www.retail.ru/)** | [Новости](https://www.retail.ru/news/) | 7 | 20.10.2026 – 13.11.2026 |
+| **[Retail.ru](https://www.retail.ru/)** | [Новости](https://www.retail.ru/news/) | 9 | 20.10.2026 – 15.11.2026 |
 | **[ADA News (Американская стоматологическая ассоциация)](https://adanews.ada.org/)** | [ADA News](https://adanews.ada.org/ada-news/) | 3 | 08.10.2026 – 13.10.2026 |
 | **[Grocery Dive](https://www.grocerydive.com/)** | [Новости](https://www.grocerydive.com/news/) | 3 | 12.10.2026 – 14.10.2026 |
 | **[Regal](https://regal.at/)** | [Новости](https://regal.at/news/) | 3 | 09.10.2026 – 15.10.2026 |

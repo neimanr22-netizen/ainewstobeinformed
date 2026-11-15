@@ -883,6 +883,22 @@
     "m24.ru": {
       "group": "Новостные порталы",
       "name": "Москва 24"
+    },
+    "forum24.cz": {
+      "group": "Новостные порталы",
+      "name": "Forum24"
+    },
+    "ksat.com": {
+      "group": "Новостные порталы",
+      "name": "KSAT"
+    },
+    "nachrichten-heute.net": {
+      "group": "Новостные порталы",
+      "name": "Nachrichten Heute"
+    },
+    "sita.sk": {
+      "group": "Информационные агентства",
+      "name": "SITA"
     }
   },
   "sections": {

@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-15T16:33:07+00:00",
- "total_news": 671,
- "total_sites": 205,
+ "updated": "2026-11-15T16:34:48+00:00",
+ "total_news": 681,
+ "total_sites": 209,
  "groups": [
   {
    "name": "Новостные порталы",
    "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
-   "count": 378,
+   "count": 381,
    "sites": [
     {
      "name": "Российская газета",
@@ -783,6 +783,21 @@
      ]
     },
     {
+     "name": "Forum24",
+     "url": "https://forum24.cz/",
+     "count": 1,
+     "last": "2026-11-15",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://forum24.cz/",
+       "count": 1,
+       "first": "2026-11-15",
+       "last": "2026-11-15"
+      }
+     ]
+    },
+    {
      "name": "Fox Baltimore",
      "url": "https://foxbaltimore.com/",
      "count": 1,
@@ -903,6 +918,21 @@
      ]
     },
     {
+     "name": "KSAT",
+     "url": "https://www.ksat.com/",
+     "count": 1,
+     "last": "2026-11-15",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.ksat.com/",
+       "count": 1,
+       "first": "2026-11-15",
+       "last": "2026-11-15"
+      }
+     ]
+    },
+    {
      "name": "KY3",
      "url": "https://www.ky3.com/",
      "count": 1,
@@ -974,6 +1004,21 @@
        "count": 1,
        "first": "2026-11-05",
        "last": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "name": "Nachrichten Heute",
+     "url": "https://nachrichten-heute.net/",
+     "count": 1,
+     "last": "2026-11-15",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://nachrichten-heute.net/",
+       "count": 1,
+       "first": "2026-11-15",
+       "last": "2026-11-15"
       }
      ]
     },
@@ -1492,25 +1537,25 @@
   {
    "name": "Информационные агентства",
    "about": "Новостные агентства, которые первыми выпускают сообщения (их перепечатывают другие СМИ)",
-   "count": 98,
+   "count": 101,
    "sites": [
     {
      "name": "Интерфакс",
      "url": "https://www.interfax.ru/",
-     "count": 78,
+     "count": 80,
      "last": "2026-11-15",
      "sections": [
       {
        "name": "В мире",
        "url": "https://www.interfax.ru/world/",
-       "count": 30,
+       "count": 31,
        "first": "2026-10-12",
        "last": "2026-11-15"
       },
       {
        "name": "В России",
        "url": "https://www.interfax.ru/russia/",
-       "count": 29,
+       "count": 30,
        "first": "2026-10-12",
        "last": "2026-11-15"
       },
@@ -1620,6 +1665,21 @@
      ]
     },
     {
+     "name": "SITA",
+     "url": "https://sita.sk/",
+     "count": 1,
+     "last": "2026-11-15",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://sita.sk/",
+       "count": 1,
+       "first": "2026-11-15",
+       "last": "2026-11-15"
+      }
+     ]
+    },
+    {
      "name": "ПРАЙМ",
      "url": "https://1prime.ru/",
      "count": 1,
@@ -1654,8 +1714,37 @@
   {
    "name": "Деловые и финансовые издания",
    "about": "Экономика, рынки, компании, инвестиции",
-   "count": 51,
+   "count": 53,
    "sites": [
+    {
+     "name": "Economx",
+     "url": "https://www.economx.hu/",
+     "count": 6,
+     "last": "2026-11-15",
+     "sections": [
+      {
+       "name": "Экономика Венгрии",
+       "url": "https://www.economx.hu/magyar-gazdasag/",
+       "count": 3,
+       "first": "2026-10-14",
+       "last": "2026-11-15"
+      },
+      {
+       "name": "Экономика",
+       "url": "https://www.economx.hu/gazdasag/",
+       "count": 2,
+       "first": "2026-10-12",
+       "last": "2026-10-29"
+      },
+      {
+       "name": "Внутренние новости",
+       "url": "https://www.economx.hu/belfold/",
+       "count": 1,
+       "first": "2026-10-31",
+       "last": "2026-10-31"
+      }
+     ]
+    },
     {
      "name": "cash.ch",
      "url": "https://www.cash.ch/",
@@ -1715,35 +1804,6 @@
      ]
     },
     {
-     "name": "Economx",
-     "url": "https://www.economx.hu/",
-     "count": 5,
-     "last": "2026-10-31",
-     "sections": [
-      {
-       "name": "Экономика",
-       "url": "https://www.economx.hu/gazdasag/",
-       "count": 2,
-       "first": "2026-10-12",
-       "last": "2026-10-29"
-      },
-      {
-       "name": "Экономика Венгрии",
-       "url": "https://www.economx.hu/magyar-gazdasag/",
-       "count": 2,
-       "first": "2026-10-14",
-       "last": "2026-10-15"
-      },
-      {
-       "name": "Внутренние новости",
-       "url": "https://www.economx.hu/belfold/",
-       "count": 1,
-       "first": "2026-10-31",
-       "last": "2026-10-31"
-      }
-     ]
-    },
-    {
      "name": "CNBC",
      "url": "https://www.cnbc.com/",
      "count": 4,
@@ -1799,6 +1859,21 @@
        "count": 1,
        "first": "2026-10-29",
        "last": "2026-10-29"
+      }
+     ]
+    },
+    {
+     "name": "Portfolio.hu",
+     "url": "https://www.portfolio.hu/",
+     "count": 2,
+     "last": "2026-11-15",
+     "sections": [
+      {
+       "name": "Экономика",
+       "url": "https://www.portfolio.hu/gazdasag/",
+       "count": 2,
+       "first": "2026-10-28",
+       "last": "2026-11-15"
       }
      ]
     },
@@ -2057,21 +2132,6 @@
      ]
     },
     {
-     "name": "Portfolio.hu",
-     "url": "https://www.portfolio.hu/",
-     "count": 1,
-     "last": "2026-10-28",
-     "sections": [
-      {
-       "name": "Экономика",
-       "url": "https://www.portfolio.hu/gazdasag/",
-       "count": 1,
-       "first": "2026-10-28",
-       "last": "2026-10-28"
-      }
-     ]
-    },
-    {
      "name": "Quartz",
      "url": "https://qz.com/",
      "count": 1,
@@ -2181,7 +2241,7 @@
   {
    "name": "Отраслевые издания",
    "about": "Ритейл и FMCG, стоматология и уход за полостью рта, технологии",
-   "count": 55,
+   "count": 57,
    "sites": [
     {
      "name": "New Retail",
@@ -2201,15 +2261,15 @@
     {
      "name": "Retail.ru",
      "url": "https://www.retail.ru/",
-     "count": 7,
-     "last": "2026-11-13",
+     "count": 9,
+     "last": "2026-11-15",
      "sections": [
       {
        "name": "Новости",
        "url": "https://www.retail.ru/news/",
-       "count": 7,
+       "count": 9,
        "first": "2026-10-20",
-       "last": "2026-11-13"
+       "last": "2026-11-15"
       }
      ]
     },
