@@ -899,6 +899,46 @@
     "sita.sk": {
       "group": "Информационные агентства",
       "name": "SITA"
+    },
+    "corporate.lidl.at": {
+      "group": "Сайты компаний",
+      "name": "Lidl Österreich — пресс-центр"
+    },
+    "democrata.es": {
+      "group": "Новостные порталы",
+      "name": "Demócrata"
+    },
+    "diebildschirmzeitung.de": {
+      "group": "Новостные порталы",
+      "name": "Die Bildschirmzeitung"
+    },
+    "newsroom.dm.de": {
+      "group": "Сайты компаний",
+      "name": "dm-drogerie markt — пресс-центр"
+    },
+    "northernvirginiamag.com": {
+      "group": "Новостные порталы",
+      "name": "Northern Virginia Magazine"
+    },
+    "nw.de": {
+      "group": "Новостные порталы",
+      "name": "Neue Westfälische"
+    },
+    "retailgazette.co.uk": {
+      "group": "Отраслевые издания",
+      "name": "Retail Gazette"
+    },
+    "teltarif.de": {
+      "group": "Отраслевые издания",
+      "name": "teltarif.de"
+    },
+    "unternehmen.rossmann.de": {
+      "group": "Сайты компаний",
+      "name": "Rossmann — пресс-центр"
+    },
+    "wetterauer-zeitung.de": {
+      "group": "Новостные порталы",
+      "name": "Wetterauer Zeitung"
     }
   },
   "sections": {

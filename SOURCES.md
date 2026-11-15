@@ -4,16 +4,16 @@
 Здесь ссылки на источники (сайт или раздел сайта), а не на отдельные новости.
 Файл создаётся автоматически скриптом `tools/sources.py` — вручную не править.
 
-Всего: 209 сайтов, 681 новость. Обновлено: 15.11.2026.
+Всего: 219 сайтов, 705 новостей. Обновлено: 15.11.2026.
 
 ## Оглавление
 
-- [Новостные порталы](#новостные-порталы) — 89 сайтов, 381 новость
+- [Новостные порталы](#новостные-порталы) — 94 сайта, 387 новостей
 - [Информационные агентства](#информационные-агентства) — 9 сайтов, 101 новость
 - [Деловые и финансовые издания](#деловые-и-финансовые-издания) — 30 сайтов, 53 новости
-- [Отраслевые издания](#отраслевые-издания) — 29 сайтов, 57 новостей
+- [Отраслевые издания](#отраслевые-издания) — 31 сайт, 63 новости
 - [Государственные органы и статистика](#государственные-органы-и-статистика) — 28 сайтов, 53 новости
-- [Сайты компаний](#сайты-компаний) — 6 сайтов, 6 новостей
+- [Сайты компаний](#сайты-компаний) — 9 сайтов, 18 новостей
 - [Сервисы пресс-релизов](#сервисы-пресс-релизов) — 2 сайта, 5 новостей
 - [Исследовательские центры и ассоциации](#исследовательские-центры-и-ассоциации) — 7 сайтов, 8 новостей
 - [Рассылки, блоги и агрегаторы](#рассылки-блоги-и-агрегаторы) — 9 сайтов, 17 новостей
@@ -70,6 +70,8 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Nation Thailand](https://www.nationthailand.com/)** | [Мир](https://www.nationthailand.com/news/world/) | 1 | 10.11.2026 |
 |  | [Новости](https://www.nationthailand.com/news/) | 1 | 05.11.2026 |
 | **[ORF](https://orf.at/)** | [Сайт целиком](https://orf.at/) | 2 | 14.10.2026 – 06.11.2026 |
+| **[t-online](https://t-online.de/)** | [Новости — Германия](https://t-online.de/nachrichten/deutschland/) | 1 | 20.10.2026 |
+|  | [Сайт целиком](https://t-online.de/) | 1 | 14.11.2026 |
 | **[The Local Switzerland](https://www.thelocal.ch/)** | [Сайт целиком](https://www.thelocal.ch/) | 2 | 08.10.2026 – 09.10.2026 |
 | **[Известия](https://iz.ru/)** | [Сайт целиком](https://iz.ru/) | 2 | 14.11.2026 – 15.11.2026 |
 | **[360.ru](https://360.ru/)** | [Новости — мир](https://360.ru/news/mir/) | 1 | 08.11.2026 |
@@ -86,6 +88,8 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Cyprus Mail](https://cyprus-mail.com/)** | [Сайт целиком](https://cyprus-mail.com/) | 1 | 02.11.2026 |
 | **[Daily News Hungary](https://dailynewshungary.com/)** | [Сайт целиком](https://dailynewshungary.com/) | 1 | 10.11.2026 |
 | **[Democracy Now!](https://www.democracynow.org/)** | [Сайт целиком](https://www.democracynow.org/) | 1 | 21.10.2026 |
+| **[Demócrata](https://www.democrata.es/)** | [Сайт целиком](https://www.democrata.es/) | 1 | 06.11.2026 |
+| **[Die Bildschirmzeitung](https://diebildschirmzeitung.de/)** | [Сайт целиком](https://diebildschirmzeitung.de/) | 1 | 15.11.2026 |
 | **[Echo24](https://www.echo24.cz/)** | [Сайт целиком](https://www.echo24.cz/) | 1 | 20.10.2026 |
 | **[Epoch Times Slovensko](https://www.epochtimes.sk/)** | [Сайт целиком](https://www.epochtimes.sk/) | 1 | 15.10.2026 |
 | **[EUobserver](https://euobserver.com/)** | [Сайт целиком](https://euobserver.com/) | 1 | 09.11.2026 |
@@ -107,9 +111,11 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Mississippi Today](https://mississippitoday.org/)** | [Сайт целиком](https://mississippitoday.org/) | 1 | 05.11.2026 |
 | **[Nachrichten Heute](https://nachrichten-heute.net/)** | [Сайт целиком](https://nachrichten-heute.net/) | 1 | 15.11.2026 |
 | **[Netky.sk](https://www.netky.sk/)** | [Сайт целиком](https://www.netky.sk/) | 1 | 28.10.2026 |
+| **[Neue Westfälische](https://nw.de/)** | [Сайт целиком](https://nw.de/) | 1 | 15.11.2026 |
 | **[News.at](https://www.news.at/)** | [Экономика](https://www.news.at/wirtschaft/) | 1 | 14.10.2026 |
 | **[News4JAX](https://www.news4jax.com/)** | [Местные новости](https://www.news4jax.com/news/local/) | 1 | 27.10.2026 |
 | **[Newstream.cz](https://www.newstream.cz/)** | [Сайт целиком](https://www.newstream.cz/) | 1 | 04.11.2026 |
+| **[Northern Virginia Magazine](https://northernvirginiamag.com/)** | [Сайт целиком](https://northernvirginiamag.com/) | 1 | 13.11.2026 |
 | **[NPR](https://www.npr.org/)** | [Сайт целиком](https://www.npr.org/) | 1 | 27.10.2026 |
 | **[Oberösterreichische Nachrichten](https://www.nachrichten.at/)** | [Экономика](https://www.nachrichten.at/wirtschaft/) | 1 | 09.10.2026 |
 | **[PBS NewsHour](https://www.pbs.org/)** | [NewsHour — политика](https://www.pbs.org/newshour/politics/) | 1 | 13.10.2026 |
@@ -119,7 +125,6 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Roll Call](https://rollcall.com/)** | [Сайт целиком](https://rollcall.com/) | 1 | 15.10.2026 |
 | **[SRF](https://www.srf.ch/)** | [Новости — Швейцария](https://www.srf.ch/news/schweiz/) | 1 | 08.11.2026 |
 | **[St. Galler Tagblatt](https://www.tagblatt.ch/)** | [Экономика](https://www.tagblatt.ch/wirtschaft/) | 1 | 22.10.2026 |
-| **[t-online](https://t-online.de/)** | [Новости — Германия](https://t-online.de/nachrichten/deutschland/) | 1 | 20.10.2026 |
 | **[TA3](https://www.ta3.com/)** | [Сайт целиком](https://www.ta3.com/) | 1 | 09.10.2026 |
 | **[Tages-Anzeiger](https://www.tagesanzeiger.ch/)** | [Сайт целиком](https://www.tagesanzeiger.ch/) | 1 | 23.10.2026 |
 | **[Tagesspiegel](https://www.tagesspiegel.de/)** | [Политика](https://www.tagesspiegel.de/politik/) | 1 | 23.10.2026 |
@@ -133,6 +138,7 @@ _Общественно-политические СМИ: газеты, инте�
 | **[The Washington Post](https://www.washingtonpost.com/)** | [Национальная безопасность](https://www.washingtonpost.com/national-security/) | 1 | 26.10.2026 |
 | **[U.S. News](https://www.usnews.com/)** | [Бизнес](https://www.usnews.com/news/business/) | 1 | 28.10.2026 |
 | **[Volksstimme](https://www.volksstimme.de/)** | [Сайт целиком](https://www.volksstimme.de/) | 1 | 04.11.2026 |
+| **[Wetterauer Zeitung](https://www.wetterauer-zeitung.de/)** | [Сайт целиком](https://www.wetterauer-zeitung.de/) | 1 | 12.11.2026 |
 | **[WSB-TV](https://www.wsbtv.com/)** | [Новости](https://www.wsbtv.com/news/) | 1 | 04.11.2026 |
 | **[ČT24](https://ct24.ceskatelevize.cz/)** | [Мир](https://ct24.ceskatelevize.cz/clanek/svet/) | 1 | 13.10.2026 |
 | **[АиФ](https://aif.ru/)** | [Здоровье](https://aif.ru/health/) | 1 | 03.11.2026 |
@@ -217,14 +223,15 @@ _Ритейл и FMCG, стоматология и уход за полость�
 |---|---|---:|---|
 | **[New Retail](https://new-retail.ru/)** | [Новости — ритейл](https://new-retail.ru/novosti/retail/) | 11 | 12.10.2026 – 13.11.2026 |
 | **[Retail.ru](https://www.retail.ru/)** | [Новости](https://www.retail.ru/news/) | 9 | 20.10.2026 – 15.11.2026 |
+| **[Grocery Dive](https://www.grocerydive.com/)** | [Новости](https://www.grocerydive.com/news/) | 4 | 12.10.2026 – 06.11.2026 |
 | **[ADA News (Американская стоматологическая ассоциация)](https://adanews.ada.org/)** | [ADA News](https://adanews.ada.org/ada-news/) | 3 | 08.10.2026 – 13.10.2026 |
-| **[Grocery Dive](https://www.grocerydive.com/)** | [Новости](https://www.grocerydive.com/news/) | 3 | 12.10.2026 – 14.10.2026 |
+| **[Lebensmittel Praxis](https://lebensmittelpraxis.de/)** | [Торговля — новости](https://lebensmittelpraxis.de/handel-aktuell/) | 3 | 14.10.2026 – 09.11.2026 |
+| **[Lebensmittel Zeitung](https://www.lebensmittelzeitung.net/)** | [Торговля](https://www.lebensmittelzeitung.net/handel/) | 2 | 06.11.2026 – 13.11.2026 |
+|  | [Новости](https://www.lebensmittelzeitung.net/nachrichten/) | 1 | 09.11.2026 |
 | **[Regal](https://regal.at/)** | [Новости](https://regal.at/news/) | 3 | 09.10.2026 – 15.10.2026 |
 | **[Leadersnet](https://www.leadersnet.at/)** | [Новости](https://www.leadersnet.at/news/) | 2 | 18.10.2026 – 05.11.2026 |
-| **[Lebensmittel Praxis](https://lebensmittelpraxis.de/)** | [Торговля — новости](https://lebensmittelpraxis.de/handel-aktuell/) | 2 | 14.10.2026 – 21.10.2026 |
-| **[Lebensmittel Zeitung](https://www.lebensmittelzeitung.net/)** | [Новости](https://www.lebensmittelzeitung.net/nachrichten/) | 1 | 09.11.2026 |
-|  | [Торговля](https://www.lebensmittelzeitung.net/handel/) | 1 | 13.11.2026 |
 | **[Lupa.cz](https://www.lupa.cz/)** | [Новости](https://www.lupa.cz/aktuality/) | 2 | 09.10.2026 – 11.10.2026 |
+| **[teltarif.de](https://www.teltarif.de/)** | [Сайт целиком](https://www.teltarif.de/) | 2 | 11.11.2026 – 15.11.2026 |
 | **[AgentCOS](https://agentcos.com/)** | [Новости](https://agentcos.com/news/) | 1 | 21.10.2026 |
 | **[Antenna Daily](https://antennadaily.ru/)** | [Сайт целиком](https://antennadaily.ru/) | 1 | 21.10.2026 |
 | **[C&EN (Chemical & Engineering News)](https://cen.acs.org/)** | [Бизнес — потребительские товары](https://cen.acs.org/business/consumer-products/) | 1 | 13.11.2026 |
@@ -239,6 +246,7 @@ _Ритейл и FMCG, стоматология и уход за полость�
 | **[Mass Market Retailers](https://massmarketretailers.com/)** | [Сайт целиком](https://massmarketretailers.com/) | 1 | 02.11.2026 |
 | **[medianet](https://medianet.at/)** | [Новости — ритейл](https://medianet.at/news/retail/) | 1 | 14.10.2026 |
 | **[Retail Dive](https://www.retaildive.com/)** | [Новости](https://www.retaildive.com/news/) | 1 | 09.10.2026 |
+| **[Retail Gazette](https://www.retailgazette.co.uk/)** | [Сайт целиком](https://www.retailgazette.co.uk/) | 1 | 03.11.2026 |
 | **[retail-news.de](https://retail-news.de/)** | [Сайт целиком](https://retail-news.de/) | 1 | 13.10.2026 |
 | **[Tech Insider](https://tech-insider.org/)** | [Сайт целиком](https://tech-insider.org/) | 1 | 04.11.2026 |
 | **[Techbyte.sk](https://www.techbyte.sk/)** | [Сайт целиком](https://www.techbyte.sk/) | 1 | 14.10.2026 |
@@ -290,11 +298,14 @@ _Пресс-релизы и отчёты на сайтах самих компа
 
 | Сайт | Раздел | Новостей | Период |
 |---|---|---:|---|
+| **[dm-drogerie markt — пресс-центр](https://newsroom.dm.de/)** | [Сайт целиком](https://newsroom.dm.de/) | 10 | 02.11.2026 – 13.11.2026 |
 | **[ALDI SÜD](https://www.aldi-sued.de/)** | [Пресс-центр](https://www.aldi-sued.de/newsroom/) | 1 | 15.10.2026 |
 | **[Amazon](https://press.aboutamazon.com/)** | [Пресс-центр (Германия)](https://press.aboutamazon.com/de/) | 1 | 15.10.2026 |
 | **[First Trust Portfolios](https://www.ftportfolios.com/)** | [Экономические исследования](https://www.ftportfolios.com/Commentary/EconomicResearch/) | 1 | 15.10.2026 |
 | **[KPMG](https://kpmg.com/)** | [Сайт целиком](https://kpmg.com/) | 1 | 10.11.2026 |
+| **[Lidl Österreich — пресс-центр](https://corporate.lidl.at/)** | [Сайт целиком](https://corporate.lidl.at/) | 1 | 09.11.2026 |
 | **[Philips](https://www.philips.com/)** | [Сайт целиком](https://www.philips.com/) | 1 | 03.11.2026 |
+| **[Rossmann — пресс-центр](https://unternehmen.rossmann.de/)** | [Сайт целиком](https://unternehmen.rossmann.de/) | 1 | 11.11.2026 |
 | **[U.S. Bank](https://www.usbank.com/)** | [Сайт целиком](https://www.usbank.com/) | 1 | 06.11.2026 |
 
 ## Сервисы пресс-релизов

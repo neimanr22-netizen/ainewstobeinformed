@@ -1,5 +1,38 @@
 [
  {
+  "id": "902bb03c84",
+  "date": "2026-11-11",
+  "cat": "chains",
+  "sub": "dm",
+  "title": "dm отзывает протеиновые батончики Sportness из-за возможных частиц пластика",
+  "summary": "dm в качестве меры предосторожности отзывает «Sportness 50 % Proteinriegel» со вкусом белого шоколада (45 г) со сроками годности 11–12.08.2027 и указанными партиями. В продукт могли попасть белые частицы пластика от ёмкости, использовавшейся на производстве. Это второй отзыв продукции собственных марок dm за неделю.",
+  "url": "https://newsroom.dm.de/pressreleases/produktrueckruf-dm-ruft-vorsorglich-den-artikel-sportness-50-prozent-proteinriegel-mit-crispy-white-chocolate-geschmack-45-g-zurueck-3477552",
+  "source": "dm-drogerie markt — пресс-центр",
+  "added": "2026-11-15"
+ },
+ {
+  "id": "1a107c1c85",
+  "date": "2026-11-11",
+  "cat": "chains",
+  "sub": "lidl",
+  "title": "Lidl продаёт GTA VI со скидкой за неделю до релиза",
+  "summary": "С 12 ноября Lidl в Германии предлагает игру Grand Theft Auto VI для PS5 и Xbox Series X/S за 69,99 евро вместо 79,99 — только для участников программы Lidl Plus. Официальный выход игры — 19 ноября; в коробке вместо диска лежит код загрузки. Дискаунтер использует громкие релизы для привлечения покупателей в своё приложение.",
+  "url": "https://www.teltarif.de/en/gta6-lidl-rabatt/news/107544.html",
+  "source": "teltarif.de",
+  "added": "2026-11-15"
+ },
+ {
+  "id": "fe362c0aca",
+  "date": "2026-11-11",
+  "cat": "chains",
+  "sub": "rossmann",
+  "title": "Rossmann отзывает презервативы собственной марки Preventivo",
+  "summary": "Rossmann отзывает все партии презервативов Preventivo Mixed и Preventivo Feelings (упаковки по 24 шт.): из-за производственного дефекта часть изделий может протекать или рваться. Покупателям вернут деньги в любом магазине сети, в том числе без чека. Отзыв последовал вскоре после крупного общеевропейского отзыва около 7 млн презервативов другого производителя.",
+  "url": "https://unternehmen.rossmann.de/presse/pressemeldung/rueckruf-preventivo-mixed-und-preventivo-feelings.html",
+  "source": "Rossmann — пресс-центр",
+  "added": "2026-11-15"
+ },
+ {
   "id": "fd6ec40f24",
   "date": "2026-11-11",
   "cat": "macro",
