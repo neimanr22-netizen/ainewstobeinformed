@@ -1,6 +1,10 @@
 name: "Макроэкономика: загрузка"
 on:
   workflow_dispatch:
+    inputs:
+      debug:
+        description: "Отладка одной функции (ph, ...)"
+        default: ""
 permissions:
   contents: write
 concurrency: macro
@@ -12,7 +16,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install requests
-      - run: python tools/macro_fetch.py
+      - run: python tools/macro_fetch.py ${{ inputs.debug && format('--debug {0}', inputs.debug) || '' }}
       - name: Сохранить
         if: always()
         run: |

@@ -442,7 +442,12 @@ def jsonstat2_rows(js):
         c = js['dimension'][d]['category']; idx = c['index']
         order = sorted(idx, key=idx.get) if isinstance(idx, dict) else idx
         cats.append([(k, c.get('label', {}).get(k, k)) for k in order])
-    vals = js['value']; strides = [1] * len(ids)
+    vals = js['value']
+    if isinstance(vals, dict):
+        n = 1
+        for z in sizes: n *= z
+        vals = [vals.get(str(i)) for i in range(n)]
+    strides = [1] * len(ids)
     for i in range(len(ids) - 2, -1, -1):
         strides[i] = strides[i + 1] * sizes[i + 1]
     for flat, v in enumerate(vals):
@@ -684,4 +689,15 @@ def main():
         f.write('\n'.join(LOG) + '\n')
 
 if __name__ == '__main__':
-    main()
+    if len(sys.argv) > 2 and sys.argv[1] == '--debug':
+        fn = {'ph': ph_regions}[sys.argv[2]]
+        import pprint
+        _orig = pxweb
+        def pxweb(url, pick):
+            js = _orig(url, pick)
+            print('JS keys', list(js) if js else None, 'id', js and js.get('id'), 'size', js and js.get('size'), 'value type', js and type(js.get('value')), str(js and js.get('value'))[:300])
+            return js
+        globals()['pxweb'] = pxweb
+        pprint.pprint(fn())
+    else:
+        main()
