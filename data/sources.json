@@ -1,0 +1,3438 @@
+{
+ "updated": "2026-11-15T13:46:58+00:00",
+ "total_news": 633,
+ "total_sites": 204,
+ "groups": [
+  {
+   "name": "Новостные порталы",
+   "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
+   "count": 350,
+   "sites": [
+    {
+     "name": "Российская газета",
+     "url": "https://rg.ru/",
+     "count": 178,
+     "last": "2026-11-14",
+     "sections": [
+      {
+       "name": "В мире",
+       "url": "https://rg.ru/tema/mir",
+       "count": 28,
+       "first": "2026-10-02",
+       "last": "2026-11-14"
+      },
+      {
+       "name": "Происшествия",
+       "url": "https://rg.ru/tema/bezopasnost",
+       "count": 28,
+       "first": "2026-10-02",
+       "last": "2026-11-13"
+      },
+      {
+       "name": "Власть",
+       "url": "https://rg.ru/tema/gos",
+       "count": 27,
+       "first": "2026-10-01",
+       "last": "2026-11-13"
+      },
+      {
+       "name": "Экономика — Отрасли",
+       "url": "https://rg.ru/tema/ekonomika/industria",
+       "count": 23,
+       "first": "2026-10-10",
+       "last": "2026-11-14"
+      },
+      {
+       "name": "Экономика — Бизнес",
+       "url": "https://rg.ru/tema/ekonomika/business",
+       "count": 19,
+       "first": "2026-10-02",
+       "last": "2026-11-12"
+      },
+      {
+       "name": "Экономика — Финансы",
+       "url": "https://rg.ru/tema/ekonomika/finansy",
+       "count": 19,
+       "first": "2026-10-09",
+       "last": "2026-11-13"
+      },
+      {
+       "name": "Экономика — Макроэкономика",
+       "url": "https://rg.ru/tema/ekonomika/politekonom",
+       "count": 15,
+       "first": "2026-10-12",
+       "last": "2026-11-13"
+      },
+      {
+       "name": "Экономика — Товары и цены",
+       "url": "https://rg.ru/tema/ekonomika/tovary",
+       "count": 14,
+       "first": "2026-10-09",
+       "last": "2026-11-13"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://rg.ru/",
+       "count": 5,
+       "first": "2026-10-09",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "РБК",
+     "url": "https://www.rbc.ru/",
+     "count": 52,
+     "last": "2026-11-14",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://www.rbc.ru/politics/",
+       "count": 14,
+       "first": "2026-10-08",
+       "last": "2026-11-14"
+      },
+      {
+       "name": "Quote (инвестиции и рынки)",
+       "url": "https://www.rbc.ru/quote/",
+       "count": 9,
+       "first": "2026-10-09",
+       "last": "2026-10-30"
+      },
+      {
+       "name": "Лента новостей",
+       "url": "https://www.rbc.ru/rbcfreenews/",
+       "count": 8,
+       "first": "2026-10-10",
+       "last": "2026-11-14"
+      },
+      {
+       "name": "Технологии и медиа",
+       "url": "https://www.rbc.ru/technology_and_media/",
+       "count": 6,
+       "first": "2026-10-09",
+       "last": "2026-10-26"
+      },
+      {
+       "name": "Экономика",
+       "url": "https://www.rbc.ru/economics/",
+       "count": 6,
+       "first": "2026-11-13",
+       "last": "2026-11-14"
+      },
+      {
+       "name": "Бизнес",
+       "url": "https://www.rbc.ru/business/",
+       "count": 4,
+       "first": "2026-10-09",
+       "last": "2026-10-25"
+      },
+      {
+       "name": "Недвижимость",
+       "url": "https://realty.rbc.ru/news/",
+       "count": 4,
+       "first": "2026-10-12",
+       "last": "2026-10-15"
+      },
+      {
+       "name": "РБК Уфа",
+       "url": "https://ufa.rbc.ru/",
+       "count": 1,
+       "first": "2026-10-12",
+       "last": "2026-10-12"
+      }
+     ]
+    },
+    {
+     "name": "Index.hu",
+     "url": "https://index.hu/",
+     "count": 6,
+     "last": "2026-10-20",
+     "sections": [
+      {
+       "name": "Внутренние новости",
+       "url": "https://index.hu/belfold/",
+       "count": 3,
+       "first": "2026-10-09",
+       "last": "2026-10-19"
+      },
+      {
+       "name": "Экономика",
+       "url": "https://index.hu/gazdasag/",
+       "count": 3,
+       "first": "2026-10-10",
+       "last": "2026-10-20"
+      }
+     ]
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/",
+     "count": 5,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.aljazeera.com/news/",
+       "count": 5,
+       "first": "2026-10-09",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "The Moscow Times",
+     "url": "https://ru.themoscowtimes.com/",
+     "count": 5,
+     "last": "2026-11-11",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://ru.themoscowtimes.com/",
+       "count": 5,
+       "first": "2026-11-02",
+       "last": "2026-11-11"
+      }
+     ]
+    },
+    {
+     "name": "Telex",
+     "url": "https://telex.hu/",
+     "count": 4,
+     "last": "2026-11-05",
+     "sections": [
+      {
+       "name": "Внутренние новости",
+       "url": "https://telex.hu/belfold/",
+       "count": 2,
+       "first": "2026-10-11",
+       "last": "2026-10-23"
+      },
+      {
+       "name": "English",
+       "url": "https://telex.hu/english/",
+       "count": 1,
+       "first": "2026-11-05",
+       "last": "2026-11-05"
+      },
+      {
+       "name": "Экономика",
+       "url": "https://telex.hu/gazdasag/",
+       "count": 1,
+       "first": "2026-10-21",
+       "last": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "name": "ZDFheute",
+     "url": "https://www.zdfheute.de/",
+     "count": 4,
+     "last": "2026-10-13",
+     "sections": [
+      {
+       "name": "Политика — Германия",
+       "url": "https://www.zdfheute.de/politik/deutschland/",
+       "count": 2,
+       "first": "2026-10-08",
+       "last": "2026-10-12"
+      },
+      {
+       "name": "Политика",
+       "url": "https://www.zdfheute.de/politik/",
+       "count": 1,
+       "first": "2026-10-08",
+       "last": "2026-10-08"
+      },
+      {
+       "name": "Экономика",
+       "url": "https://www.zdfheute.de/wirtschaft/",
+       "count": 1,
+       "first": "2026-10-13",
+       "last": "2026-10-13"
+      }
+     ]
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/",
+     "count": 3,
+     "last": "2026-10-15",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.euronews.com/",
+       "count": 3,
+       "first": "2026-10-13",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "Noviny.sk",
+     "url": "https://www.noviny.sk/",
+     "count": 3,
+     "last": "2026-11-03",
+     "sections": [
+      {
+       "name": "Словакия",
+       "url": "https://www.noviny.sk/slovensko/",
+       "count": 2,
+       "first": "2026-10-21",
+       "last": "2026-11-03"
+      },
+      {
+       "name": "PR-сообщения",
+       "url": "https://www.noviny.sk/pr-spravy/",
+       "count": 1,
+       "first": "2026-10-20",
+       "last": "2026-10-20"
+      }
+     ]
+    },
+    {
+     "name": "oe24",
+     "url": "https://www.oe24.at/",
+     "count": 3,
+     "last": "2026-11-05",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.oe24.at/",
+       "count": 3,
+       "first": "2026-10-21",
+       "last": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "name": "STVR (Správy)",
+     "url": "https://spravy.stvr.sk/",
+     "count": 3,
+     "last": "2026-10-25",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://spravy.stvr.sk/",
+       "count": 3,
+       "first": "2026-10-14",
+       "last": "2026-10-25"
+      }
+     ]
+    },
+    {
+     "name": "Медиазона",
+     "url": "https://zona.media/",
+     "count": 3,
+     "last": "2026-11-06",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://zona.media/news/",
+       "count": 3,
+       "first": "2026-11-02",
+       "last": "2026-11-06"
+      }
+     ]
+    },
+    {
+     "name": "Blesk",
+     "url": "https://www.blesk.cz/",
+     "count": 2,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Новости — политика",
+       "url": "https://www.blesk.cz/clanek/zpravy-politika/",
+       "count": 1,
+       "first": "2026-10-24",
+       "last": "2026-10-24"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.blesk.cz/",
+       "count": 1,
+       "first": "2026-11-04",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "Eunews",
+     "url": "https://www.eunews.it/",
+     "count": 2,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "English",
+       "url": "https://www.eunews.it/en/",
+       "count": 2,
+       "first": "2026-10-09",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "eXXpress",
+     "url": "https://exxpress.at/",
+     "count": 2,
+     "last": "2026-11-08",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://exxpress.at/news/",
+       "count": 1,
+       "first": "2026-11-08",
+       "last": "2026-11-08"
+      },
+      {
+       "name": "Экономика",
+       "url": "https://exxpress.at/economy/",
+       "count": 1,
+       "first": "2026-10-09",
+       "last": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "name": "Fox News",
+     "url": "https://www.foxnews.com/",
+     "count": 2,
+     "last": "2026-10-21",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://www.foxnews.com/politics/",
+       "count": 1,
+       "first": "2026-10-12",
+       "last": "2026-10-12"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.foxnews.com/",
+       "count": 1,
+       "first": "2026-10-21",
+       "last": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "name": "HVG",
+     "url": "https://hvg.hu/",
+     "count": 2,
+     "last": "2026-10-23",
+     "sections": [
+      {
+       "name": "Внутренние новости",
+       "url": "https://hvg.hu/itthon/",
+       "count": 2,
+       "first": "2026-10-13",
+       "last": "2026-10-23"
+      }
+     ]
+    },
+    {
+     "name": "Nation Thailand",
+     "url": "https://www.nationthailand.com/",
+     "count": 2,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Мир",
+       "url": "https://www.nationthailand.com/news/world/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      },
+      {
+       "name": "Новости",
+       "url": "https://www.nationthailand.com/news/",
+       "count": 1,
+       "first": "2026-11-05",
+       "last": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "name": "ORF",
+     "url": "https://orf.at/",
+     "count": 2,
+     "last": "2026-11-06",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://orf.at/",
+       "count": 2,
+       "first": "2026-10-14",
+       "last": "2026-11-06"
+      }
+     ]
+    },
+    {
+     "name": "The Local Switzerland",
+     "url": "https://www.thelocal.ch/",
+     "count": 2,
+     "last": "2026-10-09",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.thelocal.ch/",
+       "count": 2,
+       "first": "2026-10-08",
+       "last": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "name": "360.ru",
+     "url": "https://360.ru/",
+     "count": 1,
+     "last": "2026-11-08",
+     "sections": [
+      {
+       "name": "Новости — мир",
+       "url": "https://360.ru/news/mir/",
+       "count": 1,
+       "first": "2026-11-08",
+       "last": "2026-11-08"
+      }
+     ]
+    },
+    {
+     "name": "6abc",
+     "url": "https://6abc.com/",
+     "count": 1,
+     "last": "2026-11-09",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://6abc.com/",
+       "count": 1,
+       "first": "2026-11-09",
+       "last": "2026-11-09"
+      }
+     ]
+    },
+    {
+     "name": "ABC30",
+     "url": "https://abc30.com/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://abc30.com/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "ABC7 News",
+     "url": "https://abc7news.com/",
+     "count": 1,
+     "last": "2026-11-08",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://abc7news.com/",
+       "count": 1,
+       "first": "2026-11-08",
+       "last": "2026-11-08"
+      }
+     ]
+    },
+    {
+     "name": "bdnews24.com",
+     "url": "https://bdnews24.com/",
+     "count": 1,
+     "last": "2026-11-02",
+     "sections": [
+      {
+       "name": "Мир",
+       "url": "https://bdnews24.com/world/",
+       "count": 1,
+       "first": "2026-11-02",
+       "last": "2026-11-02"
+      }
+     ]
+    },
+    {
+     "name": "Blick",
+     "url": "https://www.blick.ch/",
+     "count": 1,
+     "last": "2026-10-15",
+     "sections": [
+      {
+       "name": "Экономика",
+       "url": "https://www.blick.ch/wirtschaft/",
+       "count": 1,
+       "first": "2026-10-15",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "Bratislavak.sk",
+     "url": "https://www.bratislavak.sk/",
+     "count": 1,
+     "last": "2026-10-29",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.bratislavak.sk/",
+       "count": 1,
+       "first": "2026-10-29",
+       "last": "2026-10-29"
+      }
+     ]
+    },
+    {
+     "name": "Brussels Signal",
+     "url": "https://brusselssignal.eu/",
+     "count": 1,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://brusselssignal.eu/",
+       "count": 1,
+       "first": "2026-11-04",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "Business FM",
+     "url": "https://www.bfm.ru/",
+     "count": 1,
+     "last": "2026-11-09",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.bfm.ru/",
+       "count": 1,
+       "first": "2026-11-09",
+       "last": "2026-11-09"
+      }
+     ]
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/",
+     "count": 1,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.cbsnews.com/news/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "CP24",
+     "url": "https://www.cp24.com/",
+     "count": 1,
+     "last": "2026-11-05",
+     "sections": [
+      {
+       "name": "Мир",
+       "url": "https://www.cp24.com/news/world/",
+       "count": 1,
+       "first": "2026-11-05",
+       "last": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "name": "Cyprus Mail",
+     "url": "https://cyprus-mail.com/",
+     "count": 1,
+     "last": "2026-11-02",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://cyprus-mail.com/",
+       "count": 1,
+       "first": "2026-11-02",
+       "last": "2026-11-02"
+      }
+     ]
+    },
+    {
+     "name": "Daily News Hungary",
+     "url": "https://dailynewshungary.com/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://dailynewshungary.com/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "Democracy Now!",
+     "url": "https://www.democracynow.org/",
+     "count": 1,
+     "last": "2026-10-21",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.democracynow.org/",
+       "count": 1,
+       "first": "2026-10-21",
+       "last": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "name": "Echo24",
+     "url": "https://www.echo24.cz/",
+     "count": 1,
+     "last": "2026-10-20",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.echo24.cz/",
+       "count": 1,
+       "first": "2026-10-20",
+       "last": "2026-10-20"
+      }
+     ]
+    },
+    {
+     "name": "Epoch Times Slovensko",
+     "url": "https://www.epochtimes.sk/",
+     "count": 1,
+     "last": "2026-10-15",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.epochtimes.sk/",
+       "count": 1,
+       "first": "2026-10-15",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "EUobserver",
+     "url": "https://euobserver.com/",
+     "count": 1,
+     "last": "2026-11-09",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://euobserver.com/",
+       "count": 1,
+       "first": "2026-11-09",
+       "last": "2026-11-09"
+      }
+     ]
+    },
+    {
+     "name": "evangelisch.de",
+     "url": "https://www.evangelisch.de/",
+     "count": 1,
+     "last": "2026-11-08",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.evangelisch.de/",
+       "count": 1,
+       "first": "2026-11-08",
+       "last": "2026-11-08"
+      }
+     ]
+    },
+    {
+     "name": "Fox Baltimore",
+     "url": "https://foxbaltimore.com/",
+     "count": 1,
+     "last": "2026-11-05",
+     "sections": [
+      {
+       "name": "Страна и мир",
+       "url": "https://foxbaltimore.com/news/nation-world/",
+       "count": 1,
+       "first": "2026-11-05",
+       "last": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "name": "Heute",
+     "url": "https://www.heute.at/",
+     "count": 1,
+     "last": "2026-10-09",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.heute.at/",
+       "count": 1,
+       "first": "2026-10-09",
+       "last": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "name": "Hlavné správy",
+     "url": "https://www.hlavnespravy.sk/",
+     "count": 1,
+     "last": "2026-10-16",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.hlavnespravy.sk/",
+       "count": 1,
+       "first": "2026-10-16",
+       "last": "2026-10-16"
+      }
+     ]
+    },
+    {
+     "name": "InfoDnes",
+     "url": "https://www.infodnes.sk/",
+     "count": 1,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.infodnes.sk/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "Infostart",
+     "url": "https://infostart.hu/",
+     "count": 1,
+     "last": "2026-10-13",
+     "sections": [
+      {
+       "name": "Внутренние новости",
+       "url": "https://infostart.hu/belfold/",
+       "count": 1,
+       "first": "2026-10-13",
+       "last": "2026-10-13"
+      }
+     ]
+    },
+    {
+     "name": "Just the News",
+     "url": "https://justthenews.com/",
+     "count": 1,
+     "last": "2026-11-05",
+     "sections": [
+      {
+       "name": "Власть",
+       "url": "https://justthenews.com/government/",
+       "count": 1,
+       "first": "2026-11-05",
+       "last": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "name": "Khaleej Times",
+     "url": "https://www.khaleejtimes.com/",
+     "count": 1,
+     "last": "2026-11-07",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.khaleejtimes.com/",
+       "count": 1,
+       "first": "2026-11-07",
+       "last": "2026-11-07"
+      }
+     ]
+    },
+    {
+     "name": "KroneHit",
+     "url": "https://www.kronehit.at/",
+     "count": 1,
+     "last": "2026-10-21",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.kronehit.at/news/",
+       "count": 1,
+       "first": "2026-10-21",
+       "last": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "name": "KY3",
+     "url": "https://www.ky3.com/",
+     "count": 1,
+     "last": "2026-11-07",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.ky3.com/",
+       "count": 1,
+       "first": "2026-11-07",
+       "last": "2026-11-07"
+      }
+     ]
+    },
+    {
+     "name": "Kyiv Post",
+     "url": "https://www.kyivpost.com/",
+     "count": 1,
+     "last": "2026-11-03",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.kyivpost.com/",
+       "count": 1,
+       "first": "2026-11-03",
+       "last": "2026-11-03"
+      }
+     ]
+    },
+    {
+     "name": "Meduza",
+     "url": "https://meduza.io/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Новости (англ.)",
+       "url": "https://meduza.io/en/news/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "MenToday",
+     "url": "https://www.mentoday.ru/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.mentoday.ru/life/news/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "Mississippi Today",
+     "url": "https://mississippitoday.org/",
+     "count": 1,
+     "last": "2026-11-05",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://mississippitoday.org/",
+       "count": 1,
+       "first": "2026-11-05",
+       "last": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "name": "Netky.sk",
+     "url": "https://www.netky.sk/",
+     "count": 1,
+     "last": "2026-10-28",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.netky.sk/",
+       "count": 1,
+       "first": "2026-10-28",
+       "last": "2026-10-28"
+      }
+     ]
+    },
+    {
+     "name": "News.at",
+     "url": "https://www.news.at/",
+     "count": 1,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "Экономика",
+       "url": "https://www.news.at/wirtschaft/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "News4JAX",
+     "url": "https://www.news4jax.com/",
+     "count": 1,
+     "last": "2026-10-27",
+     "sections": [
+      {
+       "name": "Местные новости",
+       "url": "https://www.news4jax.com/news/local/",
+       "count": 1,
+       "first": "2026-10-27",
+       "last": "2026-10-27"
+      }
+     ]
+    },
+    {
+     "name": "Newstream.cz",
+     "url": "https://www.newstream.cz/",
+     "count": 1,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.newstream.cz/",
+       "count": 1,
+       "first": "2026-11-04",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/",
+     "count": 1,
+     "last": "2026-10-27",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.npr.org/",
+       "count": 1,
+       "first": "2026-10-27",
+       "last": "2026-10-27"
+      }
+     ]
+    },
+    {
+     "name": "Oberösterreichische Nachrichten",
+     "url": "https://www.nachrichten.at/",
+     "count": 1,
+     "last": "2026-10-09",
+     "sections": [
+      {
+       "name": "Экономика",
+       "url": "https://www.nachrichten.at/wirtschaft/",
+       "count": 1,
+       "first": "2026-10-09",
+       "last": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "name": "PBS NewsHour",
+     "url": "https://www.pbs.org/",
+     "count": 1,
+     "last": "2026-10-13",
+     "sections": [
+      {
+       "name": "NewsHour — политика",
+       "url": "https://www.pbs.org/newshour/politics/",
+       "count": 1,
+       "first": "2026-10-13",
+       "last": "2026-10-13"
+      }
+     ]
+    },
+    {
+     "name": "Pravda.sk",
+     "url": "https://www.pravda.sk/",
+     "count": 1,
+     "last": "2026-10-10",
+     "sections": [
+      {
+       "name": "Новости — Словакия",
+       "url": "https://www.pravda.sk/spravy/domace/",
+       "count": 1,
+       "first": "2026-10-10",
+       "last": "2026-10-10"
+      }
+     ]
+    },
+    {
+     "name": "Prufy",
+     "url": "https://prufy.ru/",
+     "count": 1,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://prufy.ru/news/",
+       "count": 1,
+       "first": "2026-11-04",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "RFJ",
+     "url": "https://www.rfj.ch/",
+     "count": 1,
+     "last": "2026-10-15",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.rfj.ch/rfj/Actualite/",
+       "count": 1,
+       "first": "2026-10-15",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "Roll Call",
+     "url": "https://rollcall.com/",
+     "count": 1,
+     "last": "2026-10-15",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://rollcall.com/",
+       "count": 1,
+       "first": "2026-10-15",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "SRF",
+     "url": "https://www.srf.ch/",
+     "count": 1,
+     "last": "2026-11-08",
+     "sections": [
+      {
+       "name": "Новости — Швейцария",
+       "url": "https://www.srf.ch/news/schweiz/",
+       "count": 1,
+       "first": "2026-11-08",
+       "last": "2026-11-08"
+      }
+     ]
+    },
+    {
+     "name": "St. Galler Tagblatt",
+     "url": "https://www.tagblatt.ch/",
+     "count": 1,
+     "last": "2026-10-22",
+     "sections": [
+      {
+       "name": "Экономика",
+       "url": "https://www.tagblatt.ch/wirtschaft/",
+       "count": 1,
+       "first": "2026-10-22",
+       "last": "2026-10-22"
+      }
+     ]
+    },
+    {
+     "name": "t-online",
+     "url": "https://t-online.de/",
+     "count": 1,
+     "last": "2026-10-20",
+     "sections": [
+      {
+       "name": "Новости — Германия",
+       "url": "https://t-online.de/nachrichten/deutschland/",
+       "count": 1,
+       "first": "2026-10-20",
+       "last": "2026-10-20"
+      }
+     ]
+    },
+    {
+     "name": "TA3",
+     "url": "https://www.ta3.com/",
+     "count": 1,
+     "last": "2026-10-09",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.ta3.com/",
+       "count": 1,
+       "first": "2026-10-09",
+       "last": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "name": "Tages-Anzeiger",
+     "url": "https://www.tagesanzeiger.ch/",
+     "count": 1,
+     "last": "2026-10-23",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.tagesanzeiger.ch/",
+       "count": 1,
+       "first": "2026-10-23",
+       "last": "2026-10-23"
+      }
+     ]
+    },
+    {
+     "name": "Tagesspiegel",
+     "url": "https://www.tagesspiegel.de/",
+     "count": 1,
+     "last": "2026-10-23",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://www.tagesspiegel.de/politik/",
+       "count": 1,
+       "first": "2026-10-23",
+       "last": "2026-10-23"
+      }
+     ]
+    },
+    {
+     "name": "The Boston Globe",
+     "url": "https://www.bostonglobe.com/",
+     "count": 1,
+     "last": "2026-11-08",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.bostonglobe.com/",
+       "count": 1,
+       "first": "2026-11-08",
+       "last": "2026-11-08"
+      }
+     ]
+    },
+    {
+     "name": "The Brussels Times",
+     "url": "https://www.brusselstimes.com/",
+     "count": 1,
+     "last": "2026-10-09",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.brusselstimes.com/",
+       "count": 1,
+       "first": "2026-10-09",
+       "last": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "name": "The Irish Times",
+     "url": "https://www.irishtimes.com/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Редакционные статьи",
+       "url": "https://www.irishtimes.com/opinion/editorials/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "The Kyiv Independent",
+     "url": "https://kyivindependent.com/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://kyivindependent.com/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "The Philadelphia Inquirer",
+     "url": "https://www.inquirer.com/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Страна и мир",
+       "url": "https://www.inquirer.com/news/nation-world/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "The Rio Times",
+     "url": "https://www.riotimesonline.com/",
+     "count": 1,
+     "last": "2026-11-08",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.riotimesonline.com/",
+       "count": 1,
+       "first": "2026-11-08",
+       "last": "2026-11-08"
+      }
+     ]
+    },
+    {
+     "name": "The Star (Малайзия)",
+     "url": "https://www.thestar.com.my/",
+     "count": 1,
+     "last": "2026-11-02",
+     "sections": [
+      {
+       "name": "Мир",
+       "url": "https://www.thestar.com.my/news/world/",
+       "count": 1,
+       "first": "2026-11-02",
+       "last": "2026-11-02"
+      }
+     ]
+    },
+    {
+     "name": "The Washington Post",
+     "url": "https://www.washingtonpost.com/",
+     "count": 1,
+     "last": "2026-10-26",
+     "sections": [
+      {
+       "name": "Национальная безопасность",
+       "url": "https://www.washingtonpost.com/national-security/",
+       "count": 1,
+       "first": "2026-10-26",
+       "last": "2026-10-26"
+      }
+     ]
+    },
+    {
+     "name": "U.S. News",
+     "url": "https://www.usnews.com/",
+     "count": 1,
+     "last": "2026-10-28",
+     "sections": [
+      {
+       "name": "Бизнес",
+       "url": "https://www.usnews.com/news/business/",
+       "count": 1,
+       "first": "2026-10-28",
+       "last": "2026-10-28"
+      }
+     ]
+    },
+    {
+     "name": "Volksstimme",
+     "url": "https://www.volksstimme.de/",
+     "count": 1,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.volksstimme.de/",
+       "count": 1,
+       "first": "2026-11-04",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "WSB-TV",
+     "url": "https://www.wsbtv.com/",
+     "count": 1,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.wsbtv.com/news/",
+       "count": 1,
+       "first": "2026-11-04",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "ČT24",
+     "url": "https://ct24.ceskatelevize.cz/",
+     "count": 1,
+     "last": "2026-10-13",
+     "sections": [
+      {
+       "name": "Мир",
+       "url": "https://ct24.ceskatelevize.cz/clanek/svet/",
+       "count": 1,
+       "first": "2026-10-13",
+       "last": "2026-10-13"
+      }
+     ]
+    },
+    {
+     "name": "АиФ",
+     "url": "https://aif.ru/",
+     "count": 1,
+     "last": "2026-11-03",
+     "sections": [
+      {
+       "name": "Здоровье",
+       "url": "https://aif.ru/health/",
+       "count": 1,
+       "first": "2026-11-03",
+       "last": "2026-11-03"
+      }
+     ]
+    },
+    {
+     "name": "Важные истории",
+     "url": "https://istories.media/",
+     "count": 1,
+     "last": "2026-11-06",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://istories.media/",
+       "count": 1,
+       "first": "2026-11-06",
+       "last": "2026-11-06"
+      }
+     ]
+    },
+    {
+     "name": "Вечерняя Москва",
+     "url": "https://vm.ru/",
+     "count": 1,
+     "last": "2026-10-21",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://vm.ru/news/",
+       "count": 1,
+       "first": "2026-10-21",
+       "last": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "name": "Известия",
+     "url": "https://iz.ru/",
+     "count": 1,
+     "last": "2026-11-14",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://iz.ru/",
+       "count": 1,
+       "first": "2026-11-14",
+       "last": "2026-11-14"
+      }
+     ]
+    },
+    {
+     "name": "Фонтанка",
+     "url": "https://www.fontanka.ru/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.fontanka.ru/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Информационные агентства",
+   "about": "Новостные агентства, которые первыми выпускают сообщения (их перепечатывают другие СМИ)",
+   "count": 89,
+   "sites": [
+    {
+     "name": "Интерфакс",
+     "url": "https://www.interfax.ru/",
+     "count": 69,
+     "last": "2026-11-11",
+     "sections": [
+      {
+       "name": "В России",
+       "url": "https://www.interfax.ru/russia/",
+       "count": 27,
+       "first": "2026-10-12",
+       "last": "2026-10-31"
+      },
+      {
+       "name": "В мире",
+       "url": "https://www.interfax.ru/world/",
+       "count": 25,
+       "first": "2026-10-12",
+       "last": "2026-11-11"
+      },
+      {
+       "name": "Экономика",
+       "url": "https://www.interfax.ru/business/",
+       "count": 14,
+       "first": "2026-10-12",
+       "last": "2026-11-11"
+      },
+      {
+       "name": "Москва",
+       "url": "https://www.interfax.ru/moscow/",
+       "count": 3,
+       "first": "2026-10-22",
+       "last": "2026-10-31"
+      }
+     ]
+    },
+    {
+     "name": "TASR (Teraz.sk)",
+     "url": "https://www.teraz.sk/",
+     "count": 8,
+     "last": "2026-10-29",
+     "sections": [
+      {
+       "name": "Экономика",
+       "url": "https://www.teraz.sk/ekonomika/",
+       "count": 7,
+       "first": "2026-10-08",
+       "last": "2026-10-29"
+      },
+      {
+       "name": "Последние новости",
+       "url": "https://www.teraz.sk/najnovsie/",
+       "count": 1,
+       "first": "2026-10-08",
+       "last": "2026-10-08"
+      }
+     ]
+    },
+    {
+     "name": "ČTK (České noviny)",
+     "url": "https://www.ceskenoviny.cz/",
+     "count": 6,
+     "last": "2026-11-03",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.ceskenoviny.cz/zpravy/",
+       "count": 6,
+       "first": "2026-10-08",
+       "last": "2026-11-03"
+      }
+     ]
+    },
+    {
+     "name": "Bernama",
+     "url": "https://bernama.com/",
+     "count": 2,
+     "last": "2026-11-09",
+     "sections": [
+      {
+       "name": "Bernama TV",
+       "url": "https://bernama.com/tv/",
+       "count": 1,
+       "first": "2026-11-07",
+       "last": "2026-11-07"
+      },
+      {
+       "name": "Мир",
+       "url": "https://bernama.com/en/world/",
+       "count": 1,
+       "first": "2026-11-09",
+       "last": "2026-11-09"
+      }
+     ]
+    },
+    {
+     "name": "Agence Europe",
+     "url": "https://agenceurope.eu/",
+     "count": 1,
+     "last": "2026-10-21",
+     "sections": [
+      {
+       "name": "Бюллетень",
+       "url": "https://agenceurope.eu/en/bulletin/",
+       "count": 1,
+       "first": "2026-10-21",
+       "last": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "name": "Anadolu Agency",
+     "url": "https://aa.com.tr/",
+     "count": 1,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Европа",
+       "url": "https://aa.com.tr/en/europe/",
+       "count": 1,
+       "first": "2026-11-04",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "ПРАЙМ",
+     "url": "https://1prime.ru/",
+     "count": 1,
+     "last": "2026-10-28",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://1prime.ru/",
+       "count": 1,
+       "first": "2026-10-28",
+       "last": "2026-10-28"
+      }
+     ]
+    },
+    {
+     "name": "РИА Новости",
+     "url": "https://ria.ru/",
+     "count": 1,
+     "last": "2026-11-07",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://ria.ru/",
+       "count": 1,
+       "first": "2026-11-07",
+       "last": "2026-11-07"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Деловые и финансовые издания",
+   "about": "Экономика, рынки, компании, инвестиции",
+   "count": 51,
+   "sites": [
+    {
+     "name": "cash.ch",
+     "url": "https://www.cash.ch/",
+     "count": 5,
+     "last": "2026-10-20",
+     "sections": [
+      {
+       "name": "Главные новости",
+       "url": "https://www.cash.ch/news/top-news/",
+       "count": 3,
+       "first": "2026-10-09",
+       "last": "2026-10-20"
+      },
+      {
+       "name": "Новости",
+       "url": "https://www.cash.ch/news/",
+       "count": 2,
+       "first": "2026-10-15",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "E15",
+     "url": "https://www.e15.cz/",
+     "count": 5,
+     "last": "2026-10-30",
+     "sections": [
+      {
+       "name": "Результаты выборов",
+       "url": "https://www.e15.cz/vysledky-voleb-a-referend/",
+       "count": 2,
+       "first": "2026-10-11",
+       "last": "2026-10-11"
+      },
+      {
+       "name": "Бизнес — продукты питания",
+       "url": "https://www.e15.cz/byznys/potraviny/",
+       "count": 1,
+       "first": "2026-10-30",
+       "last": "2026-10-30"
+      },
+      {
+       "name": "Бизнес — торговля и услуги",
+       "url": "https://www.e15.cz/byznys/obchod-a-sluzby/",
+       "count": 1,
+       "first": "2026-10-13",
+       "last": "2026-10-13"
+      },
+      {
+       "name": "Внутренняя политика",
+       "url": "https://www.e15.cz/domaci/politika/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "Economx",
+     "url": "https://www.economx.hu/",
+     "count": 5,
+     "last": "2026-10-31",
+     "sections": [
+      {
+       "name": "Экономика",
+       "url": "https://www.economx.hu/gazdasag/",
+       "count": 2,
+       "first": "2026-10-12",
+       "last": "2026-10-29"
+      },
+      {
+       "name": "Экономика Венгрии",
+       "url": "https://www.economx.hu/magyar-gazdasag/",
+       "count": 2,
+       "first": "2026-10-14",
+       "last": "2026-10-15"
+      },
+      {
+       "name": "Внутренние новости",
+       "url": "https://www.economx.hu/belfold/",
+       "count": 1,
+       "first": "2026-10-31",
+       "last": "2026-10-31"
+      }
+     ]
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/",
+     "count": 4,
+     "last": "2026-10-28",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.cnbc.com/",
+       "count": 4,
+       "first": "2026-10-16",
+       "last": "2026-10-28"
+      }
+     ]
+    },
+    {
+     "name": "Pénzcentrum",
+     "url": "https://www.penzcentrum.hu/",
+     "count": 3,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "Покупки",
+       "url": "https://www.penzcentrum.hu/vasarlas/",
+       "count": 2,
+       "first": "2026-10-13",
+       "last": "2026-10-14"
+      },
+      {
+       "name": "Экономика",
+       "url": "https://www.penzcentrum.hu/gazdasag/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/",
+     "count": 2,
+     "last": "2026-10-29",
+     "sections": [
+      {
+       "name": "Новости фондового рынка",
+       "url": "https://www.investing.com/news/stock-market-news/",
+       "count": 1,
+       "first": "2026-10-13",
+       "last": "2026-10-13"
+      },
+      {
+       "name": "Стенограммы",
+       "url": "https://www.investing.com/news/transcripts/",
+       "count": 1,
+       "first": "2026-10-29",
+       "last": "2026-10-29"
+      }
+     ]
+    },
+    {
+     "name": "TheStreet",
+     "url": "https://www.thestreet.com/",
+     "count": 2,
+     "last": "2026-11-11",
+     "sections": [
+      {
+       "name": "Комментарии к рынку",
+       "url": "https://pro.thestreet.com/market-commentary/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      },
+      {
+       "name": "Ритейл",
+       "url": "https://www.thestreet.com/retail/",
+       "count": 1,
+       "first": "2026-11-11",
+       "last": "2026-11-11"
+      }
+     ]
+    },
+    {
+     "name": "Világgazdaság",
+     "url": "https://www.vg.hu/",
+     "count": 2,
+     "last": "2026-10-29",
+     "sections": [
+      {
+       "name": "Общественная жизнь",
+       "url": "https://www.vg.hu/kozelet/",
+       "count": 1,
+       "first": "2026-10-29",
+       "last": "2026-10-29"
+      },
+      {
+       "name": "Экономика Венгрии",
+       "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/",
+       "count": 1,
+       "first": "2026-10-28",
+       "last": "2026-10-28"
+      }
+     ]
+    },
+    {
+     "name": "Банкирос",
+     "url": "https://bankiros.ru/",
+     "count": 2,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://bankiros.ru/news/",
+       "count": 2,
+       "first": "2026-11-09",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "Benzinga",
+     "url": "https://benzinga.com/",
+     "count": 1,
+     "last": "2026-11-12",
+     "sections": [
+      {
+       "name": "Рынки",
+       "url": "https://benzinga.com/markets/",
+       "count": 1,
+       "first": "2026-11-12",
+       "last": "2026-11-12"
+      }
+     ]
+    },
+    {
+     "name": "Bilanz",
+     "url": "https://www.bilanz.ch/",
+     "count": 1,
+     "last": "2026-10-26",
+     "sections": [
+      {
+       "name": "Компании",
+       "url": "https://www.bilanz.ch/unternehmen/",
+       "count": 1,
+       "first": "2026-10-26",
+       "last": "2026-10-26"
+      }
+     ]
+    },
+    {
+     "name": "Bloomberg",
+     "url": "https://www.bloomberg.com/",
+     "count": 1,
+     "last": "2026-10-29",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.bloomberg.com/",
+       "count": 1,
+       "first": "2026-10-29",
+       "last": "2026-10-29"
+      }
+     ]
+    },
+    {
+     "name": "Börse Express",
+     "url": "https://www.boerse-express.com/",
+     "count": 1,
+     "last": "2026-10-27",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.boerse-express.com/news/",
+       "count": 1,
+       "first": "2026-10-27",
+       "last": "2026-10-27"
+      }
+     ]
+    },
+    {
+     "name": "Finanz und Wirtschaft",
+     "url": "https://www.fuw.ch/",
+     "count": 1,
+     "last": "2026-10-30",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.fuw.ch/",
+       "count": 1,
+       "first": "2026-10-30",
+       "last": "2026-10-30"
+      }
+     ]
+    },
+    {
+     "name": "finanzen.at",
+     "url": "https://www.finanzen.at/",
+     "count": 1,
+     "last": "2026-10-30",
+     "sections": [
+      {
+       "name": "Новости — акции",
+       "url": "https://www.finanzen.at/nachrichten/aktien/",
+       "count": 1,
+       "first": "2026-10-30",
+       "last": "2026-10-30"
+      }
+     ]
+    },
+    {
+     "name": "Forbes",
+     "url": "https://www.forbes.com/",
+     "count": 1,
+     "last": "2026-10-08",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.forbes.com/",
+       "count": 1,
+       "first": "2026-10-08",
+       "last": "2026-10-08"
+      }
+     ]
+    },
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/",
+     "count": 1,
+     "last": "2026-10-13",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://fortune.com/",
+       "count": 1,
+       "first": "2026-10-13",
+       "last": "2026-10-13"
+      }
+     ]
+    },
+    {
+     "name": "FXstreet.cz",
+     "url": "https://www.fxstreet.cz/",
+     "count": 1,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.fxstreet.cz/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "Il Sole 24 Ore",
+     "url": "https://en.ilsole24ore.com/",
+     "count": 1,
+     "last": "2026-11-02",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://en.ilsole24ore.com/",
+       "count": 1,
+       "first": "2026-11-02",
+       "last": "2026-11-02"
+      }
+     ]
+    },
+    {
+     "name": "Invezz",
+     "url": "https://invezz.com/",
+     "count": 1,
+     "last": "2026-11-14",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://invezz.com/",
+       "count": 1,
+       "first": "2026-11-14",
+       "last": "2026-11-14"
+      }
+     ]
+    },
+    {
+     "name": "Moneycab",
+     "url": "https://www.moneycab.com/",
+     "count": 1,
+     "last": "2026-10-08",
+     "sections": [
+      {
+       "name": "Швейцария",
+       "url": "https://www.moneycab.com/schweiz/",
+       "count": 1,
+       "first": "2026-10-08",
+       "last": "2026-10-08"
+      }
+     ]
+    },
+    {
+     "name": "onvista",
+     "url": "https://www.onvista.de/",
+     "count": 1,
+     "last": "2026-10-09",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.onvista.de/news/",
+       "count": 1,
+       "first": "2026-10-09",
+       "last": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "name": "Portfolio.hu",
+     "url": "https://www.portfolio.hu/",
+     "count": 1,
+     "last": "2026-10-28",
+     "sections": [
+      {
+       "name": "Экономика",
+       "url": "https://www.portfolio.hu/gazdasag/",
+       "count": 1,
+       "first": "2026-10-28",
+       "last": "2026-10-28"
+      }
+     ]
+    },
+    {
+     "name": "Quartz",
+     "url": "https://qz.com/",
+     "count": 1,
+     "last": "2026-10-30",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://qz.com/",
+       "count": 1,
+       "first": "2026-10-30",
+       "last": "2026-10-30"
+      }
+     ]
+    },
+    {
+     "name": "Simply Wall St",
+     "url": "https://simplywall.st/",
+     "count": 1,
+     "last": "2026-11-14",
+     "sections": [
+      {
+       "name": "Акции США",
+       "url": "https://simplywall.st/stocks/us/",
+       "count": 1,
+       "first": "2026-11-14",
+       "last": "2026-11-14"
+      }
+     ]
+    },
+    {
+     "name": "StockAnalysis",
+     "url": "https://stockanalysis.com/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://stockanalysis.com/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "The Edge Malaysia",
+     "url": "https://theedgemalaysia.com/",
+     "count": 1,
+     "last": "2026-11-09",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://theedgemalaysia.com/",
+       "count": 1,
+       "first": "2026-11-09",
+       "last": "2026-11-09"
+      }
+     ]
+    },
+    {
+     "name": "TradingKey",
+     "url": "https://www.tradingkey.com/",
+     "count": 1,
+     "last": "2026-11-06",
+     "sections": [
+      {
+       "name": "Движение рынка",
+       "url": "https://www.tradingkey.com/news/market-movers/",
+       "count": 1,
+       "first": "2026-11-06",
+       "last": "2026-11-06"
+      }
+     ]
+    },
+    {
+     "name": "trend",
+     "url": "https://www.trend.at/",
+     "count": 1,
+     "last": "2026-10-08",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.trend.at/",
+       "count": 1,
+       "first": "2026-10-08",
+       "last": "2026-10-08"
+      }
+     ]
+    },
+    {
+     "name": "Эксперт",
+     "url": "https://expert.ru/",
+     "count": 1,
+     "last": "2026-11-07",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://expert.ru/news/",
+       "count": 1,
+       "first": "2026-11-07",
+       "last": "2026-11-07"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Отраслевые издания",
+   "about": "Ритейл и FMCG, стоматология и уход за полостью рта, технологии",
+   "count": 55,
+   "sites": [
+    {
+     "name": "New Retail",
+     "url": "https://new-retail.ru/",
+     "count": 11,
+     "last": "2026-11-13",
+     "sections": [
+      {
+       "name": "Новости — ритейл",
+       "url": "https://new-retail.ru/novosti/retail/",
+       "count": 11,
+       "first": "2026-10-12",
+       "last": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "name": "Retail.ru",
+     "url": "https://www.retail.ru/",
+     "count": 7,
+     "last": "2026-11-13",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.retail.ru/news/",
+       "count": 7,
+       "first": "2026-10-20",
+       "last": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "name": "ADA News (Американская стоматологическая ассоциация)",
+     "url": "https://adanews.ada.org/",
+     "count": 3,
+     "last": "2026-10-13",
+     "sections": [
+      {
+       "name": "ADA News",
+       "url": "https://adanews.ada.org/ada-news/",
+       "count": 3,
+       "first": "2026-10-08",
+       "last": "2026-10-13"
+      }
+     ]
+    },
+    {
+     "name": "Grocery Dive",
+     "url": "https://www.grocerydive.com/",
+     "count": 3,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.grocerydive.com/news/",
+       "count": 3,
+       "first": "2026-10-12",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "Regal",
+     "url": "https://regal.at/",
+     "count": 3,
+     "last": "2026-10-15",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://regal.at/news/",
+       "count": 3,
+       "first": "2026-10-09",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "Leadersnet",
+     "url": "https://www.leadersnet.at/",
+     "count": 2,
+     "last": "2026-11-05",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.leadersnet.at/news/",
+       "count": 2,
+       "first": "2026-10-18",
+       "last": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "name": "Lebensmittel Praxis",
+     "url": "https://lebensmittelpraxis.de/",
+     "count": 2,
+     "last": "2026-10-21",
+     "sections": [
+      {
+       "name": "Торговля — новости",
+       "url": "https://lebensmittelpraxis.de/handel-aktuell/",
+       "count": 2,
+       "first": "2026-10-14",
+       "last": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "name": "Lebensmittel Zeitung",
+     "url": "https://www.lebensmittelzeitung.net/",
+     "count": 2,
+     "last": "2026-11-13",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.lebensmittelzeitung.net/nachrichten/",
+       "count": 1,
+       "first": "2026-11-09",
+       "last": "2026-11-09"
+      },
+      {
+       "name": "Торговля",
+       "url": "https://www.lebensmittelzeitung.net/handel/",
+       "count": 1,
+       "first": "2026-11-13",
+       "last": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "name": "Lupa.cz",
+     "url": "https://www.lupa.cz/",
+     "count": 2,
+     "last": "2026-10-11",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.lupa.cz/aktuality/",
+       "count": 2,
+       "first": "2026-10-09",
+       "last": "2026-10-11"
+      }
+     ]
+    },
+    {
+     "name": "AgentCOS",
+     "url": "https://agentcos.com/",
+     "count": 1,
+     "last": "2026-10-21",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://agentcos.com/news/",
+       "count": 1,
+       "first": "2026-10-21",
+       "last": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "name": "Antenna Daily",
+     "url": "https://antennadaily.ru/",
+     "count": 1,
+     "last": "2026-10-21",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://antennadaily.ru/",
+       "count": 1,
+       "first": "2026-10-21",
+       "last": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "name": "C&EN (Chemical & Engineering News)",
+     "url": "https://cen.acs.org/",
+     "count": 1,
+     "last": "2026-11-13",
+     "sections": [
+      {
+       "name": "Бизнес — потребительские товары",
+       "url": "https://cen.acs.org/business/consumer-products/",
+       "count": 1,
+       "first": "2026-11-13",
+       "last": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "name": "Compendium (AEGIS Dental Network)",
+     "url": "https://www.compendiumlive.com/",
+     "count": 1,
+     "last": "2026-10-08",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.compendiumlive.com/news/",
+       "count": 1,
+       "first": "2026-10-08",
+       "last": "2026-10-08"
+      }
+     ]
+    },
+    {
+     "name": "Consumer Goods Technology",
+     "url": "https://consumergoods.com/",
+     "count": 1,
+     "last": "2026-11-13",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://consumergoods.com/",
+       "count": 1,
+       "first": "2026-11-13",
+       "last": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "name": "Dental Tribune",
+     "url": "https://www.dental-tribune.com/",
+     "count": 1,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.dental-tribune.com/news/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "Ecommerce News Europe",
+     "url": "https://ecommercenews.eu/",
+     "count": 1,
+     "last": "2026-10-09",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://ecommercenews.eu/",
+       "count": 1,
+       "first": "2026-10-09",
+       "last": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "name": "ESM Magazine",
+     "url": "https://www.esmmagazine.com/",
+     "count": 1,
+     "last": "2026-10-13",
+     "sections": [
+      {
+       "name": "Ритейл",
+       "url": "https://www.esmmagazine.com/retail/",
+       "count": 1,
+       "first": "2026-10-13",
+       "last": "2026-10-13"
+      }
+     ]
+    },
+    {
+     "name": "FashionUnited",
+     "url": "https://fashionunited.de/",
+     "count": 1,
+     "last": "2026-10-15",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://fashionunited.de/nachrichten/",
+       "count": 1,
+       "first": "2026-10-15",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "GMK Center",
+     "url": "https://gmk.center/",
+     "count": 1,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://gmk.center/news/",
+       "count": 1,
+       "first": "2026-11-04",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "IndexBox",
+     "url": "https://www.indexbox.io/",
+     "count": 1,
+     "last": "2026-10-30",
+     "sections": [
+      {
+       "name": "Блог",
+       "url": "https://www.indexbox.io/blog/",
+       "count": 1,
+       "first": "2026-10-30",
+       "last": "2026-10-30"
+      }
+     ]
+    },
+    {
+     "name": "Mass Market Retailers",
+     "url": "https://massmarketretailers.com/",
+     "count": 1,
+     "last": "2026-11-02",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://massmarketretailers.com/",
+       "count": 1,
+       "first": "2026-11-02",
+       "last": "2026-11-02"
+      }
+     ]
+    },
+    {
+     "name": "medianet",
+     "url": "https://medianet.at/",
+     "count": 1,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "Новости — ритейл",
+       "url": "https://medianet.at/news/retail/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "Retail Dive",
+     "url": "https://www.retaildive.com/",
+     "count": 1,
+     "last": "2026-10-09",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.retaildive.com/news/",
+       "count": 1,
+       "first": "2026-10-09",
+       "last": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "name": "retail-news.de",
+     "url": "https://retail-news.de/",
+     "count": 1,
+     "last": "2026-10-13",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://retail-news.de/",
+       "count": 1,
+       "first": "2026-10-13",
+       "last": "2026-10-13"
+      }
+     ]
+    },
+    {
+     "name": "Tech Insider",
+     "url": "https://tech-insider.org/",
+     "count": 1,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://tech-insider.org/",
+       "count": 1,
+       "first": "2026-11-04",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "Techbyte.sk",
+     "url": "https://www.techbyte.sk/",
+     "count": 1,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.techbyte.sk/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/",
+     "count": 1,
+     "last": "2026-10-29",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://techcrunch.com/",
+       "count": 1,
+       "first": "2026-10-29",
+       "last": "2026-10-29"
+      }
+     ]
+    },
+    {
+     "name": "The Healthy",
+     "url": "https://www.thehealthy.com/",
+     "count": 1,
+     "last": "2026-11-11",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.thehealthy.com/news/",
+       "count": 1,
+       "first": "2026-11-11",
+       "last": "2026-11-11"
+      }
+     ]
+    },
+    {
+     "name": "Код Дурова",
+     "url": "https://kod.ru/",
+     "count": 1,
+     "last": "2026-11-02",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://kod.ru/",
+       "count": 1,
+       "first": "2026-11-02",
+       "last": "2026-11-02"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Государственные органы и статистика",
+   "about": "Правительства, парламенты, министерства, центральные банки, статистические службы, ЕС",
+   "count": 52,
+   "sites": [
+    {
+     "name": "Destatis — статистическое ведомство Германии",
+     "url": "https://www.destatis.de/",
+     "count": 5,
+     "last": "2026-11-11",
+     "sections": [
+      {
+       "name": "Пресс-релизы",
+       "url": "https://www.destatis.de/DE/Presse/",
+       "count": 4,
+       "first": "2026-10-08",
+       "last": "2026-10-20"
+      },
+      {
+       "name": "Темы",
+       "url": "https://www.destatis.de/DE/Themen/",
+       "count": 1,
+       "first": "2026-11-11",
+       "last": "2026-11-11"
+      }
+     ]
+    },
+    {
+     "name": "Бундестаг Германии",
+     "url": "https://www.bundestag.de/",
+     "count": 4,
+     "last": "2026-11-06",
+     "sections": [
+      {
+       "name": "Текстовый архив",
+       "url": "https://www.bundestag.de/dokumente/textarchiv/",
+       "count": 3,
+       "first": "2026-10-14",
+       "last": "2026-10-15"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.bundestag.de/",
+       "count": 1,
+       "first": "2026-11-06",
+       "last": "2026-11-06"
+      }
+     ]
+    },
+    {
+     "name": "Ведомство федерального канцлера Австрии",
+     "url": "https://www.bundeskanzleramt.gv.at/",
+     "count": 4,
+     "last": "2026-10-15",
+     "sections": [
+      {
+       "name": "Новости правительства",
+       "url": "https://www.bundeskanzleramt.gv.at/bundeskanzleramt/nachrichten-der-bundesregierung/",
+       "count": 4,
+       "first": "2026-10-08",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "Официальный сайт Мэра Москвы (mos.ru)",
+     "url": "https://www.mos.ru/",
+     "count": 4,
+     "last": "2026-10-21",
+     "sections": [
+      {
+       "name": "Мэр Москвы — темы",
+       "url": "https://www.mos.ru/mayor/themes/",
+       "count": 4,
+       "first": "2026-10-13",
+       "last": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "name": "Eurostat (Европейская комиссия)",
+     "url": "https://ec.europa.eu/",
+     "count": 3,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Eurostat",
+       "url": "https://ec.europa.eu/eurostat",
+       "count": 3,
+       "first": "2026-10-15",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "Statistik Austria",
+     "url": "https://www.statistik.at/",
+     "count": 3,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Пресс-релизы",
+       "url": "https://www.statistik.at/fileadmin/announcement/",
+       "count": 3,
+       "first": "2026-10-15",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "ČSÚ — статистическое управление Чехии",
+     "url": "https://csu.gov.cz/",
+     "count": 3,
+     "last": "2026-10-30",
+     "sections": [
+      {
+       "name": "Оперативная информация",
+       "url": "https://csu.gov.cz/rychle-informace/",
+       "count": 3,
+       "first": "2026-10-13",
+       "last": "2026-10-30"
+      }
+     ]
+    },
+    {
+     "name": "EJPD — департамент юстиции и полиции Швейцарии",
+     "url": "https://www.ejpd.admin.ch/",
+     "count": 2,
+     "last": "2026-10-15",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.ejpd.admin.ch/de/newnsb/",
+       "count": 2,
+       "first": "2026-10-08",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "KSH — статистическое управление Венгрии",
+     "url": "https://www.ksh.hu/",
+     "count": 2,
+     "last": "2026-10-16",
+     "sections": [
+      {
+       "name": "Оперативная статистика",
+       "url": "https://www.ksh.hu/gyorstajekoztatok/",
+       "count": 2,
+       "first": "2026-10-13",
+       "last": "2026-10-16"
+      }
+     ]
+    },
+    {
+     "name": "Европейский центральный банк",
+     "url": "https://www.ecb.europa.eu/",
+     "count": 2,
+     "last": "2026-10-29",
+     "sections": [
+      {
+       "name": "Отчёты о заседаниях",
+       "url": "https://www.ecb.europa.eu/press/accounts/",
+       "count": 1,
+       "first": "2026-10-08",
+       "last": "2026-10-08"
+      },
+      {
+       "name": "Пресс-релизы",
+       "url": "https://www.ecb.europa.eu/press/pr/",
+       "count": 1,
+       "first": "2026-10-29",
+       "last": "2026-10-29"
+      }
+     ]
+    },
+    {
+     "name": "Объясняем.рф",
+     "url": "https://xn--90aivcdt6dxbc.xn--p1ai/",
+     "count": 2,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://xn--90aivcdt6dxbc.xn--p1ai/",
+       "count": 2,
+       "first": "2026-11-03",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "Правительство Германии",
+     "url": "https://www.bundesregierung.de/",
+     "count": 2,
+     "last": "2026-11-06",
+     "sections": [
+      {
+       "name": "Актуальное",
+       "url": "https://www.bundesregierung.de/breg-de/aktuelles/",
+       "count": 2,
+       "first": "2026-10-28",
+       "last": "2026-11-06"
+      }
+     ]
+    },
+    {
+     "name": "BEA — Бюро экономического анализа США",
+     "url": "https://www.bea.gov/",
+     "count": 1,
+     "last": "2026-10-29",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.bea.gov/news/",
+       "count": 1,
+       "first": "2026-10-29",
+       "last": "2026-10-29"
+      }
+     ]
+    },
+    {
+     "name": "CBO — бюджетное управление Конгресса США",
+     "url": "https://www.cbo.gov/",
+     "count": 1,
+     "last": "2026-10-08",
+     "sections": [
+      {
+       "name": "Публикации",
+       "url": "https://www.cbo.gov/publication/",
+       "count": 1,
+       "first": "2026-10-08",
+       "last": "2026-10-08"
+      }
+     ]
+    },
+    {
+     "name": "Deutsche Bundesbank",
+     "url": "https://publikationen.bundesbank.de/",
+     "count": 1,
+     "last": "2026-10-21",
+     "sections": [
+      {
+       "name": "Отчёты и исследования",
+       "url": "https://publikationen.bundesbank.de/publikationen-de/berichte-studien/",
+       "count": 1,
+       "first": "2026-10-21",
+       "last": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "name": "Magyar Nemzeti Bank — центробанк Венгрии",
+     "url": "https://www.mnb.hu/",
+     "count": 1,
+     "last": "2026-10-20",
+     "sections": [
+      {
+       "name": "Денежно-кредитная политика",
+       "url": "https://www.mnb.hu/monetaris-politika/",
+       "count": 1,
+       "first": "2026-10-20",
+       "last": "2026-10-20"
+      }
+     ]
+    },
+    {
+     "name": "SEC — комиссия по ценным бумагам США (отчёты компаний)",
+     "url": "https://www.sec.gov/",
+     "count": 1,
+     "last": "2026-10-08",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.sec.gov/",
+       "count": 1,
+       "first": "2026-10-08",
+       "last": "2026-10-08"
+      }
+     ]
+    },
+    {
+     "name": "SEM — государственный секретариат по миграции Швейцарии",
+     "url": "https://www.sem.admin.ch/",
+     "count": 1,
+     "last": "2026-11-06",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.sem.admin.ch/en/newnsb/",
+       "count": 1,
+       "first": "2026-11-06",
+       "last": "2026-11-06"
+      }
+     ]
+    },
+    {
+     "name": "swisstopo — федеральное ведомство топографии Швейцарии",
+     "url": "https://www.swisstopo.admin.ch/",
+     "count": 1,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.swisstopo.admin.ch/en/newnsb/",
+       "count": 1,
+       "first": "2026-11-04",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "UVEK — департамент окружающей среды, транспорта и энергетики Швейцарии",
+     "url": "https://www.uvek.admin.ch/",
+     "count": 1,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.uvek.admin.ch/de/newnsb/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "Česká národní banka — центробанк Чехии",
+     "url": "https://www.cnb.cz/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Для общественности",
+       "url": "https://www.cnb.cz/cs/verejnost/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "МИД Германии",
+     "url": "https://www.auswaertiges-amt.de/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.auswaertiges-amt.de/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "Национальная библиотека Швейцарии",
+     "url": "https://www.nb.admin.ch/",
+     "count": 1,
+     "last": "2026-11-06",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.nb.admin.ch/en/newnsb/",
+       "count": 1,
+       "first": "2026-11-06",
+       "last": "2026-11-06"
+      }
+     ]
+    },
+    {
+     "name": "Парламент Швейцарии",
+     "url": "https://www.parlament.ch/",
+     "count": 1,
+     "last": "2026-11-06",
+     "sections": [
+      {
+       "name": "Пресс-релизы",
+       "url": "https://www.parlament.ch/press-releases/",
+       "count": 1,
+       "first": "2026-11-06",
+       "last": "2026-11-06"
+      }
+     ]
+    },
+    {
+     "name": "Правительство Чехии",
+     "url": "https://vlada.gov.cz/",
+     "count": 1,
+     "last": "2026-10-12",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://vlada.gov.cz/",
+       "count": 1,
+       "first": "2026-10-12",
+       "last": "2026-10-12"
+      }
+     ]
+    },
+    {
+     "name": "Совет ЕС",
+     "url": "https://www.consilium.europa.eu/",
+     "count": 1,
+     "last": "2026-10-16",
+     "sections": [
+      {
+       "name": "Заседания",
+       "url": "https://www.consilium.europa.eu/en/meetings/",
+       "count": 1,
+       "first": "2026-10-16",
+       "last": "2026-10-16"
+      }
+     ]
+    },
+    {
+     "name": "Федеральные власти Швейцарии (admin.ch)",
+     "url": "https://www.admin.ch/",
+     "count": 1,
+     "last": "2026-10-30",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.admin.ch/de/newnsb/",
+       "count": 1,
+       "first": "2026-10-30",
+       "last": "2026-10-30"
+      }
+     ]
+    },
+    {
+     "name": "ФРБ Миннеаполиса",
+     "url": "https://www.minneapolisfed.org/",
+     "count": 1,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "«Бежевая книга»",
+       "url": "https://www.minneapolisfed.org/beige-book-reports/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Сайты компаний",
+   "about": "Пресс-релизы и отчёты на сайтах самих компаний",
+   "count": 6,
+   "sites": [
+    {
+     "name": "ALDI SÜD",
+     "url": "https://www.aldi-sued.de/",
+     "count": 1,
+     "last": "2026-10-15",
+     "sections": [
+      {
+       "name": "Пресс-центр",
+       "url": "https://www.aldi-sued.de/newsroom/",
+       "count": 1,
+       "first": "2026-10-15",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "Amazon",
+     "url": "https://press.aboutamazon.com/",
+     "count": 1,
+     "last": "2026-10-15",
+     "sections": [
+      {
+       "name": "Пресс-центр (Германия)",
+       "url": "https://press.aboutamazon.com/de/",
+       "count": 1,
+       "first": "2026-10-15",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "First Trust Portfolios",
+     "url": "https://www.ftportfolios.com/",
+     "count": 1,
+     "last": "2026-10-15",
+     "sections": [
+      {
+       "name": "Экономические исследования",
+       "url": "https://www.ftportfolios.com/Commentary/EconomicResearch/",
+       "count": 1,
+       "first": "2026-10-15",
+       "last": "2026-10-15"
+      }
+     ]
+    },
+    {
+     "name": "KPMG",
+     "url": "https://kpmg.com/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://kpmg.com/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "Philips",
+     "url": "https://www.philips.com/",
+     "count": 1,
+     "last": "2026-11-03",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.philips.com/",
+       "count": 1,
+       "first": "2026-11-03",
+       "last": "2026-11-03"
+      }
+     ]
+    },
+    {
+     "name": "U.S. Bank",
+     "url": "https://www.usbank.com/",
+     "count": 1,
+     "last": "2026-11-06",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.usbank.com/",
+       "count": 1,
+       "first": "2026-11-06",
+       "last": "2026-11-06"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Сервисы пресс-релизов",
+   "about": "Площадки, через которые компании и организации распространяют пресс-релизы",
+   "count": 5,
+   "sites": [
+    {
+     "name": "APA-OTS (Австрия)",
+     "url": "https://www.ots.at/",
+     "count": 3,
+     "last": "2026-10-30",
+     "sections": [
+      {
+       "name": "Пресс-релизы",
+       "url": "https://www.ots.at/presseaussendung/",
+       "count": 3,
+       "first": "2026-10-23",
+       "last": "2026-10-30"
+      }
+     ]
+    },
+    {
+     "name": "PR Newswire",
+     "url": "https://www.prnewswire.com/",
+     "count": 2,
+     "last": "2026-10-27",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.prnewswire.com/",
+       "count": 2,
+       "first": "2026-10-20",
+       "last": "2026-10-27"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Исследовательские центры и ассоциации",
+   "about": "Экономические институты, отраслевые ассоциации, организации потребителей",
+   "count": 8,
+   "sites": [
+    {
+     "name": "dTest — организация потребителей Чехии",
+     "url": "https://www.dtest.cz/",
+     "count": 2,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.dtest.cz/",
+       "count": 2,
+       "first": "2026-11-03",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "EuroCommerce",
+     "url": "https://www.eurocommerce.eu/",
+     "count": 1,
+     "last": "2026-10-12",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.eurocommerce.eu/",
+       "count": 1,
+       "first": "2026-10-12",
+       "last": "2026-10-12"
+      }
+     ]
+    },
+    {
+     "name": "Handelsverband Österreich",
+     "url": "https://www.handelsverband.at/",
+     "count": 1,
+     "last": "2026-10-20",
+     "sections": [
+      {
+       "name": "Пресс-релизы",
+       "url": "https://www.handelsverband.at/presse/presseaussendungen/",
+       "count": 1,
+       "first": "2026-10-20",
+       "last": "2026-10-20"
+      }
+     ]
+    },
+    {
+     "name": "ifo Institut",
+     "url": "https://www.ifo.de/",
+     "count": 1,
+     "last": "2026-10-26",
+     "sections": [
+      {
+       "name": "Пресс-релизы",
+       "url": "https://www.ifo.de/en/press-release/",
+       "count": 1,
+       "first": "2026-10-26",
+       "last": "2026-10-26"
+      }
+     ]
+    },
+    {
+     "name": "IW Köln (Институт немецкой экономики)",
+     "url": "https://www.iwkoeln.de/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Темы",
+       "url": "https://www.iwkoeln.de/themen/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "OSW — Центр восточных исследований",
+     "url": "https://www.osw.waw.pl/",
+     "count": 1,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "Публикации",
+       "url": "https://www.osw.waw.pl/en/publikacje/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "Stiftung Warentest",
+     "url": "https://www.test.de/",
+     "count": 1,
+     "last": "2026-10-21",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.test.de/",
+       "count": 1,
+       "first": "2026-10-21",
+       "last": "2026-10-21"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Рассылки, блоги и агрегаторы",
+   "about": "Сборники чужих новостей, рассылки, блоги, справочные сайты",
+   "count": 17,
+   "sites": [
+    {
+     "name": "Front Pages EU (рассылка на Buttondown)",
+     "url": "https://buttondown.com/",
+     "count": 9,
+     "last": "2026-11-08",
+     "sections": [
+      {
+       "name": "Front Pages EU — архив выпусков",
+       "url": "https://buttondown.com/frontpageseu/archive/",
+       "count": 9,
+       "first": "2026-11-01",
+       "last": "2026-11-08"
+      }
+     ]
+    },
+    {
+     "name": "asafov.ru",
+     "url": "https://asafov.ru/",
+     "count": 1,
+     "last": "2026-11-10",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://asafov.ru/news/",
+       "count": 1,
+       "first": "2026-11-10",
+       "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "BigGo Finance",
+     "url": "https://finance.biggo.com/",
+     "count": 1,
+     "last": "2026-10-30",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://finance.biggo.com/news/",
+       "count": 1,
+       "first": "2026-10-30",
+       "last": "2026-10-30"
+      }
+     ]
+    },
+    {
+     "name": "CoinUnited",
+     "url": "https://coinunited.io/",
+     "count": 1,
+     "last": "2026-11-04",
+     "sections": [
+      {
+       "name": "Pulse",
+       "url": "https://coinunited.io/en/pulse/",
+       "count": 1,
+       "first": "2026-11-04",
+       "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "Ground News",
+     "url": "https://ground.news/",
+     "count": 1,
+     "last": "2026-11-01",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://ground.news/",
+       "count": 1,
+       "first": "2026-11-01",
+       "last": "2026-11-01"
+      }
+     ]
+    },
+    {
+     "name": "Lovguiden",
+     "url": "https://www.lovguiden.dk/",
+     "count": 1,
+     "last": "2026-11-05",
+     "sections": [
+      {
+       "name": "English",
+       "url": "https://www.lovguiden.dk/en/",
+       "count": 1,
+       "first": "2026-11-05",
+       "last": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "name": "SWISSVOX (Substack)",
+     "url": "https://swissvox.substack.com/",
+     "count": 1,
+     "last": "2026-10-14",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://swissvox.substack.com/",
+       "count": 1,
+       "first": "2026-10-14",
+       "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "Webull (ленты MT Newswires)",
+     "url": "https://www.webull.com/",
+     "count": 1,
+     "last": "2026-10-12",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.webull.com/news/",
+       "count": 1,
+       "first": "2026-10-12",
+       "last": "2026-10-12"
+      }
+     ]
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/",
+     "count": 1,
+     "last": "2026-10-22",
+     "sections": [
+      {
+       "name": "Рынки",
+       "url": "https://finance.yahoo.com/markets/",
+       "count": 1,
+       "first": "2026-10-22",
+       "last": "2026-10-22"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

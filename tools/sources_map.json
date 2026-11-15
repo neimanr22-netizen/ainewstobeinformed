@@ -1,0 +1,1349 @@
+{
+ "_readme": "Справочник источников для tools/sources.py. groups — разделы верхнего уровня; sites — сайт (домен) -> группа и название; sections — разделы сайта по началу пути ссылки ('путь': 'Название' или 'Название|адрес'); rg_by_sub — рубрики Российской газеты по подкатегории сайта.",
+ "groups": [
+  {
+   "name": "Новостные порталы",
+   "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио"
+  },
+  {
+   "name": "Информационные агентства",
+   "about": "Новостные агентства, которые первыми выпускают сообщения (их перепечатывают другие СМИ)"
+  },
+  {
+   "name": "Деловые и финансовые издания",
+   "about": "Экономика, рынки, компании, инвестиции"
+  },
+  {
+   "name": "Отраслевые издания",
+   "about": "Ритейл и FMCG, стоматология и уход за полостью рта, технологии"
+  },
+  {
+   "name": "Государственные органы и статистика",
+   "about": "Правительства, парламенты, министерства, центральные банки, статистические службы, ЕС"
+  },
+  {
+   "name": "Сайты компаний",
+   "about": "Пресс-релизы и отчёты на сайтах самих компаний"
+  },
+  {
+   "name": "Сервисы пресс-релизов",
+   "about": "Площадки, через которые компании и организации распространяют пресс-релизы"
+  },
+  {
+   "name": "Исследовательские центры и ассоциации",
+   "about": "Экономические институты, отраслевые ассоциации, организации потребителей"
+  },
+  {
+   "name": "Рассылки, блоги и агрегаторы",
+   "about": "Сборники чужих новостей, рассылки, блоги, справочные сайты"
+  }
+ ],
+ "sites": {
+  "rg.ru": {
+   "group": "Новостные порталы",
+   "name": "Российская газета"
+  },
+  "rbc.ru": {
+   "group": "Новостные порталы",
+   "name": "РБК"
+  },
+  "amp.rbc.ru": {
+   "group": "Новостные порталы",
+   "name": "РБК",
+   "site": "rbc.ru"
+  },
+  "realty.rbc.ru": {
+   "group": "Новостные порталы",
+   "name": "РБК",
+   "site": "rbc.ru"
+  },
+  "ufa.rbc.ru": {
+   "group": "Новостные порталы",
+   "name": "РБК",
+   "site": "rbc.ru"
+  },
+  "ru.themoscowtimes.com": {
+   "group": "Новостные порталы",
+   "name": "The Moscow Times"
+  },
+  "index.hu": {
+   "group": "Новостные порталы",
+   "name": "Index.hu"
+  },
+  "aljazeera.com": {
+   "group": "Новостные порталы",
+   "name": "Al Jazeera"
+  },
+  "telex.hu": {
+   "group": "Новостные порталы",
+   "name": "Telex"
+  },
+  "zdfheute.de": {
+   "group": "Новостные порталы",
+   "name": "ZDFheute"
+  },
+  "oe24.at": {
+   "group": "Новостные порталы",
+   "name": "oe24"
+  },
+  "noviny.sk": {
+   "group": "Новостные порталы",
+   "name": "Noviny.sk"
+  },
+  "spravy.stvr.sk": {
+   "group": "Новостные порталы",
+   "name": "STVR (Správy)"
+  },
+  "euronews.com": {
+   "group": "Новостные порталы",
+   "name": "Euronews"
+  },
+  "zona.media": {
+   "group": "Новостные порталы",
+   "name": "Медиазона"
+  },
+  "exxpress.at": {
+   "group": "Новостные порталы",
+   "name": "eXXpress"
+  },
+  "foxnews.com": {
+   "group": "Новостные порталы",
+   "name": "Fox News"
+  },
+  "hvg.hu": {
+   "group": "Новостные порталы",
+   "name": "HVG"
+  },
+  "thelocal.ch": {
+   "group": "Новостные порталы",
+   "name": "The Local Switzerland"
+  },
+  "eunews.it": {
+   "group": "Новостные порталы",
+   "name": "Eunews"
+  },
+  "orf.at": {
+   "group": "Новостные порталы",
+   "name": "ORF"
+  },
+  "blesk.cz": {
+   "group": "Новостные порталы",
+   "name": "Blesk"
+  },
+  "nationthailand.com": {
+   "group": "Новостные порталы",
+   "name": "Nation Thailand"
+  },
+  "abc7news.com": {
+   "group": "Новостные порталы",
+   "name": "ABC7 News"
+  },
+  "srf.ch": {
+   "group": "Новостные порталы",
+   "name": "SRF"
+  },
+  "evangelisch.de": {
+   "group": "Новостные порталы",
+   "name": "evangelisch.de"
+  },
+  "bostonglobe.com": {
+   "group": "Новостные порталы",
+   "name": "The Boston Globe"
+  },
+  "360.ru": {
+   "group": "Новостные порталы",
+   "name": "360.ru"
+  },
+  "riotimesonline.com": {
+   "group": "Новостные порталы",
+   "name": "The Rio Times"
+  },
+  "vm.ru": {
+   "group": "Новостные порталы",
+   "name": "Вечерняя Москва"
+  },
+  "kronehit.at": {
+   "group": "Новостные порталы",
+   "name": "KroneHit"
+  },
+  "democracynow.org": {
+   "group": "Новостные порталы",
+   "name": "Democracy Now!"
+  },
+  "iz.ru": {
+   "group": "Новостные порталы",
+   "name": "Известия"
+  },
+  "washingtonpost.com": {
+   "group": "Новостные порталы",
+   "name": "The Washington Post"
+  },
+  "tagesanzeiger.ch": {
+   "group": "Новостные порталы",
+   "name": "Tages-Anzeiger"
+  },
+  "tagesspiegel.de": {
+   "group": "Новостные порталы",
+   "name": "Tagesspiegel"
+  },
+  "hlavnespravy.sk": {
+   "group": "Новостные порталы",
+   "name": "Hlavné správy"
+  },
+  "nachrichten.at": {
+   "group": "Новостные порталы",
+   "name": "Oberösterreichische Nachrichten"
+  },
+  "brusselstimes.com": {
+   "group": "Новостные порталы",
+   "name": "The Brussels Times"
+  },
+  "ta3.com": {
+   "group": "Новостные порталы",
+   "name": "TA3"
+  },
+  "heute.at": {
+   "group": "Новостные порталы",
+   "name": "Heute"
+  },
+  "echo24.cz": {
+   "group": "Новостные порталы",
+   "name": "Echo24"
+  },
+  "t-online.de": {
+   "group": "Новостные порталы",
+   "name": "t-online"
+  },
+  "aif.ru": {
+   "group": "Новостные порталы",
+   "name": "АиФ"
+  },
+  "kyivpost.com": {
+   "group": "Новостные порталы",
+   "name": "Kyiv Post"
+  },
+  "ky3.com": {
+   "group": "Новостные порталы",
+   "name": "KY3"
+  },
+  "khaleejtimes.com": {
+   "group": "Новостные порталы",
+   "name": "Khaleej Times"
+  },
+  "istories.media": {
+   "group": "Новостные порталы",
+   "name": "Важные истории"
+  },
+  "newstream.cz": {
+   "group": "Новостные порталы",
+   "name": "Newstream.cz"
+  },
+  "volksstimme.de": {
+   "group": "Новостные порталы",
+   "name": "Volksstimme"
+  },
+  "brusselssignal.eu": {
+   "group": "Новостные порталы",
+   "name": "Brussels Signal"
+  },
+  "prufy.ru": {
+   "group": "Новостные порталы",
+   "name": "Prufy"
+  },
+  "wsbtv.com": {
+   "group": "Новостные порталы",
+   "name": "WSB-TV"
+  },
+  "pravda.sk": {
+   "group": "Новостные порталы",
+   "name": "Pravda.sk"
+  },
+  "ct24.ceskatelevize.cz": {
+   "group": "Новостные порталы",
+   "name": "ČT24"
+  },
+  "infostart.hu": {
+   "group": "Новостные порталы",
+   "name": "Infostart"
+  },
+  "pbs.org": {
+   "group": "Новостные порталы",
+   "name": "PBS NewsHour"
+  },
+  "bdnews24.com": {
+   "group": "Новостные порталы",
+   "name": "bdnews24.com"
+  },
+  "thestar.com.my": {
+   "group": "Новостные порталы",
+   "name": "The Star (Малайзия)"
+  },
+  "cyprus-mail.com": {
+   "group": "Новостные порталы",
+   "name": "Cyprus Mail"
+  },
+  "news4jax.com": {
+   "group": "Новостные порталы",
+   "name": "News4JAX"
+  },
+  "npr.org": {
+   "group": "Новостные порталы",
+   "name": "NPR"
+  },
+  "fontanka.ru": {
+   "group": "Новостные порталы",
+   "name": "Фонтанка"
+  },
+  "dailynewshungary.com": {
+   "group": "Новостные порталы",
+   "name": "Daily News Hungary"
+  },
+  "abc30.com": {
+   "group": "Новостные порталы",
+   "name": "ABC30"
+  },
+  "meduza.io": {
+   "group": "Новостные порталы",
+   "name": "Meduza"
+  },
+  "mentoday.ru": {
+   "group": "Новостные порталы",
+   "name": "MenToday"
+  },
+  "kyivindependent.com": {
+   "group": "Новостные порталы",
+   "name": "The Kyiv Independent"
+  },
+  "irishtimes.com": {
+   "group": "Новостные порталы",
+   "name": "The Irish Times"
+  },
+  "inquirer.com": {
+   "group": "Новостные порталы",
+   "name": "The Philadelphia Inquirer"
+  },
+  "rfj.ch": {
+   "group": "Новостные порталы",
+   "name": "RFJ"
+  },
+  "epochtimes.sk": {
+   "group": "Новостные порталы",
+   "name": "Epoch Times Slovensko"
+  },
+  "rollcall.com": {
+   "group": "Новостные порталы",
+   "name": "Roll Call"
+  },
+  "blick.ch": {
+   "group": "Новостные порталы",
+   "name": "Blick"
+  },
+  "euobserver.com": {
+   "group": "Новостные порталы",
+   "name": "EUobserver"
+  },
+  "6abc.com": {
+   "group": "Новостные порталы",
+   "name": "6abc"
+  },
+  "bfm.ru": {
+   "group": "Новостные порталы",
+   "name": "Business FM"
+  },
+  "cbsnews.com": {
+   "group": "Новостные порталы",
+   "name": "CBS News"
+  },
+  "infodnes.sk": {
+   "group": "Новостные порталы",
+   "name": "InfoDnes"
+  },
+  "usnews.com": {
+   "group": "Новостные порталы",
+   "name": "U.S. News"
+  },
+  "tagblatt.ch": {
+   "group": "Новостные порталы",
+   "name": "St. Galler Tagblatt"
+  },
+  "justthenews.com": {
+   "group": "Новостные порталы",
+   "name": "Just the News"
+  },
+  "mississippitoday.org": {
+   "group": "Новостные порталы",
+   "name": "Mississippi Today"
+  },
+  "cp24.com": {
+   "group": "Новостные порталы",
+   "name": "CP24"
+  },
+  "foxbaltimore.com": {
+   "group": "Новостные порталы",
+   "name": "Fox Baltimore"
+  },
+  "news.at": {
+   "group": "Новостные порталы",
+   "name": "News.at"
+  },
+  "netky.sk": {
+   "group": "Новостные порталы",
+   "name": "Netky.sk"
+  },
+  "bratislavak.sk": {
+   "group": "Новостные порталы",
+   "name": "Bratislavak.sk"
+  },
+  "interfax.ru": {
+   "group": "Информационные агентства",
+   "name": "Интерфакс"
+  },
+  "teraz.sk": {
+   "group": "Информационные агентства",
+   "name": "TASR (Teraz.sk)"
+  },
+  "ceskenoviny.cz": {
+   "group": "Информационные агентства",
+   "name": "ČTK (České noviny)"
+  },
+  "ria.ru": {
+   "group": "Информационные агентства",
+   "name": "РИА Новости"
+  },
+  "1prime.ru": {
+   "group": "Информационные агентства",
+   "name": "ПРАЙМ"
+  },
+  "aa.com.tr": {
+   "group": "Информационные агентства",
+   "name": "Anadolu Agency"
+  },
+  "bernama.com": {
+   "group": "Информационные агентства",
+   "name": "Bernama"
+  },
+  "agenceurope.eu": {
+   "group": "Информационные агентства",
+   "name": "Agence Europe"
+  },
+  "e15.cz": {
+   "group": "Деловые и финансовые издания",
+   "name": "E15"
+  },
+  "economx.hu": {
+   "group": "Деловые и финансовые издания",
+   "name": "Economx"
+  },
+  "cash.ch": {
+   "group": "Деловые и финансовые издания",
+   "name": "cash.ch"
+  },
+  "cnbc.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "CNBC"
+  },
+  "investing.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "Investing.com"
+  },
+  "vg.hu": {
+   "group": "Деловые и финансовые издания",
+   "name": "Világgazdaság"
+  },
+  "penzcentrum.hu": {
+   "group": "Деловые и финансовые издания",
+   "name": "Pénzcentrum"
+  },
+  "bankiros.ru": {
+   "group": "Деловые и финансовые издания",
+   "name": "Банкирос"
+  },
+  "trend.at": {
+   "group": "Деловые и финансовые издания",
+   "name": "trend"
+  },
+  "moneycab.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "Moneycab"
+  },
+  "forbes.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "Forbes"
+  },
+  "onvista.de": {
+   "group": "Деловые и финансовые издания",
+   "name": "onvista"
+  },
+  "tradingkey.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "TradingKey"
+  },
+  "invezz.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "Invezz"
+  },
+  "thestreet.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "TheStreet"
+  },
+  "pro.thestreet.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "TheStreet",
+   "site": "thestreet.com"
+  },
+  "simplywall.st": {
+   "group": "Деловые и финансовые издания",
+   "name": "Simply Wall St"
+  },
+  "benzinga.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "Benzinga"
+  },
+  "bloomberg.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "Bloomberg"
+  },
+  "boerse-express.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "Börse Express"
+  },
+  "stockanalysis.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "StockAnalysis"
+  },
+  "fortune.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "Fortune"
+  },
+  "qz.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "Quartz"
+  },
+  "bilanz.ch": {
+   "group": "Деловые и финансовые издания",
+   "name": "Bilanz"
+  },
+  "fuw.ch": {
+   "group": "Деловые и финансовые издания",
+   "name": "Finanz und Wirtschaft"
+  },
+  "finanzen.at": {
+   "group": "Деловые и финансовые издания",
+   "name": "finanzen.at"
+  },
+  "fxstreet.cz": {
+   "group": "Деловые и финансовые издания",
+   "name": "FXstreet.cz"
+  },
+  "portfolio.hu": {
+   "group": "Деловые и финансовые издания",
+   "name": "Portfolio.hu"
+  },
+  "expert.ru": {
+   "group": "Деловые и финансовые издания",
+   "name": "Эксперт"
+  },
+  "theedgemalaysia.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "The Edge Malaysia"
+  },
+  "en.ilsole24ore.com": {
+   "group": "Деловые и финансовые издания",
+   "name": "Il Sole 24 Ore"
+  },
+  "new-retail.ru": {
+   "group": "Отраслевые издания",
+   "name": "New Retail"
+  },
+  "retail.ru": {
+   "group": "Отраслевые издания",
+   "name": "Retail.ru"
+  },
+  "grocerydive.com": {
+   "group": "Отраслевые издания",
+   "name": "Grocery Dive"
+  },
+  "retaildive.com": {
+   "group": "Отраслевые издания",
+   "name": "Retail Dive"
+  },
+  "regal.at": {
+   "group": "Отраслевые издания",
+   "name": "Regal"
+  },
+  "lebensmittelpraxis.de": {
+   "group": "Отраслевые издания",
+   "name": "Lebensmittel Praxis"
+  },
+  "lebensmittelzeitung.net": {
+   "group": "Отраслевые издания",
+   "name": "Lebensmittel Zeitung"
+  },
+  "leadersnet.at": {
+   "group": "Отраслевые издания",
+   "name": "Leadersnet"
+  },
+  "ecommercenews.eu": {
+   "group": "Отраслевые издания",
+   "name": "Ecommerce News Europe"
+  },
+  "esmmagazine.com": {
+   "group": "Отраслевые издания",
+   "name": "ESM Magazine"
+  },
+  "consumergoods.com": {
+   "group": "Отраслевые издания",
+   "name": "Consumer Goods Technology"
+  },
+  "massmarketretailers.com": {
+   "group": "Отраслевые издания",
+   "name": "Mass Market Retailers"
+  },
+  "retail-news.de": {
+   "group": "Отраслевые издания",
+   "name": "retail-news.de"
+  },
+  "fashionunited.de": {
+   "group": "Отраслевые издания",
+   "name": "FashionUnited"
+  },
+  "medianet.at": {
+   "group": "Отраслевые издания",
+   "name": "medianet"
+  },
+  "adanews.ada.org": {
+   "group": "Отраслевые издания",
+   "name": "ADA News (Американская стоматологическая ассоциация)"
+  },
+  "dental-tribune.com": {
+   "group": "Отраслевые издания",
+   "name": "Dental Tribune"
+  },
+  "compendiumlive.com": {
+   "group": "Отраслевые издания",
+   "name": "Compendium (AEGIS Dental Network)"
+  },
+  "agentcos.com": {
+   "group": "Отраслевые издания",
+   "name": "AgentCOS"
+  },
+  "cen.acs.org": {
+   "group": "Отраслевые издания",
+   "name": "C&EN (Chemical & Engineering News)"
+  },
+  "antennadaily.ru": {
+   "group": "Отраслевые издания",
+   "name": "Antenna Daily"
+  },
+  "gmk.center": {
+   "group": "Отраслевые издания",
+   "name": "GMK Center"
+  },
+  "indexbox.io": {
+   "group": "Отраслевые издания",
+   "name": "IndexBox"
+  },
+  "lupa.cz": {
+   "group": "Отраслевые издания",
+   "name": "Lupa.cz"
+  },
+  "techbyte.sk": {
+   "group": "Отраслевые издания",
+   "name": "Techbyte.sk"
+  },
+  "techcrunch.com": {
+   "group": "Отраслевые издания",
+   "name": "TechCrunch"
+  },
+  "tech-insider.org": {
+   "group": "Отраслевые издания",
+   "name": "Tech Insider"
+  },
+  "kod.ru": {
+   "group": "Отраслевые издания",
+   "name": "Код Дурова"
+  },
+  "thehealthy.com": {
+   "group": "Отраслевые издания",
+   "name": "The Healthy"
+  },
+  "destatis.de": {
+   "group": "Государственные органы и статистика",
+   "name": "Destatis — статистическое ведомство Германии"
+  },
+  "bundestag.de": {
+   "group": "Государственные органы и статистика",
+   "name": "Бундестаг Германии"
+  },
+  "bundeskanzleramt.gv.at": {
+   "group": "Государственные органы и статистика",
+   "name": "Ведомство федерального канцлера Австрии"
+  },
+  "statistik.at": {
+   "group": "Государственные органы и статистика",
+   "name": "Statistik Austria"
+  },
+  "csu.gov.cz": {
+   "group": "Государственные органы и статистика",
+   "name": "ČSÚ — статистическое управление Чехии"
+  },
+  "ec.europa.eu": {
+   "group": "Государственные органы и статистика",
+   "name": "Eurostat (Европейская комиссия)"
+  },
+  "ecb.europa.eu": {
+   "group": "Государственные органы и статистика",
+   "name": "Европейский центральный банк"
+  },
+  "ksh.hu": {
+   "group": "Государственные органы и статистика",
+   "name": "KSH — статистическое управление Венгрии"
+  },
+  "bundesregierung.de": {
+   "group": "Государственные органы и статистика",
+   "name": "Правительство Германии"
+  },
+  "ejpd.admin.ch": {
+   "group": "Государственные органы и статистика",
+   "name": "EJPD — департамент юстиции и полиции Швейцарии"
+  },
+  "sem.admin.ch": {
+   "group": "Государственные органы и статистика",
+   "name": "SEM — государственный секретариат по миграции Швейцарии"
+  },
+  "parlament.ch": {
+   "group": "Государственные органы и статистика",
+   "name": "Парламент Швейцарии"
+  },
+  "nb.admin.ch": {
+   "group": "Государственные органы и статистика",
+   "name": "Национальная библиотека Швейцарии"
+  },
+  "swisstopo.admin.ch": {
+   "group": "Государственные органы и статистика",
+   "name": "swisstopo — федеральное ведомство топографии Швейцарии"
+  },
+  "uvek.admin.ch": {
+   "group": "Государственные органы и статистика",
+   "name": "UVEK — департамент окружающей среды, транспорта и энергетики Швейцарии"
+  },
+  "admin.ch": {
+   "group": "Государственные органы и статистика",
+   "name": "Федеральные власти Швейцарии (admin.ch)"
+  },
+  "vlada.gov.cz": {
+   "group": "Государственные органы и статистика",
+   "name": "Правительство Чехии"
+  },
+  "publikationen.bundesbank.de": {
+   "group": "Государственные органы и статистика",
+   "name": "Deutsche Bundesbank"
+  },
+  "consilium.europa.eu": {
+   "group": "Государственные органы и статистика",
+   "name": "Совет ЕС"
+  },
+  "mnb.hu": {
+   "group": "Государственные органы и статистика",
+   "name": "Magyar Nemzeti Bank — центробанк Венгрии"
+  },
+  "mos.ru": {
+   "group": "Государственные органы и статистика",
+   "name": "Официальный сайт Мэра Москвы (mos.ru)"
+  },
+  "cnb.cz": {
+   "group": "Государственные органы и статистика",
+   "name": "Česká národní banka — центробанк Чехии"
+  },
+  "bea.gov": {
+   "group": "Государственные органы и статистика",
+   "name": "BEA — Бюро экономического анализа США"
+  },
+  "cbo.gov": {
+   "group": "Государственные органы и статистика",
+   "name": "CBO — бюджетное управление Конгресса США"
+  },
+  "minneapolisfed.org": {
+   "group": "Государственные органы и статистика",
+   "name": "ФРБ Миннеаполиса"
+  },
+  "auswaertiges-amt.de": {
+   "group": "Государственные органы и статистика",
+   "name": "МИД Германии"
+  },
+  "sec.gov": {
+   "group": "Государственные органы и статистика",
+   "name": "SEC — комиссия по ценным бумагам США (отчёты компаний)"
+  },
+  "xn--90aivcdt6dxbc.xn--p1ai": {
+   "group": "Государственные органы и статистика",
+   "name": "Объясняем.рф"
+  },
+  "philips.com": {
+   "group": "Сайты компаний",
+   "name": "Philips"
+  },
+  "aldi-sued.de": {
+   "group": "Сайты компаний",
+   "name": "ALDI SÜD"
+  },
+  "press.aboutamazon.com": {
+   "group": "Сайты компаний",
+   "name": "Amazon"
+  },
+  "usbank.com": {
+   "group": "Сайты компаний",
+   "name": "U.S. Bank"
+  },
+  "kpmg.com": {
+   "group": "Сайты компаний",
+   "name": "KPMG"
+  },
+  "ftportfolios.com": {
+   "group": "Сайты компаний",
+   "name": "First Trust Portfolios"
+  },
+  "prnewswire.com": {
+   "group": "Сервисы пресс-релизов",
+   "name": "PR Newswire"
+  },
+  "ots.at": {
+   "group": "Сервисы пресс-релизов",
+   "name": "APA-OTS (Австрия)"
+  },
+  "ifo.de": {
+   "group": "Исследовательские центры и ассоциации",
+   "name": "ifo Institut"
+  },
+  "iwkoeln.de": {
+   "group": "Исследовательские центры и ассоциации",
+   "name": "IW Köln (Институт немецкой экономики)"
+  },
+  "osw.waw.pl": {
+   "group": "Исследовательские центры и ассоциации",
+   "name": "OSW — Центр восточных исследований"
+  },
+  "eurocommerce.eu": {
+   "group": "Исследовательские центры и ассоциации",
+   "name": "EuroCommerce"
+  },
+  "handelsverband.at": {
+   "group": "Исследовательские центры и ассоциации",
+   "name": "Handelsverband Österreich"
+  },
+  "dtest.cz": {
+   "group": "Исследовательские центры и ассоциации",
+   "name": "dTest — организация потребителей Чехии"
+  },
+  "test.de": {
+   "group": "Исследовательские центры и ассоциации",
+   "name": "Stiftung Warentest"
+  },
+  "buttondown.com": {
+   "group": "Рассылки, блоги и агрегаторы",
+   "name": "Front Pages EU (рассылка на Buttondown)"
+  },
+  "ground.news": {
+   "group": "Рассылки, блоги и агрегаторы",
+   "name": "Ground News"
+  },
+  "swissvox.substack.com": {
+   "group": "Рассылки, блоги и агрегаторы",
+   "name": "SWISSVOX (Substack)"
+  },
+  "asafov.ru": {
+   "group": "Рассылки, блоги и агрегаторы",
+   "name": "asafov.ru"
+  },
+  "finance.biggo.com": {
+   "group": "Рассылки, блоги и агрегаторы",
+   "name": "BigGo Finance"
+  },
+  "coinunited.io": {
+   "group": "Рассылки, блоги и агрегаторы",
+   "name": "CoinUnited"
+  },
+  "webull.com": {
+   "group": "Рассылки, блоги и агрегаторы",
+   "name": "Webull (ленты MT Newswires)"
+  },
+  "finance.yahoo.com": {
+   "group": "Рассылки, блоги и агрегаторы",
+   "name": "Yahoo Finance"
+  },
+  "lovguiden.dk": {
+   "group": "Рассылки, блоги и агрегаторы",
+   "name": "Lovguiden"
+  }
+ },
+ "sections": {
+  "rbc.ru": {
+   "politics": "Политика|https://www.rbc.ru/politics/",
+   "economics": "Экономика|https://www.rbc.ru/economics/",
+   "business": "Бизнес|https://www.rbc.ru/business/",
+   "technology_and_media": "Технологии и медиа|https://www.rbc.ru/technology_and_media/",
+   "quote": "Quote (инвестиции и рынки)|https://www.rbc.ru/quote/",
+   "rbcfreenews": "Лента новостей|https://www.rbc.ru/rbcfreenews/",
+   "society": "Общество|https://www.rbc.ru/society/",
+   "finances": "Финансы|https://www.rbc.ru/finances/"
+  },
+  "amp.rbc.ru": {
+   "rbcnews/politics": "Политика|https://www.rbc.ru/politics/",
+   "rbcnews/economics": "Экономика|https://www.rbc.ru/economics/",
+   "rbcnews/business": "Бизнес|https://www.rbc.ru/business/",
+   "rbcnews/technology_and_media": "Технологии и медиа|https://www.rbc.ru/technology_and_media/",
+   "rbcnews/quote": "Quote (инвестиции и рынки)|https://www.rbc.ru/quote/",
+   "rbcnews/rbcfreenews": "Лента новостей|https://www.rbc.ru/rbcfreenews/"
+  },
+  "realty.rbc.ru": {
+   "news": "Недвижимость|https://realty.rbc.ru/news/"
+  },
+  "ufa.rbc.ru": {
+   "ufa": "РБК Уфа|https://ufa.rbc.ru/"
+  },
+  "interfax.ru": {
+   "russia": "В России",
+   "world": "В мире",
+   "business": "Экономика",
+   "moscow": "Москва",
+   "politics": "Политика"
+  },
+  "index.hu": {
+   "belfold": "Внутренние новости",
+   "gazdasag": "Экономика"
+  },
+  "economx.hu": {
+   "gazdasag": "Экономика",
+   "magyar-gazdasag": "Экономика Венгрии",
+   "belfold": "Внутренние новости"
+  },
+  "telex.hu": {
+   "belfold": "Внутренние новости",
+   "gazdasag": "Экономика",
+   "english": "English"
+  },
+  "zdfheute.de": {
+   "politik/deutschland": "Политика — Германия",
+   "politik": "Политика",
+   "wirtschaft": "Экономика"
+  },
+  "e15.cz": {
+   "vysledky-voleb-a-referend": "Результаты выборов",
+   "byznys/obchod-a-sluzby": "Бизнес — торговля и услуги",
+   "byznys/potraviny": "Бизнес — продукты питания",
+   "byznys": "Бизнес",
+   "domaci/politika": "Внутренняя политика"
+  },
+  "teraz.sk": {
+   "ekonomika": "Экономика",
+   "najnovsie": "Последние новости",
+   "slovensko": "Словакия",
+   "zahranicie": "За рубежом"
+  },
+  "noviny.sk": {
+   "slovensko": "Словакия",
+   "pr-spravy": "PR-сообщения"
+  },
+  "penzcentrum.hu": {
+   "vasarlas": "Покупки",
+   "gazdasag": "Экономика"
+  },
+  "hvg.hu": {
+   "itthon": "Внутренние новости"
+  },
+  "vg.hu": {
+   "vilaggazdasag-magyar-gazdasag": "Экономика Венгрии",
+   "kozelet": "Общественная жизнь"
+  },
+  "cash.ch": {
+   "news/top-news": "Главные новости",
+   "news": "Новости"
+  },
+  "aljazeera.com": {
+   "news": "Новости"
+  },
+  "ceskenoviny.cz": {
+   "zpravy": "Новости"
+  },
+  "new-retail.ru": {
+   "novosti/retail": "Новости — ритейл"
+  },
+  "retail.ru": {
+   "news": "Новости"
+  },
+  "destatis.de": {
+   "DE/Presse": "Пресс-релизы",
+   "DE/Themen": "Темы"
+  },
+  "bundeskanzleramt.gv.at": {
+   "bundeskanzleramt/nachrichten-der-bundesregierung": "Новости правительства"
+  },
+  "bundestag.de": {
+   "dokumente/textarchiv": "Текстовый архив"
+  },
+  "mos.ru": {
+   "mayor/themes": "Мэр Москвы — темы"
+  },
+  "ecb.europa.eu": {
+   "press/pr": "Пресс-релизы",
+   "press/accounts": "Отчёты о заседаниях"
+  },
+  "ksh.hu": {
+   "gyorstajekoztatok": "Оперативная статистика"
+  },
+  "csu.gov.cz": {
+   "rychle-informace": "Оперативная информация"
+  },
+  "statistik.at": {
+   "fileadmin/announcement": "Пресс-релизы"
+  },
+  "ec.europa.eu": {
+   "eurostat": "Eurostat|https://ec.europa.eu/eurostat"
+  },
+  "ots.at": {
+   "presseaussendung": "Пресс-релизы"
+  },
+  "regal.at": {
+   "news": "Новости"
+  },
+  "grocerydive.com": {
+   "news": "Новости"
+  },
+  "lebensmittelpraxis.de": {
+   "handel-aktuell": "Торговля — новости"
+  },
+  "lebensmittelzeitung.net": {
+   "handel": "Торговля",
+   "nachrichten": "Новости"
+  },
+  "leadersnet.at": {
+   "news": "Новости"
+  },
+  "blesk.cz": {
+   "clanek/zpravy-politika": "Новости — политика"
+  },
+  "bundesregierung.de": {
+   "breg-de/aktuelles": "Актуальное"
+  },
+  "ejpd.admin.ch": {
+   "de/newnsb": "Новости"
+  },
+  "sem.admin.ch": {
+   "en/newnsb": "Новости"
+  },
+  "nb.admin.ch": {
+   "en/newnsb": "Новости"
+  },
+  "swisstopo.admin.ch": {
+   "en/newnsb": "Новости"
+  },
+  "uvek.admin.ch": {
+   "de/newnsb": "Новости"
+  },
+  "admin.ch": {
+   "de/newnsb": "Новости"
+  },
+  "parlament.ch": {
+   "press-releases": "Пресс-релизы"
+  },
+  "foxnews.com": {
+   "politics": "Политика"
+  },
+  "pbs.org": {
+   "newshour/politics": "NewsHour — политика"
+  },
+  "srf.ch": {
+   "news/schweiz": "Новости — Швейцария"
+  },
+  "ct24.ceskatelevize.cz": {
+   "clanek/svet": "Мир"
+  },
+  "t-online.de": {
+   "nachrichten/deutschland": "Новости — Германия"
+  },
+  "360.ru": {
+   "news/mir": "Новости — мир"
+  },
+  "pravda.sk": {
+   "spravy/domace": "Новости — Словакия"
+  },
+  "zona.media": {
+   "news": "Новости"
+  },
+  "adanews.ada.org": {
+   "ada-news": "ADA News"
+  },
+  "investing.com": {
+   "news/stock-market-news": "Новости фондового рынка",
+   "news/transcripts": "Стенограммы"
+  },
+  "infostart.hu": {
+   "belfold": "Внутренние новости"
+  },
+  "portfolio.hu": {
+   "gazdasag": "Экономика"
+  },
+  "exxpress.at": {
+   "economy": "Экономика",
+   "news": "Новости"
+  },
+  "nachrichten.at": {
+   "wirtschaft": "Экономика"
+  },
+  "news.at": {
+   "wirtschaft": "Экономика"
+  },
+  "blick.ch": {
+   "wirtschaft": "Экономика"
+  },
+  "tagblatt.ch": {
+   "wirtschaft": "Экономика"
+  },
+  "bilanz.ch": {
+   "unternehmen": "Компании"
+  },
+  "moneycab.com": {
+   "schweiz": "Швейцария"
+  },
+  "tagesspiegel.de": {
+   "politik": "Политика"
+  },
+  "medianet.at": {
+   "news/retail": "Новости — ритейл"
+  },
+  "fashionunited.de": {
+   "nachrichten": "Новости"
+  },
+  "aldi-sued.de": {
+   "newsroom": "Пресс-центр"
+  },
+  "press.aboutamazon.com": {
+   "de": "Пресс-центр (Германия)"
+  },
+  "handelsverband.at": {
+   "presse/presseaussendungen": "Пресс-релизы"
+  },
+  "publikationen.bundesbank.de": {
+   "publikationen-de/berichte-studien": "Отчёты и исследования"
+  },
+  "consilium.europa.eu": {
+   "en/meetings": "Заседания"
+  },
+  "mnb.hu": {
+   "monetaris-politika": "Денежно-кредитная политика"
+  },
+  "cnb.cz": {
+   "cs/verejnost": "Для общественности"
+  },
+  "minneapolisfed.org": {
+   "beige-book-reports": "«Бежевая книга»"
+  },
+  "bea.gov": {
+   "news": "Новости"
+  },
+  "cbo.gov": {
+   "publication": "Публикации"
+  },
+  "iwkoeln.de": {
+   "themen": "Темы"
+  },
+  "ifo.de": {
+   "en/press-release": "Пресс-релизы"
+  },
+  "osw.waw.pl": {
+   "en/publikacje": "Публикации"
+  },
+  "agenceurope.eu": {
+   "en/bulletin": "Бюллетень"
+  },
+  "ftportfolios.com": {
+   "Commentary/EconomicResearch": "Экономические исследования"
+  },
+  "washingtonpost.com": {
+   "national-security": "Национальная безопасность"
+  },
+  "irishtimes.com": {
+   "opinion/editorials": "Редакционные статьи"
+  },
+  "aa.com.tr": {
+   "en/europe": "Европа"
+  },
+  "bernama.com": {
+   "en/world": "Мир",
+   "tv": "Bernama TV"
+  },
+  "nationthailand.com": {
+   "news/world": "Мир",
+   "news": "Новости"
+  },
+  "thestar.com.my": {
+   "news/world": "Мир"
+  },
+  "cp24.com": {
+   "news/world": "Мир"
+  },
+  "bdnews24.com": {
+   "world": "Мир"
+  },
+  "foxbaltimore.com": {
+   "news/nation-world": "Страна и мир"
+  },
+  "inquirer.com": {
+   "news/nation-world": "Страна и мир"
+  },
+  "usnews.com": {
+   "news/business": "Бизнес"
+  },
+  "justthenews.com": {
+   "government": "Власть"
+  },
+  "news4jax.com": {
+   "news/local": "Местные новости"
+  },
+  "wsbtv.com": {
+   "news": "Новости"
+  },
+  "benzinga.com": {
+   "markets": "Рынки"
+  },
+  "simplywall.st": {
+   "stocks/us": "Акции США"
+  },
+  "finance.yahoo.com": {
+   "markets": "Рынки"
+  },
+  "tradingkey.com": {
+   "news/market-movers": "Движение рынка"
+  },
+  "pro.thestreet.com": {
+   "market-commentary": "Комментарии к рынку"
+  },
+  "thestreet.com": {
+   "retail": "Ритейл"
+  },
+  "finanzen.at": {
+   "nachrichten/aktien": "Новости — акции"
+  },
+  "onvista.de": {
+   "news": "Новости"
+  },
+  "boerse-express.com": {
+   "news": "Новости"
+  },
+  "cen.acs.org": {
+   "business/consumer-products": "Бизнес — потребительские товары"
+  },
+  "meduza.io": {
+   "en/news": "Новости (англ.)"
+  },
+  "mentoday.ru": {
+   "life/news": "Новости"
+  },
+  "prufy.ru": {
+   "news": "Новости"
+  },
+  "aif.ru": {
+   "health": "Здоровье"
+  },
+  "bankiros.ru": {
+   "news": "Новости"
+  },
+  "expert.ru": {
+   "news": "Новости"
+  },
+  "asafov.ru": {
+   "news": "Новости"
+  },
+  "vm.ru": {
+   "news": "Новости"
+  },
+  "dental-tribune.com": {
+   "news": "Новости"
+  },
+  "compendiumlive.com": {
+   "news": "Новости"
+  },
+  "agentcos.com": {
+   "news": "Новости"
+  },
+  "gmk.center": {
+   "news": "Новости"
+  },
+  "retaildive.com": {
+   "news": "Новости"
+  },
+  "lupa.cz": {
+   "aktuality": "Новости"
+  },
+  "thehealthy.com": {
+   "news": "Новости"
+  },
+  "cbsnews.com": {
+   "news": "Новости"
+  },
+  "kronehit.at": {
+   "news": "Новости"
+  },
+  "esmmagazine.com": {
+   "retail": "Ритейл"
+  },
+  "indexbox.io": {
+   "blog": "Блог"
+  },
+  "rfj.ch": {
+   "rfj/Actualite": "Новости"
+  },
+  "coinunited.io": {
+   "en/pulse": "Pulse"
+  },
+  "lovguiden.dk": {
+   "en": "English"
+  },
+  "webull.com": {
+   "news": "Новости"
+  },
+  "finance.biggo.com": {
+   "news": "Новости"
+  },
+  "eunews.it": {
+   "en": "English"
+  },
+  "buttondown.com": {
+   "frontpageseu": "Front Pages EU — архив выпусков|https://buttondown.com/frontpageseu/archive/"
+  }
+ },
+ "rg_by_sub": {
+  "power": [
+   "Власть",
+   "https://rg.ru/tema/gos"
+  ],
+  "eco-business": [
+   "Экономика — Бизнес",
+   "https://rg.ru/tema/ekonomika/business"
+  ],
+  "eco-finance": [
+   "Экономика — Финансы",
+   "https://rg.ru/tema/ekonomika/finansy"
+  ],
+  "eco-macro": [
+   "Экономика — Макроэкономика",
+   "https://rg.ru/tema/ekonomika/politekonom"
+  ],
+  "eco-industries": [
+   "Экономика — Отрасли",
+   "https://rg.ru/tema/ekonomika/industria"
+  ],
+  "eco-prices": [
+   "Экономика — Товары и цены",
+   "https://rg.ru/tema/ekonomika/tovary"
+  ],
+  "world": [
+   "В мире",
+   "https://rg.ru/tema/mir"
+  ],
+  "incidents": [
+   "Происшествия",
+   "https://rg.ru/tema/bezopasnost"
+  ]
+ }
+}

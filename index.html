@@ -71,6 +71,28 @@
   .found b{color:var(--ink)}
   mark{background:var(--accent-soft);color:inherit;border-radius:3px;padding:0 1px}
   .tag{color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:0 8px}
+  /* sources */
+  .srcbtn{display:inline-flex;align-items:center;gap:8px;margin-top:22px;font-weight:700;font-size:15px;text-decoration:none;
+    color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 16px;box-shadow:var(--shadow)}
+  .srcbtn:hover{border-color:var(--accent);color:var(--accent)}
+  .gnav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 8px}
+  .gnav a{text-decoration:none;color:var(--ink)}
+  .grp{margin-top:30px;scroll-margin-top:70px}
+  .grp h2{font-size:21px;margin:0 0 2px;letter-spacing:-.01em}
+  .grp .about{color:var(--muted);font-size:14px;margin:0 0 10px}
+  .tbl{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+  table.src{width:100%;border-collapse:collapse;font-size:15px}
+  .src th{text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:700;padding:10px 14px;border-bottom:1px solid var(--line)}
+  .src td{padding:8px 14px;border-top:1px solid var(--line);vertical-align:top}
+  .src tr.first td{border-top:1px solid var(--line)}
+  .src tr.cont td{border-top:1px dashed var(--line)}
+  .src td.site{font-weight:700;min-width:180px}
+  .src td.site a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+  .src td.site small{display:block;font-weight:400;color:var(--muted);font-size:13px}
+  .src td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+  .src td.per{white-space:nowrap;color:var(--muted);font-size:14px}
+  .src th.num{text-align:right}
+  @media (max-width:600px){.src td,.src th{padding:8px 10px}.src td.site{min-width:120px}table.src{font-size:14px}}
   footer{max-width:920px;margin:0 auto;padding:0 18px 40px;font-size:13px;color:var(--muted)}
 </style>
 </head>
@@ -206,7 +228,8 @@ function viewPicker(q){
       </div>
       <button class="go" id="go">Показать новости</button>
       <div class="hint">${days.length ? `Новости есть с ${human(first)} по ${human(last)}.` : 'Архив пока пуст.'}</div>
-    </div>`;
+    </div>
+    <a class="srcbtn" href="#/sources">Новостные источники →</a>`;
   app.querySelectorAll('.chip').forEach(b => b.onclick = () => {
     let a, z = last;
     if (b.dataset.all){ a = first; }
@@ -277,6 +300,54 @@ async function viewNews(from, to, cat, sub, q){
   if (all.length) bindSearch(() => all, {showTag: false, initial: q.get('q') || ''});
 }
 
+/* ---------- страница источников ---------- */
+const shortDate = s => { const d = parse(s); return `${String(d.getUTCDate()).padStart(2,'0')}.${String(d.getUTCMonth()+1).padStart(2,'0')}.${d.getUTCFullYear()}`; };
+const siteWord = n => `${n} ${plural(n,'сайт','сайта','сайтов')}`;
+async function viewSources(q){
+  setPeriodBox();
+  app.innerHTML = '<p class="loading">Загрузка…</p>';
+  let S;
+  try { S = await fetch('data/sources.json?v=' + encodeURIComponent(MANIFEST.updated || Date.now())).then(r => r.json()); }
+  catch(e){ app.innerHTML = '<div class="empty-msg">Список источников пока не сформирован.</div>'; return; }
+  app.innerHTML = `
+    <div class="crumbs"><a href="#/">← Выбор периода</a></div>
+    <h1>Новостные источники</h1>
+    <p class="sub">Сайты и разделы, откуда за всё время брались новости: ${siteWord(S.total_sites)}, ${newsWord(S.total_news)}. Ссылки ведут на сайт или раздел, а не на отдельные новости.</p>
+    <div class="search"><label for="q">Поиск по источникам</label><input type="search" id="q" placeholder="Название сайта, раздела или адрес…" autocomplete="off"></div>
+    <div class="gnav">${S.groups.map((g,k) => `<a class="chip" href="javascript:void(0)" data-g="${k}">${esc(g.name)} · ${g.sites.length}</a>`).join('')}</div>
+    <div id="srcList"></div>`;
+  const render = () => {
+    const words = wordsOf($('#q').value);
+    const hit = (...xs) => { const t = norm(xs.join(' ')); return words.every(w => t.includes(w)); };
+    let html = '', shown = 0;
+    S.groups.forEach((g,k) => {
+      const sites = g.sites.map(s => {
+        if (!words.length || hit(s.name, s.url, g.name)) return s;
+        const secs = s.sections.filter(x => hit(x.name, x.url));
+        return secs.length ? {...s, sections: secs} : null;
+      }).filter(Boolean);
+      if (!sites.length) return;
+      shown += sites.length;
+      html += `<section class="grp" id="g${k}"><h2>${esc(g.name)}</h2><p class="about">${esc(g.about)} · ${siteWord(g.sites.length)}, ${newsWord(g.count)}</p>
+        <div class="tbl"><table class="src"><thead><tr><th>Сайт</th><th>Раздел</th><th class="num">Новостей</th><th>Период</th></tr></thead><tbody>` +
+        sites.map(s => s.sections.map((x,i) => `<tr class="${i ? 'cont' : 'first'}">
+          ${i ? '' : `<td class="site" rowspan="${s.sections.length}"><a href="${esc(s.url)}" target="_blank" rel="noopener">${hl(s.name, words)}</a><small>${hl(s.url.replace(/^https:\/\/|\/$/g,''), words)}</small></td>`}
+          <td><a href="${esc(x.url)}" target="_blank" rel="noopener">${hl(x.name, words)} ↗</a></td>
+          <td class="num">${x.count}</td>
+          <td class="per">${x.first === x.last ? shortDate(x.first) : shortDate(x.first) + ' – ' + shortDate(x.last)}</td></tr>`).join('')).join('') +
+        `</tbody></table></div></section>`;
+    });
+    $('#srcList').innerHTML = html || '<div class="empty-msg">Ничего не найдено.</div>';
+    const hs = location.hash.split('?'), qs = new URLSearchParams(hs[1] || '');
+    words.length ? qs.set('q', $('#q').value.trim()) : qs.delete('q');
+    history.replaceState(null, '', hs[0] + (qs.toString() ? '?' + qs : ''));
+  };
+  app.querySelectorAll('.gnav a').forEach(a => a.onclick = () => { const el = $('#g' + a.dataset.g); if (el) el.scrollIntoView({behavior:'smooth'}); });
+  $('#q').oninput = render;
+  $('#q').value = q.get('q') || '';
+  render();
+}
+
 /* ---------- роутер ---------- */
 async function route(){
   const h = location.hash.replace(/^#\/?/, '');
@@ -284,6 +355,7 @@ async function route(){
   const q = new URLSearchParams(qs || '');
   const p = path.split('/').filter(Boolean);
   window.scrollTo(0,0);
+  if (p[0] === 'sources') return viewSources(q);
   if (p[0] !== 'p' || !/^\d{4}-\d{2}-\d{2}$/.test(p[1]||'') || !/^\d{4}-\d{2}-\d{2}$/.test(p[2]||'')) return viewPicker(q);
   const [, from, to, catId, subId] = p;
   if (!catId) return viewCategories(from, to, q);

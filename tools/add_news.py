@@ -18,6 +18,7 @@ Batch-файл — JSON-массив объектов:
 Хранилище:
     data/days/YYYY-MM-DD.json  — новости за день (по дате новости)
     data/manifest.json         — список дней и число новостей в каждом
+    data/sources.json, SOURCES.md — список источников (обновляется автоматически, см. tools/sources.py)
 
 Повторы отбрасываются: одинаковая ссылка (без utm/якорей) или одинаковый
 заголовок в той же подкатегории.
@@ -143,6 +144,11 @@ def main(paths):
         print(f"  ! {t[:70]} — {e}")
     total = sum(manifest["days"].values())
     print(f"Всего в хранилище: {total} новостей за {len(manifest['days'])} дн.")
+
+    # обновить список источников (data/sources.json и SOURCES.md)
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import sources
+    sources.build()
 
 
 if __name__ == "__main__":
