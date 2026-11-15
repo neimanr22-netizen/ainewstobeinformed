@@ -1,0 +1,2 @@
+f1 200 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 23230 https://dam-api.bfs.admin.ch/hub/api/dam/assets/36251941/master
+f2 200 application/pdf 287593 https://www.dosm.gov.my/portal-main/downloads-log?id=10501
