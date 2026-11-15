@@ -64,7 +64,9 @@
   .loading{color:var(--muted)}
   /* search */
   .search{margin:0 0 20px;max-width:560px}
-  .search input{margin:0}
+  .search input{margin:0;padding-left:40px;border:1.5px solid var(--accent);background:var(--card) no-repeat 13px 50%/18px
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23b4441f' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-4-4'/%3E%3C/svg%3E")}
+  .search label{display:block;font-size:13px;font-weight:700;color:var(--muted);margin-bottom:6px}
   .found{font-size:14px;color:var(--muted);margin:0 0 4px}
   .found b{color:var(--ink)}
   mark{background:var(--accent-soft);color:inherit;border-radius:3px;padding:0 1px}
@@ -123,8 +125,8 @@ function newsHtml(list, words=[], showTag=false){
   return html + (cur ? '</ul>' : '');
 }
 /* поле поиска; ищет только среди getItems() — то есть внутри текущего этапа */
-function searchBlock(placeholder){
-  return `<div class="search"><input type="search" id="q" placeholder="${esc(placeholder)}" autocomplete="off"></div><div id="results" hidden></div>`;
+function searchBlock(placeholder, scope){
+  return `<div class="search"><label for="q">Поиск — ${esc(scope)}</label><input type="search" id="q" placeholder="${esc(placeholder)}" autocomplete="off"></div><div id="results" hidden></div>`;
 }
 function bindSearch(getItems, {showTag=true, browse='#browse', initial=''} = {}){
   const input = $('#q'), res = $('#results'), br = $(browse);
@@ -189,7 +191,7 @@ function viewPicker(q){
   app.innerHTML = `
     <h1>Выберите период</h1>
     <p class="sub">Новости показываются по дате публикации в источнике.</p>
-    ${days.length ? searchBlock('Поиск по всему архиву…') : ''}
+    ${days.length ? searchBlock('Введите слова…', 'по всему архиву') : ''}
     <div class="picker" id="browse">
       <div class="row">
         <label>С даты<input type="date" id="from" value="${from}" max="${today}"></label>
@@ -230,7 +232,7 @@ async function viewCategories(from, to, q){
   app.innerHTML = `
     <h1>Категории</h1>
     <p class="sub">${esc(rangeText(from,to))} · ${newsWord(items.length)}</p>
-    ${searchBlock('Поиск по всем категориям за период…')}
+    ${searchBlock('Введите слова…', 'во всех категориях за выбранный период')}
     <div class="grid" id="browse">${CFG.categories.map(c => {
       const n = cnt[c.id] || 0, s = subsOf(c).length;
       return `<a class="tile ${n?'':'empty'}" href="#/p/${from}/${to}/${c.id}">
@@ -250,7 +252,7 @@ async function viewSubs(from, to, cat, q){
     <h1>${esc(cat.name)}</h1>
     <p class="sub">${esc(rangeText(from,to))} · ${newsWord(items.length)}</p>
     ${cat.note ? `<div class="note">${esc(cat.note)}</div>` : ''}
-    ${searchBlock(`Поиск в категории «${cat.name}»…`)}
+    ${searchBlock('Введите слова…', `только в категории «${cat.name}», по всем подкатегориям`)}
     <div class="grid" id="browse">${subsOf(cat).map(s => {
       const n = cnt[s.id] || 0;
       return `<a class="tile ${n?'':'empty'}" href="#/p/${from}/${to}/${cat.id}/${s.id}"><b>${esc(s.name)}</b><small><span class="n">${n}</span></small></a>`;
@@ -270,7 +272,7 @@ async function viewNews(from, to, cat, sub, q){
     <h1>${esc(name)}</h1>
     <p class="sub">${esc(rangeText(from,to))} · ${newsWord(all.length)}</p>
     ${!sub && cat.note ? `<div class="note">${esc(cat.note)}</div>` : ''}
-    ${all.length ? searchBlock(`Поиск в «${name}»…`) : ''}
+    ${all.length ? searchBlock('Введите слова…', sub ? `только в «${cat.name} › ${sub.name}»` : `только в «${cat.name}»`) : ''}
     <div id="browse">${all.length ? newsHtml(all) : '<div class="empty-msg">За этот период новостей нет.</div>'}</div>`;
   if (all.length) bindSearch(() => all, {showTag: false, initial: q.get('q') || ''});
 }
