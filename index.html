@@ -139,6 +139,35 @@
     .fxf td.hz::after{content:" — "} .fxf td.per{display:block;font-size:13px;margin-top:2px}
     .fxf td.num{white-space:normal}
     .fxtip{white-space:normal;max-width:240px}.fxbig{font-size:30px}}
+  /* макроэкономика */
+  .mwide{display:block;width:100%;text-align:center;font-weight:700;font-size:18px;padding:16px;margin:0 0 14px;border-radius:14px;
+    background:var(--accent);color:#fff;text-decoration:none;box-shadow:var(--shadow)}
+  .mwide:hover{filter:brightness(1.08)}
+  .m3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+  .mbtn{display:flex;align-items:center;justify-content:center;text-align:center;min-height:58px;padding:10px 6px;border-radius:12px;
+    background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);color:var(--ink);text-decoration:none;font-weight:700;font-size:16px;line-height:1.2}
+  .mbtn:hover{border-color:var(--accent);color:var(--accent)}
+  @media (max-width:420px){.mbtn{font-size:14px;min-height:52px}}
+  .msecs{margin-top:26px;display:flex;flex-direction:column;gap:12px}
+  .msec{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+  .msec>summary{cursor:pointer;list-style:none;padding:16px 18px;font-size:20px;font-weight:800;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
+  .msec>summary::-webkit-details-marker{display:none}
+  .msec>summary::before{content:"▸";color:var(--accent);transition:transform .15s}
+  .msec[open]>summary::before{transform:rotate(90deg)}
+  .mbody{padding:0 14px 16px}
+  .mh3{font-size:16px;margin:14px 4px 8px}
+  .mt td.num,.mt th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+  .mwrap{max-width:100%}
+  .myears th.rh{position:sticky;left:0;background:var(--card);z-index:1;text-align:left;min-width:190px;font-size:14px;text-transform:none;letter-spacing:0;color:var(--ink);border-top:1px solid var(--line);padding:8px 12px}
+  .myears thead th.rh{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.05em}
+  .myears td.est{color:var(--muted)}
+  .msrc{font-size:13px;color:var(--muted);margin:10px 4px 0}
+  .msrc ul{margin:4px 0 0;padding-left:18px}
+  .msrc li{margin:2px 0}
+  .msw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:0}
+  .mleg{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px;padding:0 8px 6px}
+  .mcc.on{font-weight:700}
+  #mSrc{margin-top:6px}
   footer{max-width:920px;margin:0 auto;padding:0 18px 40px;font-size:13px;color:var(--muted)}
 </style>
 </head>
@@ -401,7 +430,7 @@ const STATS = [
   {id:'news',      name:'Новости',                    about:'Новости по периодам, категориям и странам'},
   {id:'reports',   name:'Отчеты компаний и рынков',   about:''},
   {id:'fx',        name:'Курсы валют',                about:'USD/RUB, EUR/RUB, EUR/USD: курсы, прогнозы, графики'},
-  {id:'macro',     name:'Макроэкономика',             about:''},
+  {id:'macro',     name:'Макроэкономика',             about:'ВВП, инфляция, ставки, безработица, регионы — 28 стран и ЕС'},
   {id:'prices',    name:'Цены',                       about:''},
   {id:'articles',  name:'Интересные статьи',          about:''}
 ];
@@ -452,6 +481,11 @@ async function route(){
     const s = STATS.find(x => x.id === p[1]);
     if (!s || s.id === 'news'){ location.replace('#/stats'); return; }
     if (s.id === 'fx') return viewFx(q);
+    if (s.id === 'macro'){
+      if (p[2] === 'compare') return viewMacroCompare(q);
+      if (p[2]) return viewMacroCountry(p[2], q);
+      return viewMacro();
+    }
     return viewSoon(s.name, '<a href="#/">Главная</a> / <a href="#/stats">Статистика</a>');
   }
   if (p[0] !== 'news') return viewHome();
@@ -475,5 +509,6 @@ loadBase().then(() => { window.addEventListener('hashchange', route); route(); }
   .catch(e => app.innerHTML = `<div class="empty-msg">Не удалось загрузить данные: ${esc(e.message)}</div>`);
 </script>
 <script src="fx.js?v=2"></script>
+<script src="macro.js?v=1"></script>
 </body>
 </html>
