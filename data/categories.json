@@ -5,12 +5,30 @@
       "name": "РБК",
       "note": "Новости с сайта rbc.ru, только бесплатные материалы (без РБК Pro и других материалов по подписке).",
       "subs": [
-        {"id": "politics", "name": "Политика"},
-        {"id": "economics", "name": "Экономика"},
-        {"id": "business", "name": "Бизнес"},
-        {"id": "research", "name": "Исследования"},
-        {"id": "trends", "name": "Тренды"},
-        {"id": "city", "name": "Город"}
+        {
+          "id": "politics",
+          "name": "Политика"
+        },
+        {
+          "id": "economics",
+          "name": "Экономика"
+        },
+        {
+          "id": "business",
+          "name": "Бизнес"
+        },
+        {
+          "id": "research",
+          "name": "Исследования"
+        },
+        {
+          "id": "trends",
+          "name": "Тренды"
+        },
+        {
+          "id": "city",
+          "name": "Город"
+        }
       ]
     },
     {
@@ -18,19 +36,55 @@
       "name": "RG RU",
       "note": "Новости с сайта rg.ru («Российская газета»).",
       "subs": [
-        {"id": "power", "name": "Власть"},
-        {"id": "eco-business", "name": "Экономика — Бизнес"},
-        {"id": "eco-finance", "name": "Экономика — Финансы"},
-        {"id": "eco-macro", "name": "Экономика — Макроэкономика"},
-        {"id": "eco-industries", "name": "Экономика — Отрасли"},
-        {"id": "eco-prices", "name": "Экономика — Товары и цены"},
-        {"id": "world", "name": "В мире"},
-        {"id": "incidents", "name": "Происшествия"}
+        {
+          "id": "power",
+          "name": "Власть"
+        },
+        {
+          "id": "eco-business",
+          "name": "Экономика — Бизнес"
+        },
+        {
+          "id": "eco-finance",
+          "name": "Экономика — Финансы"
+        },
+        {
+          "id": "eco-macro",
+          "name": "Экономика — Макроэкономика"
+        },
+        {
+          "id": "eco-industries",
+          "name": "Экономика — Отрасли"
+        },
+        {
+          "id": "eco-prices",
+          "name": "Экономика — Товары и цены"
+        },
+        {
+          "id": "world",
+          "name": "В мире"
+        },
+        {
+          "id": "incidents",
+          "name": "Происшествия"
+        }
       ]
     },
-    {"id": "world", "name": "Общие Мира", "subs": []},
-    {"id": "russia", "name": "Общие РФ", "subs": []},
-    {"id": "moscow", "name": "Новости Москвы", "subs": []},
+    {
+      "id": "world",
+      "name": "Общие Мира",
+      "subs": []
+    },
+    {
+      "id": "russia",
+      "name": "Общие РФ",
+      "subs": []
+    },
+    {
+      "id": "moscow",
+      "name": "Новости Москвы",
+      "subs": []
+    },
     {
       "id": "politics",
       "name": "Политика стран",
@@ -50,17 +104,86 @@
       "id": "oralcare",
       "name": "Oral care",
       "subs": "countries"
+    },
+    {
+      "id": "chains",
+      "name": "Компании-Сети",
+      "note": "Новости торговых сетей дрогери и дискаунтеров: dm, Rossmann, Lidl.",
+      "subs": [
+        {
+          "id": "dm",
+          "name": "dm"
+        },
+        {
+          "id": "rossmann",
+          "name": "Rossmann"
+        },
+        {
+          "id": "lidl",
+          "name": "Lidl"
+        }
+      ]
+    },
+    {
+      "id": "brands",
+      "name": "Компании-Бренды",
+      "note": "Новости брендов средств ухода за полостью рта.",
+      "subs": [
+        {
+          "id": "splat",
+          "name": "SPLAT"
+        },
+        {
+          "id": "biomed",
+          "name": "Biomed"
+        },
+        {
+          "id": "elmex",
+          "name": "Elmex"
+        },
+        {
+          "id": "sensodyne",
+          "name": "Sensodyne"
+        }
+      ]
     }
   ],
   "countries": [
-    {"id": "ru", "name": "Россия"},
-    {"id": "us", "name": "США"},
-    {"id": "eu", "name": "ЕС"},
-    {"id": "de", "name": "Германия"},
-    {"id": "at", "name": "Австрия"},
-    {"id": "ch", "name": "Швейцария"},
-    {"id": "cz", "name": "Чехия"},
-    {"id": "sk", "name": "Словакия"},
-    {"id": "hu", "name": "Венгрия"}
+    {
+      "id": "ru",
+      "name": "Россия"
+    },
+    {
+      "id": "us",
+      "name": "США"
+    },
+    {
+      "id": "eu",
+      "name": "ЕС"
+    },
+    {
+      "id": "de",
+      "name": "Германия"
+    },
+    {
+      "id": "at",
+      "name": "Австрия"
+    },
+    {
+      "id": "ch",
+      "name": "Швейцария"
+    },
+    {
+      "id": "cz",
+      "name": "Чехия"
+    },
+    {
+      "id": "sk",
+      "name": "Словакия"
+    },
+    {
+      "id": "hu",
+      "name": "Венгрия"
+    }
   ]
 }
