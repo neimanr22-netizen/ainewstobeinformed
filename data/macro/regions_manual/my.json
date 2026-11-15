@@ -1,0 +1,177 @@
+{
+ "level": "Штаты и федеральные территории (16)",
+ "currency_nat": "MYR",
+ "rows": [
+  {
+   "code": "Selangor",
+   "name": "Селангор",
+   "pop": 7454200,
+   "pop_y": 2026,
+   "dens": 894.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 70362,
+   "gdp_y": 2025
+  },
+  {
+   "code": "Johor",
+   "name": "Джохор",
+   "pop": 4224300,
+   "pop_y": 2026,
+   "dens": 219.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 48031,
+   "gdp_y": 2025
+  },
+  {
+   "code": "Sabah",
+   "name": "Сабах",
+   "pop": 3767000,
+   "pop_y": 2026,
+   "dens": 51.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 31125,
+   "gdp_y": 2025
+  },
+  {
+   "code": "Perak",
+   "name": "Перак",
+   "pop": 2577800,
+   "pop_y": 2026,
+   "dens": 121.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 41960,
+   "gdp_y": 2025
+  },
+  {
+   "code": "Sarawak",
+   "name": "Саравак",
+   "pop": 2539800,
+   "pop_y": 2026,
+   "dens": 20.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 73757,
+   "gdp_y": 2025
+  },
+  {
+   "code": "Kedah",
+   "name": "Кедах",
+   "pop": 2237400,
+   "pop_y": 2026,
+   "dens": 233.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 28537,
+   "gdp_y": 2025
+  },
+  {
+   "code": "W.P. Kuala Lumpur",
+   "name": "Куала-Лумпур (фед. территория)",
+   "pop": 2082300,
+   "pop_y": 2026,
+   "dens": 8574.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 144898,
+   "gdp_y": 2025
+  },
+  {
+   "code": "Kelantan",
+   "name": "Келантан",
+   "pop": 1925300,
+   "pop_y": 2026,
+   "dens": 128.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 18085,
+   "gdp_y": 2025
+  },
+  {
+   "code": "Pulau Pinang",
+   "name": "Пенанг",
+   "pop": 1808300,
+   "pop_y": 2026,
+   "dens": 1562.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 80584,
+   "gdp_y": 2025
+  },
+  {
+   "code": "Pahang",
+   "name": "Паханг",
+   "pop": 1686200,
+   "pop_y": 2026,
+   "dens": 47.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 52014,
+   "gdp_y": 2025
+  },
+  {
+   "code": "Terengganu",
+   "name": "Тренгану",
+   "pop": 1261000,
+   "pop_y": 2026,
+   "dens": 97.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 32657,
+   "gdp_y": 2025
+  },
+  {
+   "code": "Negeri Sembilan",
+   "name": "Негри-Сембилан",
+   "pop": 1248500,
+   "pop_y": 2026,
+   "dens": 187.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 55406,
+   "gdp_y": 2025
+  },
+  {
+   "code": "Melaka",
+   "name": "Малакка",
+   "pop": 1057400,
+   "pop_y": 2026,
+   "dens": 625.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 55580,
+   "gdp_y": 2025
+  },
+  {
+   "code": "Perlis",
+   "name": "Перлис",
+   "pop": 297300,
+   "pop_y": 2026,
+   "dens": 345.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 25089,
+   "gdp_y": 2025
+  },
+  {
+   "code": "W.P. Putrajaya",
+   "name": "Путраджая (фед. территория)",
+   "pop": 121300,
+   "pop_y": 2026,
+   "dens": 2466.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 126359,
+   "gdp_y": 2025
+  },
+  {
+   "code": "W.P. Labuan",
+   "name": "Лабуан (фед. территория)",
+   "pop": 101100,
+   "pop_y": 2026,
+   "dens": 873.0,
+   "dens_y": 2026,
+   "gdp_pc_nat": 88764,
+   "gdp_y": 2025
+  }
+ ],
+ "note": "Население и плотность — оценка на середину 2026 г. (предварительно); ВВП штатов на душу населения — 2025 г. в текущих ценах, пересчитан из ринггитов в евро по среднегодовому курсу ЕЦБ.",
+ "sources": [
+  [
+   "Департамент статистики Малайзии (DOSM): Current Population Estimates, Malaysia, 2026 — основные показатели населения по штатам",
+   "https://www.dosm.gov.my/uploads/release-content/file_20260730111137.pdf"
+  ],
+  [
+   "Департамент статистики Малайзии (DOSM): GDP by State 2025, табл. 1 «ВВП на душу населения по штатам»",
+   "https://www.dosm.gov.my/portal-main/release-content/gross-domestic-product-gdp-by-state-2025"
+  ]
+ ]
+}

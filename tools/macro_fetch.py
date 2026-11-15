@@ -472,7 +472,7 @@ def ph_regions():
         if not re.match(r'^\d{2}0{8}$', code) or code == '0000000000':
             continue
         par = x['Parameter'][1]
-        pop.setdefault(code, {})['pop' if 'Population' in par else 'area'] = x['value']
+        pop.setdefault(code, {}).setdefault('pop' if 'Population' in par else 'area', x['value'])
     log('PSA: регионов с населением', len(pop), '; с ВРП', len(gdp), gy, '; без названия:', [c for c in pop if c not in names])
     if not gdp:
         return None
@@ -501,11 +501,12 @@ def ch_patch(reg):
     if not m:
         log('BFS: ссылка на таблицу не найдена'); return
     x = get(m.group(0))
-    import openpyxl
-    ws = openpyxl.load_workbook(io.BytesIO(x.content), data_only=True).worksheets[0]
-    rows = list(ws.iter_rows(values_only=True))
+    from python_calamine import CalamineWorkbook
+    wb_ = CalamineWorkbook.from_filelike(io.BytesIO(x.content))
+    rows = [tuple(r) for r in wb_.get_sheet_by_index(0).to_python()]
     hdr = next(r for r in rows if r and r[0] == 'Canton')
-    years = [(i, int(str(v).rstrip('p'))) for i, v in enumerate(hdr) if v and str(v).rstrip('p').isdigit()]
+    rows = [tuple(None if v == '' else v for v in r) for r in rows]; hdr = tuple(None if v == '' else v for v in hdr)
+    years = [(i, int(str(v).rstrip('p').split('.')[0])) for i, v in enumerate(hdr) if v and str(v).rstrip('p').split('.')[0].isdigit()]
     i, y = years[-1]
     vals = {}
     for r in rows[rows.index(hdr) + 1:]:
