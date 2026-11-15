@@ -157,7 +157,7 @@ function bindSearch(getItems, {showTag=true, browse='#browse', initial=''} = {})
     const q = input.value, words = wordsOf(q), my = ++seq;
     const hs = location.hash.split('?'), qs = new URLSearchParams(hs[1] || '');
     q.trim() ? qs.set('q', q.trim()) : qs.delete('q');
-    history.replaceState(null, '', (hs[0] || '#/') + (qs.toString() ? '?' + qs : ''));
+    history.replaceState(null, '', (hs[0] || '#/news') + (qs.toString() ? '?' + qs : ''));
     if (!words.length){ res.hidden = true; res.innerHTML = ''; if (br) br.hidden = false; return; }
     if (br) br.hidden = true; res.hidden = false;
     if (!pending){ res.innerHTML = '<p class="loading">Ищу…</p>'; pending = Promise.resolve(getItems()); }
@@ -198,7 +198,7 @@ function setPeriodBox(from, to){
   const box = $('#periodBox');
   if (!from){ box.innerHTML=''; return; }
   box.innerHTML = `<span>${esc(rangeText(from,to))}</span><button id="chg">Изменить</button>`;
-  $('#chg').onclick = () => location.hash = `#/?from=${from}&to=${to}`;
+  $('#chg').onclick = () => location.hash = `#/news?from=${from}&to=${to}`;
 }
 
 /* ---------- экран 1: выбор периода ---------- */
@@ -211,7 +211,8 @@ function viewPicker(q){
   const to = q.get('to') || last;
   const today = iso(new Date());
   app.innerHTML = `
-    <h1>Выберите период</h1>
+    <div class="crumbs"><a href="#/">Главная</a> / <a href="#/stats">Статистика</a></div>
+    <h1>Новости: выберите период</h1>
     <p class="sub">Новости показываются по дате публикации в источнике.</p>
     ${days.length ? searchBlock('Введите слова…', 'по всему архиву') : ''}
     <div class="picker" id="browse">
@@ -229,7 +230,7 @@ function viewPicker(q){
       <button class="go" id="go">Показать новости</button>
       <div class="hint">${days.length ? `Новости есть с ${human(first)} по ${human(last)}.` : 'Архив пока пуст.'}</div>
     </div>
-    <a class="srcbtn" href="#/sources">Новостные источники →</a>`;
+    <a class="srcbtn" href="#/news/sources">Новостные источники →</a>`;
   app.querySelectorAll('.chip').forEach(b => b.onclick = () => {
     let a, z = last;
     if (b.dataset.all){ a = first; }
@@ -241,7 +242,7 @@ function viewPicker(q){
     let a = $('#from').value, z = $('#to').value;
     if (!a || !z) return;
     if (a > z) [a, z] = [z, a];
-    location.hash = `#/p/${a}/${z}`;
+    location.hash = `#/news/p/${a}/${z}`;
   };
   if (days.length) bindSearch(() => loadRange(first, last), {initial: q.get('q') || ''});
 }
@@ -253,12 +254,13 @@ async function viewCategories(from, to, q){
   const items = await loadRange(from, to);
   const cnt = {}; items.forEach(i => cnt[i.cat] = (cnt[i.cat]||0) + 1);
   app.innerHTML = `
+    <div class="crumbs"><a href="#/stats">Статистика</a> / <a href="#/news">Новости</a></div>
     <h1>Категории</h1>
     <p class="sub">${esc(rangeText(from,to))} · ${newsWord(items.length)}</p>
     ${searchBlock('Введите слова…', 'во всех категориях за выбранный период')}
     <div class="grid" id="browse">${CFG.categories.map(c => {
       const n = cnt[c.id] || 0, s = subsOf(c).length;
-      return `<a class="tile ${n?'':'empty'}" href="#/p/${from}/${to}/${c.id}">
+      return `<a class="tile ${n?'':'empty'}" href="#/news/p/${from}/${to}/${c.id}">
         <b>${esc(c.name)}</b>
         <small><span class="n">${n}</span> ${s ? '· ' + s + ' ' + plural(s,'подкатегория','подкатегории','подкатегорий') : ''}</small></a>`;
     }).join('')}</div>`;
@@ -271,14 +273,14 @@ async function viewSubs(from, to, cat, q){
   const items = (await loadRange(from, to)).filter(i => i.cat === cat.id);
   const cnt = {}; items.forEach(i => cnt[i.sub] = (cnt[i.sub]||0) + 1);
   app.innerHTML = `
-    <div class="crumbs"><a href="#/p/${from}/${to}">Категории</a></div>
+    <div class="crumbs"><a href="#/news/p/${from}/${to}">Категории</a></div>
     <h1>${esc(cat.name)}</h1>
     <p class="sub">${esc(rangeText(from,to))} · ${newsWord(items.length)}</p>
     ${cat.note ? `<div class="note">${esc(cat.note)}</div>` : ''}
     ${searchBlock('Введите слова…', `только в категории «${cat.name}», по всем подкатегориям`)}
     <div class="grid" id="browse">${subsOf(cat).map(s => {
       const n = cnt[s.id] || 0;
-      return `<a class="tile ${n?'':'empty'}" href="#/p/${from}/${to}/${cat.id}/${s.id}"><b>${esc(s.name)}</b><small><span class="n">${n}</span></small></a>`;
+      return `<a class="tile ${n?'':'empty'}" href="#/news/p/${from}/${to}/${cat.id}/${s.id}"><b>${esc(s.name)}</b><small><span class="n">${n}</span></small></a>`;
     }).join('')}</div>`;
   bindSearch(() => items, {initial: q.get('q') || ''});
 }
@@ -287,8 +289,8 @@ async function viewSubs(from, to, cat, q){
 async function viewNews(from, to, cat, sub, q){
   setPeriodBox(from, to);
   const all = (await loadRange(from, to)).filter(i => i.cat === cat.id && (!sub || i.sub === sub.id));
-  const crumbs = `<a href="#/p/${from}/${to}">Категории</a>` +
-    (sub ? ` / <a href="#/p/${from}/${to}/${cat.id}">${esc(cat.name)}</a>` : '');
+  const crumbs = `<a href="#/news/p/${from}/${to}">Категории</a>` +
+    (sub ? ` / <a href="#/news/p/${from}/${to}/${cat.id}">${esc(cat.name)}</a>` : '');
   const name = sub ? sub.name : cat.name;
   app.innerHTML = `
     <div class="crumbs">${crumbs}</div>
@@ -310,7 +312,7 @@ async function viewSources(q){
   try { S = await fetch('data/sources.json?v=' + encodeURIComponent(MANIFEST.updated || Date.now())).then(r => r.json()); }
   catch(e){ app.innerHTML = '<div class="empty-msg">Список источников пока не сформирован.</div>'; return; }
   app.innerHTML = `
-    <div class="crumbs"><a href="#/">← Выбор периода</a></div>
+    <div class="crumbs"><a href="#/news">← Выбор периода</a></div>
     <h1>Новостные источники</h1>
     <p class="sub">Сайты и разделы, откуда за всё время брались новости: ${siteWord(S.total_sites)}, ${newsWord(S.total_news)}. Ссылки ведут на сайт или раздел, а не на отдельные новости.</p>
     <div class="search"><label for="q">Поиск по источникам</label><input type="search" id="q" placeholder="Название сайта, раздела или адрес…" autocomplete="off"></div>
@@ -348,6 +350,43 @@ async function viewSources(q){
   render();
 }
 
+/* ---------- верхние разделы сайта ---------- */
+const STATS = [
+  {id:'news',      name:'Новости',                    about:'Новости по периодам, категориям и странам'},
+  {id:'reports',   name:'Отчеты компаний и рынков',   about:''},
+  {id:'fx',        name:'Курсы валют',                about:''},
+  {id:'macro',     name:'Макроэкономика',             about:''},
+  {id:'prices',    name:'Цены',                       about:''},
+  {id:'articles',  name:'Интересные статьи',          about:''}
+];
+const tileLink = (href, name, about) =>
+  `<a class="tile" href="${href}"><b>${esc(name)}</b>${about ? `<small>${esc(about)}</small>` : '<small>&nbsp;</small>'}</a>`;
+function viewHome(){
+  setPeriodBox();
+  app.innerHTML = `
+    <h1>Выберите раздел</h1>
+    <p class="sub">&nbsp;</p>
+    <div class="grid">
+      ${tileLink('#/stats', 'Статистика', 'Новости, отчеты, курсы валют, макроэкономика, цены, статьи')}
+      ${tileLink('#/analytics', 'Аналитика', '')}
+    </div>`;
+}
+function viewStats(){
+  setPeriodBox();
+  app.innerHTML = `
+    <div class="crumbs"><a href="#/">Главная</a></div>
+    <h1>Статистика</h1>
+    <p class="sub">Выберите раздел.</p>
+    <div class="grid">${STATS.map(x => tileLink(x.id === 'news' ? '#/news' : '#/stats/' + x.id, x.name, x.about)).join('')}</div>`;
+}
+function viewSoon(title, crumbs){
+  setPeriodBox();
+  app.innerHTML = `
+    <div class="crumbs">${crumbs}</div>
+    <h1>${esc(title)}</h1>
+    <div class="empty-msg">Информация появится позже</div>`;
+}
+
 /* ---------- роутер ---------- */
 async function route(){
   const h = location.hash.replace(/^#\/?/, '');
@@ -355,6 +394,24 @@ async function route(){
   const q = new URLSearchParams(qs || '');
   const p = path.split('/').filter(Boolean);
   window.scrollTo(0,0);
+  /* старые адреса (#/p/..., #/sources, #/?from=) — раздел «Новости» */
+  if (p[0] === 'p' || p[0] === 'sources' || (!p.length && (q.has('from') || q.has('q')))){
+    location.replace('#/news/' + path.replace(/^\/+/, '') + (qs ? '?' + qs : '')); return;
+  }
+  $('#foot').hidden = p[0] !== 'news';
+  if (!p.length) return viewHome();
+  if (p[0] === 'analytics') return viewSoon('Аналитика', '<a href="#/">Главная</a>');
+  if (p[0] === 'stats'){
+    if (!p[1]) return viewStats();
+    const s = STATS.find(x => x.id === p[1]);
+    if (!s || s.id === 'news'){ location.replace('#/stats'); return; }
+    return viewSoon(s.name, '<a href="#/">Главная</a> / <a href="#/stats">Статистика</a>');
+  }
+  if (p[0] !== 'news') return viewHome();
+  return routeNews(p.slice(1), q);
+}
+/* раздел «Новости» (бывшая главная страница) */
+function routeNews(p, q){
   if (p[0] === 'sources') return viewSources(q);
   if (p[0] !== 'p' || !/^\d{4}-\d{2}-\d{2}$/.test(p[1]||'') || !/^\d{4}-\d{2}-\d{2}$/.test(p[2]||'')) return viewPicker(q);
   const [, from, to, catId, subId] = p;
