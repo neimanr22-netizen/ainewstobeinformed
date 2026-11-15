@@ -1,7 +1,7 @@
 /* Раздел «Статистика → Курсы валют» (#/stats/fx).
    Данные: data/fx/<PAIR>.csv (Investing.com, дневные закрытия), data/fx/manifest.json,
-   data/fx/forecasts.json (прогнозы аналитиков). Кнопка «Обновить» берёт свежие курсы
-   из открытых источников в интернете (рынок + ЦБ РФ) и перечитывает файлы с сервера. */
+   data/fx/forecasts.json (прогнозы аналитиков). При открытии страницы автоматически подгружаются
+   свежие курсы из открытых источников в интернете (рынок + ЦБ РФ). */
 (() => {
 const PAIRS = ['USDRUB', 'EURRUB', 'EURUSD'];
 const CUR = {USD: 'Доллар США (USD)', EUR: 'Евро (EUR)', RUB: 'Рубль (RUB)'};
@@ -186,8 +186,7 @@ async function viewFx(q){
   app.innerHTML = `
     <div class="crumbs"><a href="#/">Главная</a> / <a href="#/stats">Статистика</a></div>
     <h1>Курсы валют</h1>
-    <div class="fxhead"><p class="sub" id="fxStatus">Последние закрытия по данным Investing.com.</p>
-      <button class="chip fxbtn" id="fxUpd">↻ Обновить</button></div>
+    <div class="fxhead"><p class="sub" id="fxStatus">Последние закрытия по данным Investing.com.</p></div>
     <div class="fxcards" id="fxCards">${cardsHtml()}</div>
     <h2 class="fxh2">Прогнозы аналитиков: USD/RUB</h2>
     <div id="fxFc">${forecastsHtml()}</div>
@@ -252,9 +251,7 @@ async function viewFx(q){
   render();
 
   const update = async () => {
-    const btn = $('#fxUpd'); if (!btn) return;
-    btn.disabled = true; btn.textContent = 'Обновляю…';
-    try { await loadFiles(true); } catch (e) {}
+    if (!$('#fxCards')) return;
     const [live, cbr] = await Promise.all([loadLive(), loadCbr()]);
     if (!$('#fxCards')) return;
     FX.live = live; FX.cbr = cbr;
@@ -262,11 +259,9 @@ async function viewFx(q){
     $('#fxFc').innerHTML = forecastsHtml();
     const t = new Date().toLocaleTimeString('ru-RU', {hour: '2-digit', minute: '2-digit'});
     $('#fxStatus').textContent = live || cbr
-      ? `Обновлено в ${t}: онлайн-курсы${live ? '' : ' (рыночные недоступны)'}${cbr ? ' и официальные курсы ЦБ РФ' : ''}, архив и прогнозы перечитаны.`
+      ? `Обновлено в ${t}: онлайн-курсы${live ? '' : ' (рыночные недоступны)'}${cbr ? ' и официальные курсы ЦБ РФ' : ''}.`
       : `Обновлено в ${t}: онлайн-источники не ответили, показаны последние закрытия Investing.com.`;
-    btn.disabled = false; btn.textContent = '↻ Обновить';
   };
-  $('#fxUpd').onclick = update;
   update();
 }
 window.viewFx = viewFx;
