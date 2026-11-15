@@ -1,0 +1,6 @@
+f1 200 text/html; charset=UTF-8 809792 https://rosstat.gov.ru/statistics/accounts
+f2 404 text/html; charset=UTF-8 682001 https://rosstat.gov.ru/storage/mediabank/VRP_s_1998.xlsx
+f3 200 text/html; charset=UTF-8 796700 https://rosstat.gov.ru/folder/210/document/13204
+f4 404 text/html; charset=UTF-8 682001 https://rosstat.gov.ru/storage/mediabank/Region_Pokaz_2025.rar
+f5 200 application/json; charset=utf-8 778 https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB/1A/PO_2024/0221A6DLPD0.px
+f6 200 application/json; charset=utf-8 2993 https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB/2B/GP/RG
