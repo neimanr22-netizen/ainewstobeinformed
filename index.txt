@@ -1,0 +1,4 @@
+f1 200 application/json 226 https://archive.org/wayback/available?url=https://www.bps.go.id/en/statistics-table/3/YWtoQlRVZzNiMU5qU1VOSlRFeFZiRTR4VDJOTVVUMDkjMw==/produk-domestik-regional-bruto-per-kapita-atas-dasar-harga-berlaku-menurut-provinsi--ribu-rupiah
+f2 404 text/html 4902 https://web.archive.org/web/2026id_/https://www.bps.go.id/en/statistics-table/3/YWtoQlRVZzNiMU5qU1VOSlRFeFZiRTR4VDJOTVVUMDkjMw==/produk-domestik-regional-bruto-per-kapita-atas-dasar-harga-berlaku-menurut-provinsi--ribu-rupiah
+f3 400 application/json; charset=utf-8 63 https://webapi.bps.go.id/v1/api/list/model/data/lang/eng/domain/0000/var/1975/key/
+f4 403 text/html; charset=UTF-8 5885 https://www.bps.go.id/id/statistics-table/2/MTk3NSMy/jumlah-penduduk-menurut-provinsi-di-indonesia--ribu-jiwa-.html
