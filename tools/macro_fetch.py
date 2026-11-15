@@ -287,7 +287,10 @@ def regions_for(c, P, D, G, labels):
         return None
     rows.sort(key=lambda r: -(r['pop'] or 0))
     years = lambda k: sorted({r[k] for r in rows if r[k]})
-    return {'level': title, 'currency': 'EUR', 'rows': rows,
+    note = None
+    if c['id'] == 'no':
+        note = 'Норвегия изменила деление на губернии (фюльке) с 1 января 2024 г.; плотность и ВРП по новым регионам Евростат пока не публикует.'
+    return {'level': title, 'currency': 'EUR', 'rows': rows, **({'note': note} if note else {}),
             'years': {'pop': years('pop_y'), 'dens': years('dens_y'), 'gdp': years('gdp_y')},
             'sources': [
                 ['Евростат: население регионов на 1 января (demo_r_pjanaggr3)', 'https://ec.europa.eu/eurostat/databrowser/view/demo_r_pjanaggr3/default/table'],
@@ -485,6 +488,41 @@ def ph_regions():
         'sources': [['Статистическое управление Филиппин (PSA): население, площадь и плотность по регионам, перепись 2024', 'https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__1A__PO_2024/0221A6DLPD0.px/'],
                     ['Статистическое управление Филиппин (PSA): ВРП на душу населения по регионам', 'https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__GP__RG__PCI/0772B5BPCP1.px/']]})
 
+CH_NUTS = {'Vaud': 'CH011', 'Valais': 'CH012', 'Geneva': 'CH013', 'Berne': 'CH021', 'Fribourg': 'CH022', 'Solothurn': 'CH023',
+           'Neuchâtel': 'CH024', 'Jura': 'CH025', 'Basel-Stadt': 'CH031', 'Basel-Landschaft': 'CH032', 'Aargau': 'CH033', 'Zurich': 'CH040',
+           'Glarus': 'CH051', 'Schaffhausen': 'CH052', 'Appenzell A. Rh.': 'CH053', 'Appenzell I. Rh.': 'CH054', 'St. Gallen': 'CH055',
+           'Graubünden': 'CH056', 'Thurgau': 'CH057', 'Lucerne': 'CH061', 'Uri': 'CH062', 'Schwyz': 'CH063', 'Obwalden': 'CH064',
+           'Nidwalden': 'CH065', 'Zug': 'CH066', 'Ticino': 'CH070'}
+def ch_patch(reg):
+    """ВВП кантонов на душу (BFS, CHF) — в Евростате его нет."""
+    page = 'https://www.bfs.admin.ch/asset/en/je-e-04.02.06.03'
+    r = get(page)
+    m = r and re.search(r'https://dam-api\.bfs\.admin\.ch/hub/api/dam/assets/\d+/master', r.text)
+    if not m:
+        log('BFS: ссылка на таблицу не найдена'); return
+    x = get(m.group(0))
+    import openpyxl
+    ws = openpyxl.load_workbook(io.BytesIO(x.content), data_only=True).worksheets[0]
+    rows = list(ws.iter_rows(values_only=True))
+    hdr = next(r for r in rows if r and r[0] == 'Canton')
+    years = [(i, int(str(v).rstrip('p'))) for i, v in enumerate(hdr) if v and str(v).rstrip('p').isdigit()]
+    i, y = years[-1]
+    vals = {}
+    for r in rows[rows.index(hdr) + 1:]:
+        if not r or r[0] is None: break
+        if r[0] in CH_NUTS and isinstance(r[i], (int, float)):
+            vals[CH_NUTS[r[0]]] = r[i]
+    fx = ecb_annual('CHF')
+    n = 0
+    for row in reg['rows']:
+        if row['code'] in vals and y in fx:
+            row['gdp_pc'] = vals[row['code']] / fx[y]; row['gdp_y'] = y; n += 1
+    reg['years']['gdp'] = [y]
+    reg['sources'] += [['Федеральное статистическое управление Швейцарии (BFS): ВВП кантонов на душу населения, CHF', page],
+                       ['ЕЦБ: среднегодовой курс CHF/EUR (для пересчёта в евро)', 'https://data.ecb.europa.eu/data/datasets/EXR/EXR.A.CHF.EUR.SP00.A']]
+    reg['note'] = f'ВВП кантонов на душу — данные BFS за {y} г. (предварительные), пересчитаны из франков в евро по среднегодовому курсу ЕЦБ.'
+    log(f'BFS: ВВП на душу для {n} кантонов, {y}')
+
 def manual_regions(cid):
     p = os.path.join(OUT, 'regions_manual', cid + '.json')
     if os.path.exists(p):
@@ -622,6 +660,9 @@ def main():
             except Exception as ex: log('Филиппины регионы: ошибка', repr(ex))
         elif c['nuts'] is not None and RP:
             reg = regions_for(c, RP, RD, RG, RL)
+            if cid == 'ch' and reg:
+                try: ch_patch(reg)
+                except Exception as ex: log('BFS: ошибка', repr(ex))
         man = manual_regions(cid)
         if man and (not reg or man.get('override')):
             reg = man
