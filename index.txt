@@ -1,0 +1,29 @@
+f1 200 text/html 80507 https://www.stats.gov.cn/sj/ndsj/2025/left_.htm
+f2 curl: (60) SSL certificate OpenSSL verify result: self-signed certificate in certificate chain (19)
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+000  0 https://rosstat.gov.ru/statistics/accounts
+f3 curl: (60) SSL certificate OpenSSL verify result: self-signed certificate in certificate chain (19)
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+000  0 https://rosstat.gov.ru/folder/210/document/13204
+f4 curl: (60) SSL certificate OpenSSL verify result: self-signed certificate in certificate chain (19)
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+000  0 https://rosstat.gov.ru/compendium/document/13284
+f5 200 application/json 408 https://api.data.gov.my/data-catalogue?id=population_state&limit=3
+f6 200 application/json 283 https://api.data.gov.my/data-catalogue?id=gdp_state_real_supply&limit=3
+f7 404 application/json 103 https://api.data.gov.my/data-catalogue?id=gdp_state_percapita&limit=3
+f8 200 application/json; charset=utf-8 1434 https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB
+f9 403 text/html; charset=UTF-8 5716 https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/population-by-province.html
+f10 200 text/html;charset=utf-8 80385 https://www.bfs.admin.ch/bfs/en/home/statistics/national-economy/national-accounts/gross-domestic-product-canton.html
+f11 200 application/json; charset=utf-8 5825 https://data.ssb.no/api/v0/en/table/11713
