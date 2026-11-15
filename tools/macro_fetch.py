@@ -414,14 +414,11 @@ def main():
     ex, _ = estat_try([('nama_10_gdp', {'na_item': 'P6', 'unit': 'CP_MEUR'})], estc)
     im, _ = estat_try([('nama_10_gdp', {'na_item': 'P7', 'unit': 'CP_MEUR'})], estc)
     E['net_exp'] = {g: {y: ex[g][y] - im[g][y] for y in ex[g] if y in im.get(g, {})} for g in ex}
-    E['infl'], E['infl_ds'] = estat_try([('prc_hicp_aind', {'unit': 'RCH_A_AVG', 'coicop': 'CP00'}),
-                                         ('prc_hicp_aind', {'unit': 'RCH_A_AVG', 'coicop18': 'TOTAL'}),
-                                         ('prc_hicp_ainr', {'unit': 'RCH_A_AVG', 'coicop18': 'TOTAL'})], estc)
+    E['infl'], E['infl_ds'] = estat_try([('prc_hicp_ainr', {'unit': 'RCH_A_AVG', 'coicop18': 'TOTAL'}),
+                                         ('prc_hicp_aind', {'unit': 'RCH_A_AVG', 'coicop': 'CP00'})], estc)
     E['unemp'], _ = estat_try([('une_rt_a', {'age': 'Y15-74', 'sex': 'T', 'unit': 'PC_ACT'})], estc)
-    E['infl_m'], E['infl_m_ds'] = estat_try([('prc_hicp_manr', {'unit': 'RCH_A', 'coicop': 'CP00'}),
-                                             ('prc_hicp_manr', {'coicop': 'CP00'}),
-                                             ('prc_hicp_manr', {'unit': 'RCH_A', 'coicop18': 'TOTAL'}),
-                                             ('prc_hicp_minr', {'unit': 'RCH_A', 'coicop18': 'TOTAL'})], estc, 'M')
+    E['infl_m'], E['infl_m_ds'] = estat_try([('prc_hicp_minr', {'unit': 'RCH_A', 'coicop18': 'TOTAL'}),
+                                             ('prc_hicp_manr', {'unit': 'RCH_A', 'coicop': 'CP00'})], estc, 'M')
     log('Евростат HICP: годовой —', E['infl_ds'], '; месячный —', E['infl_m_ds'])
 
     # --- общие сведения
@@ -464,23 +461,12 @@ def main():
 
         # месячная инфляция
         M, msrc = {}, {}
-        hicp = None
-        if e and c['nuts'] is not None and cid not in ('ch', 'no', 'tr'):
-            for area in (['EU', 'B6', 'B0', 'I9'] if cid == 'eu' else [c['iso2']]):
-                hicp = ecb_hicp(area)
-                if hicp:
-                    log(f'  ЕЦБ HICP {area}: {len(hicp)} мес., до {max(hicp)}'); break
-            if hicp:
-                M['infl_m'] = {k: v for k, v in sorted(hicp.items()) if k >= f'{Y0}-01'}; msrc['infl_m'] = ['ecb']
-            else:
-                hicp = E['infl_m'].get(e)
-                if hicp and max(hicp) < (TODAY - dt.timedelta(days=200)).strftime('%Y-%m'):
-                    log(f'  Евростат HICP {e} устарел (до {max(hicp)}) — берём BIS'); hicp = None
-        if 'infl_m' in M:
-            pass
-        elif hicp:
+        fresh = (TODAY - dt.timedelta(days=200)).strftime('%Y-%m')
+        hicp = E['infl_m'].get(e) if e else None
+        if hicp and max(hicp) >= fresh:
             M['infl_m'] = {k: v for k, v in sorted(hicp.items()) if k >= f'{Y0}-01'}; msrc['infl_m'] = ['estat']
         else:
+            if hicp: log(f'  Евростат HICP {e} устарел (до {max(hicp)})')
             b = bis('WS_LONG_CPI', f'M.{c["bis"]}.771')
             M['infl_m'] = {k: v for k, v in sorted(b.items()) if k >= f'{Y0}-01'}; msrc['infl_m'] = ['bis'] if b else []
         # ключевая ставка (для стран еврозоны — ставка ЕЦБ с года перехода на евро)
