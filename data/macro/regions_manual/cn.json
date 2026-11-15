@@ -1,0 +1,327 @@
+{
+ "level": "Провинции, автономные районы и города центрального подчинения (31)",
+ "currency_nat": "CNY",
+ "rows": [
+  {
+   "code": "Beijing",
+   "name": "Пекин",
+   "pop": 21830000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 228167,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Tianjin",
+   "name": "Тяньцзинь",
+   "pop": 13640000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 132143,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Hebei",
+   "name": "Хэбэй",
+   "pop": 73780000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 64352,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Shanxi",
+   "name": "Шаньси",
+   "pop": 34460000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 73769,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Inner Mongolia",
+   "name": "Внутренняя Монголия",
+   "pop": 23880000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 110011,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Liaoning",
+   "name": "Ляонин",
+   "pop": 41550000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 78236,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Jilin",
+   "name": "Цзилинь",
+   "pop": 23170000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 61689,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Heilongjiang",
+   "name": "Хэйлунцзян",
+   "pop": 30290000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 54102,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Shanghai",
+   "name": "Шанхай",
+   "pop": 24800000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 217140,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Jiangsu",
+   "name": "Цзянсу",
+   "pop": 85260000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 160694,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Zhejiang",
+   "name": "Чжэцзян",
+   "pop": 66700000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 135565,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Anhui",
+   "name": "Аньхой",
+   "pop": 61230000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 82694,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Fujian",
+   "name": "Фуцзянь",
+   "pop": 41930000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 137920,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Jiangxi",
+   "name": "Цзянси",
+   "pop": 45020000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 75862,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Shandong",
+   "name": "Шаньдун",
+   "pop": 100800000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 97575,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Henan",
+   "name": "Хэнань",
+   "pop": 97850000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 64888,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Hubei",
+   "name": "Хубэй",
+   "pop": 58340000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 102832,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Hunan",
+   "name": "Хунань",
+   "pop": 65390000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 81225,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Guangdong",
+   "name": "Гуандун",
+   "pop": 127800000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 111146,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Guangxi",
+   "name": "Гуанси-Чжуанский АР",
+   "pop": 50130000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 57071,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Hainan",
+   "name": "Хайнань",
+   "pop": 10480000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 75903,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Chongqing",
+   "name": "Чунцин",
+   "pop": 31900000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 100903,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Sichuan",
+   "name": "Сычуань",
+   "pop": 83640000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 77333,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Guizhou",
+   "name": "Гуйчжоу",
+   "pop": 38600000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 58685,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Yunnan",
+   "name": "Юньнань",
+   "pop": 46550000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 67612,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Xizang",
+   "name": "Тибетский АР (Сицзан)",
+   "pop": 3700000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 75237,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Shaanxi",
+   "name": "Шэньси",
+   "pop": 39530000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 89915,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Gansu",
+   "name": "Ганьсу",
+   "pop": 24580000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 52825,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Qinghai",
+   "name": "Цинхай",
+   "pop": 5930000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 66568,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Ningxia",
+   "name": "Нинся-Хуэйский АР",
+   "pop": 7290000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 75484,
+   "gdp_y": 2024
+  },
+  {
+   "code": "Xinjiang",
+   "name": "Синьцзян-Уйгурский АР",
+   "pop": 26230000,
+   "pop_y": 2024,
+   "dens": null,
+   "dens_y": null,
+   "gdp_pc_nat": 78660,
+   "gdp_y": 2024
+  }
+ ],
+ "note": "Население — на конец 2024 г.; ВРП на душу — 2024 г. (предварительные данные NBS), пересчитан из юаней в евро по среднегодовому курсу ЕЦБ. Плотность не указана: Национальное бюро статистики КНР не публикует общую площадь провинций.",
+ "sources": [
+  [
+   "Национальное бюро статистики КНР: Статистический ежегодник 2025, табл. 2-5 «Население на конец года по регионам»",
+   "https://www.stats.gov.cn/sj/ndsj/2025/html/E02-05.jpg"
+  ],
+  [
+   "Национальное бюро статистики КНР: Статистический ежегодник 2025, табл. 3-9 «Валовой региональный продукт (2024)»",
+   "https://www.stats.gov.cn/sj/ndsj/2025/html/E03-09.jpg"
+  ]
+ ]
+}

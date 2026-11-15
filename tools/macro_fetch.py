@@ -376,10 +376,140 @@ def us_regions(usd):
                         ['Бюро переписи США: Gazetteer (площадь суши)', land_url or 'https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html'],
                         ['BEA: ВВП штатов (SAGDP2)', 'https://apps.bea.gov/regional/downloadzip.htm']]}
 
+_FX = {}
+def ecb_annual(cur):
+    """Среднегодовой курс ЕЦБ: единиц валюты за 1 EUR."""
+    if cur not in _FX:
+        r = get(f'https://data-api.ecb.europa.eu/service/data/EXR/A.{cur}.EUR.SP00.A', {'format': 'csvdata', 'startPeriod': '2015'})
+        _FX[cur] = {int(x['TIME_PERIOD']): float(x['OBS_VALUE']) for x in csv.DictReader(io.StringIO(r.text))} if r else {}
+        log(f'ЕЦБ курс {cur}/EUR:', {y: round(v, 4) for y, v in _FX[cur].items() if y >= Y1 - 3})
+    return _FX[cur]
+
+def finish_regions(d):
+    """Пересчёт ВРП на душу из национальной валюты в EUR и сводка лет."""
+    cur = d.get('currency_nat')
+    if cur:
+        fx = ecb_annual(cur)
+        for r in d['rows']:
+            v, y = r.get('gdp_pc_nat'), r.get('gdp_y')
+            r['gdp_pc'] = v / fx[y] if v is not None and y in fx else None
+        d['sources'] = d['sources'] + [[f'ЕЦБ: среднегодовой курс {cur}/EUR (для пересчёта в евро)', f'https://data.ecb.europa.eu/data/datasets/EXR/EXR.A.{cur}.EUR.SP00.A']]
+    d['currency'] = 'EUR'
+    years = lambda k: sorted({r[k] for r in d['rows'] if r.get(k)})
+    d['years'] = {'pop': years('pop_y'), 'dens': years('dens_y'), 'gdp': years('gdp_y')}
+    return d
+
+PH_RU = {'National Capital Region': 'Столичный регион (Манила)', 'Cordillera Administrative Region': 'Кордильерский административный регион',
+         'Ilocos Region': 'Илокос', 'Cagayan Valley': 'Долина Кагаян', 'Central Luzon': 'Центральный Лусон', 'CALABARZON': 'Калабарсон',
+         'MIMAROPA': 'Мимаропа', 'Bicol Region': 'Бикол', 'Western Visayas': 'Западные Висайи', 'Central Visayas': 'Центральные Висайи',
+         'Eastern Visayas': 'Восточные Висайи', 'Zamboanga Peninsula': 'Полуостров Замбоанга', 'Northern Mindanao': 'Северный Минданао',
+         'Davao Region': 'Давао', 'SOCCSKSARGEN': 'Сокскарген', 'Caraga': 'Карага', 'Bangsamoro': 'Бангсаморо (BARMM)',
+         'Negros Island Region': 'Регион острова Негрос'}
+def ph_key(label):
+    t = label.replace(' ', ' ')
+    for k in PH_RU:
+        if k.lower() in t.lower():
+            return k
+    m = re.search(r'Region\s+([IVX]+[AB]?)\b', t)
+    roman = {'I': 'Ilocos Region', 'II': 'Cagayan Valley', 'III': 'Central Luzon', 'IVA': 'CALABARZON', 'IV-A': 'CALABARZON', 'IVB': 'MIMAROPA',
+             'V': 'Bicol Region', 'VI': 'Western Visayas', 'VII': 'Central Visayas', 'VIII': 'Eastern Visayas', 'IX': 'Zamboanga Peninsula',
+             'X': 'Northern Mindanao', 'XI': 'Davao Region', 'XII': 'SOCCSKSARGEN', 'XIII': 'Caraga'}
+    return roman.get(m.group(1)) if m else None
+
+def pxweb(url, pick):
+    """Запрос к PXWeb (PSA OpenSTAT). pick(code, values, texts) -> список выбранных кодов."""
+    r = get(url)
+    if not r:
+        return None
+    meta = r.json(); q = []; texts = {}
+    for v in meta['variables']:
+        vals = v.get('values'); txts = v.get('valueTexts', vals)
+        sel = pick(v['code'], vals, txts)
+        if sel is None:
+            q.append({'code': v['code'], 'selection': {'filter': 'all', 'values': ['*']}})
+        else:
+            q.append({'code': v['code'], 'selection': {'filter': 'item', 'values': sel}})
+    rr = S.post(url, json={'query': q, 'response': {'format': 'json-stat2'}}, timeout=120)
+    if rr.status_code != 200:
+        log('  PXWeb', rr.status_code, rr.text[:200]); return None
+    js = rr.json()
+    js['id'] = js['id']; return js
+
+def jsonstat2_rows(js):
+    ids, sizes = js['id'], js['size']
+    cats = []
+    for d in ids:
+        c = js['dimension'][d]['category']; idx = c['index']
+        order = sorted(idx, key=idx.get) if isinstance(idx, dict) else idx
+        cats.append([(k, c.get('label', {}).get(k, k)) for k in order])
+    vals = js['value']; strides = [1] * len(ids)
+    for i in range(len(ids) - 2, -1, -1):
+        strides[i] = strides[i + 1] * sizes[i + 1]
+    for flat, v in enumerate(vals):
+        if v is None: continue
+        rec = {d: cats[i][(flat // strides[i]) % sizes[i]] for i, d in enumerate(ids)}
+        rec['value'] = v; yield rec
+
+def ph_regions():
+    base = 'https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB/'
+    # население, площадь, плотность — перепись 2024
+    pop = {}
+    def pick_pop(code, vals, txts):
+        if vals is None: return None
+        if code == 'Parameter':
+            return [v for v, t in zip(vals, txts) if t.startswith('2024 Population') or 'Land Area' in t]
+        return None
+    js = pxweb(base + '1A/PO_2024/0221A6DLPD0.px', pick_pop)
+    if js:
+        gd = [d for d in js['id'] if d.startswith('Geographic')][0]
+        log('  PSA метки:', [l for _, l in sorted(((v, js['dimension'][gd]['category']['label'][k]) for k, v in js['dimension'][gd]['category']['index'].items()))][:40])
+        for x in jsonstat2_rows(js):
+            geo = x[gd][1]
+            par = x['Parameter'][1]
+            k = ph_key(geo)
+            if not k or geo.strip().startswith('.') : continue
+            pop.setdefault(k, {})
+            key = 'pop' if 'Population' in par and 'Density' not in par else ('area' if 'Land Area' in par else None)
+            if key and key not in pop[k]:
+                try: pop[k][key] = float(str(x['value']).replace(',', ''))
+                except Exception: pass
+    log('PSA население регионов:', len(pop))
+    # ВРП на душу, текущие цены
+    gdp, gy = {}, None
+    def pick_gdp(code, vals, txts):
+        if vals is None: return None
+        lc = code.lower()
+        if 'year' in lc or 'period' in lc: return [vals[-1]]
+        cur = [v for v, t in zip(vals, txts) if 'current' in t.lower()]
+        if cur: return cur[:1]
+        return None
+    js = pxweb(base + '2B/GP/RG/PCI/0772B5BPCP1.px', pick_gdp)
+    if js:
+        for x in jsonstat2_rows(js):
+            labels = [x[d][1] for d in js['id']]
+            k = next((ph_key(l) for l in labels if ph_key(l)), None)
+            yr = next((int(l) for l in labels if str(l).isdigit() and len(str(l)) == 4), None)
+            if k and k not in gdp:
+                gdp[k] = float(x['value']); gy = yr
+    log('PSA ВРП на душу:', len(gdp), gy)
+    if not pop:
+        return None
+    rows = []
+    for k, d in pop.items():
+        p = d.get('pop'); a = d.get('area')
+        rows.append({'code': k, 'name': PH_RU[k], 'pop': p, 'pop_y': 2024, 'dens': p / a if p and a else None, 'dens_y': 2024 if p and a else None,
+                     'gdp_pc_nat': gdp.get(k), 'gdp_y': gy if k in gdp else None})
+    rows.sort(key=lambda r: -(r['pop'] or 0))
+    return finish_regions({'level': 'Регионы (18)', 'currency_nat': 'PHP', 'rows': rows,
+        'note': 'Население и площадь — перепись населения на 1 июля 2024 г.; ВРП на душу населения — в текущих ценах, пересчитан из песо в евро по среднегодовому курсу ЕЦБ.',
+        'sources': [['Статистическое управление Филиппин (PSA): население, площадь и плотность по регионам, перепись 2024', 'https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__1A__PO_2024/0221A6DLPD0.px/'],
+                    ['Статистическое управление Филиппин (PSA): ВРП на душу населения по регионам', 'https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__GP__RG__PCI/0772B5BPCP1.px/']]})
+
 def manual_regions(cid):
     p = os.path.join(OUT, 'regions_manual', cid + '.json')
     if os.path.exists(p):
-        return json.load(open(p, encoding='utf-8'))
+        d = json.load(open(p, encoding='utf-8'))
+        return d if d.get('patch') else finish_regions(d)
     return None
 
 # ---------------------------------------------------------------- сборка
@@ -507,6 +637,9 @@ def main():
         if cid == 'us':
             try: reg = us_regions(usd)
             except Exception as ex: log('США регионы: ошибка', ex)
+        elif cid == 'ph':
+            try: reg = ph_regions()
+            except Exception as ex: log('Филиппины регионы: ошибка', repr(ex))
         elif c['nuts'] is not None and RP:
             reg = regions_for(c, RP, RD, RG, RL)
         man = manual_regions(cid)
