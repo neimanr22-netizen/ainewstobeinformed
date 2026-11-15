@@ -1,0 +1,6 @@
+f1 404 text/html; charset=UTF-8 682001 https://rosstat.gov.ru/storage/mediabank/Region_Pokaz_2025.rar
+f2 404 text/html; charset=UTF-8 682001 https://rosstat.gov.ru/storage/mediabank/VRP_s_1998.xlsx
+f3 200 application/json; charset=utf-8 97 https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB/2B/GP
+f4 200 application/json; charset=utf-8 5509 https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB/1A/PO_2024
+f5 403 text/html; charset=utf-8 292 https://data.stats.gov.cn/english/easyquery.htm?m=QueryData&dbcode=fsnd&rowcode=reg&colcode=sj&wds=%5B%7B%22wdcode%22%3A%22zb%22%2C%22valuecode%22%3A%22A0301%22%7D%5D&dfwds=%5B%7B%22wdcode%22%3A%22sj%22%2C%22valuecode%22%3A%22LAST3%22%7D%5D
+f6 403 text/html; charset=utf-8 292 https://data.stats.gov.cn/english/easyquery.htm?m=getTree&dbcode=fsnd&wdcode=zb&id=A03
