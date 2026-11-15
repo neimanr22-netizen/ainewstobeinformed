@@ -1,46 +1,53 @@
 {
- "updated": "2026-11-15T16:31:07+00:00",
- "total_news": 645,
+ "updated": "2026-11-15T16:31:57+00:00",
+ "total_news": 659,
  "total_sites": 204,
  "groups": [
   {
    "name": "Новостные порталы",
    "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
-   "count": 362,
+   "count": 376,
    "sites": [
     {
      "name": "Российская газета",
      "url": "https://rg.ru/",
-     "count": 178,
-     "last": "2026-11-14",
+     "count": 192,
+     "last": "2026-11-15",
      "sections": [
       {
        "name": "В мире",
        "url": "https://rg.ru/tema/mir",
-       "count": 28,
+       "count": 33,
        "first": "2026-10-02",
-       "last": "2026-11-14"
+       "last": "2026-11-15"
       },
       {
        "name": "Происшествия",
        "url": "https://rg.ru/tema/bezopasnost",
-       "count": 28,
+       "count": 31,
        "first": "2026-10-02",
-       "last": "2026-11-13"
+       "last": "2026-11-15"
       },
       {
        "name": "Власть",
        "url": "https://rg.ru/tema/gos",
-       "count": 27,
+       "count": 29,
        "first": "2026-10-01",
-       "last": "2026-11-13"
+       "last": "2026-11-15"
       },
       {
        "name": "Экономика — Отрасли",
        "url": "https://rg.ru/tema/ekonomika/industria",
-       "count": 23,
+       "count": 25,
        "first": "2026-10-10",
-       "last": "2026-11-14"
+       "last": "2026-11-15"
+      },
+      {
+       "name": "Экономика — Финансы",
+       "url": "https://rg.ru/tema/ekonomika/finansy",
+       "count": 20,
+       "first": "2026-10-09",
+       "last": "2026-11-15"
       },
       {
        "name": "Экономика — Бизнес",
@@ -50,18 +57,11 @@
        "last": "2026-11-12"
       },
       {
-       "name": "Экономика — Финансы",
-       "url": "https://rg.ru/tema/ekonomika/finansy",
-       "count": 19,
-       "first": "2026-10-09",
-       "last": "2026-11-13"
-      },
-      {
        "name": "Экономика — Макроэкономика",
        "url": "https://rg.ru/tema/ekonomika/politekonom",
-       "count": 15,
+       "count": 16,
        "first": "2026-10-12",
-       "last": "2026-11-13"
+       "last": "2026-11-15"
       },
       {
        "name": "Экономика — Товары и цены",
