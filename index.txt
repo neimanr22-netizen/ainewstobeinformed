@@ -1,0 +1,4 @@
+f1 200 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 228851 https://web.archive.org/web/2026id_/https://rosstat.gov.ru/storage/mediabank/VRP_s_1998.xlsx
+f2 200 application/x-rar-compressed 11526560 https://web.archive.org/web/2026id_/https://rosstat.gov.ru/storage/mediabank/Region_Pokaz_2025.rar
+f3 200 application/json 272 https://archive.org/wayback/available?url=rosstat.gov.ru/storage/mediabank/VRP_s_1998.xlsx
+f4 200 application/json 284 https://archive.org/wayback/available?url=rosstat.gov.ru/storage/mediabank/Region_Pokaz_2025.rar
