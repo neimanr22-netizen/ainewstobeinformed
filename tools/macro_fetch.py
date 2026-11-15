@@ -417,43 +417,31 @@ def ph_key(label):
     return roman.get(m.group(1)) if m else None
 
 def pxweb(url, pick):
-    """Запрос к PXWeb (PSA OpenSTAT). pick(code, values, texts) -> список выбранных кодов."""
+    """Запрос к PXWeb (PSA OpenSTAT). pick(code, values, texts) -> список кодов или None (= все).
+    Возвращает список записей {код_переменной: (код, текст), ..., 'value': число}."""
     r = get(url)
     if not r:
         return None
-    meta = r.json(); q = []; texts = {}
+    meta = r.json(); q = []; lab = {}
     for v in meta['variables']:
         vals = v.get('values'); txts = v.get('valueTexts', vals)
+        if vals: lab[v['code']] = dict(zip(vals, txts))
         sel = pick(v['code'], vals, txts)
-        if sel is None:
-            q.append({'code': v['code'], 'selection': {'filter': 'all', 'values': ['*']}})
-        else:
-            q.append({'code': v['code'], 'selection': {'filter': 'item', 'values': sel}})
-    rr = S.post(url, json={'query': q, 'response': {'format': 'json-stat2'}}, timeout=120)
+        q.append({'code': v['code'], 'selection': {'filter': 'all', 'values': ['*']} if sel is None else {'filter': 'item', 'values': sel}})
+    rr = S.post(url, json={'query': q, 'response': {'format': 'json'}}, timeout=180)
     if rr.status_code != 200:
         log('  PXWeb', rr.status_code, rr.text[:200]); return None
-    js = rr.json()
-    js['id'] = js['id']; return js
-
-def jsonstat2_rows(js):
-    ids, sizes = js['id'], js['size']
-    cats = []
-    for d in ids:
-        c = js['dimension'][d]['category']; idx = c['index']
-        order = sorted(idx, key=idx.get) if isinstance(idx, dict) else idx
-        cats.append([(k, c.get('label', {}).get(k, k)) for k in order])
-    vals = js['value']
-    if isinstance(vals, dict):
-        n = 1
-        for z in sizes: n *= z
-        vals = [vals.get(str(i)) for i in range(n)]
-    strides = [1] * len(ids)
-    for i in range(len(ids) - 2, -1, -1):
-        strides[i] = strides[i + 1] * sizes[i + 1]
-    for flat, v in enumerate(vals):
-        if v is None: continue
-        rec = {d: cats[i][(flat // strides[i]) % sizes[i]] for i, d in enumerate(ids)}
-        rec['value'] = v; yield rec
+    js = json.loads(rr.content.decode('utf-8-sig'))
+    cols = [c['code'] for c in js['columns'] if c.get('type') != 'c']
+    out = []
+    for row in js['data']:
+        v = row['values'][0]
+        try: v = float(str(v).replace(',', ''))
+        except Exception: continue
+        rec = {c: (k, lab.get(c, {}).get(k, k)) for c, k in zip(cols, row['key'])}
+        rec['value'] = v; out.append(rec)
+    log(f'  PXWeb {url.rsplit("/", 1)[-1]}: {len(out)} значений; пример: {out[:2]}')
+    return out
 
 def ph_regions():
     base = 'https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB/'
@@ -466,9 +454,8 @@ def ph_regions():
         return None
     js = pxweb(base + '1A/PO_2024/0221A6DLPD0.px', pick_pop)
     if js:
-        gd = [d for d in js['id'] if d.startswith('Geographic')][0]
-        log('  PSA метки:', [l for _, l in sorted(((v, js['dimension'][gd]['category']['label'][k]) for k, v in js['dimension'][gd]['category']['index'].items()))][:40])
-        for x in jsonstat2_rows(js):
+        gd = [d for d in js[0] if d.startswith('Geographic')][0] if js else None
+        for x in js:
             geo = x[gd][1]
             par = x['Parameter'][1]
             if not re.match(r'^\.\.[^.]', geo): continue
@@ -491,9 +478,8 @@ def ph_regions():
         return None
     js = pxweb(base + '2B/GP/RG/PCI/0772B5BPCP1.px', pick_gdp)
     if js:
-        log('  PSA ВРП, измерения:', {d: [l for l in js['dimension'][d]['category'].get('label', {}).values()][:25] for d in js['id']})
-        for x in jsonstat2_rows(js):
-            labels = [x[d][1] for d in js['id']]
+        for x in js:
+            labels = [x[d][1] for d in x if d != 'value']
             k = next((ph_key(l) for l in labels if ph_key(l)), None)
             yr = next((int(l) for l in labels if str(l).isdigit() and len(str(l)) == 4), None)
             if k and k not in gdp:
@@ -693,11 +679,6 @@ if __name__ == '__main__':
         fn = {'ph': ph_regions}[sys.argv[2]]
         import pprint
         _orig = pxweb
-        def pxweb(url, pick):
-            js = _orig(url, pick)
-            print('JS keys', list(js) if js else None, 'id', js and js.get('id'), 'size', js and js.get('size'), 'value type', js and type(js.get('value')), str(js and js.get('value'))[:300])
-            return js
-        globals()['pxweb'] = pxweb
         pprint.pprint(fn())
     else:
         main()
