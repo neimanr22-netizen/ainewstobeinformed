@@ -1,0 +1,2 @@
+f1 200 image/png 210653 https://www.dosm.gov.my/uploads/release-content/20260701121130.png
+f2 200 application/pdf 11624538 https://www.dosm.gov.my/portal-main/release-document-log?release_document_id=19979
