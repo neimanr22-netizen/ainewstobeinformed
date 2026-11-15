@@ -25,8 +25,9 @@ jobs:
           i=0
           for u in $URLS; do
             i=$((i+1))
-            code=$(curl -sSL --cacert "$CA" -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36" -m 120 -o "f$i" -w "%{http_code} %{content_type} %{size_download}" "$u" 2>&1 || true)
-            echo "f$i $code $u" | tee -a index.txt
+            REF=$(echo "$u" | sed -E 's#^(https?://[^/]+/).*#\1#')
+            code=$(curl -sSL --cacert "$CA" -b cj.txt -c cj.txt -e "$REF" -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36" -m 120 -o "f$i" -w "%{http_code} %{content_type} %{size_download}" "$u" 2>&1 || true)
+            echo "f$i $code $u" | tee -a index.txt; sleep 2
           done
           pip install -q pandas openpyxl xlrd >/dev/null 2>&1 || true
           for f in f*; do
@@ -52,6 +53,7 @@ jobs:
                           df.to_csv(p + '__' + str(sh).replace('/', '_')[:40] + '.csv', index=False, header=False)
           PY
           find . -size +40M -delete
+          rm -f cj.txt
           git init -q && git checkout -q -b probe
           git config user.name probe && git config user.email probe@users.noreply.github.com
           git add -A && git commit -qm probe
