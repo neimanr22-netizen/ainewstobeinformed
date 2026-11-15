@@ -15,6 +15,10 @@ jobs:
       - env:
           URLS: ${{ inputs.urls }}
         run: |
+          curl -sSL -o ru_root.crt https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.crt || true
+          curl -sSL -o ru_sub.crt https://gu-st.ru/content/lending/russian_trusted_sub_ca_pem.crt || true
+          cat /etc/ssl/certs/ca-certificates.crt ru_root.crt ru_sub.crt > $PWD/ca.pem
+          export CURL_CA_BUNDLE=$PWD/ca.pem
           mkdir out && cd out
           i=0
           for u in $URLS; do
