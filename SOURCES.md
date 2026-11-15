@@ -4,19 +4,19 @@
 Здесь ссылки на источники (сайт или раздел сайта), а не на отдельные новости.
 Файл создаётся автоматически скриптом `tools/sources.py` — вручную не править.
 
-Всего: 219 сайтов, 705 новостей. Обновлено: 15.11.2026.
+Всего: 225 сайтов, 712 новостей. Обновлено: 15.11.2026.
 
 ## Оглавление
 
-- [Новостные порталы](#новостные-порталы) — 94 сайта, 387 новостей
+- [Новостные порталы](#новостные-порталы) — 95 сайтов, 389 новостей
 - [Информационные агентства](#информационные-агентства) — 9 сайтов, 101 новость
-- [Деловые и финансовые издания](#деловые-и-финансовые-издания) — 30 сайтов, 53 новости
-- [Отраслевые издания](#отраслевые-издания) — 31 сайт, 63 новости
+- [Деловые и финансовые издания](#деловые-и-финансовые-издания) — 32 сайта, 55 новостей
+- [Отраслевые издания](#отраслевые-издания) — 33 сайта, 65 новостей
 - [Государственные органы и статистика](#государственные-органы-и-статистика) — 28 сайтов, 53 новости
 - [Сайты компаний](#сайты-компаний) — 9 сайтов, 18 новостей
 - [Сервисы пресс-релизов](#сервисы-пресс-релизов) — 2 сайта, 5 новостей
 - [Исследовательские центры и ассоциации](#исследовательские-центры-и-ассоциации) — 7 сайтов, 8 новостей
-- [Рассылки, блоги и агрегаторы](#рассылки-блоги-и-агрегаторы) — 9 сайтов, 17 новостей
+- [Рассылки, блоги и агрегаторы](#рассылки-блоги-и-агрегаторы) — 10 сайтов, 18 новостей
 
 ## Новостные порталы
 
@@ -74,6 +74,7 @@ _Общественно-политические СМИ: газеты, инте�
 |  | [Сайт целиком](https://t-online.de/) | 1 | 14.11.2026 |
 | **[The Local Switzerland](https://www.thelocal.ch/)** | [Сайт целиком](https://www.thelocal.ch/) | 2 | 08.10.2026 – 09.10.2026 |
 | **[Известия](https://iz.ru/)** | [Сайт целиком](https://iz.ru/) | 2 | 14.11.2026 – 15.11.2026 |
+| **[Рамблер/личные финансы](https://finance.rambler.ru/)** | [Сайт целиком](https://finance.rambler.ru/) | 2 | 02.11.2026 – 11.11.2026 |
 | **[360.ru](https://360.ru/)** | [Новости — мир](https://360.ru/news/mir/) | 1 | 08.11.2026 |
 | **[6abc](https://6abc.com/)** | [Сайт целиком](https://6abc.com/) | 1 | 09.11.2026 |
 | **[ABC30](https://abc30.com/)** | [Сайт целиком](https://abc30.com/) | 1 | 10.11.2026 |
@@ -194,6 +195,7 @@ _Экономика, рынки, компании, инвестиции_
 | **[Világgazdaság](https://www.vg.hu/)** | [Общественная жизнь](https://www.vg.hu/kozelet/) | 1 | 29.10.2026 |
 |  | [Экономика Венгрии](https://www.vg.hu/vilaggazdasag-magyar-gazdasag/) | 1 | 28.10.2026 |
 | **[Банкирос](https://bankiros.ru/)** | [Новости](https://bankiros.ru/news/) | 2 | 09.11.2026 – 10.11.2026 |
+| **[AD HOC NEWS](https://ad-hoc-news.de/)** | [Сайт целиком](https://ad-hoc-news.de/) | 1 | 14.11.2026 |
 | **[Benzinga](https://benzinga.com/)** | [Рынки](https://benzinga.com/markets/) | 1 | 12.11.2026 |
 | **[Bilanz](https://www.bilanz.ch/)** | [Компании](https://www.bilanz.ch/unternehmen/) | 1 | 26.10.2026 |
 | **[Bloomberg](https://www.bloomberg.com/)** | [Сайт целиком](https://www.bloomberg.com/) | 1 | 29.10.2026 |
@@ -211,6 +213,7 @@ _Экономика, рынки, компании, инвестиции_
 | **[Simply Wall St](https://simplywall.st/)** | [Акции США](https://simplywall.st/stocks/us/) | 1 | 14.11.2026 |
 | **[StockAnalysis](https://stockanalysis.com/)** | [Сайт целиком](https://stockanalysis.com/) | 1 | 10.11.2026 |
 | **[The Edge Malaysia](https://theedgemalaysia.com/)** | [Сайт целиком](https://theedgemalaysia.com/) | 1 | 09.11.2026 |
+| **[TipRanks](https://www.tipranks.com/)** | [Сайт целиком](https://www.tipranks.com/) | 1 | 09.11.2026 |
 | **[TradingKey](https://www.tradingkey.com/)** | [Движение рынка](https://www.tradingkey.com/news/market-movers/) | 1 | 06.11.2026 |
 | **[trend](https://www.trend.at/)** | [Сайт целиком](https://www.trend.at/) | 1 | 08.10.2026 |
 | **[Эксперт](https://expert.ru/)** | [Новости](https://expert.ru/news/) | 1 | 07.11.2026 |
@@ -247,7 +250,9 @@ _Ритейл и FMCG, стоматология и уход за полость�
 | **[medianet](https://medianet.at/)** | [Новости — ритейл](https://medianet.at/news/retail/) | 1 | 14.10.2026 |
 | **[Retail Dive](https://www.retaildive.com/)** | [Новости](https://www.retaildive.com/news/) | 1 | 09.10.2026 |
 | **[Retail Gazette](https://www.retailgazette.co.uk/)** | [Сайт целиком](https://www.retailgazette.co.uk/) | 1 | 03.11.2026 |
+| **[Retail Life](https://retail-life.ru/)** | [Сайт целиком](https://retail-life.ru/) | 1 | 13.11.2026 |
 | **[retail-news.de](https://retail-news.de/)** | [Сайт целиком](https://retail-news.de/) | 1 | 13.10.2026 |
+| **[Sostav](https://www.sostav.ru/)** | [Сайт целиком](https://www.sostav.ru/) | 1 | 02.11.2026 |
 | **[Tech Insider](https://tech-insider.org/)** | [Сайт целиком](https://tech-insider.org/) | 1 | 04.11.2026 |
 | **[Techbyte.sk](https://www.techbyte.sk/)** | [Сайт целиком](https://www.techbyte.sk/) | 1 | 14.10.2026 |
 | **[TechCrunch](https://techcrunch.com/)** | [Сайт целиком](https://techcrunch.com/) | 1 | 29.10.2026 |
@@ -343,6 +348,7 @@ _Сборники чужих новостей, рассылки, блоги, с�
 | **[CoinUnited](https://coinunited.io/)** | [Pulse](https://coinunited.io/en/pulse/) | 1 | 04.11.2026 |
 | **[Ground News](https://ground.news/)** | [Сайт целиком](https://ground.news/) | 1 | 01.11.2026 |
 | **[Lovguiden](https://www.lovguiden.dk/)** | [English](https://www.lovguiden.dk/en/) | 1 | 05.11.2026 |
+| **[Markendetektive](https://www.markendetektive.de/)** | [Сайт целиком](https://www.markendetektive.de/) | 1 | 02.11.2026 |
 | **[SWISSVOX (Substack)](https://swissvox.substack.com/)** | [Сайт целиком](https://swissvox.substack.com/) | 1 | 14.10.2026 |
 | **[Webull (ленты MT Newswires)](https://www.webull.com/)** | [Новости](https://www.webull.com/news/) | 1 | 12.10.2026 |
 | **[Yahoo Finance](https://finance.yahoo.com/)** | [Рынки](https://finance.yahoo.com/markets/) | 1 | 22.10.2026 |

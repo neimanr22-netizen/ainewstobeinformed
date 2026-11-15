@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-15T20:52:35+00:00",
- "total_news": 705,
- "total_sites": 219,
+ "updated": "2026-11-15T20:54:00+00:00",
+ "total_news": 712,
+ "total_sites": 225,
  "groups": [
   {
    "name": "Новостные порталы",
    "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
-   "count": 387,
+   "count": 389,
    "sites": [
     {
      "name": "Российская газета",
@@ -531,6 +531,21 @@
        "count": 2,
        "first": "2026-11-14",
        "last": "2026-11-15"
+      }
+     ]
+    },
+    {
+     "name": "Рамблер/личные финансы",
+     "url": "https://finance.rambler.ru/",
+     "count": 2,
+     "last": "2026-11-11",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://finance.rambler.ru/",
+       "count": 2,
+       "first": "2026-11-02",
+       "last": "2026-11-11"
       }
      ]
     },
@@ -1796,7 +1811,7 @@
   {
    "name": "Деловые и финансовые издания",
    "about": "Экономика, рынки, компании, инвестиции",
-   "count": 53,
+   "count": 55,
    "sites": [
     {
      "name": "Economx",
@@ -2015,6 +2030,21 @@
        "count": 2,
        "first": "2026-11-09",
        "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "AD HOC NEWS",
+     "url": "https://ad-hoc-news.de/",
+     "count": 1,
+     "last": "2026-11-14",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://ad-hoc-news.de/",
+       "count": 1,
+       "first": "2026-11-14",
+       "last": "2026-11-14"
       }
      ]
     },
@@ -2274,6 +2304,21 @@
      ]
     },
     {
+     "name": "TipRanks",
+     "url": "https://www.tipranks.com/",
+     "count": 1,
+     "last": "2026-11-09",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.tipranks.com/",
+       "count": 1,
+       "first": "2026-11-09",
+       "last": "2026-11-09"
+      }
+     ]
+    },
+    {
      "name": "TradingKey",
      "url": "https://www.tradingkey.com/",
      "count": 1,
@@ -2323,7 +2368,7 @@
   {
    "name": "Отраслевые издания",
    "about": "Ритейл и FMCG, стоматология и уход за полостью рта, технологии",
-   "count": 63,
+   "count": 65,
    "sites": [
     {
      "name": "New Retail",
@@ -2708,6 +2753,21 @@
      ]
     },
     {
+     "name": "Retail Life",
+     "url": "https://retail-life.ru/",
+     "count": 1,
+     "last": "2026-11-13",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://retail-life.ru/",
+       "count": 1,
+       "first": "2026-11-13",
+       "last": "2026-11-13"
+      }
+     ]
+    },
+    {
      "name": "retail-news.de",
      "url": "https://retail-news.de/",
      "count": 1,
@@ -2719,6 +2779,21 @@
        "count": 1,
        "first": "2026-10-13",
        "last": "2026-10-13"
+      }
+     ]
+    },
+    {
+     "name": "Sostav",
+     "url": "https://www.sostav.ru/",
+     "count": 1,
+     "last": "2026-11-02",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.sostav.ru/",
+       "count": 1,
+       "first": "2026-11-02",
+       "last": "2026-11-02"
       }
      ]
     },
@@ -3541,7 +3616,7 @@
   {
    "name": "Рассылки, блоги и агрегаторы",
    "about": "Сборники чужих новостей, рассылки, блоги, справочные сайты",
-   "count": 17,
+   "count": 18,
    "sites": [
     {
      "name": "Front Pages EU (рассылка на Buttondown)",
@@ -3630,6 +3705,21 @@
        "count": 1,
        "first": "2026-11-05",
        "last": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "name": "Markendetektive",
+     "url": "https://www.markendetektive.de/",
+     "count": 1,
+     "last": "2026-11-02",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.markendetektive.de/",
+       "count": 1,
+       "first": "2026-11-02",
+       "last": "2026-11-02"
       }
      ]
     },

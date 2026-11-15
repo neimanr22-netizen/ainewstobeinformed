@@ -939,6 +939,30 @@
     "wetterauer-zeitung.de": {
       "group": "Новостные порталы",
       "name": "Wetterauer Zeitung"
+    },
+    "ad-hoc-news.de": {
+      "group": "Деловые и финансовые издания",
+      "name": "AD HOC NEWS"
+    },
+    "finance.rambler.ru": {
+      "group": "Новостные порталы",
+      "name": "Рамблер/личные финансы"
+    },
+    "markendetektive.de": {
+      "group": "Рассылки, блоги и агрегаторы",
+      "name": "Markendetektive"
+    },
+    "retail-life.ru": {
+      "group": "Отраслевые издания",
+      "name": "Retail Life"
+    },
+    "sostav.ru": {
+      "group": "Отраслевые издания",
+      "name": "Sostav"
+    },
+    "tipranks.com": {
+      "group": "Деловые и финансовые издания",
+      "name": "TipRanks"
     }
   },
   "sections": {
