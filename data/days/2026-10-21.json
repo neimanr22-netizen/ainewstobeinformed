@@ -121,6 +121,39 @@
   "added": "2026-11-15"
  },
  {
+  "id": "c6ee68c2e0",
+  "date": "2026-10-21",
+  "cat": "retail",
+  "sub": "de",
+  "title": "Эксперты: у Kaufland в Германии нет внятной концепции",
+  "summary": "Отраслевое издание Lebensmittel Praxis пишет, что гипермаркеты Kaufland (около 790 в Германии) теряют позиции, а смена руководителей не принесла прорыва. Эксперты называют это проблемой концепции, а не менеджмента; звучат даже предложения сохранять формат лишь в Восточной Европе.",
+  "url": "https://lebensmittelpraxis.de/handel-aktuell/zentrale-management/50116-grossflaeche-unter-druck-warum-beobachter-sagen-kaufland-fehlt-ein-klares-konzept.html",
+  "source": "Lebensmittel Praxis",
+  "added": "2026-11-15"
+ },
+ {
+  "id": "66e3770f38",
+  "date": "2026-10-21",
+  "cat": "retail",
+  "sub": "eu",
+  "title": "Акции Carrefour упали на 13% после погромов магазинов во Франции",
+  "summary": "Бумаги французского ритейлера Carrefour подешевели примерно на 13% после того, как протесты против дороговизны жизни во Франции переросли в разграбление магазинов.",
+  "url": "https://www.teraz.sk/ekonomika/akcie-carrefouru-sa-pre-rabovanie-franc/1001536-clanok.html",
+  "source": "TASR / Teraz.sk",
+  "added": "2026-11-15"
+ },
+ {
+  "id": "72a632f521",
+  "date": "2026-10-21",
+  "cat": "retail",
+  "sub": "ru",
+  "title": "Вакантность в московских ТЦ к концу года может вырасти до 8%",
+  "summary": "По прогнозу NF Group, доля пустующих площадей в торговых центрах Москвы продолжит расти. Ввод новых торговых объектов за январь–сентябрь сократился на 46% год к году — до 58,7 тыс. кв. м.",
+  "url": "https://new-retail.ru/novosti/retail/vakantnost_v_moskovskikh_tts_mozhet_vyrasti_do_8_k_kontsu_2026_goda/",
+  "source": "New Retail",
+  "added": "2026-11-15"
+ },
+ {
   "id": "3508a1f276",
   "date": "2026-10-21",
   "cat": "rg",
