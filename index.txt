@@ -1,0 +1,4 @@
+f1 200 application/pdf 720035 https://www.dosm.gov.my/uploads/release-content/file_20260701133253.pdf
+f2 200 text/html; charset=UTF-8 408845 https://www.dosm.gov.my/portal-main/release-content/state-socioeconomic-report-2025
+f3 200 application/pdf 331388 https://www.dosm.gov.my/uploads/release-content/file_20260804144818.pdf
+f4 200 application/json; charset=utf-8 1280 https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB/2B/GP/RG/PCI/0772B5BPCP1.px
