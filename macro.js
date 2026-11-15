@@ -274,7 +274,9 @@ function generalHtml(C){
   </tbody></table></div>${srcHtml(GEN_SRC)}<p class="hint">Плотность = население / площадь суши. Данные Всемирного банка — последний доступный год.</p>`;
   const R = C.regions;
   h += `<h3 class="mh3">Регионы${R ? ` <span class="muted">· ${esc(R.level)}</span>` : ''}</h3>`;
-  if (!R || !R.rows?.length) return h + `<div class="empty-msg">${esc(C.id === 'sg' ? 'Сингапур — город-государство без регионального деления в официальной статистике.' : 'Данные по регионам пока не загружены.')}</div>`;
+  if (!R || !R.rows?.length) return h + `<div class="empty-msg">${esc(C.id === 'sg' ? 'Сингапур — город-государство без регионального деления в официальной статистике.'
+      : C.id === 'id' ? 'Статистическое агентство Индонезии (BPS) закрыло автоматическую загрузку своих таблиц, поэтому данные по провинциям пока не загружены.'
+      : 'Данные по регионам пока не загружены.')}</div>${C.id === 'id' ? srcHtml([['BPS: численность населения по провинциям', 'https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/population-by-province.html'], ['BPS: ВРП на душу населения по провинциям, текущие цены', 'https://www.bps.go.id/en/statistics-table/3/YWtoQlRVZzNiMU5qU1VOSlRFeFZiRTR4VDJOTVVUMDkjMw==/produk-domestik-regional-bruto-per-kapita-atas-dasar-harga-berlaku-menurut-provinsi--ribu-rupiah']]) : ''}`;
   const yr = a => a?.length ? (a.length > 1 ? `${a[0]}–${a[a.length - 1]}` : a[0]) : '';
   const cur = R.currency || 'EUR';
   h += `<div class="tbl"><table class="src mt"><thead><tr><th>Регион</th><th class="num">Население, чел.${R.years?.pop?.length ? ` (${yr(R.years.pop)})` : ''}</th><th class="num">Плотность, чел./км²${R.years?.dens?.length ? ` (${yr(R.years.dens)})` : ''}</th><th class="num">ВВП на душу, ${esc(cur)}${R.years?.gdp?.length ? ` (${yr(R.years.gdp)})` : ''}</th></tr></thead><tbody>${
