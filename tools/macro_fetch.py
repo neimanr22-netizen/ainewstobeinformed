@@ -466,8 +466,9 @@ def ph_regions():
         for x in jsonstat2_rows(js):
             geo = x[gd][1]
             par = x['Parameter'][1]
+            if not re.match(r'^\.\.[^.]', geo): continue
             k = ph_key(geo)
-            if not k or geo.strip().startswith('.') : continue
+            if not k: continue
             pop.setdefault(k, {})
             key = 'pop' if 'Population' in par and 'Density' not in par else ('area' if 'Land Area' in par else None)
             if key and key not in pop[k]:
@@ -485,6 +486,7 @@ def ph_regions():
         return None
     js = pxweb(base + '2B/GP/RG/PCI/0772B5BPCP1.px', pick_gdp)
     if js:
+        log('  PSA ВРП, измерения:', {d: [l for l in js['dimension'][d]['category'].get('label', {}).values()][:25] for d in js['id']})
         for x in jsonstat2_rows(js):
             labels = [x[d][1] for d in js['id']]
             k = next((ph_key(l) for l in labels if ph_key(l)), None)
