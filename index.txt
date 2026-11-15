@@ -1,0 +1,13 @@
+f1 200 text/html; charset=UTF-8 799516 https://rosstat.gov.ru/statistics/accounts
+f2 200 text/html; charset=UTF-8 782456 https://rosstat.gov.ru/folder/210/document/13204
+f3 200 text/html; charset=UTF-8 761059 https://rosstat.gov.ru/compendium/document/13284
+f4 404 text/html 555 https://www.stats.gov.cn/sj/ndsj/2025/html/E02-05.xls
+f5 404 text/html 555 https://www.stats.gov.cn/sj/ndsj/2025/html/C02-05.xls
+f6 404 text/html 555 https://www.stats.gov.cn/sj/ndsj/2025/html/E03-09.xls
+f7 404 text/html 555 https://www.stats.gov.cn/sj/ndsj/2025/html/C03-09.xls
+f8 200 text/html 904 https://www.stats.gov.cn/sj/ndsj/2025/indexeh.htm
+f9 404 application/json 101 https://api.data.gov.my/data-catalogue?id=gdp_state_nominal&limit=2
+f10 404 application/json 93 https://api.data.gov.my/data-catalogue?id=gdp_state&limit=2
+f11 200 application/json; charset=utf-8 523 https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB/2B
+f12 200 application/json; charset=utf-8 380 https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB/1A
+f13 403 text/html; charset=UTF-8 5900 https://www.bps.go.id/en/statistics-table/3/V1ZSbFRUY3lTbFpEYTNsVWNGcDZjek53YkhsNFFUMDkjMw==/population-by-province.html
