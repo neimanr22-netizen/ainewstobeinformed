@@ -28,6 +28,30 @@ jobs:
             code=$(curl -sSL --cacert "$CA" -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36" -m 120 -o "f$i" -w "%{http_code} %{content_type} %{size_download}" "$u" 2>&1 || true)
             echo "f$i $code $u" | tee -a index.txt
           done
+          pip install -q pandas openpyxl xlrd >/dev/null 2>&1 || true
+          for f in f*; do
+            t=$(file -b "$f")
+            case "$t" in
+              *RAR*|*Zip*|*7-zip*) mkdir -p "x_$f" && 7z x -y -o"x_$f" "$f" >/dev/null || true ;;
+            esac
+          done
+          python3 - <<'PY' || true
+          import os, pandas as pd
+          for root, _, files in os.walk('.'):
+              for fn in files:
+                  p = os.path.join(root, fn)
+                  if '.git' in p: continue
+                  low = fn.lower()
+                  head = open(p, 'rb').read(8)
+                  if low.endswith(('.xls', '.xlsx')) or head.startswith(b'PK\x03\x04') and not low.endswith('.zip') or head.startswith(b'\xd0\xcf\x11\xe0'):
+                      try:
+                          xs = pd.read_excel(p, sheet_name=None, header=None)
+                      except Exception as e:
+                          continue
+                      for sh, df in xs.items():
+                          df.to_csv(p + '__' + str(sh).replace('/', '_')[:40] + '.csv', index=False, header=False)
+          PY
+          find . -size +40M -delete
           git init -q && git checkout -q -b probe
           git config user.name probe && git config user.email probe@users.noreply.github.com
           git add -A && git commit -qm probe
