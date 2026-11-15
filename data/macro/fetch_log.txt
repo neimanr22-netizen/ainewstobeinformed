@@ -25,6 +25,7 @@
 Регионы Евростата: население 1841, плотность 1761, ВВП 1713
 BIS ставка ЕЦБ: 334 мес.
 ru: gdp=27, gdp_pc=27, net_exp=26, infl=27, income=26, unemp=27, rate=27, infl_m=297, rate_m=322
+Банк России EUR/RUB: {2024: 100.2801}
 us: gdp=27, gdp_pc=27, net_exp=25, infl=27, income=26, unemp=27, rate=27, infl_m=320, rate_m=322
   HTTP 404 https://www2.census.gov/programs-surveys/popest/datasets/2020-2026/state/totals/NST-EST2026-ALLDATA.csv
 Census: население 51 штатов, 2025
