@@ -19,7 +19,7 @@ jobs:
           curl -sSL -o ru_sub.crt https://gu-st.ru/content/lending/russian_trusted_sub_ca_pem.crt || true
           head -c 80 ru_root.crt; echo
           cp /etc/ssl/certs/ca-certificates.crt ca.pem
-          for f in ru_root.crt ru_sub.crt; do grep -q "BEGIN CERTIFICATE" $f && cat $f >> ca.pem; done
+          for f in ru_root.crt ru_sub.crt; do grep -q "BEGIN CERTIFICATE" $f && { echo >> ca.pem; cat $f >> ca.pem; echo >> ca.pem; }; done
           export CA=$PWD/ca.pem
           mkdir out && cd out
           i=0
