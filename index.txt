@@ -1,0 +1,5 @@
+f1 200 text/csv 134470 https://data-api.ecb.europa.eu/service/data/ICP/M.DE.N..4.ANR?lastNObservations=1&format=csvdata
+f2 200 text/csv 11484 https://data-api.ecb.europa.eu/service/data/ICP/M..N.000000.4.ANR?lastNObservations=1&format=csvdata
+f3 200 application/json 42969 https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?geo=DE&lastTimePeriod=1
+f4 200 application/json 34316 https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_manr?geo=DE&lastTimePeriod=1
+f5 200 text/plain;charset=UTF-8 1991672 https://ec.europa.eu/eurostat/api/dissemination/catalogue/toc/txt?lang=en
