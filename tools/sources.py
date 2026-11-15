@@ -2,7 +2,9 @@
 """Собирает справочник источников новостей: откуда (какой сайт и раздел) взяты ссылки.
 
 Использование:
-    python3 tools/sources.py
+    python3 tools/sources.py                 — пересобрать data/sources.json и SOURCES.md
+    python3 tools/sources.py --for CAT [SUB] — список уже известных источников для рубрики,
+                                               с которых нужно начинать сбор (например: --for retail cz)
 
 Читает все новости из data/days/*.json и справочник tools/sources_map.json,
 пишет два файла:
@@ -161,5 +163,60 @@ def to_md(r):
     return "\n".join(L) + "\n"
 
 
+def checklist(cat, sub=None):
+    """Печатает известные источники для рубрики: сначала те, что уже давали новости в ней,
+    потом — использованные для той же страны (или той же категории) в других рубриках."""
+    import sys
+    m = json.loads((ROOT / "tools" / "sources_map.json").read_text(encoding="utf-8"))
+    cfg = json.loads((DATA / "categories.json").read_text(encoding="utf-8"))
+    cats = {c["id"]: c for c in cfg["categories"]}
+    if cat not in cats:
+        sys.exit(f"Нет категории {cat!r}. Есть: {', '.join(cats)}")
+    is_country = cats[cat].get("subs") == "countries"
+    names = {c["id"]: c["name"] for c in cfg["countries"]}
+    if isinstance(cats[cat].get("subs"), list):
+        names.update({x["id"]: x["name"] for x in cats[cat]["subs"]})
+    items = [it for f in sorted((DATA / "days").glob("*.json"))
+             for it in json.loads(f.read_text(encoding="utf-8"))]
+
+    def collect(pred):
+        acc = {}
+        for it in items:
+            if not pred(it):
+                continue
+            host = host_of(it["url"])
+            info = m["sites"].get(host, {"group": UNSORTED, "name": it.get("source") or host})
+            sname, surl = section_of(it, host, m, urlsplit(it["url"]).netloc.lower())
+            k = (info["name"], surl)
+            a = acc.setdefault(k, {"site": info["name"], "group": info["group"], "section": sname,
+                                   "url": surl, "count": 0, "last": it["date"]})
+            a["count"] += 1
+            a["last"] = max(a["last"], it["date"])
+        return sorted(acc.values(), key=lambda a: (-a["count"], a["site"]))
+
+    def show(title, rows, skip=()):
+        rows = [r for r in rows if (r["site"], r["url"]) not in skip]
+        print(f"\n{title}: {len(rows)}")
+        for r in rows:
+            sec = "" if r["section"] == WHOLE_SITE else f" → {r['section']}"
+            print(f"  [{r['count']:>3}] {r['site']}{sec}  {r['url']}   ({r['group']}, последняя {r['last']})")
+        return {(r["site"], r["url"]) for r in rows}
+
+    label = cats[cat]["name"] + (f" → {names.get(sub, sub)}" if sub else "")
+    print(f"Известные источники для «{label}». Сначала отсмотреть все из списка 1, затем 2, потом искать новые.")
+    seen = show("1. Уже давали новости в этой рубрике",
+                collect(lambda it: it["cat"] == cat and (sub is None or it.get("sub") == sub)))
+    if sub and is_country:
+        show(f"2. Давали новости по стране «{names.get(sub, sub)}» в других категориях",
+             collect(lambda it: it.get("sub") == sub and it["cat"] != cat), seen)
+    elif sub:
+        show("2. Давали новости в других подкатегориях этой категории",
+             collect(lambda it: it["cat"] == cat and it.get("sub") != sub), seen)
+
+
 if __name__ == "__main__":
-    build()
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "--for":
+        checklist(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None)
+    else:
+        build()
