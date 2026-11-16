@@ -64,14 +64,14 @@ async function viewDates(cc, st){
   app.innerHTML = '<p class="loading">Загрузка…</p>';
   let m;
   try { m = await loadManifest(); } catch (e){ app.innerHTML = `${crumbs('<a href="#/stats/prices">Цены</a>')}<div class="empty-msg">Данные пока не загружены.</div>`; return; }
-  const days = (m.dates || []).filter(d => (d.stores[`${cc}/${st}`] || {}).count >= 0).map(d => d.date).sort().reverse();
+  const days = (m.dates || []).filter(d => d.stores[`${cc}/${st}`]).map(d => d.date).sort().reverse();
   const cnt = d => ((m.dates.find(x => x.date === d) || {}).stores[`${cc}/${st}`] || {});
   app.innerHTML = `${crumbs('<a href="#/stats/prices">Цены</a>', `<a href="#/stats/prices/${cc}">${esc(cname(cc))}</a>`)}
     <h1>${esc(sname(st))} · ${esc(cname(cc))}</h1>
     <p class="sub">Выберите дату, на которую показать цены.</p>
     ${days.length ? `<div class="m3">${days.map(d => {
       const s = cnt(d);
-      return `<a class="mbtn" href="#/stats/prices/${cc}/${st}/${d}">${dfmt(d)}<small>${s.status === 'ok' ? (s.n_paste || 0) + ' паст · ' + (s.n_brush || 0) + ' щёток' : 'нет данных'}</small></a>`;
+      return `<a class="mbtn" href="#/stats/prices/${cc}/${st}/${d}">${dfmt(d)}<small>${s.status === 'ok' ? (s.n_paste || 0) + ' паст · ' + (s.n_brush || 0) + ' щёток' : s.status === 'blocked' ? 'сайт закрыт' : 'нет данных'}</small></a>`;
     }).join('')}</div>` : '<div class="empty-msg">Цены по этому магазину ещё не собирались.</div>'}`;
 }
 
@@ -86,12 +86,12 @@ async function viewStore(cc, st, day){
   const head = `${crumbs('<a href="#/stats/prices">Цены</a>', `<a href="#/stats/prices/${cc}">${esc(cname(cc))}</a>`, `<a href="#/stats/prices/${cc}/${st}">${esc(sname(st))}</a>`)}
     <h1>${esc(sname(st))} · ${esc(cname(cc))} · ${dfmt(day)}</h1>
     <p class="sub">Цены на ${dfmt(day)}${S.url ? `, источник: <a href="${esc(S.url)}" target="_blank" rel="noopener">${esc(S.url.replace(/^https:\/\/(www\.)?|\/.*$/g, ''))} ↗</a>` : ''}.
-    ${S.note ? esc(S.note) + '.' : ''}</p>`;
+    ${S.note && S.status === 'ok' ? esc(S.note[0].toUpperCase() + S.note.slice(1)) + '.' : ''}</p>`;
   if (S.status !== 'ok'){
     app.innerHTML = head + `<div class="empty-msg">${S.status === 'blocked' ? 'Сайт магазина не отдаёт цены автоматически' : 'Нет данных'}${S.note ? ': ' + esc(S.note) : ''}.</div>`;
     return;
   }
-  app.innerHTML = head + `<p class="note">Регулярная цена — обычная цена магазина; промо-цена — цена по акции (в том числе по карте лояльности или при покупке нескольких штук — см. описание). Бренды: ${esc((D.brands || []).join(', '))}.</p>` +
+  app.innerHTML = head + `<p class="note">Регулярная цена — обычная цена магазина; промо-цена — цена по акции (в том числе по карте лояльности или при покупке нескольких штук — см. описание). ${(() => { const miss = (D.brands || []).filter(b => !items.some(x => x.brand === b)); return miss.length ? ` Не найдены в этом магазине: ${esc(miss.join(', '))}.` : ''; })()}</p>` +
     TYPES.map(t => `<section class="psec"><h2 class="fxh2">${t.name}</h2><div id="pc_${t.id}"></div></section>`).join('');
   for (const t of TYPES){
     const rows = lineRows(items.filter(x => x.type === t.id));

@@ -56,6 +56,25 @@
 - Служебный workflow `probe.yml` скачивает любые страницы в ветку `probe-<run_id>` (архивы и Excel → CSV):
   `gh api -X POST .../actions/workflows/probe.yml/dispatches -f ref=main -f "inputs[urls]=URL1 URL2"`; ветки потом удалять.
 
+## Цены (`#/stats/prices`, код — `prices.js`)
+- Адреса: `#/stats/prices` (кнопка «Сравнить цены» + 6 стран) → `#/stats/prices/<страна>` (магазины; сети, которых
+  нет в стране, показаны серыми) → `#/stats/prices/<страна>/<магазин>` (выбор даты) →
+  `#/stats/prices/<страна>/<магазин>/<ГГГГ-ММ-ДД>` (график-матрица и таблица для паст и для щёток);
+  `#/stats/prices/compare?d=&t=paste|brush&s=cz/dm,de/dm&b=Elmex,...` — сравнение магазинов в евро (курс ЕЦБ).
+- Бренды: SPLAT, Biomed, Elmex, Sensodyne, Biorepair, Colgate, Parodontax, Lacalut, Odol, Marvis, Curaprox.
+- Данные: `data/prices/raw/ДАТА.json` (всё, что отдали сайты), `data/prices/ДАТА.json` и `ДАТА.csv` (бренд, линейка,
+  товар, упаковка, регулярная цена, промо-цена, описание промо, ссылка), `data/prices/manifest.json` (даты и статусы).
+- Сбор — через GitHub Actions (сайты магазинов из среды Claude закрыты), дата = сегодня по Москве:
+  `gh api -X POST repos/neimanr22-netizen/ainewstobeinformed/actions/workflows/prices.yml/dispatches -f ref=main`
+  (один магазин: `-f 'inputs[only]=cz/teta'`), идёт ~20 минут, затем `git pull`.
+  Скрипты: `tools/prices_fetch.py` (сбор), `tools/prices_build.py` (бренд/тип/линейка/цены; правила линеек — словарь `L`;
+  пересборка без сбора: `python3 tools/prices_build.py ДАТА`).
+- Источники: dm — API product-search.services.dmtech.com (DE/AT/CZ/SK/HU, акций в API нет); Rossmann CZ — поиск
+  rossmann.cz; Rossmann HU — категории shop.rossmann.hu (без браузера только первые 24 товара категории);
+  Rossmann DE — закрыт защитой от ботов; Teta CZ/SK — каталоги; Kaufland DE/CZ/SK — только акции из еженедельной
+  листовки; Lidl — поиск lidl.*/q/api/search (только акционные позиции; в Швейцарии поиска нет).
+  Сетей нет: Teta — вне CZ/SK; Kaufland — в AT/CH/HU; Rossmann — в AT/CH/SK; dm — в CH.
+
 ## Порядок обновления
 1. Посмотреть, чего не хватает: `python3 tools/stats.py 2026-11-01 2026-11-14 10`
 2. Собирать новости по одной (под)категории за раз, складывать в batch-файл вне репозитория
