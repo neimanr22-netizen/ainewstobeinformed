@@ -168,6 +168,30 @@
   .mleg{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px;padding:0 8px 6px}
   .mcc.on{font-weight:700}
   #mSrc{margin-top:6px}
+  /* цены */
+  .mbtn small{display:block;font-weight:400;font-size:12px;color:var(--muted);margin-top:3px}
+  .mbtn{flex-direction:column}
+  .mbtn.poff{opacity:.45;cursor:default;box-shadow:none}
+  .mbtn.poff:hover{border-color:var(--line);color:var(--ink)}
+  .psec{margin-top:8px}
+  .pleg{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);padding:0 8px 8px}
+  .pdot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--ink);margin-right:6px;vertical-align:-1px}
+  .pdot.promo{background:var(--card);border:2.5px solid var(--accent);width:9px;height:9px}
+  .pplot{position:relative}
+  .psvg .plabel{fill:var(--ink);font-size:13px}
+  .psvg .pbrand{fill:var(--ink);font-size:13px;font-weight:800}
+  .psvg .punit{font-weight:700}
+  .ptbl{margin-top:12px}
+  .ptbl table{table-layout:auto}
+  .ptbl td{vertical-align:top}
+  .ptbl td:nth-child(2){min-width:220px}
+  .ptbl .pprod,.ptbl .pdesc,.pmore{color:var(--muted);font-size:12.5px;margin-top:2px;line-height:1.35}
+  .ptbl .pdesc{white-space:normal;max-width:230px;margin-left:auto;text-align:right}
+  .ptbl .pprod a,.pmore a{color:var(--muted)}
+  .ppromo{color:var(--accent)}
+  .pmore summary{cursor:pointer;color:var(--accent);display:inline}
+  .pmore div{margin:3px 0}
+  .ptbl th small{font-weight:400;text-transform:none;letter-spacing:0}
   footer{max-width:920px;margin:0 auto;padding:0 18px 40px;font-size:13px;color:var(--muted)}
 </style>
 </head>
@@ -431,7 +455,7 @@ const STATS = [
   {id:'reports',   name:'Отчеты компаний и рынков',   about:''},
   {id:'fx',        name:'Курсы валют',                about:'USD/RUB, EUR/RUB, EUR/USD: курсы, прогнозы, графики'},
   {id:'macro',     name:'Макроэкономика',             about:'ВВП, инфляция, ставки, безработица, регионы — 28 стран и ЕС'},
-  {id:'prices',    name:'Цены',                       about:''},
+  {id:'prices',    name:'Цены',                       about:'Зубные пасты и щётки: dm, Rossmann, Teta, Kaufland, Lidl'},
   {id:'articles',  name:'Интересные статьи',          about:''}
 ];
 const tileLink = (href, name, about) =>
@@ -481,6 +505,7 @@ async function route(){
     const s = STATS.find(x => x.id === p[1]);
     if (!s || s.id === 'news'){ location.replace('#/stats'); return; }
     if (s.id === 'fx') return viewFx(q);
+    if (s.id === 'prices') return routePrices(p.slice(2), q);
     if (s.id === 'macro'){
       if (p[2] === 'compare') return viewMacroCompare(q);
       if (p[2]) return viewMacroCountry(p[2], q);
@@ -510,5 +535,6 @@ loadBase().then(() => { window.addEventListener('hashchange', route); route(); }
 </script>
 <script src="fx.js?v=2"></script>
 <script src="macro.js?v=3"></script>
+<script src="prices.js?v=2"></script>
 </body>
 </html>

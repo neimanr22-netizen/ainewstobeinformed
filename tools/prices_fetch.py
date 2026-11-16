@@ -39,13 +39,13 @@ def log(*a):
     LOG.append(s)
 
 
-def get(url, tries=4, **kw):
+def get(url, tries=6, **kw):
     last = None
     for i in range(tries):
         try:
             r = S.get(url, headers={**UA, **kw.pop('headers', {})}, timeout=60, **KW, **kw)
             if r.status_code == 429:
-                time.sleep(8 * (i + 1)); last = r; continue
+                time.sleep(20 * (i + 1)); last = r; continue
             return r
         except Exception as e:  # сеть
             last = e
@@ -82,7 +82,7 @@ def clean(s):
     return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', s or ''))).strip()
 
 
-ITEMS, STATUS = [], {}
+ITEMS, STATUS, MISSED = [], {}, []
 
 
 def add(country, store, **kw):
@@ -109,7 +109,7 @@ def fetch_dm(c):
             u = f'https://product-search.services.dmtech.com/{tld}/search?query={b}&searchType=product&pageSize=60&currentPage={page}'
             r = get(u)
             if r.status_code != 200:
-                log('dm', c, b, r.status_code); break
+                log('dm', c, b, r.status_code); MISSED.append(f'{c}/dm/{b}'); break
             d = r.json()
             for p in d.get('products', []):
                 t = p['tileData']
@@ -128,9 +128,10 @@ def fetch_dm(c):
             page += 1
             if page >= d.get('totalPages', 0) or page > 6:
                 break
-            time.sleep(1.2)
-        time.sleep(1.2)
-    status(c, 'dm', 'ok', f'https://www.dm.{tld}/')
+            time.sleep(3)
+        time.sleep(3)
+    miss = [m.split('/')[-1] for m in MISSED if m.startswith(c + '/dm/')]
+    status(c, 'dm', 'ok', f'https://www.dm.{tld}/', ('не загрузились бренды: ' + ', '.join(miss)) if miss else '')
 
 
 # ---------------- Rossmann CZ ----------------
@@ -170,7 +171,9 @@ def fetch_rossmann_cz():
 # ---------------- Rossmann HU ----------------
 def fetch_rossmann_hu():
     seen = set()
-    for cat in ['szajapolas/fogkremek', 'szajapolas/fogkefek', 'szajapolas/gyermek-szajapolas']:
+    for cat in ['szajapolas/fogkremek', 'szajapolas/fogkremek/fogkrem', 'szajapolas/fogkefek', 'szajapolas/fogkefek/hagyomanyos-fogkefek',
+                'szajapolas/gyermek-szajapolas', 'szajapolas/gyermek-szajapolas/gyerek-fogkremek-es-szajvizek',
+                'szajapolas/gyermek-szajapolas/hagyomanyos-gyerek-fogkefe', 'szajapolas/fogfeheritok']:
         page, last, first_ids = 1, 1, None
         while page <= last and page <= 20:
             u = f'https://shop.rossmann.hu/kategoria/{cat}' + (f'?page={page}' if page > 1 else '')
@@ -182,7 +185,7 @@ def fetch_rossmann_hu():
             last = pp.get('initialPaginatorInfo', {}).get('lastPage', 1)
             ids = [p['id'] for p in pp.get('initialProducts', [])]
             if page > 1 and ids == first_ids:
-                log('rossmann hu: пагинация не работает', u); break
+                break
             first_ids = first_ids or ids
             for p in pp.get('initialProducts', []):
                 if p['id'] in seen:
@@ -196,7 +199,8 @@ def fetch_rossmann_hu():
                     currency='HUF', url='https://shop.rossmann.hu/termek/' + p.get('slug', ''))
             page += 1
             time.sleep(1)
-    status('hu', 'rossmann', 'ok', 'https://shop.rossmann.hu/')
+    status('hu', 'rossmann', 'ok', 'https://shop.rossmann.hu/kategoria/szajapolas',
+           'сайт без браузера отдаёт только первые 24 товара каждой категории, поэтому список неполный')
 
 
 # ---------------- Teta CZ ----------------
@@ -248,7 +252,7 @@ def fetch_teta_sk():
                 href = re.search(r'href="(/produkty/[^"]+)"', c)
                 t = re.search(r'class="nazov"[^>]*>(.*?)</a>', c, re.S)
                 old = re.search(r'class="old_price">(.*?)</div>', c, re.S)
-                cena = re.search(r'class="cena[^"]*">(.*?)</div>', c, re.S)
+                cena = re.search(r'class="cena(?: [^"]*)?">(.*?)</div>', c, re.S)
                 bub = re.search(r'class="bublinka">(.*?)</div>', c, re.S)
                 low = re.search(r'class="min_cena_30">(.*?)</div>', c, re.S)
                 if not (t and cena):
@@ -370,10 +374,10 @@ def fx_rates():
         return None
 
 
-JOBS = [('de', 'dm', lambda: fetch_dm('de')), ('at', 'dm', lambda: fetch_dm('at')), ('cz', 'dm', lambda: fetch_dm('cz')),
-        ('sk', 'dm', lambda: fetch_dm('sk')), ('hu', 'dm', lambda: fetch_dm('hu')),
-        ('cz', 'rossmann', fetch_rossmann_cz), ('hu', 'rossmann', fetch_rossmann_hu), ('de', 'rossmann', fetch_rossmann_de),
-        ('cz', 'teta', fetch_teta_cz), ('sk', 'teta', fetch_teta_sk),
+JOBS = [('de', 'dm', lambda: fetch_dm('de')), ('cz', 'rossmann', fetch_rossmann_cz), ('at', 'dm', lambda: fetch_dm('at')),
+        ('hu', 'rossmann', fetch_rossmann_hu), ('cz', 'dm', lambda: fetch_dm('cz')), ('cz', 'teta', fetch_teta_cz),
+        ('sk', 'dm', lambda: fetch_dm('sk')), ('sk', 'teta', fetch_teta_sk), ('hu', 'dm', lambda: fetch_dm('hu')),
+        ('de', 'rossmann', fetch_rossmann_de),
         *[(c, 'lidl', (lambda c=c: fetch_lidl(c))) for c in LIDL],
         *[(c, 'kaufland', (lambda c=c: fetch_kaufland(c))) for c in KAUF]]
 
@@ -390,7 +394,7 @@ def main():
             traceback.print_exc()
             STATUS[f'{c}/{st}'] = {'status': 'error', 'url': '', 'note': f'{type(e).__name__}: {e}'[:300], 'count': 0}
     out = {'date': day, 'fetched_at': dt.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
-           'fx': fx_rates(), 'status': STATUS, 'items': ITEMS, 'log': LOG[-200:]}
+           'fx': fx_rates(), 'status': STATUS, 'missed': MISSED, 'items': ITEMS, 'log': LOG[-200:]}
     os.makedirs(os.path.join(ROOT, 'data/prices/raw'), exist_ok=True)
     with open(os.path.join(ROOT, f'data/prices/raw/{day}.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=0)
