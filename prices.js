@@ -305,15 +305,18 @@ async function euRows(st, day){
     const D = N.days[day], by = {};
     const pref = ['ie', 'uk', 'de', 'at'];
     D.items.forEach(x => {
-      const k = x.code || (x.brand + '|' + x.line + '|' + x.annotation + '|' + x.size);
-      const r = by[k] ||= {brand: x.brand, line: x.line, type: x.type, cells: {}, ann: {}, size: x.size};
+      const k = x.key || x.code || (x.brand + '|' + x.line + '|' + x.annotation + '|' + x.size);
+      const r = by[k] ||= {brand: x.brand, line: x.line, type: x.type, cells: {}, ann: {}, sizes: {}};
       r.ann[x.country] = x.annotation;
-      if (!r.size && x.size) r.size = x.size;
+      if (x.size) r.sizes[x.country] = x.size;
       const c = r.cells[x.country];
       if (!c || (x.price_eur ?? 1e9) < c.eur) r.cells[x.country] = {eur: x.price_eur, promo: x.promo_price_eur, desc: x.promo_desc,
         local: x.currency !== 'EUR' ? money(x.price, x.currency) : '', old: x.old_price, url: x.url};
     });
-    const rows = Object.values(by).map(r => ({...r, sub: (() => { const an = pref.map(c => r.ann[c]).find(Boolean) || Object.values(r.ann)[0] || ''; return [an, r.size && !an.includes(r.size) ? r.size : ''].filter(Boolean).join(' · '); })()}));
+    const rows = Object.values(by).map(r => ({...r, sub: (() => {
+      const an = pref.map(c => r.ann[c]).find(Boolean) || Object.values(r.ann)[0] || '';
+      const sz = pref.map(c => r.sizes[c]).find(Boolean) || Object.values(r.sizes)[0] || '';
+      return [an, sz && !an.includes(sz) ? sz : ''].filter(Boolean).join(' · '); })()}));
     const cols = D.countries.filter(c => D.status[c.id] && D.status[c.id].count).map(c => ({id: c.id, name: c.name, cur: D.status[c.id].currency, dom: c.domain}));
     const lim = [...new Set(Object.values(D.status).flatMap(x => x.limited || []))];
     return {rows, cols, fx: D.fx, D, note: 'Цена — на сайте Notino страны, пересчитана в евро по курсу ЕЦБ. Мелким шрифтом — цена с промокодом, если он действует. Один и тот же товар сопоставлен по коду Notino.' +
@@ -360,7 +363,11 @@ async function viewEuTable(st, day, q){
       <div class="hint">Страны (пусто — все):</div>
       <div class="presets">${R.cols.map(c => `<a class="chip mcc${csel.includes(c.id) ? ' on' : ''}" href="${link('c', toggle(csel, c.id))}">${esc(c.name)}</a>`).join('')}</div>
     </div>
-    ${rows.length ? `<p class="note">Строк: ${rows.length}. <b class="pmin">Зелёным</b> — самая низкая цена в строке, <b class="pmax">красным</b> — самая высокая.</p>
+    ${rows.length ? `<p class="note">Строк: ${rows.length}. <b class="pmin">Зелёным</b> — самая низкая цена в строке, <b class="pmax">красным</b> — самая высокая.${
+      (() => { if (st !== 'notino') return ''; const cs = {}; R.D.items.forEach(x => { const m = (x.promo_desc || '').match(/^−(\d+) ?%? ?с кодом (\S+)/); if (m) (cs[m[2]] ||= new Set()).add(+m[1]); });
+        const l = Object.entries(cs).map(([c, v]) => { const a = Math.min(...v), b = Math.max(...v); return `<b>${esc(c)}</b> (−${a === b ? a : a + '…' + b} % в зависимости от страны)`; });
+        return l.length ? ` «код:» — цена с промокодом ${l.join(', ')}.` : ''; })()}
+      ${cols.length > 6 ? ' Таблица прокручивается вбок.' : ''}</p>
     <div class="tbl ptbl peu"><table class="src"><thead><tr><th class="pst">Бренд</th><th class="pst2">Линейка</th>${cols.map(c => `<th class="num">${esc(c.name)}<br><small>${esc(c.dom || '')}${c.cur && c.cur !== 'EUR' ? ' · ' + c.cur : ''}</small></th>`).join('')}</tr></thead><tbody>${
       rows.map(r => {
         const vals = cols.map(c => r.cells[c.id] && r.cells[c.id].eur).filter(v => v != null);
@@ -370,7 +377,7 @@ async function viewEuTable(st, day, q){
           if (!x || x.eur == null) return '<td class="num muted">—</td>';
           const cls = vals.length > 1 && x.eur === mn ? 'pmin' : vals.length > 1 && x.eur === mx ? 'pmax' : '';
           const tip = [x.name, x.local ? 'в местной валюте: ' + x.local : '', x.desc].filter(Boolean).join(' · ');
-          return `<td class="num"><a class="${cls}" href="${esc(x.url)}" target="_blank" rel="noopener" title="${esc(tip)}">${money(x.eur, 'EUR')}</a>${x.promo != null && x.promo < x.eur ? `<div class="pdesc" title="${esc(x.desc || '')}">${money(x.promo, 'EUR')}${st === 'notino' ? ' с кодом' + ((x.desc || '').match(/кодом (\S+)/) ? ' ' + esc((x.desc || '').match(/кодом (\S+)/)[1]) : '') : ' промо'}</div>` : ''}</td>`;
+          return `<td class="num"><a class="${cls}" href="${esc(x.url)}" target="_blank" rel="noopener" title="${esc(tip)}">${money(x.eur, 'EUR')}</a>${x.promo != null && x.promo < x.eur ? `<div class="pdesc" title="${esc(x.desc || '')}">${st === 'notino' ? 'код: ' : 'промо: '}${money(x.promo, 'EUR')}</div>` : ''}</td>`;
         }).join('')}</tr>`;
       }).join('')}</tbody></table></div>` : '<div class="empty-msg">Нет товаров для выбранных фильтров.</div>'}`;
 }

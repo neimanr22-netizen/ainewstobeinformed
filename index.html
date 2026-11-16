@@ -192,8 +192,10 @@
   a.chip{text-decoration:none;color:var(--ink)}
   .peu table{min-width:100%}
   .peu th,.peu td{white-space:nowrap}
-  .peu td.pst2{white-space:normal;min-width:200px}
-  .peu .pst{position:sticky;left:0;background:var(--card);z-index:1}
+  .peu td.pst2,.peu th.pst2{white-space:normal;min-width:230px;max-width:280px;position:sticky;left:96px;background:var(--card);z-index:1;box-shadow:6px 0 6px -6px rgba(0,0,0,.15)}
+  .peu .pst{position:sticky;left:0;background:var(--card);z-index:1;width:96px;min-width:96px;max-width:96px;white-space:normal}
+  .peu .pdesc{white-space:nowrap;color:var(--accent)}
+  @media (max-width:640px){.peu td.pst2,.peu th.pst2{position:static;min-width:170px;box-shadow:none}}
   .peu th.num small{font-weight:400;text-transform:none;letter-spacing:0}
   .peu td.num a{color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--line)}
   .pmin,.peu td.num a.pmin{color:#1a8a4a!important;font-weight:700}
@@ -545,6 +547,6 @@ loadBase().then(() => { window.addEventListener('hashchange', route); route(); }
 </script>
 <script src="fx.js?v=2"></script>
 <script src="macro.js?v=3"></script>
-<script src="prices.js?v=6"></script>
+<script src="prices.js?v=7"></script>
 </body>
 </html>
