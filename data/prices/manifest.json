@@ -1,0 +1,144 @@
+{
+ "updated": "2026-11-16",
+ "dates": [
+  {
+   "date": "2026-11-16",
+   "stores": {
+    "de/dm": {
+     "status": "ok",
+     "url": "https://www.dm.de/",
+     "note": "",
+     "n_paste": 75,
+     "n_brush": 16
+    },
+    "de/rossmann": {
+     "status": "blocked",
+     "url": "https://www.rossmann.de/",
+     "note": "сайт закрыт защитой от ботов (Client Challenge)",
+     "n_paste": 0,
+     "n_brush": 0
+    },
+    "de/kaufland": {
+     "status": "ok",
+     "url": "https://filiale.kaufland.de/angebote/uebersicht.html",
+     "note": "только товары из еженедельной акционной листовки",
+     "n_paste": 0,
+     "n_brush": 0
+    },
+    "de/lidl": {
+     "status": "ok",
+     "url": "https://www.lidl.de/",
+     "note": "",
+     "n_paste": 0,
+     "n_brush": 0
+    },
+    "at/dm": {
+     "status": "ok",
+     "url": "https://www.dm.at/",
+     "note": "",
+     "n_paste": 84,
+     "n_brush": 25
+    },
+    "at/lidl": {
+     "status": "ok",
+     "url": "https://www.lidl.at/",
+     "note": "",
+     "n_paste": 0,
+     "n_brush": 0
+    },
+    "ch/lidl": {
+     "status": "ok",
+     "url": "https://www.lidl.ch/",
+     "note": "",
+     "n_paste": 0,
+     "n_brush": 0
+    },
+    "cz/dm": {
+     "status": "ok",
+     "url": "https://www.dm.cz/",
+     "note": "",
+     "n_paste": 109,
+     "n_brush": 45
+    },
+    "cz/rossmann": {
+     "status": "ok",
+     "url": "https://www.rossmann.cz/",
+     "note": "",
+     "n_paste": 151,
+     "n_brush": 40
+    },
+    "cz/teta": {
+     "status": "ok",
+     "url": "https://www.tetadrogerie.cz/eshop/produkty/pece-o-zuby",
+     "note": "",
+     "n_paste": 122,
+     "n_brush": 31
+    },
+    "cz/kaufland": {
+     "status": "ok",
+     "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+     "note": "только товары из еженедельной акционной листовки",
+     "n_paste": 2,
+     "n_brush": 0
+    },
+    "cz/lidl": {
+     "status": "ok",
+     "url": "https://www.lidl.cz/",
+     "note": "",
+     "n_paste": 0,
+     "n_brush": 1
+    },
+    "hu/dm": {
+     "status": "ok",
+     "url": "https://www.dm.hu/",
+     "note": "",
+     "n_paste": 93,
+     "n_brush": 41
+    },
+    "hu/rossmann": {
+     "status": "ok",
+     "url": "https://shop.rossmann.hu/kategoria/szajapolas",
+     "note": "сайт без браузера отдаёт только первые 24 товара каждой категории, поэтому список неполный",
+     "n_paste": 18,
+     "n_brush": 18
+    },
+    "hu/lidl": {
+     "status": "ok",
+     "url": "https://www.lidl.hu/",
+     "note": "",
+     "n_paste": 1,
+     "n_brush": 0
+    },
+    "sk/dm": {
+     "status": "ok",
+     "url": "https://www.dm.sk/",
+     "note": "",
+     "n_paste": 89,
+     "n_brush": 23
+    },
+    "sk/teta": {
+     "status": "ok",
+     "url": "https://www.tetadrogerie.sk/produkty/T166-Zubne-pasty/",
+     "note": "",
+     "n_paste": 104,
+     "n_brush": 29
+    },
+    "sk/kaufland": {
+     "status": "ok",
+     "url": "https://predajne.kaufland.sk/aktualna-ponuka/prehlad.html",
+     "note": "только товары из еженедельной акционной листовки",
+     "n_paste": 1,
+     "n_brush": 0
+    },
+    "sk/lidl": {
+     "status": "ok",
+     "url": "https://www.lidl.sk/",
+     "note": "",
+     "n_paste": 0,
+     "n_brush": 0
+    }
+   },
+   "items": 1118
+  }
+ ]
+}
