@@ -1,0 +1,14 @@
+f1 200 application/json 16462 https://product-search.services.dmtech.com/cz/search?query=elmex&searchType=product&pageSize=5
+f2 200 application/mindshift.search+json;version=2 402685 https://www.lidl.de/q/api/search?assortment=DE&locale=de_DE&version=v2.0.0&q=zahnpasta
+f3 200 application/mindshift.search+json;version=2 343887 https://www.lidl.cz/q/api/search?assortment=CZ&locale=cs_CZ&version=v2.0.0&q=zubn%C3%AD%20pasta
+f4 200 application/mindshift.search+json;version=2 10249 https://www.lidl.at/q/api/search?assortment=AT&locale=de_AT&version=v2.0.0&q=zahnpasta
+f5 200 application/mindshift.search+json;version=2 380214 https://www.lidl.sk/q/api/search?assortment=SK&locale=sk_SK&version=v2.0.0&q=zubn%C3%A1%20pasta
+f6 200 application/mindshift.search+json;version=2 41757 https://www.lidl.hu/q/api/search?assortment=HU&locale=hu_HU&version=v2.0.0&q=fogkr%C3%A9m
+f7 200 application/mindshift.search+json;version=2 131 https://www.lidl.ch/q/api/search?assortment=CH&locale=de_CH&version=v2.0.0&q=zahnpasta
+f8 200 application/xml 69462 https://www.rossmann.cz/vyhledavani$d4063-search.xml?query=elmex&async=true
+f9 200 text/html; charset=utf-8 1012330 https://shop.rossmann.hu/markak
+f10 200 text/html;charset=utf-8 992313 https://www.tetadrogerie.cz/eshop/produkty/hygiena
+f11 404 application/json 344 https://www.tetadrogerie.cz/api/v2/shop/search/taxons/menu_category
+f12 200 text/html; charset=utf-8 348836 https://www.tetadrogerie.sk/produkty/T166-Zubne-pasty/
+f13 200 text/html; charset=UTF-8 3262950 https://filiale.kaufland.de/angebote/uebersicht.html
+f14 200 text/html; charset=utf-8 3038 https://www.rossmann.de/de/pflege-und-duft/zahnpflege/c/olcat2_15

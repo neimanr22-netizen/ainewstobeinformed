@@ -1,0 +1,1760 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+	<status>OK</status>
+
+	<update selector="#search-filter" replace="true">
+		<![CDATA[ 
+<div id="search-filter">
+
+	
+	<div class="stack" id="active-filters-sidemenu">
+
+</div>
+
+	
+	<div id="fulltext-search-hidden-inputs">
+		<input type="hidden" name="url" value="/vyhledavani$d4063-search.xml">
+		<input type="hidden" name="async" value="true">
+		<input type="hidden" name="query" value="elmex">
+		<input type="hidden" name="offset" value="0">
+		<input type="hidden" name="limit" value="20">
+		<input type="hidden" name="sorting" value="RELEVANCE">
+		<input type="hidden" name="newUrl" value="/vyhledavani$d4063-search?query=elmex">
+	</div>
+
+<div class="stack stack--top-16">
+					<h2 class="typo--h3 stack">Cena</h2>
+					
+
+<div class="js-slider stack stack--top-16"
+	data-slider-start="[39, 239]"
+	data-slider-min="39"
+	data-slider-max="239"
+	data-slider-step="5"
+	data-slider-input-start=" #fp_price_MIN"
+	data-slider-input-end=" #fp_price_MAX"
+	data-slider-input-reset-name="fp_price_MIN"
+	data-slider-unit=""
+	
+	data-product-filter-slider-start-value="39"
+	data-product-filter-slider-end-value="239"
+></div>
+
+<div class="stack stack--top-16">
+	<div class="row row--justify">
+		<span class="row__item">
+			<span class="input__wrapper">
+				<input type="text" id="fp_price_MIN" name="fp_price_MIN" class="input js-product-filter-price" min="0" aria-label="Filtrovat cenu vyžší než  Kč">
+				<div class="input__icon input__icon--right">Kč</div>
+			</span>
+		</span>
+		<span> - </span>
+	    <span class="row__item">
+	    	<span class="input__wrapper stack stack--top-8">
+				<input type="text" id="fp_price_MAX" name="fp_price_MAX" class="input js-product-filter-price" min="0" aria-label="Filtrovat cenu nižší než  Kč">
+				<div class="input__icon input__icon--right">Kč</div>
+			</span>
+	    </span>
+	</div>
+</div></div>
+<hr class="stack stack--top-16">
+<div class="stack stack--top-16">
+					<h2 class="typo--h3 stack">Značka</h2>
+					
+
+<ul class="stack stack--top-8">
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_producer" id="fp_producer" value="5fda150fe5d9cf68c7a52c26" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+elmex<span>&nbsp;(44)</span>
+			</div>
+		</label>
+	</li>
+</ul>
+</div>
+<hr class="stack stack--top-16">
+<div class="stack stack--top-16">
+					<h2 class="typo--h3 stack">Akce</h2>
+					
+
+<ul class="stack stack--top-8">
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_specialOffer" id="fp_specialOffer" value="HAS_RC_PROMOTION" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+ROSSMANN CLUB<span>&nbsp;(38)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_specialOffer" id="fp_specialOffer" value="ACTION" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Akce<span>&nbsp;(8)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_specialOffer" id="fp_specialOffer" value="PERCENTAGE" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+% sleva<span>&nbsp;(8)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_specialOffer" id="fp_specialOffer" value="CLEARANCE_SALE_PRICE" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Výprodej<span>&nbsp;(4)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_specialOffer" id="fp_specialOffer" value="SUPER_PRICE" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Super cena<span>&nbsp;(4)</span>
+			</div>
+		</label>
+	</li>
+</ul>
+</div>
+<hr class="stack stack--top-16">
+<div class="stack stack--top-16">
+					<h2 class="typo--h3 stack">Vlastnosti</h2>
+					
+
+<ul class="stack stack--top-8">
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_flag" id="fp_flag" value="VEGAN" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+VEGAN<span>&nbsp;(11)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_flag" id="fp_flag" value="NEJ" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+NEJ!<span>&nbsp;(5)</span>
+			</div>
+		</label>
+	</li>
+</ul>
+</div>
+<hr class="stack stack--top-16">
+<div class="stack stack--top-16">
+					<h2 class="typo--h3 stack">Kategorie</h2>
+					
+
+<ul class="stack stack--top-8">
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_category" id="fp_category" value="5fe07abfe5d9cf68c70c5eb6" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Zubní pasty<span>&nbsp;(27)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_category" id="fp_category" value="5fe07abde5d9cf68c70c5e7e" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Zubní kartáčky<span>&nbsp;(10)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_category" id="fp_category" value="5fe07abae5d9cf68c70c5e2c" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Ústní vody<span>&nbsp;(4)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_category" id="fp_category" value="5fe07abce5d9cf68c70c5e64" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Mezizubní kartáčky a nitě<span>&nbsp;(3)</span>
+			</div>
+		</label>
+	</li>
+</ul>
+</div>
+</div>		]]>
+	</update>
+	<update selector="#search-results-pagination">
+		<![CDATA[ 
+
+<div class="pagination">
+				<span class="pagination__dummy-col"></span>
+<button class="btn btn--secondary js-fulltext-search-paging" 
+						data-fulltext-search-limit="20"
+						data-fulltext-search-offset="20"
+						data-fulltext-search-append="true"
+					>Načíst více</button>
+<div class="pagination__steps-wrapper">
+					<div class="pagination__steps">
+<span></span>
+<span>
+					<span class="pagination__link--active">1</span>
+				</span>
+<a class="pagination__link btn btn--text js-fulltext-search-paging"
+					data-fulltext-search-limit="20" 
+					data-fulltext-search-offset="20">2</a>
+<a class="pagination__link btn btn--text js-fulltext-search-paging"
+					data-fulltext-search-limit="20" 
+					data-fulltext-search-offset="40">3</a>
+<a class="pagination__link btn btn--text btn--icon js-fulltext-search-paging"
+				data-fulltext-search-limit="20" 
+				data-fulltext-search-offset="20" 
+				aria-label="Další"
+			>
+				<i class="btn__icon icon icon--24 icon--red icon--chevron-right"></i>
+			</a>
+
+</div>
+				</div>
+			</div>
+		]]>
+	</update>
+	<update selector="#search-results-categories">
+		<![CDATA[ 
+
+	<h3 class="typo--b3 typo--bold stack">Kategorie</h3>
+	
+	<div class="stack stack--top-16">
+
+<div class="row row--wrap row--stretch row--gap-16 row--gap-col-40 row--md-gap-32">
+<div class="row__item">
+ProdCategoryInfoFDTO[5fe07abfe5d9cf68c70c5eb6:97]/TOP</div>
+<div class="row__item">
+ProdCategoryInfoFDTO[5fe07abde5d9cf68c70c5e7e:93]/TOP</div>
+<div class="row__item">
+ProdCategoryInfoFDTO[5fe07abae5d9cf68c70c5e2c:87]/TOP</div>
+<div class="row__item">
+ProdCategoryInfoFDTO[5fe07abce5d9cf68c70c5e64:91]/TOP</div>
+</div>
+	</div>
+		]]>
+	</update>
+	<update selector="#active-fulltext-filters">
+		<![CDATA[ 
+
+		]]>
+	</update>
+	<update selector="#active-filters-sidemenu">
+		<![CDATA[ 
+
+		]]>
+	</update>
+	<update selector="#sorting">
+		<![CDATA[ 
+
+<div class="stack typo--right">
+44 produktů</div>
+		<div class="row row--wrap stack">
+			<div class="row__item row__item--fill">
+				<div class="display--none display--md-block">
+					<ul class="row row--wrap">
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable " data-product-filter-sorting="RECOMMENDED">Doporučené</a>
+						</li>
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable " data-product-filter-sorting="BEST_SELLING">Nejprodávanější</a>
+						</li>
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable " data-product-filter-sorting="PRICE_ASC">Od nejlevnějších</a>
+						</li>
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable " data-product-filter-sorting="PRICE_DESC">Od nejdražších</a>
+						</li>
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable " data-product-filter-sorting="TITLE_ASC">Dle titulku A-Z</a>
+						</li>
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable " data-product-filter-sorting="TITLE_DESC">Dle titulku Z-A</a>
+						</li>
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable tab--active" data-product-filter-sorting="RELEVANCE">Dle relevance</a>
+						</li>
+</ul>
+				</div>
+				
+				<div class="display--md-none">
+<a href='#' class="tab tab--clickable js-toggle" data-toggle-media="xs sm" data-toggle-target="#sorting-dropdown">
+Dle relevance<span class="icon icon--red icon--chevron-down icon--10"></span>
+							</a>
+</div>
+			</div>
+			
+			<div class="stack stack--top-16 display--md-none js-loading-hidden" id="sorting-dropdown">
+				<div>
+<a href='#' class="js-product-filter-sorting tab tab--clickable" data-product-filter-sorting="RECOMMENDED">Doporučené</a>
+<a href='#' class="js-product-filter-sorting tab tab--clickable" data-product-filter-sorting="BEST_SELLING">Nejprodávanější</a>
+<a href='#' class="js-product-filter-sorting tab tab--clickable" data-product-filter-sorting="PRICE_ASC">Od nejlevnějších</a>
+<a href='#' class="js-product-filter-sorting tab tab--clickable" data-product-filter-sorting="PRICE_DESC">Od nejdražších</a>
+<a href='#' class="js-product-filter-sorting tab tab--clickable" data-product-filter-sorting="TITLE_ASC">Dle titulku A-Z</a>
+<a href='#' class="js-product-filter-sorting tab tab--clickable" data-product-filter-sorting="TITLE_DESC">Dle titulku Z-A</a>
+</div>
+			</div>
+		</div>
+<script>
+dataLayer.push({event:"ec_list_check",item_list_name:"search_result",items_found:44});</script>		]]>
+	</update>
+	<update selector="#fulltext-header">
+		<![CDATA[ 
+<div id="fulltext-header">
+<h1 class="stack">Výsledky pro výraz „elmex“</h1>
+		
+
+
+<div class="stack stack--32">
+		<h2 class="stack">Kategorie</h2>
+		<div class="stack stack--top-16">
+
+<div class="slider js-carousel-slider">
+			<div class="slider__track" data-slider-track>
+<div class="slider__item" data-slider-item>
+
+<a href="/zubni-pasty" class="autocomplete__item" data-lb-entity="category" data-lb-id="5fe07abfe5d9cf68c70c5eb6">
+		<span class="autocomplete__item-title autocomplete__item-title--bold">Zubní pasty</span>
+		<span class="autocomplete__item-subtitle">Péče o zuby</span>
+	</a>
+</div>
+<div class="slider__item" data-slider-item>
+
+<a href="/zubni-kartacky" class="autocomplete__item" data-lb-entity="category" data-lb-id="5fe07abde5d9cf68c70c5e7e">
+		<span class="autocomplete__item-title autocomplete__item-title--bold">Zubní kartáčky</span>
+		<span class="autocomplete__item-subtitle">Péče o zuby</span>
+	</a>
+</div>
+<div class="slider__item" data-slider-item>
+
+<a href="/ustni-vody" class="autocomplete__item" data-lb-entity="category" data-lb-id="5fe07abae5d9cf68c70c5e2c">
+		<span class="autocomplete__item-title autocomplete__item-title--bold">Ústní vody</span>
+		<span class="autocomplete__item-subtitle">Péče o zuby</span>
+	</a>
+</div>
+<div class="slider__item" data-slider-item>
+
+<a href="/mezizubni-kartacky-a-nite" class="autocomplete__item" data-lb-entity="category" data-lb-id="5fe07abce5d9cf68c70c5e64">
+		<span class="autocomplete__item-title autocomplete__item-title--bold">Mezizubní kartáčky a nitě</span>
+		<span class="autocomplete__item-subtitle">Péče o zuby</span>
+	</a>
+</div>
+</div>
+<button class="slider__arrow slider__arrow--prev" aria-label="Předchozí" data-slider-arrow="prev">
+					<i class="icon icon--chevron-left icon--red icon--md"></i>
+				</button>
+				<button class="slider__arrow slider__arrow--next" aria-label="Další" data-slider-arrow="next">
+					<i class="icon icon--chevron-right icon--red icon--md"></i>
+				</button>
+</div>
+	</div>
+	</div>
+<div class="stack stack--32">
+		<h2 class="stack">Značky</h2>
+		<div class="stack stack--top-16">
+
+<div class="slider js-carousel-slider">
+			<div class="slider__track" data-slider-track>
+<div class="slider__item" data-slider-item>
+<a href="/elmex" class="box bgr--white clickable">
+	<div class="box__content">
+elmex</div>
+</a></div>
+</div>
+<button class="slider__arrow slider__arrow--prev" aria-label="Předchozí" data-slider-arrow="prev">
+					<i class="icon icon--chevron-left icon--red icon--md"></i>
+				</button>
+				<button class="slider__arrow slider__arrow--next" aria-label="Další" data-slider-arrow="next">
+					<i class="icon icon--chevron-right icon--red icon--md"></i>
+				</button>
+</div>
+	</div>
+	</div>
+</div>
+
+
+
+		]]>
+	</update>
+<update selector="#search-results">
+			<![CDATA[ 
+<div class="product-grid" id="fulltext-search-result-tiles">
+
+
+
+	<div class="product-tile" id="product-id--sp573252" data-lb-entity="product" data-lb-id="60def60ac0630a4ca30b3ec6" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker true" title="NEJ!" >
+<img src="https://binbox.rossmann.cz/binbox/pub/LABEL-flag-NEJ/SECONDARY_ICON?v=895672cc" width="100%" height="100%" alt="NEJ!" title="NEJ!" loading="lazy"/>
+</span>
+
+<span class="sticker true" title="VEGAN" >
+<img src="https://binbox.rossmann.cz/binbox/pub/LABEL-flag-VEGAN/SECONDARY_ICON?v=7511178b" width="100%" height="100%" alt="VEGAN" title="VEGAN" loading="lazy"/>
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-caries-protection-duopack-2x-75-ml" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-573252/09b562c8699119464004df2d?v=0ebf372b&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-573252/09b562c8699119464004df2d?v=0ebf372b&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-573252/09b562c8699119464004df2d?v=0ebf372b&size=240px" alt="Zubní pasta Caries Protection duopack 2x 75 ml" title="Zubní pasta Caries Protection duopack 2x 75 ml" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-caries-protection-duopack-2x-75-ml" id="product-linksp573252">Zubní pasta Caries Protection duopack 2x 75 ml</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">150 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>98.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def60ac0630a4ca30b3ec6" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp573252&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=0&amp;indx=0"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Caries Protection duopack 2x 75 ml"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 573252
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp573269" data-lb-entity="product" data-lb-id="60def60ac0630a4ca30b3ef0" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker true" title="NEJ!" >
+<img src="https://binbox.rossmann.cz/binbox/pub/LABEL-flag-NEJ/SECONDARY_ICON?v=895672cc" width="100%" height="100%" alt="NEJ!" title="NEJ!" loading="lazy"/>
+</span>
+
+<span class="sticker true" title="VEGAN" >
+<img src="https://binbox.rossmann.cz/binbox/pub/LABEL-flag-VEGAN/SECONDARY_ICON?v=7511178b" width="100%" height="100%" alt="VEGAN" title="VEGAN" loading="lazy"/>
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-sensitive-duopack-2x-75-ml" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-573269/e98b89314b50bcd8674d2390?v=4c34aac1&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-573269/e98b89314b50bcd8674d2390?v=4c34aac1&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-573269/e98b89314b50bcd8674d2390?v=4c34aac1&size=240px" alt="Zubní pasta Sensitive duopack 2x 75 ml" title="Zubní pasta Sensitive duopack 2x 75 ml" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-sensitive-duopack-2x-75-ml" id="product-linksp573269">Zubní pasta Sensitive duopack 2x 75 ml</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">150 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>98.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def60ac0630a4ca30b3ef0" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp573269&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=1&amp;indx=1"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Sensitive duopack 2x 75 ml"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 573269
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1015942" data-lb-entity="product" data-lb-id="60def711c0630a4ca317e42b" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker true" title="NEJ!" >
+<img src="https://binbox.rossmann.cz/binbox/pub/LABEL-flag-NEJ/SECONDARY_ICON?v=895672cc" width="100%" height="100%" alt="NEJ!" title="NEJ!" loading="lazy"/>
+</span>
+
+<span class="sticker true" title="VEGAN" >
+<img src="https://binbox.rossmann.cz/binbox/pub/LABEL-flag-VEGAN/SECONDARY_ICON?v=7511178b" width="100%" height="100%" alt="VEGAN" title="VEGAN" loading="lazy"/>
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-sensitive-whitening-duopack-2x-75-ml" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1015942/993dfe155c7d14ca81705fdd?v=100d8447&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1015942/993dfe155c7d14ca81705fdd?v=100d8447&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1015942/993dfe155c7d14ca81705fdd?v=100d8447&size=240px" alt="Zubní pasta s fluoridem Sensitive Whitening duopack 2x 75 ml" title="Zubní pasta s fluoridem Sensitive Whitening duopack 2x 75 ml" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-sensitive-whitening-duopack-2x-75-ml" id="product-linksp1015942">Zubní pasta s fluoridem Sensitive Whitening duopack 2x 75 ml</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">150 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>98.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def711c0630a4ca317e42b" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1015942&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=2&amp;indx=2"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Sensitive Whitening duopack 2x 75 ml"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1015942
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1137484" data-lb-entity="product" data-lb-id="63161bb4496a77435ab863f6" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span>
+
+<span class="sticker sticker--percentage" title="% sleva" data-val="-37%">
+</span>
+
+<span class="sticker true" title="VEGAN" >
+<img src="https://binbox.rossmann.cz/binbox/pub/LABEL-flag-VEGAN/SECONDARY_ICON?v=7511178b" width="100%" height="100%" alt="VEGAN" title="VEGAN" loading="lazy"/>
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-pro-deti-od-prvniho-zoubku-duopack-2x-50-ml" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1137484/5b6331828d916fc01d50b594?v=24bfb21e&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1137484/5b6331828d916fc01d50b594?v=24bfb21e&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1137484/5b6331828d916fc01d50b594?v=24bfb21e&size=240px" alt="Zubní pasta pro děti od prvního zoubku duopack 2x 50 ml" title="Zubní pasta pro děti od prvního zoubku duopack 2x 50 ml" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-pro-deti-od-prvniho-zoubku-duopack-2x-50-ml" id="product-linksp1137484">Zubní pasta pro děti od prvního zoubku duopack 2x 50 ml</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">100 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>189 Kč</s>
+</span>
+<div>119 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="63161bb4496a77435ab863f6" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1137484&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=3&amp;indx=3"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta pro děti od prvního zoubku duopack 2x 50 ml"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1137484
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp247757" data-lb-entity="product" data-lb-id="60def5d6c0630a4ca308b0b9" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-opti-namel-seal-strengthen-professional-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-247757/f31ba9a57a9cb109e14d3b4e?v=673543e8&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-247757/f31ba9a57a9cb109e14d3b4e?v=673543e8&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-247757/f31ba9a57a9cb109e14d3b4e?v=673543e8&size=240px" alt="Zubní pasta Opti-namel Seal &amp; Strengthen Professional" title="Zubní pasta Opti-namel Seal &amp; Strengthen Professional" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-opti-namel-seal-strengthen-professional-2" id="product-linksp247757">Zubní pasta Opti-namel Seal &amp; Strengthen Professional</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>149 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def5d6c0630a4ca308b0b9" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp247757&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=4&amp;indx=4"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Opti-namel Seal &amp; Strengthen Professional"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 247757
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1169270" data-lb-entity="product" data-lb-id="63f9182ab37471f38c6c3c31" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-opti-namel-daily-repair" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1169270/7d421a65778a712c86441195?v=7c12d397&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1169270/7d421a65778a712c86441195?v=7c12d397&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1169270/7d421a65778a712c86441195?v=7c12d397&size=240px" alt="Zubní pasta Opti-namel Daily Repair" title="Zubní pasta Opti-namel Daily Repair" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-opti-namel-daily-repair" id="product-linksp1169270">Zubní pasta Opti-namel Daily Repair</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>99.90 Kč</s>
+</span>
+<div>89.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="63f9182ab37471f38c6c3c31" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1169270&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=5&amp;indx=5"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Opti-namel Daily Repair"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1169270
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1582024" data-lb-entity="product" data-lb-id="6a83a08a50b4e161ee96c0c8" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-elmex-enamel-professional-healthy-white-75ml" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1582024/f79b97787464380d60dac7b9?v=89c3a8b5&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1582024/f79b97787464380d60dac7b9?v=89c3a8b5&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1582024/f79b97787464380d60dac7b9?v=89c3a8b5&size=240px" alt="Zubní pasta elmex Enamel Professional Healthy White 75ml" title="Zubní pasta elmex Enamel Professional Healthy White 75ml" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-elmex-enamel-professional-healthy-white-75ml" id="product-linksp1582024">Zubní pasta elmex Enamel Professional Healthy White 75ml</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>239 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6a83a08a50b4e161ee96c0c8" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1582024&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=6&amp;indx=6"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta elmex Enamel Professional Healthy White 75ml"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1582024
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1137477" data-lb-entity="product" data-lb-id="63161bb3496a77435ab851dc" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span>
+
+<span class="sticker sticker--percentage" title="% sleva" data-val="-37%">
+</span>
+
+<span class="sticker true" title="VEGAN" >
+<img src="https://binbox.rossmann.cz/binbox/pub/LABEL-flag-VEGAN/SECONDARY_ICON?v=7511178b" width="100%" height="100%" alt="VEGAN" title="VEGAN" loading="lazy"/>
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-junior-pro-deti-ve-veku-6-12-let-duopack-2x-75-ml" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1137477/e5b36783ff1e66f703148180?v=9055c844&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1137477/e5b36783ff1e66f703148180?v=9055c844&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1137477/e5b36783ff1e66f703148180?v=9055c844&size=240px" alt="Zubní pasta Junior pro děti ve věku 6-12 let duopack 2x 75 ml" title="Zubní pasta Junior pro děti ve věku 6-12 let duopack 2x 75 ml" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-junior-pro-deti-ve-veku-6-12-let-duopack-2x-75-ml" id="product-linksp1137477">Zubní pasta Junior pro děti ve věku 6-12 let duopack 2x 75 ml</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">150 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>189 Kč</s>
+</span>
+<div>119 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="63161bb3496a77435ab851dc" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1137477&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=7&amp;indx=7"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Junior pro děti ve věku 6-12 let duopack 2x 75 ml"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1137477
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp334235" data-lb-entity="product" data-lb-id="60def5e6c0630a4ca3096e0d" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span>
+
+<span class="sticker true" title="VEGAN" >
+<img src="https://binbox.rossmann.cz/binbox/pub/LABEL-flag-VEGAN/SECONDARY_ICON?v=7511178b" width="100%" height="100%" alt="VEGAN" title="VEGAN" loading="lazy"/>
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-gentle-white" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-334235/5085c86ed077e44ac7579af6?v=6c8fa71e&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-334235/5085c86ed077e44ac7579af6?v=6c8fa71e&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-334235/5085c86ed077e44ac7579af6?v=6c8fa71e&size=240px" alt="Zubní pasta Gentle White" title="Zubní pasta Gentle White" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-gentle-white" id="product-linksp334235">Zubní pasta Gentle White</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>99.90 Kč</s>
+</span>
+<div>89.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def5e6c0630a4ca3096e0d" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp334235&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=8&amp;indx=8"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Gentle White"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 334235
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp314831" data-lb-entity="product" data-lb-id="60def5e2c0630a4ca3094295" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span>
+
+<span class="sticker true" title="VEGAN" >
+<img src="https://binbox.rossmann.cz/binbox/pub/LABEL-flag-VEGAN/SECONDARY_ICON?v=7511178b" width="100%" height="100%" alt="VEGAN" title="VEGAN" loading="lazy"/>
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-caries-protection-s-fluoridem-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-314831/236ebff017b17125407ec3f2?v=ffc2417d&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-314831/236ebff017b17125407ec3f2?v=ffc2417d&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-314831/236ebff017b17125407ec3f2?v=ffc2417d&size=240px" alt="Zubní pasta Caries Protection s fluoridem " title="Zubní pasta Caries Protection s fluoridem " width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-caries-protection-s-fluoridem-2" id="product-linksp314831">Zubní pasta Caries Protection s fluoridem </a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>99.90 Kč</s>
+</span>
+<div>89.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def5e2c0630a4ca3094295" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp314831&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=9&amp;indx=9"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Caries Protection s fluoridem "
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 314831
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1491524" data-lb-entity="product" data-lb-id="69976d734e9e514f6243e679" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-sensitive-professional" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1491524/d1189b519d6aeb145a02fc5a?v=7630e4f1&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1491524/d1189b519d6aeb145a02fc5a?v=7630e4f1&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1491524/d1189b519d6aeb145a02fc5a?v=7630e4f1&size=240px" alt="Zubní pasta Sensitive Professional Repair &amp; Prevent" title="Zubní pasta Sensitive Professional Repair &amp; Prevent" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-sensitive-professional" id="product-linksp1491524">Zubní pasta Sensitive Professional Repair &amp; Prevent</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>179 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="69976d734e9e514f6243e679" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1491524&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=10&amp;indx=10"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Sensitive Professional Repair &amp; Prevent"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1491524
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp314862" data-lb-entity="product" data-lb-id="60def5e2c0630a4ca309431c" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span>
+
+<span class="sticker true" title="VEGAN" >
+<img src="https://binbox.rossmann.cz/binbox/pub/LABEL-flag-VEGAN/SECONDARY_ICON?v=7511178b" width="100%" height="100%" alt="VEGAN" title="VEGAN" loading="lazy"/>
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-sensitive-s-fluoridem-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-314862/ad3a98a18c66015588a46d0e?v=6c5df489&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-314862/ad3a98a18c66015588a46d0e?v=6c5df489&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-314862/ad3a98a18c66015588a46d0e?v=6c5df489&size=240px" alt="Zubní pasta Sensitive s fluoridem " title="Zubní pasta Sensitive s fluoridem " width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-sensitive-s-fluoridem-2" id="product-linksp314862">Zubní pasta Sensitive s fluoridem </a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>99.90 Kč</s>
+</span>
+<div>89.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def5e2c0630a4ca309431c" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp314862&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=11&amp;indx=11"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Sensitive s fluoridem "
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 314862
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp933872" data-lb-entity="product" data-lb-id="60def69cc0630a4ca3124a4c" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-anti-caries-professional-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-933872/fdcf180ed99192767d8105f9?v=d4a3b41d&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-933872/fdcf180ed99192767d8105f9?v=d4a3b41d&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-933872/fdcf180ed99192767d8105f9?v=d4a3b41d&size=240px" alt="Zubní pasta Anti-Caries Professional " title="Zubní pasta Anti-Caries Professional " width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-anti-caries-professional-2" id="product-linksp933872">Zubní pasta Anti-Caries Professional </a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>149 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def69cc0630a4ca3124a4c" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp933872&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=12&amp;indx=12"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Anti-Caries Professional "
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 933872
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1169249" data-lb-entity="product" data-lb-id="63f9182ab37471f38c6c3bdd" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-pro-deti-anti-caries-professional-junior-6-12-let" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1169249/b37e34414d4231e12bc66890?v=5a5f9c65&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1169249/b37e34414d4231e12bc66890?v=5a5f9c65&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1169249/b37e34414d4231e12bc66890?v=5a5f9c65&size=240px" alt="Zubní pasta pro děti Anti-Caries Professional Junior 6-12 let" title="Zubní pasta pro děti Anti-Caries Professional Junior 6-12 let" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-pro-deti-anti-caries-professional-junior-6-12-let" id="product-linksp1169249">Zubní pasta pro děti Anti-Caries Professional Junior 6-12 let</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>129 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="63f9182ab37471f38c6c3bdd" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1169249&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=13&amp;indx=13"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta pro děti Anti-Caries Professional Junior 6-12 let"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1169249
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1238518" data-lb-entity="product" data-lb-id="65c1ce2ca1908bccb85f7c93" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-caries-protection-plus-complete-care" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1238518/3e0dfcaae0d2b99ca3027775?v=8e157656&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1238518/3e0dfcaae0d2b99ca3027775?v=8e157656&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1238518/3e0dfcaae0d2b99ca3027775?v=8e157656&size=240px" alt="Zubní pasta Caries Protection Plus Complete Care" title="Zubní pasta Caries Protection Plus Complete Care" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-caries-protection-plus-complete-care" id="product-linksp1238518">Zubní pasta Caries Protection Plus Complete Care</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>149 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="65c1ce2ca1908bccb85f7c93" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1238518&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=14&amp;indx=14"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Caries Protection Plus Complete Care"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1238518
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp899888" data-lb-entity="product" data-lb-id="60def676c0630a4ca31070af" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span>
+
+<span class="sticker true" title="VEGAN" >
+<img src="https://binbox.rossmann.cz/binbox/pub/LABEL-flag-VEGAN/SECONDARY_ICON?v=7511178b" width="100%" height="100%" alt="VEGAN" title="VEGAN" loading="lazy"/>
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-caries-protection-whitening-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-899888/3cdd60ebddbb5d4940e08d1e?v=16a6f4a5&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-899888/3cdd60ebddbb5d4940e08d1e?v=16a6f4a5&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-899888/3cdd60ebddbb5d4940e08d1e?v=16a6f4a5&size=240px" alt="Zubní pasta s fluoridem Caries Protection Whitening " title="Zubní pasta s fluoridem Caries Protection Whitening " width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-caries-protection-whitening-2" id="product-linksp899888">Zubní pasta s fluoridem Caries Protection Whitening </a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>99.90 Kč</s>
+</span>
+<div>89.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def676c0630a4ca31070af" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp899888&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=15&amp;indx=15"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Caries Protection Whitening "
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 899888
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp708135" data-lb-entity="product" data-lb-id="60def64fc0630a4ca30e8d17" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-sensitive-professional-repair-prevent" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-708135/f727d17d166a4f24ea06ac61?v=5cbcdeda&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-708135/f727d17d166a4f24ea06ac61?v=5cbcdeda&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-708135/f727d17d166a4f24ea06ac61?v=5cbcdeda&size=240px" alt="Zubní pasta Sensitive Professional Repair &amp; Prevent " title="Zubní pasta Sensitive Professional Repair &amp; Prevent " width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-sensitive-professional-repair-prevent" id="product-linksp708135">Zubní pasta Sensitive Professional Repair &amp; Prevent </a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>179 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def64fc0630a4ca30e8d17" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp708135&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=16&amp;indx=16"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Sensitive Professional Repair &amp; Prevent "
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 708135
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp580151" data-lb-entity="product" data-lb-id="60def60dc0630a4ca30b635b" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-sensitive-professional-gentle-whitening" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-580151/803397a4046fe53d30688e15?v=49c9f798&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-580151/803397a4046fe53d30688e15?v=49c9f798&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-580151/803397a4046fe53d30688e15?v=49c9f798&size=240px" alt="Zubní pasta Sensitive Professional Gentle Whitening" title="Zubní pasta Sensitive Professional Gentle Whitening" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-sensitive-professional-gentle-whitening" id="product-linksp580151">Zubní pasta Sensitive Professional Gentle Whitening</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>149 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def60dc0630a4ca30b635b" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp580151&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=17&amp;indx=17"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Sensitive Professional Gentle Whitening"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 580151
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1289039" data-lb-entity="product" data-lb-id="66be51423fb1b31cf1587335" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-sensitivity-gum-care" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1289039/3ad4f7a2a0358f0f499fdc6d?v=eae2d77d&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1289039/3ad4f7a2a0358f0f499fdc6d?v=eae2d77d&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1289039/3ad4f7a2a0358f0f499fdc6d?v=eae2d77d&size=240px" alt="Zubní pasta Sensitivity + Gum Care" title="Zubní pasta Sensitivity + Gum Care" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-sensitivity-gum-care" id="product-linksp1289039">Zubní pasta Sensitivity + Gum Care</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>149 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="66be51423fb1b31cf1587335" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1289039&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=18&amp;indx=18"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Sensitivity + Gum Care"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1289039
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp642545" data-lb-entity="product" data-lb-id="60def628c0630a4ca30ca7ad" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/-zubni-pasta-sensitive-professional" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-642545/96a21c0895630f8b42e2c434?v=d9e79569&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-642545/96a21c0895630f8b42e2c434?v=d9e79569&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-642545/96a21c0895630f8b42e2c434?v=d9e79569&size=240px" alt=" Zubní pasta Sensitive Professional" title=" Zubní pasta Sensitive Professional" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/-zubni-pasta-sensitive-professional" id="product-linksp642545"> Zubní pasta Sensitive Professional</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">elmex</span>
+<span class="product-tile__sub--amount">20 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>69.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def628c0630a4ca30ca7ad" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp642545&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=19&amp;indx=19"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks  Zubní pasta Sensitive Professional"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 642545
+		</div>
+	</div>
+<script>
+dataLayer.push({event:"ec_list_view",item_list_name:"search_result",search_term:"elmex",ecommerce:{items:[{item_id:"573252",item_name:"sp573252",item_brand:"elmex",item_variant:"150 ml",index:1,price:"81.74"},{item_id:"573269",item_name:"sp573269",item_brand:"elmex",item_variant:"150 ml",index:2,price:"81.74"},{item_id:"1015942",item_name:"sp1015942",item_brand:"elmex",item_variant:"150 ml",index:3,price:"81.74"},{item_id:"1137484",item_name:"sp1137484",item_brand:"elmex",item_variant:"100 ml",index:4,
+price:"98.35"},{item_id:"247757",item_name:"sp247757",item_brand:"elmex",item_variant:"75 ml",index:5,price:"123.14"},{item_id:"1169270",item_name:"sp1169270",item_brand:"elmex",item_variant:"75 ml",index:6,price:"74.30"},{item_id:"1582024",item_name:"sp1582024",item_brand:"elmex",item_variant:"75 ml",index:7,price:"197.52"},{item_id:"1137477",item_name:"sp1137477",item_brand:"elmex",item_variant:"150 ml",index:8,price:"98.35"},{item_id:"334235",item_name:"sp334235",item_brand:"elmex",item_variant:"75 ml",
+index:9,price:"74.30"},{item_id:"314831",item_name:"sp314831",item_brand:"elmex",item_variant:"75 ml",index:10,price:"74.30"},{item_id:"1491524",item_name:"sp1491524",item_brand:"elmex",item_variant:"75 ml",index:11,price:"147.93"},{item_id:"314862",item_name:"sp314862",item_brand:"elmex",item_variant:"75 ml",index:12,price:"74.30"},{item_id:"933872",item_name:"sp933872",item_brand:"elmex",item_variant:"75 ml",index:13,price:"123.14"},{item_id:"1169249",item_name:"sp1169249",item_brand:"elmex",item_variant:"75 ml",
+index:14,price:"106.61"},{item_id:"1238518",item_name:"sp1238518",item_brand:"elmex",item_variant:"75 ml",index:15,price:"123.14"},{item_id:"899888",item_name:"sp899888",item_brand:"elmex",item_variant:"75 ml",index:16,price:"74.30"},{item_id:"708135",item_name:"sp708135",item_brand:"elmex",item_variant:"75 ml",index:17,price:"147.93"},{item_id:"580151",item_name:"sp580151",item_brand:"elmex",item_variant:"75 ml",index:18,price:"123.14"},{item_id:"1289039",item_name:"sp1289039",item_brand:"elmex",
+item_variant:"75 ml",index:19,price:"123.14"},{item_id:"642545",item_name:"sp642545",item_brand:"elmex",item_variant:"20 ml",index:20,price:"57.77"}]}});</script>
+<script>
+lbLayer.push({event:"view_item_list",ecommerce:{item_list_name:"Search Results",search_term:"elmex",items:[{item_id:"5fda150fe5d9cf68c7a52c26",item_name:"elmex",index:1,type:"PRODUCER"},{item_id:"5fe07abfe5d9cf68c70c5eb6",item_name:"Zubn\u00ed pasty",index:2,type:"CATEGORY"},{item_id:"5fe07abde5d9cf68c70c5e7e",item_name:"Zubn\u00ed kart\u00e1\u010dky",index:3,type:"CATEGORY"},{item_id:"5fe07abae5d9cf68c70c5e2c",item_name:"\u00dastn\u00ed vody",index:4,type:"CATEGORY"},{item_id:"5fe07abce5d9cf68c70c5e64",
+item_name:"Mezizubn\u00ed kart\u00e1\u010dky a nit\u011b",index:5,type:"CATEGORY"},{item_id:"60def60ac0630a4ca30b3ec6",item_name:"Zubn\u00ed pasta Caries Protection duopack 2x 75 ml",index:6,price:98.9,type:"PRODUCT"},{item_id:"60def60ac0630a4ca30b3ef0",item_name:"Zubn\u00ed pasta Sensitive duopack 2x 75 ml",index:7,price:98.9,type:"PRODUCT"},{item_id:"60def711c0630a4ca317e42b",item_name:"Zubn\u00ed pasta s fluoridem Sensitive Whitening duopack 2x 75 ml",index:8,price:98.9,type:"PRODUCT"},{item_id:"63161bb4496a77435ab863f6",
+item_name:"Zubn\u00ed pasta pro d\u011bti od prvn\u00edho zoubku duopack 2x 50 ml",index:9,price:119,type:"PRODUCT"},{item_id:"60def5d6c0630a4ca308b0b9",item_name:"Zubn\u00ed pasta Opti-namel Seal \x26amp; Strengthen Professional",index:10,price:149,type:"PRODUCT"},{item_id:"63f9182ab37471f38c6c3c31",item_name:"Zubn\u00ed pasta Opti-namel Daily Repair",index:11,price:89.9,type:"PRODUCT"},{item_id:"6a83a08a50b4e161ee96c0c8",item_name:"Zubn\u00ed pasta elmex Enamel Professional Healthy White 75ml",
+index:12,price:239,type:"PRODUCT"},{item_id:"63161bb3496a77435ab851dc",item_name:"Zubn\u00ed pasta Junior pro d\u011bti ve v\u011bku 6-12 let duopack 2x 75 ml",index:13,price:119,type:"PRODUCT"},{item_id:"60def5e6c0630a4ca3096e0d",item_name:"Zubn\u00ed pasta Gentle White",index:14,price:89.9,type:"PRODUCT"},{item_id:"60def5e2c0630a4ca3094295",item_name:"Zubn\u00ed pasta Caries Protection s fluoridem ",index:15,price:89.9,type:"PRODUCT"},{item_id:"69976d734e9e514f6243e679",item_name:"Zubn\u00ed pasta Sensitive Professional Repair \x26amp; Prevent",
+index:16,price:179,type:"PRODUCT"},{item_id:"60def5e2c0630a4ca309431c",item_name:"Zubn\u00ed pasta Sensitive s fluoridem ",index:17,price:89.9,type:"PRODUCT"},{item_id:"60def69cc0630a4ca3124a4c",item_name:"Zubn\u00ed pasta Anti-Caries Professional ",index:18,price:149,type:"PRODUCT"},{item_id:"63f9182ab37471f38c6c3bdd",item_name:"Zubn\u00ed pasta pro d\u011bti Anti-Caries Professional Junior 6-12 let",index:19,price:129,type:"PRODUCT"},{item_id:"65c1ce2ca1908bccb85f7c93",item_name:"Zubn\u00ed pasta Caries Protection Plus Complete Care",
+index:20,price:149,type:"PRODUCT"},{item_id:"60def676c0630a4ca31070af",item_name:"Zubn\u00ed pasta s fluoridem Caries Protection Whitening ",index:21,price:89.9,type:"PRODUCT"},{item_id:"60def64fc0630a4ca30e8d17",item_name:"Zubn\u00ed pasta Sensitive Professional Repair \x26amp; Prevent ",index:22,price:179,type:"PRODUCT"},{item_id:"60def60dc0630a4ca30b635b",item_name:"Zubn\u00ed pasta Sensitive Professional Gentle Whitening",index:23,price:149,type:"PRODUCT"},{item_id:"66be51423fb1b31cf1587335",
+item_name:"Zubn\u00ed pasta Sensitivity + Gum Care",index:24,price:149,type:"PRODUCT"},{item_id:"60def628c0630a4ca30ca7ad",item_name:" Zubn\u00ed pasta Sensitive Professional",index:25,price:69.9,type:"PRODUCT"}],filters:{}}});</script>
+
+</div>
+			]]>
+		</update>
+</response>

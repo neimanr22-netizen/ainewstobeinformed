@@ -1,0 +1,10 @@
+{
+  "error": true,
+  "url": "https://www.tetadrogerie.cz/api/v2/shop/search/taxons/menu_category",
+  "statusCode": 404,
+  "statusMessage": "Page not found: /api/v2/shop/search/taxons/menu_category",
+  "message": "Page not found: /api/v2/shop/search/taxons/menu_category",
+  "data": {
+    "path": "/api/v2/shop/search/taxons/menu_category"
+  }
+}
