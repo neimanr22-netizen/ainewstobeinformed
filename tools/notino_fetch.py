@@ -210,10 +210,22 @@ def main():
     prev_path = os.path.join(OUT, f'{day}.json')
     if only and os.path.exists(prev_path):  # дописать к уже собранным странам этого дня
         prev = json.load(open(prev_path, encoding='utf-8'))
-        keep_prev = {k for k, v in prev['status'].items() if k not in status or status[k]['count'] < v['count']}
-        for k in keep_prev:
-            status[k] = prev['status'][k]
-        items = [x for x in prev['items'] if x['country'] in keep_prev] + [x for x in items if x['country'] not in keep_prev]
+        # по каждой паре страна+бренд оставить вариант, где товаров больше
+        for cc in list(status):
+            pv = prev['status'].get(cc)
+            if not pv:
+                continue
+            for b in set(pv.get('brands', {})) | set(status[cc].get('brands', {})):
+                if pv['brands'].get(b, 0) > status[cc]['brands'].get(b, 0):
+                    items = [x for x in items if not (x['country'] == cc and x['brand'] == b)] + \
+                            [x for x in prev['items'] if x['country'] == cc and x['brand'] == b]
+                    status[cc]['brands'][b] = pv['brands'][b]
+            status[cc]['count'] = sum(1 for x in items if x['country'] == cc)
+            status[cc]['status'] = 'ok' if status[cc]['count'] else 'empty'
+        for k, v in prev['status'].items():
+            if k not in status:
+                status[k] = v
+        items = [x for x in prev['items'] if x['country'] not in only] + items
     order = [c for c, _, _ in SITES]
     status = dict(sorted(status.items(), key=lambda kv: order.index(kv[0])))
     out = {'date': day, 'fetched_at': dt.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'), 'fx': fx,
