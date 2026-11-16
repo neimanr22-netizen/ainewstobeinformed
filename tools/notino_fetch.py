@@ -37,7 +37,7 @@ BRANDS = [('SPLAT', ['splat']), ('Biomed', ['biomed', 'splat-biomed']), ('Elmex'
 TYPES = {'Toothpastes': 'paste', 'Toothbrushes': 'brush'}
 S = http.Session()
 LOG = []
-MISSED = []
+LIMITED = {}
 
 
 def log(*a):
@@ -60,35 +60,6 @@ def get(url, imps=('safari', 'chrome', 'firefox', 'safari', 'chrome')):
         last = r
         time.sleep(4)
     return last
-
-
-_PW = {}
-
-
-def browser_get(url):
-    """Запасной путь через настоящий Chrome (Playwright) — для страниц, которые Cloudflare не отдаёт curl'у."""
-    try:
-        if 'page' not in _PW:
-            from playwright.sync_api import sync_playwright
-            _PW['p'] = sync_playwright().start()
-            b = _PW['p'].chromium.launch(headless=False, channel='chrome', args=['--disable-blink-features=AutomationControlled'])
-            ctx = b.new_context(viewport={'width': 1300, 'height': 900},
-                                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36')
-            ctx.add_init_script("Object.defineProperty(navigator,'webdriver',{get:()=>undefined})")
-            _PW['page'] = ctx.new_page()
-        pg = _PW['page']
-        pg.goto(url, timeout=60000)
-        for _ in range(20):
-            if '"numberOfProducts"' in pg.content():
-                break
-            pg.wait_for_timeout(1500)
-        h = pg.content()
-        if '"numberOfProducts"' not in h:
-            log('browser: нет списка', url, pg.title(), len(h), re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', h))[:300])
-        return h
-    except Exception as e:
-        log('browser err', url, e)
-        return ''
 
 
 def listing(html):
@@ -134,10 +105,10 @@ def fetch_site(cc, dom):
                 time.sleep(1.2)
                 u2 = f'https://www.{dom}' + page_url.replace('{pageNumber}', str(n)).replace('{sortOption}', '1')
                 r2 = get(u2, ('safari',))
-                h2 = r2.text if (r2 is not None and not isinstance(r2, Exception) and r2.status_code == 200) else browser_get(u2)
+                h2 = r2.text if (r2 is not None and not isinstance(r2, Exception) and r2.status_code == 200) else ''
                 l2, _ = listing(h2) if h2 else (None, None)
-                if not l2:
-                    log(cc, slug, 'страница', n, 'не открылась'); MISSED.append(f'{cc}/{slug}/{n}'); break
+                if not l2:  # Cloudflare закрывает адреса с параметрами (?f=...) — остаются первые 24 товара бренда
+                    LIMITED.setdefault(cc, []).append(brand); break
                 prods += (l2 or {}).get('products') or []
             n_ok = 0
             for p in prods:
@@ -192,9 +163,8 @@ def main():
             for k in ('price', 'old_price', 'promo_price'):
                 x[k + '_eur'] = round(x[k] / r, 2) if (x.get(k) is not None and r) else None
         items += got
-        miss = [m for m in MISSED if m.startswith(cc + '/')]
         status[cc] = {'status': 'ok' if got else 'empty', 'domain': dom, 'name': name, 'currency': cur, 'count': len(got), 'brands': used,
-                      'note': ('не открылись страницы: ' + ', '.join(miss)) if miss else ''}
+                      'limited': LIMITED.get(cc, [])}
         log(cc, dom, len(got), used)
     out = {'date': day, 'fetched_at': dt.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'), 'fx': fx,
            'brands': [b for b, _ in BRANDS], 'countries': [{'id': c, 'domain': d, 'name': n} for c, d, n in SITES if c in status],
