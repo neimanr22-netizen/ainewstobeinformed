@@ -1,0 +1,16 @@
+f1 200 application/json 21903 https://product-search.services.dmtech.com/de/search?query=elmex&searchType=product&pageSize=5
+f2 200 application/json 16174 https://product-search.services.dmtech.com/at/search?query=elmex&searchType=product&pageSize=5
+f3 429 application/json 106 https://product-search.services.dmtech.com/cz/search?query=elmex&searchType=product&pageSize=5
+f4 200 application/json 8651 https://product-search.services.dmtech.com/hu/search?query=elmex&searchType=product&pageSize=5
+f5 200 application/json 15359 https://product-search.services.dmtech.com/sk/search?query=elmex&searchType=product&pageSize=5
+f6 400 application/json 2 https://product-search.services.dmtech.com/ch/search?query=elmex&searchType=product&pageSize=5
+f7 200 text/html; charset=utf-8 3038 https://www.rossmann.de/de/search/?text=elmex
+f8 200 text/html;charset=utf-8 69249 https://www.rossmann.cz/vyhledavani?q=elmex
+f9 404 text/html; charset=utf-8 402313 https://shop.rossmann.hu/kereses?q=elmex
+f10 404 text/html;charset=utf-8 518131 https://www.tetadrogerie.cz/vyhledavani?q=elmex
+f11 404 text/html; charset=utf-8 125564 https://www.tetadrogerie.sk/vyhladavanie?q=elmex
+f12 200 text/html;charset=utf-8 1176396 https://www.lidl.de/q/search?q=elmex
+f13 403 text/html; charset=UTF-8 17158 https://www.kaufland.de/s/?search_value=elmex
+f14 403 text/html; charset=UTF-8 17083 https://www.kaufland.cz/akcni-nabidka.html
+f15 404 text/html;charset=utf-8 238989 https://www.lidl.ch/q/search?q=zahnpasta
+f16 200 text/html;charset=utf-8 1244250 https://www.lidl.cz/q/search?q=elmex

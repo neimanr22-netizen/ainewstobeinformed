@@ -1,0 +1,2142 @@
+
+
+<!DOCTYPE html>
+<html lang="sk">
+	<head id="Head1"><link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png" /><link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png" /><link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-touch-icon-72x72.png" /><link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png" /><link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-touch-icon-60x60.png" /><link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png" /><link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-touch-icon-76x76.png" /><link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png" /><link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon-180x180.png" /><link rel="icon" type="image/png" href="/images/favicon/favicon-192x192.png" sizes="192x192" /><link rel="icon" type="image/png" href="/images/favicon/favicon-160x160.png" sizes="160x160" /><link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96" /><link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16" /><link rel="icon" type="image/png" href="/images/favicon/favicon-48x48.png" sizes="48x48" /><link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg" /><link rel="shortcut icon" href="/images/favicon/favicon.ico" /><link rel="manifest" href="/images/favicon/manifest.json" /><meta property="og:type" content="website"><meta property="og:image" content="https://www.tetadrogerie.sk/images/favicon/teta_predajna.jpg"><meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR"><meta content="C#" name="CODE_LANGUAGE"><meta content="JavaScript" name="vs_defaultClientScript"><meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="theme-color" content="#f284a7">
+		
+		<!--Heureka Shoproku
+		
+		-->
+		
+		
+		
+		<!--Cookiebot -->
+		<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="26856f09-69d6-4f91-b5f5-136bf130fe4b" data-blockingmode="auto" type="text/javascript"></script>
+		<!-- End Cookiebot -->
+
+
+		
+		<!-- Luigi's Box start -->
+		<!--<script async src="https://scripts.luigisbox.com/LBX-493818.js"></script>-->
+		<script async src="https://scripts.luigisbox.tech/LBX-493818.js"></script>
+		<!-- Luigi's Box end -->
+		
+		<!-- Google Tag Manager -->
+		<!--
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-5L3CHND');</script>
+		-->
+		<!-- End Google Tag Manager -->
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-C94KJ80QCM"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+ 		  gtag('config', 'G-C94KJ80QCM');
+		</script>
+		
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-8488422-4"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-8488422-4');
+		</script>
+		
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-608652138"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'AW-608652138');
+		</script>
+		
+		<!-- Meta Pixel Code -->
+		<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window, document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1194278781350528');
+		fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		src="https://www.facebook.com/tr?id=1194278781350528&ev=PageView&noscript=1"/>
+		</noscript>
+		<!-- End Meta Pixel Code -->
+		
+		<!-- Meta Pixel Code -->
+		<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window, document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '404478704635924');
+		fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		src="https://www.facebook.com/tr?id=404478704635924&ev=PageView&noscript=1"/>
+		</noscript>
+		<!-- End Meta Pixel Code -->
+
+		<!-- Overené zákazníkmi start 
+		<script type="text/javascript">
+		//<![CDATA[
+		var _hwq = _hwq || [];
+			_hwq.push(['setKey', 'C4F98DD9A77DA58A735BD13781F1FEF7']);_hwq.push(['setTopPos', '150']);_hwq.push(['showWidget', '22']);(function() {
+			var ho = document.createElement('script'); ho.type = 'text/javascript'; ho.async = true;
+			ho.src = 'https://sk.im9.cz/direct/i/gjs.php?n=wdgt&sak=C4F98DD9A77DA58A735BD13781F1FEF7';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ho, s);
+		})();
+		//]]>
+		</script>
+		 Overené zákazníkmi end-->
+
+		<!-- TikTok Pixel Code Start -->
+		<script>
+		!function (w, d, t) {
+		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+		var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+		;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+
+		  ttq.load('D2CV79RC77U067DPK2V0');
+		  ttq.page();
+		}(window, document, 'ttq');
+		</script>
+		<!-- TikTok Pixel Code End -->
+
+		<!-- Matomo -->
+		<script>
+		var waitForTrackerCount = 0;
+		function matomoWaitForTracker() {
+		  if (typeof _paq === 'undefined' || typeof Cookiebot === 'undefined') {
+			if (waitForTrackerCount < 40) {
+			  setTimeout(matomoWaitForTracker, 250);
+			  waitForTrackerCount++;
+			  return;
+			}
+		  } else {
+			window.addEventListener('CookiebotOnAccept', function (e) {
+				consentSet();
+			});
+			window.addEventListener('CookiebotOnDecline', function (e) {
+				consentSet();
+			})
+		  }
+		}
+		function consentSet() {
+		  if (Cookiebot.consent.statistics) {
+			_paq.push(['setCookieConsentGiven']);
+			_paq.push(['setConsentGiven']);
+		  } else {
+			_paq.push(['forgetCookieConsentGiven']);
+			_paq.push(['forgetConsentGiven']);
+		  }
+		}
+		document.addEventListener('DOMContentLoaded', matomoWaitForTracker());
+		</script>
+
+		<script>
+		  var _paq = window._paq = window._paq || [];
+		  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		  _paq.push(['requireCookieConsent']);
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+			var u="https://posta.tetadrogerie.sk/mtm/";
+			_paq.push(['setTrackerUrl', u+'matomo.php']);
+			_paq.push(['setSiteId', '4']);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+		  })();
+		</script>
+		<!-- End Matomo Code -->
+
+		<meta name="description"><link href="/css/slimbox2.css" rel="stylesheet" type="text/css" /><link href="/TetaShop/Css/bshop_default.css?ver=46" rel="stylesheet" type="text/css" /><link href="/css/menu.css" rel="stylesheet" type="text/css" /><link href="/css/menu_ie.css" rel="stylesheet" type="text/css" media="all" /><link href="/css/jquery-ui.css" rel="stylesheet" type="text/css" /><link href="/css/jquery.ui.timepicker.css" rel="stylesheet" type="text/css" /><link href="/TetaShop/css/tree.css?v=1" rel="stylesheet" type="text/css" /><title>
+	Teta drogérie eshop
+</title></head>
+	<body>
+	
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L3CHND"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		
+		<script type="text/javascript" src="/javascript/jquery.js"></script>
+        <div class="baseLayout">
+		    <div class="pageForm" id="pageForm">
+		        <form name="Form1" method="post" action="default.aspx?content=error404&amp;404%3bhttp%3a%2f%2fwww.tetadrogerie.sk%3a8010%2fdefault.aspx%3fcontent=vyhladavani&amp;q=elmex" id="Form1">
+<input type="hidden" name="PPARAMS" id="PPARAMS" value="" />
+<input type="hidden" name="ScriptManager1_HiddenField" id="ScriptManager1_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="UID" id="UID" value="090210021" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE0MTAyNzAwNjUPFgIeB1NUQVRFSUQC9u2ZBBYEAgEPZBYEAgEPZBYKAgEPFgIeB1Zpc2libGVoZAILD2QWCAIBD2QWAmYPZBYCZg8WAh8BZxYCZg8VAQgyMDI2LTExYmQCAg8VAS9ocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiIG9uY2xpY2s9Ik9wZW5Mb2dpbigpImQCBA8WAh8BaBYCZg8VAgVlc2hvcAVlc2hvcGQCBQ9kFgJmD2QWAmYPFQEBMGQCDQ9kFgJmD2QWBAIBD2QWAmYPFQEMIGNsYXNzPSJzZWwiZAIDDxYCHwFoFgJmDxUBAGQCEA8VAwAAAGQCEg8VAQM5MDBkAgIPZBYCZg9kFgJmDw8WAh4CU0lmZGQCAg9kFgICAQ9kFgJmD2QWBAIBD2QWAmYPFQECNDlkAgMPFgIfAWhkZI7poc0QnPwLJ6fpk36jWvy+4OOj" />
+
+<script type="text/javascript">
+<!--
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</script>
+
+
+<script type="text/javascript">function GetRootPath() { path='/';if( path=='/') return ''; else return path;}</script><script type="text/javascript">var adminMode=false;</script>
+<script src="/JavaScript/bshop.js" type="text/javascript"></script>
+<script src="/javascript/slimbox/slimbox2.js" type="text/javascript"></script>
+<script src="/TetaShop/scripts/customfunctions.js?modif=27" type="text/javascript"></script>
+<script src="/javascript/jquery.js" type="text/javascript"></script>
+<script src="/javascript/jquery-migrate.js" type="text/javascript"></script>
+<script src="/javascript/portalini.js?ver=2026.605.00.00" type="text/javascript"></script>
+<script src="/javascript/moment-2-10-2.min.js" type="text/javascript"></script>
+<script src="/javascript/portal.js?ts=639083124940000000" type="text/javascript"></script>
+<script src="/javascript/Resources/portal.sk-SK.js?ver=2026.605.00.00" type="text/javascript"></script>
+<script src="/javascript/NParams.js" type="text/javascript"></script>
+<script src="/javascript/validate.js?ver=2026.605.00.00" type="text/javascript"></script>
+<script src="/javascript/date.js" type="text/javascript"></script>
+<script src="/javascript/berco.js" type="text/javascript"></script>
+<script src="/javascript/zalozkyajx.js" type="text/javascript"></script>
+<script src="/javascript/dropdown2.js?ver=2026.605.00.00" type="text/javascript"></script>
+<script src="/javascript/barispage.js?ts=639058861880000000" type="text/javascript"></script><script type="text/javascript">var barISPage = new BarISPage();barISPage.init('error404','',0,8,8812278,'090210021','',False,'002141','4017','neprihlásený','062110003385',900,'',False);</script><script type="text/javascript">PortalIni.ReportServerPath = '~/';
+</script>
+<script src="/javascript/sticker.js?ver=2026.605.00.00" type="text/javascript"></script>
+<script src="/javascript/jquery-ui.js" type="text/javascript"></script>
+<script src="/javascript/jquery_datepicker-sk.js" type="text/javascript"></script>
+<script src="/javascript/jquery.ui.timepicker.js" type="text/javascript"></script>
+<script src="/javascript/jquery.ui.timepicker-sk.js" type="text/javascript"></script><script src="/javascript/cssTree.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+var __cultureInfo = '{"name":"sk-SK","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":" ","CurrencySymbol":"€","NaNSymbol":"Nie je číslo","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"-nekonečno","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":" ","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"+nekonečno","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":" ","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402297199999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":false},"DateSeparator":". ","FirstDayOfWeek":1,"CalendarWeekRule":2,"FullDateTimePattern":"dddd d. MMMM yyyy H:mm:ss","LongDatePattern":"dddd d. MMMM yyyy","LongTimePattern":"H:mm:ss","MonthDayPattern":"dd MMMM","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"d. M. yyyy","ShortTimePattern":"H:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["ne","po","ut","st","št","pi","so"],"ShortestDayNames":["ne","po","ut","st","št","pi","so"],"DayNames":["nedeľa","pondelok","utorok","streda","štvrtok","piatok","sobota"],"AbbreviatedMonthNames":["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII",""],"MonthNames":["január","február","marec","apríl","máj","jún","júl","august","september","október","november","december",""],"IsReadOnly":false,"NativeCalendarName":"gregoriánsky kalendár","AbbreviatedMonthGenitiveNames":["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII",""],"MonthGenitiveNames":["januára","februára","marca","apríla","mája","júna","júla","augusta","septembra","októbra","novembra","decembra",""]}}';// -->
+</script>
+
+<script src="/ScriptResource.axd?d=GVFCBB6SoYOnnduzSxnw4BXFPYhop0_Sotkw4VcGMnSU3gQBYPOH-UgtDbfEW6UWVaZ891d2zH9EN0TGChydjQ87xKXjbsDfEKIgUet30fbRNvplksZ1xFCbNSjFtnhMVrbenKTQ_iD6uMkdj4r_n6GxGFB8F8H-u6Kkllo2yCHFJpmn0&amp;t=ffffffff9bc22534" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+// -->
+</script>
+
+<script src="javascript/barispageh.js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+
+<style>
+#CybotCookiebotDialogBodyButtonDecline {
+    display: none !important;
+}
+#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
+    display: block !important;
+}
+.copyright {
+    font-family: Tahoma,sans-serif;
+    font-size: 11px;
+    background: #f284a7;
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+	gap: 1rem;
+}
+.copyright > div:first-of-type {
+    flex-grow: 1;
+}
+#showHeurekaBadgeHere-11{
+    display: none;
+}
+.luigi-ac .dlazdice .popisMain{
+	display: block;
+	height: auto;
+}
+</style>
+
+
+
+
+
+
+<input id="SS0" name="H:H20291P0" value="0" type="hidden" />
+
+<div class="hdr_oznam">
+	
+</div>
+
+<div class="header_wrap">
+<div class="headerHolder" id="site-header">
+
+	
+	<div class="mobile_menu">
+			<img src="/TetaShop/images/menu.png" alt="menu"/>
+			<span>MENU</span>
+	</div>
+	
+	
+	
+	<div class="hdr_search">
+		
+
+<div id="search_wrap">
+		<!--<input type="search" id="tbSearch" class="DataField" placeholder="Hľadať názov alebo kategóriu" oninput="BShop.FastSearchKP(event,this)" onfocus="if(event.target.value.length > 2){$(this).trigger('keyup')}" onblur="checkOutsideClick()" onkeydown="BShop.FastSearchKeyD(event)" autocomplete="off"/>
+		
+		<div id="fastSearchRes"></div>-->
+		<input type="search" id="tbSearch" class="DataField" placeholder="Hľadať názov alebo kategóriu" autocomplete="off"/>
+		<button id="btSearch">Hľadať</button>
+</div>
+<script type="text/javascript">
+var search_timer;
+BShop.FastSearchKP = function(event,obj)
+{
+	if(event.target.value.length > 1){
+		if(search_timer != null) clearTimeout(search_timer);
+		search_timer = setTimeout(function(){
+			if(event.target.value == "") $("#fastSearchRes").html("").removeClass("opened");
+			else getBosData({"Query":"BSHOP_SEARCH","Format":"I","Values":{ "VAL":event.target.value.replace("'", "''")}}, BShop.renderFastSearch);
+			search_timer = null;
+			},300);
+		return false;
+	}else{
+		clearTimeout(search_timer);
+		$("#fastSearchRes").html("").removeClass("opened");
+	}
+}
+
+BShop.FastSearchKeyD = function(ev)
+{
+	if(ev.which == 38 || ev.which == 40){
+		ev.preventDefault();
+		var el = $("#fastSearchRes .produkt_row.selected");
+		if(el.length == 0){
+			if(ev.which == 40) $("#fastSearchRes .produkt_row:eq(0)").addClass("selected");
+		}else{
+			var new_el = (ev.which == 38)?el.prev():el.next();
+			if(new_el.length > 0){
+				if(new_el.hasClass("kat_name")){
+					new_el = (ev.which == 38)?new_el.prev():new_el.next();
+				}
+				el.removeClass("selected");
+				new_el.addClass("selected");
+			}
+		}
+	}else if(ev.which == 13){
+		ev.preventDefault();
+		if($("#fastSearchRes .produkt_row.selected").length > 0) $("#fastSearchRes .produkt_row.selected > a")[0].click();
+		else BShop.FastSearchE();
+	}else $("#fastSearchRes .produkt_row.selected").removeClass("selected");
+}
+
+BShop.renderFastSearch = function(resp){
+	if(resp.StateCode != 0){
+		alert("Niečo sa pokazilo pri vyhľadávaní.");
+		console.error(resp);
+		$("#fastSearchRes").html("").removeClass("opened");
+	}else{
+		var html = "";
+		if(resp.Data.length == 0) html = "<p class='no_data'>Žiadne produkty sa nenašli</p>";
+		else{
+			var last_kat;
+			var pocet = 1;
+			html += "<div>";
+			for(var i = 0; i < resp.Data.length; i++){
+				if(last_kat != resp.Data[i].LABEL){
+					html += "<div class='kat_name'><span>" + resp.Data[i].LABEL + "</span></div>";
+					last_kat = resp.Data[i].LABEL;
+				}
+				html += "<div class='produkt_row'>";
+				html += "<a href='" + resp.Data[i].URL + "'>"
+				if(resp.Data[i].IMG != undefined && resp.Data[i].IMG.length > 0) 
+				{
+					html += "<img src='/prilohy/" + resp.Data[i].IMG + "' title='" +  resp.Data[i].TEXT + "'/>";
+				}
+				else if(resp.Data[i].TYPE == "T"){
+					html += "<img src='/TetaShop/images/nopictures.jpg' title='" +  resp.Data[i].TEXT + "'/>";
+				}
+				html += "<p>" + resp.Data[i].TEXT + "</p></a></div>";
+				
+				if(resp.Data[i].TYPE == "T")
+				{
+					pocet++;
+				}
+			}
+		}
+		if(pocet > 20)
+		{
+			html += "<div class=\"search_all_btn\"><a href=\"javascript:void(0)\" onclick=\"BShop.FastSearchE()\">Všetky výsledky</a></div>";
+		}
+		html += "</div>";
+		$("#fastSearchRes").html(html);
+		$("#fastSearchRes").addClass("opened show_btn");
+	}
+}
+BShop.FastSearchE = function(){
+	if($("#tbSearch").val().length > 1) BShop.produktSearch();
+}
+BShop.produktSearch = function(){
+	//window.location = "/produkty/?nparams=hladaj;" + $("#tbSearch").val();
+	window.location = "/produkty/?hladaj=" + $("#tbSearch").val();
+}
+checkOutsideClick = function(){
+	setTimeout(function(){$("#fastSearchRes").html("").removeClass("opened");},200);
+}
+
+</script><input id="SSH_H20206P0" name="H:H20206P0" value="0" type="hidden" />
+	</div>
+	
+	<div class="hdr_logo">
+		<a href="/" class="logo"><img src="/TetaShop/images/logo.png" alt="Teta drogerie"></a>
+	</div>
+	
+	<div class="hdr_user_info">
+		
+	<a href="https://letak.tetadrogerie.sk/teta-letak-2026-11b/">
+		<img src="/TetaShop/Images/letak.svg">
+		<span>Leták</span>
+	</a>
+
+
+<input id="SS0" name="H:H20297P0" value="0" type="hidden" />		
+		<a href="/predajne/">
+			<img src="/TetaShop/Images/place.svg" alt="predajne">
+			<span>Predajne</span>
+		</a>
+		<a href="javascript:void(0)" onclick="OpenLogin()"">
+			<img src="/TetaShop/Images/icon-srdce.svg" alt="obľúbené">
+			<span>Obľúbené</span>
+		</a>
+		
+			<a href="javascript:void(0)" onclick="OpenLogin()">
+				<img src="/TetaShop/Images/user.svg" alt="prihlásiť">
+				<span>Prihlásiť</span>
+			</a>
+		<!-- START DYN STK --><div id="stk9920207">
+
+<div>
+	<div class="bshopcart">
+		<a href="/kosik_obsah/" class="hdr_basket_icon">
+			<div>
+				<img src="/TetaShop/Images/basket.svg">
+				<span class="hdr_basket_pocet" data-rel="PocetPol">0</span>
+			</div>
+			<div class="hdr_basket_suma"><span data-rel="SumaSDPH">0,00</span>&nbsp;€</div>
+		</a>
+	</div>
+	<div>
+		<a href="/kosik_obsah/">
+			<span>Košík</span>
+		</a>
+	</div>
+</div>
+
+</div> <!-- END DYN STK --><input id="SS9920207" name="H:H20207P9920207" value="0" type="hidden" />
+	</div>
+	
+</div>
+</div>
+
+<div class="hdr_tree">
+	
+
+
+<div class="resp_tree_hdr">
+	<a href="/" class="logo"><img src="/TetaShop/images/logo.png" alt="Teta drogerie"></a>
+	<a href="javascript:void(0)" class="close_btn" onclick="$('.hdr_tree').toggleClass('open')">
+		<img src="/TetaShop/images/popup_close.svg" alt="zavrieť" tabindex="0"/>
+		<span>MENU</span>
+	</button>
+</div>	
+	
+	<ul id="ulH" style="display:none;">
+		<li id="H_H20208P0_colKat" class="kat"><a href="javascript:__doPostBack('H$H20208P0','K')" class="sel">Kategórie</a></li>
+		
+	</ul>
+	<div id="tovar_tree" class="TovarTree">
+	<ul id="S0_ROOT" class="color:#e51829;background:#fdd734 lvl1">
+	<li id="I0_489"><a href="/produkty/?nparams=page;0;zlava;true;active_filter;true" style="color:#e51829;background:#fdd734">V zľave</a>
+</li>
+	<li id="I0_1"><a href="/produkty/T1-Domacnost/"><span data-tree_nazov>Domácnosť</span><span data-tree_nazov_resp>Domácnosť</span></a>
+
+		<ul id="S0_1" class=" lvl2">
+		<li id="I0_16"><a href="/produkty/T16-Cistiace-prostriedky/"><span data-tree_nazov>Čistiace prostriedky</span><span data-tree_nazov_resp>Čistiace prostriedky</span> <span class="count_items">(328)</span></a>
+
+			<ul id="S0_16" class=" lvl3">
+			<li id="I0_109"><a href="/produkty/T109-Do-kuchyne/"><span data-tree_nazov>Do kuchyne</span><span data-tree_nazov_resp>Do kuchyne</span> <span class="count_items">(32)</span></a>
+</li>
+			<li id="I0_110"><a href="/produkty/T110-Do-kupelne/"><span data-tree_nazov>Do kúpeľne</span><span data-tree_nazov_resp>Do kúpeľne</span> <span class="count_items">(45)</span></a>
+</li>
+			<li id="I0_111"><a href="/produkty/T111-Na-koberce/"><span data-tree_nazov>Na koberce</span><span data-tree_nazov_resp>Na koberce</span> <span class="count_items">(12)</span></a>
+</li>
+			<li id="I0_112"><a href="/produkty/T112-Na-nabytok/"><span data-tree_nazov>Na nábytok</span><span data-tree_nazov_resp>Na nábytok</span> <span class="count_items">(29)</span></a>
+</li>
+			<li id="I0_113"><a href="/produkty/T113-Na-odpady/"><span data-tree_nazov>Na odpady</span><span data-tree_nazov_resp>Na odpady</span> <span class="count_items">(19)</span></a>
+</li>
+			<li id="I0_114"><a href="/produkty/T114-Na-okna/"><span data-tree_nazov>Na okná</span><span data-tree_nazov_resp>Na okná</span> <span class="count_items">(20)</span></a>
+</li>
+			<li id="I0_115"><a href="/produkty/T115-Na-podlahy/"><span data-tree_nazov>Na podlahy</span><span data-tree_nazov_resp>Na podlahy</span> <span class="count_items">(26)</span></a>
+</li>
+			<li id="I0_116"><a href="/produkty/T116-Univerzalne-cistice/"><span data-tree_nazov>Univerzálne čističe</span><span data-tree_nazov_resp>Univerzálne čističe</span> <span class="count_items">(55)</span></a>
+</li>
+			<li id="I0_117"><a href="/produkty/T117-Cistiace-piesky/"><span data-tree_nazov>Čistiace piesky</span><span data-tree_nazov_resp>Čistiace piesky</span> <span class="count_items">(6)</span></a>
+</li>
+			<li id="I0_118"><a href="/produkty/T118-Tekute-piesky/"><span data-tree_nazov>Tekuté piesky</span><span data-tree_nazov_resp>Tekuté piesky</span> <span class="count_items">(9)</span></a>
+</li>
+			<li id="I0_119"><a href="/produkty/T119-Specialne-cistice/"><span data-tree_nazov>Špeciálne čističe</span><span data-tree_nazov_resp>Špeciálne čističe</span> <span class="count_items">(65)</span></a>
+</li>
+			<li id="I0_120"><a href="/produkty/T120-Pohlcovace-vlhkosti/"><span data-tree_nazov>Pohlcovače vlhkosti</span><span data-tree_nazov_resp>Pohlcovače vlhkosti</span> <span class="count_items">(10)</span></a>
+</li></ul></li>
+		<li id="I0_17"><a href="/produkty/T17-Umyvanie-riadu/"><span data-tree_nazov>Umývanie riadu</span><span data-tree_nazov_resp>Umývanie riadu</span> <span class="count_items">(141)</span></a>
+
+			<ul id="S0_17" class=" lvl3">
+			<li id="I0_121"><a href="/produkty/T121-Rucne-umyvanie/"><span data-tree_nazov>Ručné umývanie</span><span data-tree_nazov_resp>Ručné umývanie</span> <span class="count_items">(44)</span></a>
+</li>
+			<li id="I0_122"><a href="/produkty/T122-Tablety,-prasky-a-gely-do-umyvacky/"><span data-tree_nazov>Tablety, prášky a gély do umývačky</span><span data-tree_nazov_resp>Tablety, prášky a gély do umývačky</span> <span class="count_items">(72)</span></a>
+</li>
+			<li id="I0_123"><a href="/produkty/T123-Doplnky-do-umyvacky/"><span data-tree_nazov>Doplnky do umývačky</span><span data-tree_nazov_resp>Doplnky do umývačky</span> <span class="count_items">(25)</span></a>
+</li></ul></li>
+		<li id="I0_19"><a href="/produkty/T19-Osviezovace-vzduchu/"><span data-tree_nazov>Osviežovače vzduchu</span><span data-tree_nazov_resp>Osviežovače vzduchu</span> <span class="count_items">(429)</span></a>
+
+			<ul id="S0_19" class=" lvl3">
+			<li id="I0_128"><a href="/produkty/T128-Strojceky-a-naplne/"><span data-tree_nazov>Strojčeky + náplne</span><span data-tree_nazov_resp>Strojčeky + náplne</span> <span class="count_items">(72)</span></a>
+</li>
+			<li id="I0_129"><a href="/produkty/T129-Gely/"><span data-tree_nazov>Gély</span><span data-tree_nazov_resp>Gély</span> <span class="count_items">(20)</span></a>
+</li>
+			<li id="I0_130"><a href="/produkty/T130-Mini-spreje/"><span data-tree_nazov>Mini spreje</span><span data-tree_nazov_resp>Mini spreje</span> <span class="count_items">(23)</span></a>
+</li>
+			<li id="I0_132"><a href="/produkty/T132-Spreje-a-rozprasovace/"><span data-tree_nazov>Spreje a rozprašovače</span><span data-tree_nazov_resp>Spreje a rozprašovače</span> <span class="count_items">(62)</span></a>
+</li>
+			<li id="I0_134"><a href="/produkty/T134-Vonne-sviecky/"><span data-tree_nazov>Vonné sviečky</span><span data-tree_nazov_resp>Vonné sviečky</span> <span class="count_items">(154)</span></a>
+</li>
+			<li id="I0_478"><a href="/produkty/T478-Vonne-tycinky-/"><span data-tree_nazov>Vonné tyčinky </span><span data-tree_nazov_resp>Vonné tyčinky </span> <span class="count_items">(65)</span></a>
+</li>
+			<li id="I0_135"><a href="/produkty/T135-Ostatne/"><span data-tree_nazov>Ostatné</span><span data-tree_nazov_resp>Ostatné</span> <span class="count_items">(33)</span></a>
+</li></ul></li>
+		<li id="I0_20"><a href="/produkty/T20-Upratovacie-pomocky/"><span data-tree_nazov>Upratovacie pomôcky</span><span data-tree_nazov_resp>Upratovacie pomôcky</span> <span class="count_items">(170)</span></a>
+
+			<ul id="S0_20" class=" lvl3">
+			<li id="I0_136"><a href="/produkty/T136-Handry-a-hubky/"><span data-tree_nazov>Handry a hubky</span><span data-tree_nazov_resp>Handry a hubky</span> <span class="count_items">(65)</span></a>
+</li>
+			<li id="I0_137"><a href="/produkty/T137-Rukavice-na-upratovanie/"><span data-tree_nazov>Rukavice na upratovanie</span><span data-tree_nazov_resp>Rukavice na upratovanie</span> <span class="count_items">(15)</span></a>
+</li>
+			<li id="I0_138"><a href="/produkty/T138-Smetiaky,-metly-a-kefy/"><span data-tree_nazov>Smetiaky, metly a kefy</span><span data-tree_nazov_resp>Smetiaky, metly a kefy</span> <span class="count_items">(55)</span></a>
+</li>
+			<li id="I0_140"><a href="/produkty/T140-Vrecia-na-odpad/"><span data-tree_nazov>Vrecia na odpad</span><span data-tree_nazov_resp>Vrecia na odpad</span> <span class="count_items">(35)</span></a>
+</li></ul></li>
+		<li id="I0_18"><a href="/produkty/T18-WC/"><span data-tree_nazov>WC</span><span data-tree_nazov_resp>WC</span> <span class="count_items">(182)</span></a>
+
+			<ul id="S0_18" class=" lvl3">
+			<li id="I0_124"><a href="/produkty/T124-WC-bloky/"><span data-tree_nazov>WC bloky</span><span data-tree_nazov_resp>WC bloky</span> <span class="count_items">(128)</span></a>
+</li>
+			<li id="I0_126"><a href="/produkty/T126-WC-tekute-cistice/"><span data-tree_nazov>WC tekuté čističe</span><span data-tree_nazov_resp>WC tekuté čističe</span> <span class="count_items">(46)</span></a>
+</li>
+			<li id="I0_127"><a href="/produkty/T127-Septik/"><span data-tree_nazov>Septik</span><span data-tree_nazov_resp>Septik</span> <span class="count_items">(7)</span></a>
+</li>
+			<li id="I0_125"><a href="/produkty/T125-WC-supravy/"><span data-tree_nazov>WC súpravy</span><span data-tree_nazov_resp>WC súpravy</span> <span class="count_items">(1)</span></a>
+</li></ul></li>
+		<li id="I0_21"><a href="/produkty/T21-Veci-z-komory/"><span data-tree_nazov>Veci z komory</span><span data-tree_nazov_resp>Veci z komory</span> <span class="count_items">(181)</span></a>
+
+			<ul id="S0_21" class=" lvl3">
+			<li id="I0_141"><a href="/produkty/T141-Baterky-a-ziarovky/"><span data-tree_nazov>Baterky a žiarovky</span><span data-tree_nazov_resp>Baterky a žiarovky</span> <span class="count_items">(10)</span></a>
+</li>
+			<li id="I0_142"><a href="/produkty/T142-Drobnosti-do-domacnosti/"><span data-tree_nazov>Drobnosti do domácnosti</span><span data-tree_nazov_resp>Drobnosti do domácnosti</span> <span class="count_items">(62)</span></a>
+</li>
+			<li id="I0_143"><a href="/produkty/T143-Hnojiva/"><span data-tree_nazov>Hnojivá</span><span data-tree_nazov_resp>Hnojivá</span> <span class="count_items">(18)</span></a>
+</li>
+			<li id="I0_144"><a href="/produkty/T144-Jedy-na-hlodavce/"><span data-tree_nazov>Jedy na hlodavce</span><span data-tree_nazov_resp>Jedy na hlodavce</span> <span class="count_items">(14)</span></a>
+</li>
+			<li id="I0_146"><a href="/produkty/T146-Starostlivost-o-topanky/"><span data-tree_nazov>Starostlivosť o topánky</span><span data-tree_nazov_resp>Starostlivosť o topánky</span> <span class="count_items">(5)</span></a>
+</li>
+			<li id="I0_147"><a href="/produkty/T147-Sviecky-a-kahance/"><span data-tree_nazov>Sviečky a kahance</span><span data-tree_nazov_resp>Sviečky a kahance</span> <span class="count_items">(33)</span></a>
+</li>
+			<li id="I0_148"><a href="/produkty/T148-Zabijanie-hmyzu/"><span data-tree_nazov>Zabíjanie hmyzu</span><span data-tree_nazov_resp>Zabíjanie hmyzu</span> <span class="count_items">(32)</span></a>
+</li>
+			<li id="I0_149"><a href="/produkty/T149-Zapalky-a-podpalovace/"><span data-tree_nazov>Zápalky a podpaľovače</span><span data-tree_nazov_resp>Zápalky a podpaľovače</span> <span class="count_items">(7)</span></a>
+</li></ul></li>
+		<li id="I0_200002"><a href="/produkty/T200002-Kuchynske-potreby/"><span data-tree_nazov>Kuchynské potreby</span><span data-tree_nazov_resp>Kuchynské potreby</span> <span class="count_items">(112)</span></a>
+
+			<ul id="S0_200002" class=" lvl3">
+			<li id="I0_472"><a href="/produkty/T472-Potreby-do-kuchyne/"><span data-tree_nazov>Potreby do kuchyne</span><span data-tree_nazov_resp>Potreby do kuchyne</span> <span class="count_items">(39)</span></a>
+</li>
+			<li id="I0_468"><a href="/produkty/T468-Cukrarske-potreby/"><span data-tree_nazov>Cukrárske potreby</span><span data-tree_nazov_resp>Cukrárske potreby</span> <span class="count_items">(10)</span></a>
+</li>
+			<li id="I0_469"><a href="/produkty/T469-Doplnky/"><span data-tree_nazov>Doplnky</span><span data-tree_nazov_resp>Doplnky</span> <span class="count_items">(2)</span></a>
+</li>
+			<li id="I0_474"><a href="/produkty/T474-Obrusky/"><span data-tree_nazov>Obrúsky</span><span data-tree_nazov_resp>Obrúsky</span> <span class="count_items">(14)</span></a>
+</li>
+			<li id="I0_477"><a href="/produkty/T477-Papierove-utierky/"><span data-tree_nazov>Papierové utierky</span><span data-tree_nazov_resp>Papierové utierky</span> <span class="count_items">(14)</span></a>
+</li>
+			<li id="I0_475"><a href="/produkty/T475-Sacky-a-folie/"><span data-tree_nazov>Sáčky a fólie</span><span data-tree_nazov_resp>Sáčky a fólie</span> <span class="count_items">(33)</span></a>
+</li></ul></li></ul></li>
+	<li id="I0_2"><a href="/produkty/T2-Pranie/"><span data-tree_nazov>Pranie</span><span data-tree_nazov_resp>Pranie</span></a>
+
+		<ul id="S0_2" class=" lvl2">
+		<li id="I0_22"><a href="/produkty/T22-Pracie-prostriedky/"><span data-tree_nazov>Pracie prostriedky</span><span data-tree_nazov_resp>Pracie prostriedky</span> <span class="count_items">(192)</span></a>
+
+			<ul id="S0_22" class=" lvl3">
+			<li id="I0_150"><a href="/produkty/T150-Gely-a-tekute-prasky/"><span data-tree_nazov>Gély a tekuté prášky</span><span data-tree_nazov_resp>Gély a tekuté prášky</span> <span class="count_items">(84)</span></a>
+</li>
+			<li id="I0_151"><a href="/produkty/T151-Sypke-prasky/"><span data-tree_nazov>Sypké prášky</span><span data-tree_nazov_resp>Sypké prášky</span> <span class="count_items">(40)</span></a>
+</li>
+			<li id="I0_152"><a href="/produkty/T152-Tablety-a-kapsuly/"><span data-tree_nazov>Tablety a kapsuly</span><span data-tree_nazov_resp>Tablety a kapsuly</span> <span class="count_items">(68)</span></a>
+</li></ul></li>
+		<li id="I0_23"><a href="/produkty/T23-Avivaze/"><span data-tree_nazov>Aviváže</span><span data-tree_nazov_resp>Aviváže</span> <span class="count_items">(115)</span></a>
+</li>
+		<li id="I0_200003"><a href="/produkty/T200003-Vone-na-pranie/"><span data-tree_nazov>Vône na pranie</span><span data-tree_nazov_resp>Vône na pranie</span> <span class="count_items">(38)</span></a>
+</li>
+		<li id="I0_28"><a href="/produkty/T28-Doplnky/"><span data-tree_nazov>Doplnky</span><span data-tree_nazov_resp>Doplnky</span> <span class="count_items">(61)</span></a>
+
+			<ul id="S0_28" class=" lvl3">
+			<li id="I0_156"><a href="/produkty/T156-Farby-na-bielizen/"><span data-tree_nazov>Farby na bielizeň</span><span data-tree_nazov_resp>Farby na bielizeň</span> <span class="count_items">(10)</span></a>
+</li>
+			<li id="I0_157"><a href="/produkty/T157-Proti-vodnemu-kamenu/"><span data-tree_nazov>Proti vodnému kameňu</span><span data-tree_nazov_resp>Proti vodnému kameňu</span> <span class="count_items">(20)</span></a>
+</li>
+			<li id="I0_158"><a href="/produkty/T158-Skroby/"><span data-tree_nazov>Škroby</span><span data-tree_nazov_resp>Škroby</span> <span class="count_items">(6)</span></a>
+</li>
+			<li id="I0_159"><a href="/produkty/T159-Ostatne/"><span data-tree_nazov>Ostatné</span><span data-tree_nazov_resp>Ostatné</span> <span class="count_items">(25)</span></a>
+</li></ul></li>
+		<li id="I0_24"><a href="/produkty/T24-Detske-pranie/"><span data-tree_nazov>Detské pranie</span><span data-tree_nazov_resp>Detské pranie</span> <span class="count_items">(9)</span></a>
+</li>
+		<li id="I0_27"><a href="/produkty/T27-Specialne-pranie/"><span data-tree_nazov>Špeciálne pranie</span><span data-tree_nazov_resp>Špeciálne pranie</span> <span class="count_items">(46)</span></a>
+
+			<ul id="S0_27" class=" lvl3">
+			<li id="I0_153"><a href="/produkty/T153-Mydlove-prasky/"><span data-tree_nazov>Mydlové prášky</span><span data-tree_nazov_resp>Mydlové prášky</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_154"><a href="/produkty/T154-Na-jemnu-bielizen/"><span data-tree_nazov>Na jemnú bielizeň</span><span data-tree_nazov_resp>Na jemnú bielizeň</span> <span class="count_items">(39)</span></a>
+</li>
+			<li id="I0_155"><a href="/produkty/T155-Na-zaclony/"><span data-tree_nazov>Na záclony</span><span data-tree_nazov_resp>Na záclony</span> <span class="count_items">(3)</span></a>
+</li></ul></li>
+		<li id="I0_25"><a href="/produkty/T25-Odstranovace-skvrn/"><span data-tree_nazov>Odstraňovače škvŕn</span><span data-tree_nazov_resp>Odstraňovače škvŕn</span> <span class="count_items">(29)</span></a>
+</li></ul></li>
+	<li id="I0_3"><a href="/produkty/T3-Hygiena/"><span data-tree_nazov>Hygiena</span><span data-tree_nazov_resp>Hygiena</span></a>
+
+		<ul id="S0_3" class=" lvl2">
+		<li id="I0_31"><a href="/produkty/T31-Toaletne-papiere/"><span data-tree_nazov>Toaletné papiere</span><span data-tree_nazov_resp>Toaletné papiere</span> <span class="count_items">(35)</span></a>
+
+			<ul id="S0_31" class=" lvl3">
+			<li id="I0_173"><a href="/produkty/T173-Toaletne-papiere/"><span data-tree_nazov>Toaletné papiere</span><span data-tree_nazov_resp>Toaletné papiere</span> <span class="count_items">(26)</span></a>
+</li>
+			<li id="I0_174"><a href="/produkty/T174-Vlhcene-toaletne-papiere/"><span data-tree_nazov>Vlhčené toaletné papiere</span><span data-tree_nazov_resp>Vlhčené toaletné papiere</span> <span class="count_items">(9)</span></a>
+</li></ul></li>
+		<li id="I0_33"><a href="/produkty/T33-Dezinfekcia/"><span data-tree_nazov>Dezinfekcia</span><span data-tree_nazov_resp>Dezinfekcia</span> <span class="count_items">(21)</span></a>
+
+			<ul id="S0_33" class=" lvl3">
+			<li id="I0_177"><a href="/produkty/T177-Dezinfekcia/"><span data-tree_nazov>Dezinfekcia</span><span data-tree_nazov_resp>Dezinfekcia</span> <span class="count_items">(13)</span></a>
+</li>
+			<li id="I0_178"><a href="/produkty/T178-Dezinfekcia-na-textil/"><span data-tree_nazov>Dezinfekcia na textil</span><span data-tree_nazov_resp>Dezinfekcia na textil</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_179"><a href="/produkty/T179-Vlhcene-dezinfekcne-a-antibakterialne-utierky/"><span data-tree_nazov>Vlhčené dezinfekčné a antibakteriálne utierky</span><span data-tree_nazov_resp>Vlhčené dezinfekčné a antibakteriálne utierky</span> <span class="count_items">(4)</span></a>
+</li></ul></li>
+		<li id="I0_29"><a href="/produkty/T29-Damska-hygiena-/"><span data-tree_nazov>Dámska hygiena </span><span data-tree_nazov_resp>Dámska hygiena </span> <span class="count_items">(245)</span></a>
+
+			<ul id="S0_29" class=" lvl3">
+			<li id="I0_160"><a href="/produkty/T160-Intimky/"><span data-tree_nazov>Intímky</span><span data-tree_nazov_resp>Intímky</span> <span class="count_items">(40)</span></a>
+</li>
+			<li id="I0_162"><a href="/produkty/T162-Klasicke-vlozky/"><span data-tree_nazov>Klasické vložky</span><span data-tree_nazov_resp>Klasické vložky</span> <span class="count_items">(24)</span></a>
+</li>
+			<li id="I0_164"><a href="/produkty/T164-Ultra-vlozky/"><span data-tree_nazov>Ultra vložky</span><span data-tree_nazov_resp>Ultra vložky</span> <span class="count_items">(70)</span></a>
+</li>
+			<li id="I0_486"><a href="/produkty/T486-Inkontinencia/"><span data-tree_nazov>Inkontinencia</span><span data-tree_nazov_resp>Inkontinencia</span> <span class="count_items">(12)</span></a>
+</li>
+			<li id="I0_163"><a href="/produkty/T163-Tampony/"><span data-tree_nazov>Tampóny</span><span data-tree_nazov_resp>Tampóny</span> <span class="count_items">(38)</span></a>
+</li>
+			<li id="I0_161"><a href="/produkty/T161-Intimna-hygiena/"><span data-tree_nazov>Intímna hygiena</span><span data-tree_nazov_resp>Intímna hygiena</span> <span class="count_items">(51)</span></a>
+</li>
+			<li id="I0_165"><a href="/produkty/T165-Vata-a-vatove-tycinky/"><span data-tree_nazov>Vata a vatové tyčinky</span><span data-tree_nazov_resp>Vata a vatové tyčinky</span> <span class="count_items">(10)</span></a>
+</li></ul></li>
+		<li id="I0_30"><a href="/produkty/T30-Starostlivost-o-zuby/"><span data-tree_nazov>Starostlivosť o zuby</span><span data-tree_nazov_resp>Starostlivosť o zuby</span> <span class="count_items">(412)</span></a>
+
+			<ul id="S0_30" class=" lvl3">
+			<li id="I0_166"><a href="/produkty/T166-Zubne-pasty/"><span data-tree_nazov>Zubné pasty</span><span data-tree_nazov_resp>Zubné pasty</span> <span class="count_items">(164)</span></a>
+</li>
+			<li id="I0_167"><a href="/produkty/T167-Zubne-kefky/"><span data-tree_nazov>Zubné kefky</span><span data-tree_nazov_resp>Zubné kefky</span> <span class="count_items">(116)</span></a>
+</li>
+			<li id="I0_168"><a href="/produkty/T168-Pre-deti/"><span data-tree_nazov>Pre deti</span><span data-tree_nazov_resp>Pre deti</span> <span class="count_items">(45)</span></a>
+</li>
+			<li id="I0_169"><a href="/produkty/T169-Bielenie-zubov/"><span data-tree_nazov>Bielenie zubov</span><span data-tree_nazov_resp>Bielenie zubov</span> <span class="count_items">(11)</span></a>
+</li>
+			<li id="I0_170"><a href="/produkty/T170-Potreby-na-zubne-protezy/"><span data-tree_nazov>Potreby na zubné protézy</span><span data-tree_nazov_resp>Potreby na zubné protézy</span> <span class="count_items">(17)</span></a>
+</li>
+			<li id="I0_171"><a href="/produkty/T171-Ustne-vody/"><span data-tree_nazov>Ústne vody</span><span data-tree_nazov_resp>Ústne vody</span> <span class="count_items">(41)</span></a>
+</li>
+			<li id="I0_172"><a href="/produkty/T172-Doplnky/"><span data-tree_nazov>Doplnky</span><span data-tree_nazov_resp>Doplnky</span> <span class="count_items">(10)</span></a>
+</li>
+			<li id="I0_181"><a href="/produkty/T181-Zubna-hygiena-na-cesty/"><span data-tree_nazov>Zubná hygiena na cesty</span><span data-tree_nazov_resp>Zubná hygiena na cesty</span> <span class="count_items">(8)</span></a>
+</li></ul></li>
+		<li id="I0_32"><a href="/produkty/T32-Vreckovky-a-obrusky/"><span data-tree_nazov>Vreckovky a obrúsky</span><span data-tree_nazov_resp>Vreckovky a obrúsky</span> <span class="count_items">(35)</span></a>
+
+			<ul id="S0_32" class=" lvl3">
+			<li id="I0_180"><a href="/produkty/T180-Vreckovky-a-obrusky-na-cestu/"><span data-tree_nazov>Vreckovky a obrúsky na cestu</span><span data-tree_nazov_resp>Vreckovky a obrúsky na cestu</span> <span class="count_items">(7)</span></a>
+</li></ul></li>
+		<li id="I0_35"><a href="/produkty/T35-Prezervativy-a-gely/"><span data-tree_nazov>Prezervatívy + gély</span><span data-tree_nazov_resp>Prezervatívy + gély</span> <span class="count_items">(36)</span></a>
+</li></ul></li>
+	<li id="I0_4"><a href="/produkty/T4-Plet/"><span data-tree_nazov>Pleť</span><span data-tree_nazov_resp>Pleť</span></a>
+
+		<ul id="S0_4" class=" lvl2">
+		<li id="I0_36"><a href="/produkty/T36-Cistenie-pleti/"><span data-tree_nazov>Čistenie pleti</span><span data-tree_nazov_resp>Čistenie pleti</span> <span class="count_items">(168)</span></a>
+
+			<ul id="S0_36" class=" lvl3">
+			<li id="I0_182"><a href="/produkty/T182-Cistace-vody-a-tonika/"><span data-tree_nazov>Čistace vody a toniká</span><span data-tree_nazov_resp>Čistace vody a toniká</span> <span class="count_items">(40)</span></a>
+</li>
+			<li id="I0_183"><a href="/produkty/T183-Cistiace-gely/"><span data-tree_nazov>Čistiace gély</span><span data-tree_nazov_resp>Čistiace gély</span> <span class="count_items">(32)</span></a>
+</li>
+			<li id="I0_184"><a href="/produkty/T184-Cistiace-mlieka/"><span data-tree_nazov>Čistiace mlieka</span><span data-tree_nazov_resp>Čistiace mlieka</span> <span class="count_items">(10)</span></a>
+</li>
+			<li id="I0_185"><a href="/produkty/T185-Mechanicke-cistenia/"><span data-tree_nazov>Mechanické čistenia</span><span data-tree_nazov_resp>Mechanické čistenia</span> <span class="count_items">(14)</span></a>
+</li>
+			<li id="I0_186"><a href="/produkty/T186-Micelarne-vody/"><span data-tree_nazov>Micelárne vody</span><span data-tree_nazov_resp>Micelárne vody</span> <span class="count_items">(37)</span></a>
+</li>
+			<li id="I0_187"><a href="/produkty/T187-Naplasti-na-pory/"><span data-tree_nazov>Náplasti na póry</span><span data-tree_nazov_resp>Náplasti na póry</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_188"><a href="/produkty/T188-Odlicovacie-tampony/"><span data-tree_nazov>Odličovacie tampóny</span><span data-tree_nazov_resp>Odličovacie tampóny</span> <span class="count_items">(15)</span></a>
+</li>
+			<li id="I0_189"><a href="/produkty/T189-Odlicovacie-vreckovky/"><span data-tree_nazov>Odličovacie vreckovky</span><span data-tree_nazov_resp>Odličovacie vreckovky</span> <span class="count_items">(2)</span></a>
+</li>
+			<li id="I0_190"><a href="/produkty/T190-Odlicovace-oci/"><span data-tree_nazov>Odličovače očí</span><span data-tree_nazov_resp>Odličovače očí</span> <span class="count_items">(14)</span></a>
+</li></ul></li>
+		<li id="I0_37"><a href="/produkty/T37-Kremy/"><span data-tree_nazov>Krémy</span><span data-tree_nazov_resp>Krémy</span> <span class="count_items">(219)</span></a>
+
+			<ul id="S0_37" class=" lvl3">
+			<li id="I0_191"><a href="/produkty/T191-Ocne-kremy-/"><span data-tree_nazov>Očné krémy </span><span data-tree_nazov_resp>Očné krémy </span> <span class="count_items">(19)</span></a>
+</li>
+			<li id="I0_192"><a href="/produkty/T192-Premiove-kremy/"><span data-tree_nazov>Prémiové krémy</span><span data-tree_nazov_resp>Prémiové krémy</span> <span class="count_items">(124)</span></a>
+</li>
+			<li id="I0_193"><a href="/produkty/T193-Standardne-kremy/"><span data-tree_nazov>Štandardné krémy</span><span data-tree_nazov_resp>Štandardné krémy</span> <span class="count_items">(69)</span></a>
+</li>
+			<li id="I0_194"><a href="/produkty/T194-Tonovacie-kremy/"><span data-tree_nazov>Tónovacie krémy</span><span data-tree_nazov_resp>Tónovacie krémy</span> <span class="count_items">(7)</span></a>
+</li></ul></li>
+		<li id="I0_38"><a href="/produkty/T38-Pletove-masky/"><span data-tree_nazov>Pleťové masky</span><span data-tree_nazov_resp>Pleťové masky</span> <span class="count_items">(139)</span></a>
+</li>
+		<li id="I0_39"><a href="/produkty/T39-Kozmeticka-sera/"><span data-tree_nazov>Kozmetická séra</span><span data-tree_nazov_resp>Kozmetická séra</span> <span class="count_items">(106)</span></a>
+</li>
+		<li id="I0_40"><a href="/produkty/T40-Pripravky-na-akne/"><span data-tree_nazov>Prípravky na akné</span><span data-tree_nazov_resp>Prípravky na akné</span> <span class="count_items">(27)</span></a>
+</li>
+		<li id="I0_41"><a href="/produkty/T41-Vyziva-pre-pery/"><span data-tree_nazov>Výživa pre pery</span><span data-tree_nazov_resp>Výživa pre pery</span> <span class="count_items">(70)</span></a>
+</li></ul></li>
+	<li id="I0_5"><a href="/produkty/T5-Telo/"><span data-tree_nazov>Telo</span><span data-tree_nazov_resp>Telo</span></a>
+
+		<ul id="S0_5" class=" lvl2">
+		<li id="I0_42"><a href="/produkty/T42-Starostlivost-o-telo/"><span data-tree_nazov>Starostlivosť o telo</span><span data-tree_nazov_resp>Starostlivosť o telo</span> <span class="count_items">(199)</span></a>
+
+			<ul id="S0_42" class=" lvl3">
+			<li id="I0_195"><a href="/produkty/T195-Telove-mlieka/"><span data-tree_nazov>Telové mlieka</span><span data-tree_nazov_resp>Telové mlieka</span> <span class="count_items">(108)</span></a>
+</li>
+			<li id="I0_196"><a href="/produkty/T196-Telove-oleje/"><span data-tree_nazov>Telové oleje</span><span data-tree_nazov_resp>Telové oleje</span> <span class="count_items">(1)</span></a>
+</li>
+			<li id="I0_197"><a href="/produkty/T197-Telove-spreje/"><span data-tree_nazov>Telové spreje</span><span data-tree_nazov_resp>Telové spreje</span> <span class="count_items">(22)</span></a>
+</li>
+			<li id="I0_198"><a href="/produkty/T198-Tvarovanie/"><span data-tree_nazov>Tvarovanie</span><span data-tree_nazov_resp>Tvarovanie</span> <span class="count_items">(11)</span></a>
+</li>
+			<li id="I0_199"><a href="/produkty/T199-Univerzalne-kremy/"><span data-tree_nazov>Univerzálne krémy</span><span data-tree_nazov_resp>Univerzálne krémy</span> <span class="count_items">(57)</span></a>
+</li></ul></li>
+		<li id="I0_43"><a href="/produkty/T43-Mydla/"><span data-tree_nazov>Mydlá</span><span data-tree_nazov_resp>Mydlá</span> <span class="count_items">(137)</span></a>
+
+			<ul id="S0_43" class=" lvl3">
+			<li id="I0_200"><a href="/produkty/T200-Antibakterialne-mydla/"><span data-tree_nazov>Antibakteriálne mydlá</span><span data-tree_nazov_resp>Antibakteriálne mydlá</span> <span class="count_items">(2)</span></a>
+</li>
+			<li id="I0_201"><a href="/produkty/T201-Tekute-mydla/"><span data-tree_nazov>Tekuté mydlá</span><span data-tree_nazov_resp>Tekuté mydlá</span> <span class="count_items">(103)</span></a>
+</li>
+			<li id="I0_202"><a href="/produkty/T202-Tuhe-mydla/"><span data-tree_nazov>Tuhé mydlá</span><span data-tree_nazov_resp>Tuhé mydlá</span> <span class="count_items">(32)</span></a>
+</li></ul></li>
+		<li id="I0_44"><a href="/produkty/T44-Sprcha-a-kupel/"><span data-tree_nazov>Sprcha a kúpeľ</span><span data-tree_nazov_resp>Sprcha a kúpeľ</span> <span class="count_items">(322)</span></a>
+
+			<ul id="S0_44" class=" lvl3">
+			<li id="I0_203"><a href="/produkty/T203-Damske-sprchovacie-gely/"><span data-tree_nazov>Dámske sprchovacie gély</span><span data-tree_nazov_resp>Dámske sprchovacie gély</span> <span class="count_items">(236)</span></a>
+</li>
+			<li id="I0_204"><a href="/produkty/T204-Peny-a-oleje-do-kupela/"><span data-tree_nazov>Peny a oleje do kúpeľa</span><span data-tree_nazov_resp>Peny a oleje do kúpeľa</span> <span class="count_items">(24)</span></a>
+</li>
+			<li id="I0_205"><a href="/produkty/T205-Soli-do-kupela/"><span data-tree_nazov>Soli do kúpeľa</span><span data-tree_nazov_resp>Soli do kúpeľa</span> <span class="count_items">(51)</span></a>
+</li>
+			<li id="I0_206"><a href="/produkty/T206-Umyvacie-potreby/"><span data-tree_nazov>Umývacie potreby</span><span data-tree_nazov_resp>Umývacie potreby</span> <span class="count_items">(11)</span></a>
+</li></ul></li>
+		<li id="I0_45"><a href="/produkty/T45-Dezodoranty-a-antiperspiranty/"><span data-tree_nazov>Dezodoranty a antiperspiranty</span><span data-tree_nazov_resp>Dezodoranty a antiperspiranty</span> <span class="count_items">(196)</span></a>
+
+			<ul id="S0_45" class=" lvl3">
+			<li id="I0_207"><a href="/produkty/T207-Damske-deo-roll-on/"><span data-tree_nazov>Dámske deo roll-on</span><span data-tree_nazov_resp>Dámske deo roll-on</span> <span class="count_items">(39)</span></a>
+</li>
+			<li id="I0_208"><a href="/produkty/T208-Damske-deo-spreje/"><span data-tree_nazov>Dámske deo spreje</span><span data-tree_nazov_resp>Dámske deo spreje</span> <span class="count_items">(117)</span></a>
+</li>
+			<li id="I0_209"><a href="/produkty/T209-Damske-deo-tuhe/"><span data-tree_nazov>Dámske deo tuhé</span><span data-tree_nazov_resp>Dámske deo tuhé</span> <span class="count_items">(40)</span></a>
+</li></ul></li>
+		<li id="I0_46"><a href="/produkty/T46-Holenie-a-depilacia/"><span data-tree_nazov>Holenie a depilácia</span><span data-tree_nazov_resp>Holenie a depilácia</span> <span class="count_items">(52)</span></a>
+
+			<ul id="S0_46" class=" lvl3">
+			<li id="I0_210"><a href="/produkty/T210-Damske-gely-na-holenie/"><span data-tree_nazov>Dámske gély na holenie</span><span data-tree_nazov_resp>Dámske gély na holenie</span> <span class="count_items">(3)</span></a>
+</li>
+			<li id="I0_211"><a href="/produkty/T211-Damske-holiace-strojceky-a-hlavice/"><span data-tree_nazov>Dámske holiace strojčeky a hlavice</span><span data-tree_nazov_resp>Dámske holiace strojčeky a hlavice</span> <span class="count_items">(21)</span></a>
+</li>
+			<li id="I0_212"><a href="/produkty/T212-Damske-jednorazove-strojceky/"><span data-tree_nazov>Dámske jednorázové strojčeky</span><span data-tree_nazov_resp>Dámske jednorázové strojčeky</span> <span class="count_items">(17)</span></a>
+</li>
+			<li id="I0_213"><a href="/produkty/T213-Depilacne-pripravky/"><span data-tree_nazov>Depilačné prípravky</span><span data-tree_nazov_resp>Depilačné prípravky</span> <span class="count_items">(11)</span></a>
+</li></ul></li>
+		<li id="I0_47"><a href="/produkty/T47-Starostlivost-o-ruky-a-nohy/"><span data-tree_nazov>Starostlivosť o ruky a nohy</span><span data-tree_nazov_resp>Starostlivosť o ruky a nohy</span> <span class="count_items">(99)</span></a>
+
+			<ul id="S0_47" class=" lvl3">
+			<li id="I0_214"><a href="/produkty/T214-Kremy-na-ruky/"><span data-tree_nazov>Krémy na ruky</span><span data-tree_nazov_resp>Krémy na ruky</span> <span class="count_items">(53)</span></a>
+</li>
+			<li id="I0_215"><a href="/produkty/T215-Starostlivost-o-nohy/"><span data-tree_nazov>Starostlivosť o nohy</span><span data-tree_nazov_resp>Starostlivosť o nohy</span> <span class="count_items">(46)</span></a>
+</li></ul></li>
+		<li id="I0_48"><a href="/produkty/T48-Masazne-pripravky/"><span data-tree_nazov>Masážne prípravky</span><span data-tree_nazov_resp>Masážne prípravky</span> <span class="count_items">(51)</span></a>
+</li>
+		<li id="I0_49"><a href="/produkty/T49-Telova-kozmetika-na-cesty/"><span data-tree_nazov>Telová kozmetika na cesty</span><span data-tree_nazov_resp>Telová kozmetika na cesty</span> <span class="count_items">(5)</span></a>
+</li></ul></li>
+	<li id="I0_6"><a href="/produkty/T6-Vlasy/"><span data-tree_nazov>Vlasy</span><span data-tree_nazov_resp>Starostlivosť o vlasy</span></a>
+
+		<ul id="S0_6" class=" lvl2">
+		<li id="I0_50"><a href="/produkty/T50-Umyvanie-vlasov/"><span data-tree_nazov>Umývanie vlasov</span><span data-tree_nazov_resp>Umývanie vlasov</span> <span class="count_items">(626)</span></a>
+
+			<ul id="S0_50" class=" lvl3">
+			<li id="I0_216"><a href="/produkty/T216-Sampony/"><span data-tree_nazov>Šampóny</span><span data-tree_nazov_resp>Šampóny</span> <span class="count_items">(341)</span></a>
+</li>
+			<li id="I0_217"><a href="/produkty/T217-Balzamy/"><span data-tree_nazov>Balzamy</span><span data-tree_nazov_resp>Balzamy</span> <span class="count_items">(201)</span></a>
+</li>
+			<li id="I0_220"><a href="/produkty/T220-Osetrenie/"><span data-tree_nazov>Ošetrenie</span><span data-tree_nazov_resp>Ošetrenie</span> <span class="count_items">(84)</span></a>
+</li></ul></li>
+		<li id="I0_51"><a href="/produkty/T51-Styling/"><span data-tree_nazov>Styling</span><span data-tree_nazov_resp>Styling</span> <span class="count_items">(173)</span></a>
+
+			<ul id="S0_51" class=" lvl3">
+			<li id="I0_221"><a href="/produkty/T221-Laky-na-vlasy/"><span data-tree_nazov>Laky na vlasy</span><span data-tree_nazov_resp>Laky na vlasy</span> <span class="count_items">(78)</span></a>
+</li>
+			<li id="I0_222"><a href="/produkty/T222-Tuzidla/"><span data-tree_nazov>Tužidlá</span><span data-tree_nazov_resp>Tužidlá</span> <span class="count_items">(30)</span></a>
+</li>
+			<li id="I0_223"><a href="/produkty/T223-Farebne-tuzidla/"><span data-tree_nazov>Farebné tužidlá</span><span data-tree_nazov_resp>Farebné tužidlá</span> <span class="count_items">(11)</span></a>
+</li>
+			<li id="I0_224"><a href="/produkty/T224-Tvarovanie-vlasov/"><span data-tree_nazov>Tvarovanie vlasov</span><span data-tree_nazov_resp>Tvarovanie vlasov</span> <span class="count_items">(54)</span></a>
+</li></ul></li>
+		<li id="I0_52"><a href="/produkty/T52-Farby/"><span data-tree_nazov>Farby</span><span data-tree_nazov_resp>Farby</span> <span class="count_items">(459)</span></a>
+
+			<ul id="S0_52" class=" lvl3">
+			<li id="I0_225"><a href="/produkty/T225-Melire/"><span data-tree_nazov>Melíre</span><span data-tree_nazov_resp>Melíre</span> <span class="count_items">(16)</span></a>
+</li>
+			<li id="I0_226"><a href="/produkty/T226-Permanentne-farby/"><span data-tree_nazov>Permanentné farby</span><span data-tree_nazov_resp>Permanentné farby</span> <span class="count_items">(348)</span></a>
+</li>
+			<li id="I0_227"><a href="/produkty/T227-Tonovacie-farby/"><span data-tree_nazov>Tónovacie farby</span><span data-tree_nazov_resp>Tónovacie farby</span> <span class="count_items">(95)</span></a>
+</li></ul></li>
+		<li id="I0_53"><a href="/produkty/T53-Galanteria/"><span data-tree_nazov>Galantéria</span><span data-tree_nazov_resp>Galantéria</span> <span class="count_items">(148)</span></a>
+</li>
+		<li id="I0_54"><a href="/produkty/T54-Vlasova-starostlivost-na-cesty/"><span data-tree_nazov>Vlasová starostlivosť na cesty</span><span data-tree_nazov_resp>Vlasová starostlivosť na cesty</span> <span class="count_items">(9)</span></a>
+</li></ul></li>
+	<li id="I0_7"><a href="/produkty/T7-Krasa-a-vone/"><span data-tree_nazov>Krása a vône</span><span data-tree_nazov_resp>Krása a vône</span></a>
+
+		<ul id="S0_7" class=" lvl2">
+		<li id="I0_55"><a href="/produkty/T55-Parfumy/"><span data-tree_nazov>Parfumy</span><span data-tree_nazov_resp>Parfumy</span> <span class="count_items">(207)</span></a>
+
+			<ul id="S0_55" class=" lvl3">
+			<li id="I0_228"><a href="/produkty/T228-Damske-vone/"><span data-tree_nazov>Dámske vône</span><span data-tree_nazov_resp>Dámske vône</span> <span class="count_items">(122)</span></a>
+</li>
+			<li id="I0_229"><a href="/produkty/T229-Panske-vone/"><span data-tree_nazov>Pánske vône</span><span data-tree_nazov_resp>Pánske vône</span> <span class="count_items">(50)</span></a>
+</li>
+			<li id="I0_230"><a href="/produkty/T230-Damske-rozprasovace/"><span data-tree_nazov>Dámske rozprašovače</span><span data-tree_nazov_resp>Dámske rozprašovače</span> <span class="count_items">(31)</span></a>
+</li>
+			<li id="I0_231"><a href="/produkty/T231-Selektivne-vone/"><span data-tree_nazov>Selektívne vône</span><span data-tree_nazov_resp>Selektívne vône</span> <span class="count_items">(4)</span></a>
+</li></ul></li>
+		<li id="I0_56"><a href="/produkty/T56-Nechty/"><span data-tree_nazov>Nechty</span><span data-tree_nazov_resp>Nechty</span> <span class="count_items">(318)</span></a>
+
+			<ul id="S0_56" class=" lvl3">
+			<li id="I0_233"><a href="/produkty/T233-Laky-na-nechty/"><span data-tree_nazov>Laky na nechty</span><span data-tree_nazov_resp>Laky na nechty</span> <span class="count_items">(276)</span></a>
+</li>
+			<li id="I0_234"><a href="/produkty/T234-Odlakovace/"><span data-tree_nazov>Odlakovače</span><span data-tree_nazov_resp>Odlakovače</span> <span class="count_items">(14)</span></a>
+</li>
+			<li id="I0_235"><a href="/produkty/T235-Kozmeticke-potreby/"><span data-tree_nazov>Kozmetické potreby</span><span data-tree_nazov_resp>Kozmetické potreby</span> <span class="count_items">(28)</span></a>
+</li></ul></li>
+		<li id="I0_57"><a href="/produkty/T57-Oci-a-riasy/"><span data-tree_nazov>Oči a riasy</span><span data-tree_nazov_resp>Oči a riasy</span> <span class="count_items">(485)</span></a>
+
+			<ul id="S0_57" class=" lvl3">
+			<li id="I0_240"><a href="/produkty/T240-Riasenky/"><span data-tree_nazov>Riasenky</span><span data-tree_nazov_resp>Riasenky</span> <span class="count_items">(170)</span></a>
+</li>
+			<li id="I0_239"><a href="/produkty/T239-Ocne-tiene/"><span data-tree_nazov>Očné tiene</span><span data-tree_nazov_resp>Očné tiene</span> <span class="count_items">(62)</span></a>
+</li>
+			<li id="I0_237"><a href="/produkty/T237-Ceruzky-na-oci/"><span data-tree_nazov>Ceruzky na oči</span><span data-tree_nazov_resp>Ceruzky na oči</span> <span class="count_items">(140)</span></a>
+</li>
+			<li id="I0_236"><a href="/produkty/T236-Ceruzky-na-obocie/"><span data-tree_nazov>Ceruzky na obočie</span><span data-tree_nazov_resp>Ceruzky na obočie</span> <span class="count_items">(99)</span></a>
+</li>
+			<li id="I0_238"><a href="/produkty/T238-Kozmeticke-potreby/"><span data-tree_nazov>Kozmetické potreby</span><span data-tree_nazov_resp>Kozmetické potreby</span> <span class="count_items">(14)</span></a>
+</li></ul></li>
+		<li id="I0_58"><a href="/produkty/T58-Pery/"><span data-tree_nazov>Pery</span><span data-tree_nazov_resp>Pery</span> <span class="count_items">(380)</span></a>
+
+			<ul id="S0_58" class=" lvl3">
+			<li id="I0_241"><a href="/produkty/T241-Ceruzky-na-pery/"><span data-tree_nazov>Ceruzky na pery</span><span data-tree_nazov_resp>Ceruzky na pery</span> <span class="count_items">(69)</span></a>
+</li>
+			<li id="I0_242"><a href="/produkty/T242-Lesky/"><span data-tree_nazov>Lesky</span><span data-tree_nazov_resp>Lesky</span> <span class="count_items">(132)</span></a>
+</li>
+			<li id="I0_243"><a href="/produkty/T243-Ruze/"><span data-tree_nazov>Rúže</span><span data-tree_nazov_resp>Rúže</span> <span class="count_items">(179)</span></a>
+</li></ul></li>
+		<li id="I0_59"><a href="/produkty/T59-Tvar/"><span data-tree_nazov>Tvár</span><span data-tree_nazov_resp>Tvár</span> <span class="count_items">(460)</span></a>
+
+			<ul id="S0_59" class=" lvl3">
+			<li id="I0_245"><a href="/produkty/T245-Make-up/"><span data-tree_nazov>Make-up</span><span data-tree_nazov_resp>Make-up</span> <span class="count_items">(241)</span></a>
+</li>
+			<li id="I0_246"><a href="/produkty/T246-Pudre/"><span data-tree_nazov>Púdre</span><span data-tree_nazov_resp>Púdre</span> <span class="count_items">(71)</span></a>
+</li>
+			<li id="I0_247"><a href="/produkty/T247-Tvarenky/"><span data-tree_nazov>Tvárenky</span><span data-tree_nazov_resp>Tvárenky</span> <span class="count_items">(58)</span></a>
+</li>
+			<li id="I0_244"><a href="/produkty/T244-Kozmeticke-korektory/"><span data-tree_nazov>Kozmetické korektory</span><span data-tree_nazov_resp>Kozmetické korektory</span> <span class="count_items">(90)</span></a>
+</li></ul></li>
+		<li id="I0_60"><a href="/produkty/T60-Doplnky/"><span data-tree_nazov>Doplnky</span><span data-tree_nazov_resp>Doplnky</span> <span class="count_items">(50)</span></a>
+
+			<ul id="S0_60" class=" lvl3">
+			<li id="I0_248"><a href="/produkty/T248-Potreby-na-licenie/"><span data-tree_nazov>Potreby na líčenie</span><span data-tree_nazov_resp>Potreby na líčenie</span> <span class="count_items">(46)</span></a>
+</li>
+			<li id="I0_249"><a href="/produkty/T249-Ostatne/"><span data-tree_nazov>Ostatné</span><span data-tree_nazov_resp>Ostatné</span> <span class="count_items">(4)</span></a>
+</li></ul></li>
+		<li id="I0_61"><a href="/produkty/T61-Sperky/"><span data-tree_nazov>Šperky</span><span data-tree_nazov_resp>Šperky</span> <span class="count_items">(43)</span></a>
+</li></ul></li>
+	<li id="I0_8"><a href="/produkty/T8-Pani/"><span data-tree_nazov>Páni</span><span data-tree_nazov_resp>Pánsky svet</span></a>
+
+		<ul id="S0_8" class=" lvl2">
+		<li id="I0_62"><a href="/produkty/T62-Kupel/"><span data-tree_nazov>Kúpeľ</span><span data-tree_nazov_resp>Kúpeľ</span> <span class="count_items">(156)</span></a>
+
+			<ul id="S0_62" class=" lvl3">
+			<li id="I0_250"><a href="/produkty/T250-Sprchovacie-gely/"><span data-tree_nazov>Sprchovacie gély</span><span data-tree_nazov_resp>Sprchovacie gély</span> <span class="count_items">(147)</span></a>
+</li>
+			<li id="I0_251"><a href="/produkty/T251-Sampony/"><span data-tree_nazov>Šampóny</span><span data-tree_nazov_resp>Šampóny</span> <span class="count_items">(9)</span></a>
+</li></ul></li>
+		<li id="I0_63"><a href="/produkty/T63-Dezodoranty-a-antiperspiranty/"><span data-tree_nazov>Dezodoranty a antiperspiranty</span><span data-tree_nazov_resp>Dezodoranty a antiperspiranty</span> <span class="count_items">(170)</span></a>
+
+			<ul id="S0_63" class=" lvl3">
+			<li id="I0_252"><a href="/produkty/T252-Panske-deo-roll-on/"><span data-tree_nazov>Pánske deo roll-on</span><span data-tree_nazov_resp>Pánske deo roll-on</span> <span class="count_items">(18)</span></a>
+</li>
+			<li id="I0_253"><a href="/produkty/T253-Panske-deo-spreje/"><span data-tree_nazov>Pánske deo spreje</span><span data-tree_nazov_resp>Pánske deo spreje</span> <span class="count_items">(106)</span></a>
+</li>
+			<li id="I0_254"><a href="/produkty/T254-Panske-deo-tuhe/"><span data-tree_nazov>Pánske deo tuhé</span><span data-tree_nazov_resp>Pánske deo tuhé</span> <span class="count_items">(46)</span></a>
+</li></ul></li>
+		<li id="I0_64"><a href="/produkty/T64-Holenie/"><span data-tree_nazov>Holenie</span><span data-tree_nazov_resp>Holenie</span> <span class="count_items">(103)</span></a>
+
+			<ul id="S0_64" class=" lvl3">
+			<li id="I0_255"><a href="/produkty/T255-Doplnky-na-holenie/"><span data-tree_nazov>Doplnky na holenie</span><span data-tree_nazov_resp>Doplnky na holenie</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_256"><a href="/produkty/T256-Holiace-strojceky-a-hlavice/"><span data-tree_nazov>Holiace strojčeky a hlavice</span><span data-tree_nazov_resp>Holiace strojčeky a hlavice</span> <span class="count_items">(46)</span></a>
+</li>
+			<li id="I0_257"><a href="/produkty/T257-Jednorazove-strojceky/"><span data-tree_nazov>Jednorázové strojčeky</span><span data-tree_nazov_resp>Jednorázové strojčeky</span> <span class="count_items">(21)</span></a>
+</li>
+			<li id="I0_258"><a href="/produkty/T258-Peny-a-gely-na-holenie/"><span data-tree_nazov>Peny a gély na holenie</span><span data-tree_nazov_resp>Peny a gély na holenie</span> <span class="count_items">(32)</span></a>
+</li></ul></li>
+		<li id="I0_65"><a href="/produkty/T65-Po-holeni/"><span data-tree_nazov>Po holení</span><span data-tree_nazov_resp>Po holení</span> <span class="count_items">(35)</span></a>
+
+			<ul id="S0_65" class=" lvl3">
+			<li id="I0_259"><a href="/produkty/T259-Panske-kolinske-vody/"><span data-tree_nazov>Pánske kolínske vody</span><span data-tree_nazov_resp>Pánske kolínske vody</span> <span class="count_items">(3)</span></a>
+</li>
+			<li id="I0_260"><a href="/produkty/T260-Vody-po-holeni,-balzamy-a-kremy/"><span data-tree_nazov>Vody po holení, balzamy a krémy</span><span data-tree_nazov_resp>Vody po holení, balzamy a krémy</span> <span class="count_items">(32)</span></a>
+</li></ul></li>
+		<li id="I0_66"><a href="/produkty/T66-Kozmetika/"><span data-tree_nazov>Kozmetika</span><span data-tree_nazov_resp>Kozmetika</span> <span class="count_items">(24)</span></a>
+</li>
+		<li id="I0_67"><a href="/produkty/T67-Potreby-pre-auto/"><span data-tree_nazov>Potreby pre auto</span><span data-tree_nazov_resp>Potreby pre auto</span> <span class="count_items">(114)</span></a>
+
+			<ul id="S0_67" class=" lvl3">
+			<li id="I0_261"><a href="/produkty/T261-Autokozmetika/"><span data-tree_nazov>Autokozmetika</span><span data-tree_nazov_resp>Autokozmetika</span> <span class="count_items">(25)</span></a>
+</li>
+			<li id="I0_262"><a href="/produkty/T262-Letna-prevadzka/"><span data-tree_nazov>Letná prevádzka</span><span data-tree_nazov_resp>Letná prevádzka</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_263"><a href="/produkty/T263-Zimna-prevadzka/"><span data-tree_nazov>Zimná prevádzka</span><span data-tree_nazov_resp>Zimná prevádzka</span> <span class="count_items">(1)</span></a>
+</li>
+			<li id="I0_264"><a href="/produkty/T264-Oleje-a-spreje/"><span data-tree_nazov>Oleje a spreje</span><span data-tree_nazov_resp>Oleje a spreje</span> <span class="count_items">(8)</span></a>
+</li>
+			<li id="I0_265"><a href="/produkty/T265-Technicke-kvapaliny/"><span data-tree_nazov>Technické kvapaliny</span><span data-tree_nazov_resp>Technické kvapaliny</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_266"><a href="/produkty/T266-Vone/"><span data-tree_nazov>Vône</span><span data-tree_nazov_resp>Vône</span> <span class="count_items">(72)</span></a>
+</li></ul></li></ul></li>
+	<li id="I0_9"><a href="/produkty/T9-Papiernictvo/"><span data-tree_nazov>Papierníctvo</span><span data-tree_nazov_resp>Papierníctvo</span></a>
+
+		<ul id="S0_9" class=" lvl2">
+		<li id="I0_68"><a href="/produkty/T68-Baliaci-material/"><span data-tree_nazov>Baliaci materiál</span><span data-tree_nazov_resp>Baliaci materiál</span> <span class="count_items">(13)</span></a>
+
+			<ul id="S0_68" class=" lvl3">
+			<li id="I0_269"><a href="/produkty/T269-Lepiace-pasky/"><span data-tree_nazov>Lepiace pásky</span><span data-tree_nazov_resp>Lepiace pásky</span> <span class="count_items">(13)</span></a>
+</li></ul></li>
+		<li id="I0_70"><a href="/produkty/T70-Kancelarske-potreby/"><span data-tree_nazov>Kancelárske potreby</span><span data-tree_nazov_resp>Kancelárske potreby</span> <span class="count_items">(27)</span></a>
+
+			<ul id="S0_70" class=" lvl3">
+			<li id="I0_274"><a href="/produkty/T274-Blocky/"><span data-tree_nazov>Bločky</span><span data-tree_nazov_resp>Bločky</span> <span class="count_items">(1)</span></a>
+</li>
+			<li id="I0_275"><a href="/produkty/T275-Dierovacky-a-zosivacky/"><span data-tree_nazov>Dierovačky a zošívačky</span><span data-tree_nazov_resp>Dierovačky a zošívačky</span> <span class="count_items">(1)</span></a>
+</li>
+			<li id="I0_276"><a href="/produkty/T276-Drobne-kancelarske-potreby/"><span data-tree_nazov>Drobné kancelárske potreby</span><span data-tree_nazov_resp>Drobné kancelárske potreby</span> <span class="count_items">(2)</span></a>
+</li>
+			<li id="I0_279"><a href="/produkty/T279-Lepidla/"><span data-tree_nazov>Lepidlá</span><span data-tree_nazov_resp>Lepidlá</span> <span class="count_items">(11)</span></a>
+</li>
+			<li id="I0_280"><a href="/produkty/T280-Noznicky-a-noze/"><span data-tree_nazov>Nožničky a nože</span><span data-tree_nazov_resp>Nožničky a nože</span> <span class="count_items">(6)</span></a>
+</li>
+			<li id="I0_282"><a href="/produkty/T282-Papiere/"><span data-tree_nazov>Papiere</span><span data-tree_nazov_resp>Papiere</span> <span class="count_items">(3)</span></a>
+</li>
+			<li id="I0_285"><a href="/produkty/T285-Zaznamove-knihy/"><span data-tree_nazov>Záznamové knihy</span><span data-tree_nazov_resp>Záznamové knihy</span> <span class="count_items">(3)</span></a>
+</li></ul></li>
+		<li id="I0_71"><a href="/produkty/T71-Organizacne-potreby/"><span data-tree_nazov>Organizačné potreby</span><span data-tree_nazov_resp>Organizačné potreby</span> <span class="count_items">(7)</span></a>
+
+			<ul id="S0_71" class=" lvl3">
+			<li id="I0_290"><a href="/produkty/T290-Obaly-a-dosky/"><span data-tree_nazov>Obaly a dosky</span><span data-tree_nazov_resp>Obaly a dosky</span> <span class="count_items">(7)</span></a>
+</li></ul></li>
+		<li id="I0_73"><a href="/produkty/T73-Pisacie-potreby/"><span data-tree_nazov>Písacie potreby</span><span data-tree_nazov_resp>Písacie potreby</span> <span class="count_items">(40)</span></a>
+
+			<ul id="S0_73" class=" lvl3">
+			<li id="I0_297"><a href="/produkty/T297-Graficke-ceruzky/"><span data-tree_nazov>Grafické ceruzky</span><span data-tree_nazov_resp>Grafické ceruzky</span> <span class="count_items">(12)</span></a>
+</li>
+			<li id="I0_298"><a href="/produkty/T298-Gulockove-pera/"><span data-tree_nazov>Guľôčkové perá</span><span data-tree_nazov_resp>Guľôčkové perá</span> <span class="count_items">(3)</span></a>
+</li>
+			<li id="I0_299"><a href="/produkty/T299-Korektory/"><span data-tree_nazov>Korektory</span><span data-tree_nazov_resp>Korektory</span> <span class="count_items">(1)</span></a>
+</li>
+			<li id="I0_301"><a href="/produkty/T301-Pera/"><span data-tree_nazov>Perá</span><span data-tree_nazov_resp>Perá</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_302"><a href="/produkty/T302-Popisovace/"><span data-tree_nazov>Popisovače</span><span data-tree_nazov_resp>Popisovače</span> <span class="count_items">(15)</span></a>
+</li>
+			<li id="I0_306"><a href="/produkty/T306-Zvyraznovace/"><span data-tree_nazov>Zvýrazňovače</span><span data-tree_nazov_resp>Zvýrazňovače</span> <span class="count_items">(5)</span></a>
+</li></ul></li>
+		<li id="I0_74"><a href="/produkty/T74-Pre-deti/"><span data-tree_nazov>Pre deti</span><span data-tree_nazov_resp>Pre deti</span> <span class="count_items">(2)</span></a>
+
+			<ul id="S0_74" class=" lvl3">
+			<li id="I0_308"><a href="/produkty/T308-Kufriky/"><span data-tree_nazov>Kufríky</span><span data-tree_nazov_resp>Kufríky</span> <span class="count_items">(1)</span></a>
+</li>
+			<li id="I0_309"><a href="/produkty/T309-Lietajuce-sarkany/"><span data-tree_nazov>Lietajúce šarkany</span><span data-tree_nazov_resp>Lietajúce šarkany</span> <span class="count_items">(1)</span></a>
+</li></ul></li>
+		<li id="I0_75"><a href="/produkty/T75-Skolske-potreby/"><span data-tree_nazov>Školské potreby</span><span data-tree_nazov_resp>Školské potreby</span> <span class="count_items">(31)</span></a>
+
+			<ul id="S0_75" class=" lvl3">
+			<li id="I0_320"><a href="/produkty/T320-Orezavatka/"><span data-tree_nazov>Orezávatká</span><span data-tree_nazov_resp>Orezávatká</span> <span class="count_items">(2)</span></a>
+</li>
+			<li id="I0_322"><a href="/produkty/T322-Rysovacie-pomocky/"><span data-tree_nazov>Rysovacie pomôcky</span><span data-tree_nazov_resp>Rysovacie pomôcky</span> <span class="count_items">(13)</span></a>
+</li>
+			<li id="I0_327"><a href="/produkty/T327-Zosity/"><span data-tree_nazov>Zošity</span><span data-tree_nazov_resp>Zošity</span> <span class="count_items">(16)</span></a>
+</li></ul></li>
+		<li id="I0_76"><a href="/produkty/T76-Vytvarne-potreby/"><span data-tree_nazov>Výtvarné potreby</span><span data-tree_nazov_resp>Výtvarné potreby</span> <span class="count_items">(48)</span></a>
+
+			<ul id="S0_76" class=" lvl3">
+			<li id="I0_328"><a href="/produkty/T328-Farby/"><span data-tree_nazov>Farby</span><span data-tree_nazov_resp>Farby</span> <span class="count_items">(5)</span></a>
+</li>
+			<li id="I0_330"><a href="/produkty/T330-Kresliace-a-modelovacie-potreby/"><span data-tree_nazov>Kresliace a modelovacie potreby</span><span data-tree_nazov_resp>Kresliace a modelovacie potreby</span> <span class="count_items">(16)</span></a>
+</li>
+			<li id="I0_331"><a href="/produkty/T331-Kriedy/"><span data-tree_nazov>Kriedy</span><span data-tree_nazov_resp>Kriedy</span> <span class="count_items">(6)</span></a>
+</li>
+			<li id="I0_332"><a href="/produkty/T332-Pastelky/"><span data-tree_nazov>Pastelky</span><span data-tree_nazov_resp>Pastelky</span> <span class="count_items">(21)</span></a>
+</li></ul></li></ul></li>
+	<li id="I0_10"><a href="/produkty/T10-Zvierata/"><span data-tree_nazov>Zvieratá</span><span data-tree_nazov_resp>Zvieratá</span></a>
+
+		<ul id="S0_10" class=" lvl2">
+		<li id="I0_78"><a href="/produkty/T78-Psy/"><span data-tree_nazov>Psy</span><span data-tree_nazov_resp>Psy</span> <span class="count_items">(62)</span></a>
+
+			<ul id="S0_78" class=" lvl3">
+			<li id="I0_335"><a href="/produkty/T335-Granule/"><span data-tree_nazov>Granule</span><span data-tree_nazov_resp>Granule</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_339"><a href="/produkty/T339-Mokre-krmiva/"><span data-tree_nazov>Mokré krmivá</span><span data-tree_nazov_resp>Mokré krmivá</span> <span class="count_items">(12)</span></a>
+</li>
+			<li id="I0_342"><a href="/produkty/T342-Pochutky/"><span data-tree_nazov>Pochúťky</span><span data-tree_nazov_resp>Pochúťky</span> <span class="count_items">(44)</span></a>
+</li>
+			<li id="I0_343"><a href="/produkty/T343-Doplnky/"><span data-tree_nazov>Doplnky</span><span data-tree_nazov_resp>Doplnky</span> <span class="count_items">(2)</span></a>
+</li></ul></li>
+		<li id="I0_79"><a href="/produkty/T79-Macky/"><span data-tree_nazov>Mačky</span><span data-tree_nazov_resp>Mačky</span> <span class="count_items">(86)</span></a>
+
+			<ul id="S0_79" class=" lvl3">
+			<li id="I0_344"><a href="/produkty/T344-Granule/"><span data-tree_nazov>Granule</span><span data-tree_nazov_resp>Granule</span> <span class="count_items">(11)</span></a>
+</li>
+			<li id="I0_346"><a href="/produkty/T346-Konzervy/"><span data-tree_nazov>Konzervy</span><span data-tree_nazov_resp>Konzervy</span> <span class="count_items">(9)</span></a>
+</li>
+			<li id="I0_347"><a href="/produkty/T347-Mokre-krmiva/"><span data-tree_nazov>Mokré krmivá</span><span data-tree_nazov_resp>Mokré krmivá</span> <span class="count_items">(51)</span></a>
+</li>
+			<li id="I0_350"><a href="/produkty/T350-Podstielka/"><span data-tree_nazov>Podstielka</span><span data-tree_nazov_resp>Podstielka</span> <span class="count_items">(1)</span></a>
+</li>
+			<li id="I0_351"><a href="/produkty/T351-Pochutky-a-doplnky/"><span data-tree_nazov>Pochúťky a doplnky</span><span data-tree_nazov_resp>Pochúťky a doplnky</span> <span class="count_items">(14)</span></a>
+</li></ul></li>
+		<li id="I0_80"><a href="/produkty/T80-Ostatne/"><span data-tree_nazov>Ostatné</span><span data-tree_nazov_resp>Ostatné</span> <span class="count_items">(5)</span></a>
+</li></ul></li>
+	<li id="I0_11"><a href="/produkty/T11-Sezona/"><span data-tree_nazov>Sezóna</span><span data-tree_nazov_resp>Sezóna</span></a>
+
+		<ul id="S0_11" class=" lvl2">
+		<li id="I0_81"><a href="/produkty/T81-Jar-a-leto/"><span data-tree_nazov>Jar a leto</span><span data-tree_nazov_resp>Jar a leto</span> <span class="count_items">(158)</span></a>
+
+			<ul id="S0_81" class=" lvl3">
+			<li id="I0_354"><a href="/produkty/T354-Bazenova-chemia/"><span data-tree_nazov>Bazénová chémia</span><span data-tree_nazov_resp>Bazénová chémia</span> <span class="count_items">(8)</span></a>
+</li>
+			<li id="I0_355"><a href="/produkty/T355-Doplnky/"><span data-tree_nazov>Doplnky</span><span data-tree_nazov_resp>Doplnky</span> <span class="count_items">(21)</span></a>
+</li>
+			<li id="I0_356"><a href="/produkty/T356-Grilovanie/"><span data-tree_nazov>Grilovanie</span><span data-tree_nazov_resp>Grilovanie</span> <span class="count_items">(1)</span></a>
+</li>
+			<li id="I0_358"><a href="/produkty/T358-Insekticidy-a-postreky/"><span data-tree_nazov>Insekticídy a postreky</span><span data-tree_nazov_resp>Insekticídy a postreky</span> <span class="count_items">(54)</span></a>
+</li>
+			<li id="I0_359"><a href="/produkty/T359-Opalovanie/"><span data-tree_nazov>Opaľovanie</span><span data-tree_nazov_resp>Opaľovanie</span> <span class="count_items">(47)</span></a>
+</li>
+			<li id="I0_360"><a href="/produkty/T360-Repelenty/"><span data-tree_nazov>Repelenty</span><span data-tree_nazov_resp>Repelenty</span> <span class="count_items">(26)</span></a>
+</li>
+			<li id="I0_363"><a href="/produkty/T363-Zavaranie/"><span data-tree_nazov>Zaváranie</span><span data-tree_nazov_resp>Zaváranie</span> <span class="count_items">(1)</span></a>
+</li></ul></li>
+		<li id="I0_83"><a href="/produkty/T83-Velka-noc/"><span data-tree_nazov>Veľká noc</span><span data-tree_nazov_resp>Veľká noc</span> <span class="count_items">(1)</span></a>
+</li>
+		<li id="I0_84"><a href="/produkty/T84-Vianoce/"><span data-tree_nazov>Vianoce</span><span data-tree_nazov_resp>Vianoce</span> <span class="count_items">(276)</span></a>
+
+			<ul id="S0_84" class=" lvl3">
+			<li id="I0_488"><a href="/produkty/T488-Adventne-kalendare/"><span data-tree_nazov>Adventné kalendáre</span><span data-tree_nazov_resp>Adventné kalendáre</span> <span class="count_items">(6)</span></a>
+</li>
+			<li id="I0_364"><a href="/produkty/T364-Darcekove-kazety-pre-muzov/"><span data-tree_nazov>Darčekové kazety pre mužov</span><span data-tree_nazov_resp>Darčekové kazety pre mužov</span> <span class="count_items">(73)</span></a>
+</li>
+			<li id="I0_365"><a href="/produkty/T365-Darcekove-kazety-pre-zeny/"><span data-tree_nazov>Darčekové kazety pre ženy</span><span data-tree_nazov_resp>Darčekové kazety pre ženy</span> <span class="count_items">(87)</span></a>
+</li>
+			<li id="I0_366"><a href="/produkty/T366-Ostatne-kazety/"><span data-tree_nazov>Ostatné kazety</span><span data-tree_nazov_resp>Ostatné kazety</span> <span class="count_items">(17)</span></a>
+</li>
+			<li id="I0_367"><a href="/produkty/T367-Vianocna-vyzdoba-a-vone/"><span data-tree_nazov>Vianočná výzdoba a vône</span><span data-tree_nazov_resp>Vianočná výzdoba a vône</span> <span class="count_items">(93)</span></a>
+</li></ul></li>
+		<li id="I0_200001"><a href="/produkty/T200001-Darcekove-karty/"><span data-tree_nazov>Darčekové karty</span><span data-tree_nazov_resp>Darčekové karty</span> <span class="count_items">(2)</span></a>
+</li></ul></li>
+	<li id="I0_12"><a href="/produkty/T12-Potraviny/"><span data-tree_nazov>Potraviny</span><span data-tree_nazov_resp>Potraviny, kuchyňa</span></a>
+
+		<ul id="S0_12" class=" lvl2">
+		<li id="I0_85"><a href="/produkty/T85-Napoje/"><span data-tree_nazov>Nápoje</span><span data-tree_nazov_resp>Nápoje</span> <span class="count_items">(60)</span></a>
+
+			<ul id="S0_85" class=" lvl3">
+			<li id="I0_368"><a href="/produkty/T368-Dzusy/"><span data-tree_nazov>Džúsy</span><span data-tree_nazov_resp>Džúsy</span> <span class="count_items">(7)</span></a>
+</li>
+			<li id="I0_369"><a href="/produkty/T369-Energeticke-napoje/"><span data-tree_nazov>Energetické nápoje</span><span data-tree_nazov_resp>Energetické nápoje</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_370"><a href="/produkty/T370-Ladove-caje/"><span data-tree_nazov>Ľadové čaje</span><span data-tree_nazov_resp>Ľadové čaje</span> <span class="count_items">(2)</span></a>
+</li>
+			<li id="I0_371"><a href="/produkty/T371-Napoje,-caje-a-stavy/"><span data-tree_nazov>Nápoje, čaje a šťavy</span><span data-tree_nazov_resp>Nápoje, čaje a šťavy</span> <span class="count_items">(1)</span></a>
+</li>
+			<li id="I0_372"><a href="/produkty/T372-Stolove-a-mineralne-vody/"><span data-tree_nazov>Stolové a minerálne vody</span><span data-tree_nazov_resp>Stolové a minerálne vody</span> <span class="count_items">(25)</span></a>
+</li>
+			<li id="I0_373"><a href="/produkty/T373-Sytene-napoje/"><span data-tree_nazov>Sýtené nápoje</span><span data-tree_nazov_resp>Sýtené nápoje</span> <span class="count_items">(10)</span></a>
+</li>
+			<li id="I0_428"><a href="/produkty/T428-Caje/"><span data-tree_nazov>Čaje</span><span data-tree_nazov_resp>Čaje</span> <span class="count_items">(11)</span></a>
+</li></ul></li>
+		<li id="I0_86"><a href="/produkty/T86-Cukrovinky/"><span data-tree_nazov>Cukrovinky</span><span data-tree_nazov_resp>Cukrovinky</span> <span class="count_items">(101)</span></a>
+
+			<ul id="S0_86" class=" lvl3">
+			<li id="I0_374"><a href="/produkty/T374-Bonbony/"><span data-tree_nazov>Bonbóny</span><span data-tree_nazov_resp>Bonbóny</span> <span class="count_items">(50)</span></a>
+</li>
+			<li id="I0_375"><a href="/produkty/T375-Cokolady/"><span data-tree_nazov>Čokolády</span><span data-tree_nazov_resp>Čokolády</span> <span class="count_items">(5)</span></a>
+</li>
+			<li id="I0_376"><a href="/produkty/T376-Kava/"><span data-tree_nazov>Káva</span><span data-tree_nazov_resp>Káva</span> <span class="count_items">(2)</span></a>
+</li>
+			<li id="I0_378"><a href="/produkty/T378-Slane-susienky-a-chipsy/"><span data-tree_nazov>Slané sušienky a chipsy</span><span data-tree_nazov_resp>Slané sušienky a chipsy</span> <span class="count_items">(2)</span></a>
+</li>
+			<li id="I0_379"><a href="/produkty/T379-Susienky/"><span data-tree_nazov>Sušienky</span><span data-tree_nazov_resp>Sušienky</span> <span class="count_items">(22)</span></a>
+</li>
+			<li id="I0_380"><a href="/produkty/T380-Zuvacky/"><span data-tree_nazov>Žuvačky</span><span data-tree_nazov_resp>Žuvačky</span> <span class="count_items">(20)</span></a>
+</li></ul></li>
+		<li id="I0_87"><a href="/produkty/T87-Desiaty-a-snacky/"><span data-tree_nazov>Desiaty a snacky</span><span data-tree_nazov_resp>Desiaty a snacky</span> <span class="count_items">(175)</span></a>
+
+			<ul id="S0_87" class=" lvl3">
+			<li id="I0_381"><a href="/produkty/T381-Kase-a-cerealie/"><span data-tree_nazov>Kaše a cereálie</span><span data-tree_nazov_resp>Kaše a cereálie</span> <span class="count_items">(15)</span></a>
+</li>
+			<li id="I0_383"><a href="/produkty/T383-Ovocne-stavy-a-napoje/"><span data-tree_nazov>Ovocné šťavy a nápoje</span><span data-tree_nazov_resp>Ovocné šťavy a nápoje</span> <span class="count_items">(8)</span></a>
+</li>
+			<li id="I0_384"><a href="/produkty/T384-Pomazanky-a-dzemy/"><span data-tree_nazov>Pomazánky a džemy</span><span data-tree_nazov_resp>Pomazánky a džemy</span> <span class="count_items">(10)</span></a>
+</li>
+			<li id="I0_385"><a href="/produkty/T385-Proteinove-potraviny/"><span data-tree_nazov>Proteínové potraviny</span><span data-tree_nazov_resp>Proteínové potraviny</span> <span class="count_items">(5)</span></a>
+</li>
+			<li id="I0_386"><a href="/produkty/T386-Rastlinne-napoje-a-dezerty/"><span data-tree_nazov>Rastlinné nápoje a dezerty</span><span data-tree_nazov_resp>Rastlinné nápoje a dezerty</span> <span class="count_items">(5)</span></a>
+</li>
+			<li id="I0_387"><a href="/produkty/T387-Sladke-snacky/"><span data-tree_nazov>Sladké snacky</span><span data-tree_nazov_resp>Sladké snacky</span> <span class="count_items">(54)</span></a>
+</li>
+			<li id="I0_388"><a href="/produkty/T388-Sladkosti/"><span data-tree_nazov>Sladkosti</span><span data-tree_nazov_resp>Sladkosti</span> <span class="count_items">(9)</span></a>
+</li>
+			<li id="I0_389"><a href="/produkty/T389-Slane-snacky/"><span data-tree_nazov>Slané snacky</span><span data-tree_nazov_resp>Slané snacky</span> <span class="count_items">(12)</span></a>
+</li>
+			<li id="I0_390"><a href="/produkty/T390-Susene-ovocie-a-orechy/"><span data-tree_nazov>Sušené ovocie a orechy</span><span data-tree_nazov_resp>Sušené ovocie a orechy</span> <span class="count_items">(29)</span></a>
+</li>
+			<li id="I0_391"><a href="/produkty/T391-Tycinky/"><span data-tree_nazov>Tyčinky</span><span data-tree_nazov_resp>Tyčinky</span> <span class="count_items">(28)</span></a>
+</li></ul></li>
+		<li id="I0_88"><a href="/produkty/T88-Varenie/"><span data-tree_nazov>Varenie</span><span data-tree_nazov_resp>Varenie</span> <span class="count_items">(40)</span></a>
+
+			<ul id="S0_88" class=" lvl3">
+			<li id="I0_392"><a href="/produkty/T392-Cestoviny/"><span data-tree_nazov>Cestoviny</span><span data-tree_nazov_resp>Cestoviny</span> <span class="count_items">(5)</span></a>
+</li>
+			<li id="I0_393"><a href="/produkty/T393-Dochucovadla/"><span data-tree_nazov>Dochucovadlá</span><span data-tree_nazov_resp>Dochucovadlá</span> <span class="count_items">(9)</span></a>
+</li>
+			<li id="I0_394"><a href="/produkty/T394-Obilniny/"><span data-tree_nazov>Obilniny</span><span data-tree_nazov_resp>Obilniny</span> <span class="count_items">(3)</span></a>
+</li>
+			<li id="I0_395"><a href="/produkty/T395-Oleje/"><span data-tree_nazov>Oleje</span><span data-tree_nazov_resp>Oleje</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_396"><a href="/produkty/T396-Polotovary-a-zmesi/"><span data-tree_nazov>Polotovary a zmesi</span><span data-tree_nazov_resp>Polotovary a zmesi</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_397"><a href="/produkty/T397-Sladenie/"><span data-tree_nazov>Sladenie</span><span data-tree_nazov_resp>Sladenie</span> <span class="count_items">(5)</span></a>
+</li>
+			<li id="I0_470"><a href="/produkty/T470-Farby-a-aroma/"><span data-tree_nazov>Farby a aróma</span><span data-tree_nazov_resp>Farby a aróma</span> <span class="count_items">(9)</span></a>
+</li>
+			<li id="I0_473"><a href="/produkty/T473-Na-zabijacku/"><span data-tree_nazov>Na zabíjačku</span><span data-tree_nazov_resp>Na zabíjačku</span> <span class="count_items">(1)</span></a>
+</li></ul></li>
+		<li id="I0_90"><a href="/produkty/T90-Zdrava-vyziva/"><span data-tree_nazov>Zdravá výživa</span><span data-tree_nazov_resp>Zdravá výživa</span> <span class="count_items">(3)</span></a>
+</li>
+		<li id="I0_91"><a href="/produkty/T91-DIA-potraviny/"><span data-tree_nazov>DIA potraviny</span><span data-tree_nazov_resp>DIA potraviny</span> <span class="count_items">(1)</span></a>
+</li></ul></li>
+	<li id="I0_13"><a href="/produkty/T13-Zdravie/"><span data-tree_nazov>Zdravie</span><span data-tree_nazov_resp>Starostlivosť o zdravie</span></a>
+
+		<ul id="S0_13" class=" lvl2">
+		<li id="I0_100"><a href="/produkty/T100-Doplnky-pre-krasu/"><span data-tree_nazov>Doplnky pre krásu</span><span data-tree_nazov_resp>Doplnky pre krásu</span> <span class="count_items">(6)</span></a>
+
+			<ul id="S0_100" class=" lvl3">
+			<li id="I0_420"><a href="/produkty/T420-Vlasy,-nechty/"><span data-tree_nazov>Vlasy, nechty</span><span data-tree_nazov_resp>Vlasy, nechty</span> <span class="count_items">(3)</span></a>
+</li>
+			<li id="I0_94"><a href="/produkty/T94-Chudnutie-a-detoxikacia/"><span data-tree_nazov>Chudnutie a detoxikácia</span><span data-tree_nazov_resp>Chudnutie a detoxikácia</span> <span class="count_items">(3)</span></a>
+</li></ul></li>
+		<li id="I0_101"><a href="/produkty/T101-Zdravotne-pomocky/"><span data-tree_nazov>Zdravotné pomôcky</span><span data-tree_nazov_resp>Zdravotné pomôcky</span> <span class="count_items">(58)</span></a>
+
+			<ul id="S0_101" class=" lvl3">
+			<li id="I0_422"><a href="/produkty/T422-Naplasti/"><span data-tree_nazov>Náplasti</span><span data-tree_nazov_resp>Náplasti</span> <span class="count_items">(28)</span></a>
+</li>
+			<li id="I0_423"><a href="/produkty/T423-Obvazy/"><span data-tree_nazov>Obväzy</span><span data-tree_nazov_resp>Obväzy</span> <span class="count_items">(2)</span></a>
+</li>
+			<li id="I0_424"><a href="/produkty/T424-Sosovky-a-roztoky/"><span data-tree_nazov>Šošovky a roztoky</span><span data-tree_nazov_resp>Šošovky a roztoky</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_426"><a href="/produkty/T426-Zdravotne-pomocky/"><span data-tree_nazov>Zdravotné pomôcky</span><span data-tree_nazov_resp>Zdravotné pomôcky</span> <span class="count_items">(17)</span></a>
+</li>
+			<li id="I0_429"><a href="/produkty/T429-Dezinfekcia-ran/"><span data-tree_nazov>Dezinfekcia rán</span><span data-tree_nazov_resp>Dezinfekcia rán</span> <span class="count_items">(1)</span></a>
+</li>
+			<li id="I0_432"><a href="/produkty/T432-Mazanie-a-naplasti-na-bolest/"><span data-tree_nazov>Mazanie a náplasti na bolesť</span><span data-tree_nazov_resp>Mazanie a náplasti na bolesť</span> <span class="count_items">(6)</span></a>
+</li></ul></li>
+		<li id="I0_102"><a href="/produkty/T102-Doplnky-pre-zdravie/"><span data-tree_nazov>Doplnky pre zdravie</span><span data-tree_nazov_resp>Doplnky pre zdravie</span> <span class="count_items">(49)</span></a>
+
+			<ul id="S0_102" class=" lvl3">
+			<li id="I0_399"><a href="/produkty/T399-Bolest-v-krku/"><span data-tree_nazov>Bolesť v krku</span><span data-tree_nazov_resp>Bolesť v krku</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_400"><a href="/produkty/T400-Chripka-a-nachladnutie/"><span data-tree_nazov>Chrípka a nachladnutie</span><span data-tree_nazov_resp>Chrípka a nachladnutie</span> <span class="count_items">(6)</span></a>
+</li>
+			<li id="I0_402"><a href="/produkty/T402-Nadcha/"><span data-tree_nazov>Nádcha</span><span data-tree_nazov_resp>Nádcha</span> <span class="count_items">(3)</span></a>
+</li>
+			<li id="I0_404"><a href="/produkty/T404-Pamat-a-koncentracia/"><span data-tree_nazov>Pamäť a koncentrácia</span><span data-tree_nazov_resp>Pamäť a koncentrácia</span> <span class="count_items">(5)</span></a>
+</li>
+			<li id="I0_405"><a href="/produkty/T405-Spanok,-nervy,-stres/"><span data-tree_nazov>Spánok, nervy, stres</span><span data-tree_nazov_resp>Spánok, nervy, stres</span> <span class="count_items">(1)</span></a>
+</li>
+			<li id="I0_415"><a href="/produkty/T415-Pecen/"><span data-tree_nazov>Pečeň</span><span data-tree_nazov_resp>Pečeň</span> <span class="count_items">(5)</span></a>
+</li>
+			<li id="I0_416"><a href="/produkty/T416-Probiotika/"><span data-tree_nazov>Probiotiká</span><span data-tree_nazov_resp>Probiotiká</span> <span class="count_items">(3)</span></a>
+</li>
+			<li id="I0_417"><a href="/produkty/T417-Travenie,-prehananie-a-zapcha/"><span data-tree_nazov>Trávenie, prehánanie a zápcha</span><span data-tree_nazov_resp>Trávenie, prehánanie a zápcha</span> <span class="count_items">(6)</span></a>
+</li>
+			<li id="I0_431"><a href="/produkty/T431-Krvny-tlak-a-cholesterol/"><span data-tree_nazov>Krvný tlak a cholesterol</span><span data-tree_nazov_resp>Krvný tlak a cholesterol</span> <span class="count_items">(5)</span></a>
+</li>
+			<li id="I0_433"><a href="/produkty/T433-Mocove-cesty-a-odvodnenie/"><span data-tree_nazov>Močové cesty a odvodnenie</span><span data-tree_nazov_resp>Močové cesty a odvodnenie</span> <span class="count_items">(3)</span></a>
+</li>
+			<li id="I0_95"><a href="/produkty/T95-Imunita/"><span data-tree_nazov>Imunita</span><span data-tree_nazov_resp>Imunita</span> <span class="count_items">(6)</span></a>
+</li>
+			<li id="I0_96"><a href="/produkty/T96-Klby/"><span data-tree_nazov>Kĺby</span><span data-tree_nazov_resp>Kĺby</span> <span class="count_items">(2)</span></a>
+</li></ul></li>
+		<li id="I0_98"><a href="/produkty/T98-Vitaminy-a-Mineraly/"><span data-tree_nazov>Vitamíny a Minerály</span><span data-tree_nazov_resp>Vitamíny a Minerály</span> <span class="count_items">(63)</span></a>
+
+			<ul id="S0_98" class=" lvl3">
+			<li id="I0_406"><a href="/produkty/T406-Magnezium/"><span data-tree_nazov>Magnézium</span><span data-tree_nazov_resp>Magnézium</span> <span class="count_items">(8)</span></a>
+</li>
+			<li id="I0_407"><a href="/produkty/T407-Mineraly/"><span data-tree_nazov>Minerály</span><span data-tree_nazov_resp>Minerály</span> <span class="count_items">(2)</span></a>
+</li>
+			<li id="I0_408"><a href="/produkty/T408-Sumive-vitaminy/"><span data-tree_nazov>Šumivé vitamíny</span><span data-tree_nazov_resp>Šumivé vitamíny</span> <span class="count_items">(10)</span></a>
+</li>
+			<li id="I0_409"><a href="/produkty/T409-Vapnik,-horcik,-zinok/"><span data-tree_nazov>Vápnik, horčík, zinok</span><span data-tree_nazov_resp>Vápnik, horčík, zinok</span> <span class="count_items">(6)</span></a>
+</li>
+			<li id="I0_410"><a href="/produkty/T410-Vitamin-B/"><span data-tree_nazov>Vitamín B</span><span data-tree_nazov_resp>Vitamín B</span> <span class="count_items">(2)</span></a>
+</li>
+			<li id="I0_411"><a href="/produkty/T411-Vitamin-C-a-multivitaminy/"><span data-tree_nazov>Vitamín C a multivitamíny</span><span data-tree_nazov_resp>Vitamín C a multivitamíny</span> <span class="count_items">(6)</span></a>
+</li>
+			<li id="I0_412"><a href="/produkty/T412-Vitaminy/"><span data-tree_nazov>Vitamíny</span><span data-tree_nazov_resp>Vitamíny</span> <span class="count_items">(27)</span></a>
+</li>
+			<li id="I0_413"><a href="/produkty/T413-Zdrave-opalenie/"><span data-tree_nazov>Zdravé opálenie</span><span data-tree_nazov_resp>Zdravé opálenie</span> <span class="count_items">(1)</span></a>
+</li>
+			<li id="I0_414"><a href="/produkty/T414-Zelezo/"><span data-tree_nazov>Železo</span><span data-tree_nazov_resp>Železo</span> <span class="count_items">(1)</span></a>
+</li></ul></li>
+		<li id="I0_103"><a href="/produkty/T103-Ostatne-cestovne-potreby/"><span data-tree_nazov>Ostatné cestovné potreby</span><span data-tree_nazov_resp>Ostatné cestovné potreby</span> <span class="count_items">(3)</span></a>
+</li></ul></li>
+	<li id="I0_479"><a href="/produkty/T479-Textil-/"><span data-tree_nazov>Textil </span><span data-tree_nazov_resp>Textil </span></a>
+
+		<ul id="S0_479" class=" lvl2">
+		<li id="I0_480"><a href="/produkty/T480-Damske-spodne-pradlo/"><span data-tree_nazov>Dámske spodné prádlo</span><span data-tree_nazov_resp>Dámske spodné prádlo</span> <span class="count_items">(8)</span></a>
+</li>
+		<li id="I0_483"><a href="/produkty/T483-Damske-ponozky/"><span data-tree_nazov>Dámske ponožky</span><span data-tree_nazov_resp>Dámske ponožky</span> <span class="count_items">(4)</span></a>
+</li>
+		<li id="I0_484"><a href="/produkty/T484-Ponozky-unisex/"><span data-tree_nazov>Ponožky unisex</span><span data-tree_nazov_resp>Ponožky unisex</span> <span class="count_items">(6)</span></a>
+</li>
+		<li id="I0_421"><a href="/produkty/T421-Damske-pancuchy/"><span data-tree_nazov>Dámske pančuchy</span><span data-tree_nazov_resp>Dámske pančuchy</span> <span class="count_items">(24)</span></a>
+</li></ul></li>
+	<li id="I0_15"><a href="/produkty/T15-Deti/"><span data-tree_nazov>Deti</span><span data-tree_nazov_resp>Deti</span></a>
+
+		<ul id="S0_15" class=" lvl2">
+		<li id="I0_104"><a href="/produkty/T104-Prebalovanie/"><span data-tree_nazov>Prebaľovanie</span><span data-tree_nazov_resp>Prebaľovanie</span> <span class="count_items">(109)</span></a>
+
+			<ul id="S0_104" class=" lvl3">
+			<li id="I0_437"><a href="/produkty/T437-Plienky/"><span data-tree_nazov>Plienky</span><span data-tree_nazov_resp>Plienky</span> <span class="count_items">(78)</span></a>
+</li>
+			<li id="I0_438"><a href="/produkty/T438-Vlhcene-utierky/"><span data-tree_nazov>Vlhčené utierky</span><span data-tree_nazov_resp>Vlhčené utierky</span> <span class="count_items">(31)</span></a>
+</li></ul></li>
+		<li id="I0_105"><a href="/produkty/T105-Mlieka-a-kase-/"><span data-tree_nazov>Mlieka a kaše </span><span data-tree_nazov_resp>Mlieka a kaše </span> <span class="count_items">(36)</span></a>
+
+			<ul id="S0_105" class=" lvl3">
+			<li id="I0_441"><a href="/produkty/T441-Mlieka-pre-batolata/"><span data-tree_nazov>Mlieka pre batoľatá</span><span data-tree_nazov_resp>Mlieka pre batoľatá</span> <span class="count_items">(17)</span></a>
+</li>
+			<li id="I0_442"><a href="/produkty/T442-Pociatocne-mlieka/"><span data-tree_nazov>Počiatočné mlieka</span><span data-tree_nazov_resp>Počiatočné mlieka</span> <span class="count_items">(4)</span></a>
+</li>
+			<li id="I0_445"><a href="/produkty/T445-Detske-kase/"><span data-tree_nazov>Detské kaše</span><span data-tree_nazov_resp>Detské kaše</span> <span class="count_items">(15)</span></a>
+</li></ul></li>
+		<li id="I0_439"><a href="/produkty/T439-Kozmetika/"><span data-tree_nazov>Kozmetika</span><span data-tree_nazov_resp>Kozmetika</span> <span class="count_items">(112)</span></a>
+</li>
+		<li id="I0_106"><a href="/produkty/T106-Prikrmy/"><span data-tree_nazov>Príkrmy</span><span data-tree_nazov_resp>Príkrmy</span> <span class="count_items">(79)</span></a>
+
+			<ul id="S0_106" class=" lvl3">
+			<li id="I0_446"><a href="/produkty/T446-Desiaty/"><span data-tree_nazov>Desiaty</span><span data-tree_nazov_resp>Desiaty</span> <span class="count_items">(16)</span></a>
+</li>
+			<li id="I0_448"><a href="/produkty/T448-Masovo-zeleninove/"><span data-tree_nazov>Mäsovo-zeleninové</span><span data-tree_nazov_resp>Mäsovo-zeleninové</span> <span class="count_items">(12)</span></a>
+</li>
+			<li id="I0_449"><a href="/produkty/T449-Ovocne/"><span data-tree_nazov>Ovocné</span><span data-tree_nazov_resp>Ovocné</span> <span class="count_items">(48)</span></a>
+</li>
+			<li id="I0_450"><a href="/produkty/T450-Tycinky/"><span data-tree_nazov>Tyčinky</span><span data-tree_nazov_resp>Tyčinky</span> <span class="count_items">(3)</span></a>
+</li></ul></li>
+		<li id="I0_107"><a href="/produkty/T107-Napoje/"><span data-tree_nazov>Nápoje</span><span data-tree_nazov_resp>Nápoje</span> <span class="count_items">(13)</span></a>
+
+			<ul id="S0_107" class=" lvl3">
+			<li id="I0_452"><a href="/produkty/T452-Napoje,-caje-a-stavy/"><span data-tree_nazov>Nápoje, čaje a šťavy</span><span data-tree_nazov_resp>Nápoje, čaje a šťavy</span> <span class="count_items">(13)</span></a>
+</li></ul></li>
+		<li id="I0_440"><a href="/produkty/T440-Doplnky/"><span data-tree_nazov>Doplnky</span><span data-tree_nazov_resp>Doplnky</span> <span class="count_items">(98)</span></a>
+</li>
+		<li id="I0_108"><a href="/produkty/T108-Hracky/"><span data-tree_nazov>Hračky</span><span data-tree_nazov_resp>Hračky</span> <span class="count_items">(53)</span></a>
+</li></ul></li>
+	<li id="I0_490"><a href="/foto/">Foto</a>
+</li></ul></div><script type="text/javascript">
+TR0= new cssTree;
+TR0.treeId = 'tovar_tree';
+TR0.node = '-1';
+TR0.init({ Id:'S0_ROOT'})
+</script>
+
+
+<script type="text/javascript">
+addTreeClass();
+/*$("#tovar_tree").mouseenter(function() {
+	setTimeout(function(){
+		if($("#tovar_tree > ul > li > ul.show").length>0)
+		{
+			$("#tovar_tree").addClass("active");
+		}
+	}, 500, this);
+	//$("#tovar_tree").addClass("active");
+});
+$("#tovar_tree").mouseleave(function() {
+	$("#tovar_tree").removeClass("active");
+	//console.log("out");
+});*/
+
+$("#tovar_tree  ul  li").mouseenter(function() {
+	
+	$(this).children("ul").addClass("show");
+	
+	/*if($(this).parent().hasClass("lvl2"))
+	{
+		var width = $(this).children("ul.lvl3").width();
+		
+		if($(this).parent().parent().hasClass("tree_right"))
+		{
+			$(this).children("ul.lvl3").css("left",(width+3)*-1);
+		}
+		else{
+			$(this).children("ul.lvl3").css("right",(width+3)*-1);
+		}
+	}*/
+});
+$("#tovar_tree  ul  li").mouseleave(function() {
+	$(this).children("ul").removeClass("show");
+});
+
+function addTreeClass()
+{
+	var tree = $("#tovar_tree > ul > li");
+	for(var i = 0; i < tree.length; i++){
+		if(i>=(tree.length/2))
+		{
+			tree[i].classList.add("tree_right");
+		}
+	}
+}
+
+  var doc = document.documentElement;
+  var w = window;
+  var prevScroll = w.scrollY || doc.scrollTop;
+  
+</script>
+
+<input id="SSH_H20208P0" name="H:H20208P0" value="0" type="hidden" />
+</div>
+
+
+
+<div id="predajne_pop_up" class="centerPopup" style="display:none"></div>
+
+<script type="text/javascript">
+SetAutoRefresh(500);
+
+$(document).ready(function(){
+	var ua = window.navigator.userAgent;
+	var isIE = /MSIE|Trident/.test(ua);
+
+	if ( isIE ) {
+	  alert("Prehliadač Internet Explorer nie je podporovaný.");
+	  window.location.href="/IE_ALERT.aspx";
+	  return false;
+	}
+	if("" != "")
+	{
+		if(!barISPage.Logged)
+		{
+			snackbarTeta("Nepodarilo sa nastaviť predajňu. Nie ste prihlásený");
+		}
+		else if("" == "900")
+		{
+			snackbarTeta("Moja predajňa bola zrušená");
+		}
+		else{
+			snackbarTeta("Moja predajňa bola nastavená");
+		}
+	}
+	
+	$(".mobile_menu").click(function(){
+		if(window.outerWidth<=520)
+		{
+			$('.hdr_tree').toggleClass('open');
+		}
+		else{
+			$('#tovar_tree').toggle();
+			$(this).toggleClass('open');
+		}
+	})
+	
+	if("" != "")
+	{
+		snackbarTeta("Vaše konto bolo úspešne zmazané");
+	}
+	
+	$(".centerPopup.banner_popup").click(function(){
+		$(".centerPopup.banner_popup").remove();
+	});
+	
+	/*if(getParameterByName("utm_source") == "heureka")
+	{
+		setCookie("heureka",1);
+	}*/
+	
+	if(typeof dwdgt == 'undefined')
+	{
+		$(".heureka_logo").show();
+	}
+	
+	document.addEventListener('keydown', restrictTabMovement);
+	
+	$("#predajne_pop_up").click(function(event){
+		if(event.target === this)
+		{
+			HidePredajne()
+		}
+	})
+})
+
+function restrictTabMovement(event) {
+	var centerPopup = $('.centerPopup:visible');
+	if (centerPopup.length === 0) return;
+
+	var focusableElements = centerPopup.find('input:visible, button:visible, a, select:visible, textarea, img[tabindex]');
+	var firstElement = focusableElements.first();
+	var lastElement = focusableElements.last();
+
+	if (event.keyCode === 9) {
+		if (event.shiftKey) {
+			if (document.activeElement === firstElement[0]) {
+				event.preventDefault();
+				lastElement.focus();
+			}
+		}
+		else {
+			if (document.activeElement === lastElement[0]) {
+				event.preventDefault();
+				firstElement.focus();
+			}
+		}
+	}
+}
+
+function OpenLogin(typ)
+{
+	if(typ == 1) //newsletter
+	{
+		iDetail('20216','newsletter;1','7',this);
+	}
+	else if(typ == 2) //teta klub
+	{
+		iDetail('20216','tetaklub;1','7',this);
+	}
+	else if(typ == 3) //strazny pes
+	{
+		iDetail('20216','watch_dog;1','7',this);
+	}
+	else{
+		iDetail('20216','','7',this);
+	}
+}
+
+$( ".hdr_profil_logged > a" ).click(function() {
+	//$(".profil_menu").slideToggle();
+	openMenu();
+});
+
+function openMenu()
+{
+	if($(".profil_menu:visible").length == 0)
+	{
+		iDetail(20306,'',2,this,'menu_body_info');
+	}
+	$(".profil_menu").slideToggle();
+}
+
+function vyberPredajnu(id){
+	if(!barISPage.Logged)
+	{
+		iDetail('20216','predajnaId;'+id,'7',this);
+		snackbar("Pre vybratie predajne sa prihláste");
+		return false;
+	}
+	
+	GetLoader(1);
+	if(barISPage.content == "predajne")
+	{
+		window.location.href = "/moja_predajna/?nparams=chooseSklad;" + id;
+	}
+	else{
+		if(barISPage.content == "kosik")
+		{
+			OverZasobyPredajna(id);
+			return false;
+		}
+		window.location.href = BarISPage.ModifyQuery({"chooseSklad" : id});
+	}
+
+}
+function zrusPredajnu()
+{
+	vyberPredajnu(900);
+}
+function ShowPredajne(mestoId)
+{
+	if(mestoId == null)
+	{
+		mestoId = "";
+	}
+	
+	iDetail(20332,'ID_MESTO;' + mestoId,2,this,'predajne_pop_up');
+	$("#predajne_pop_up").show();
+	$("body").addClass("body_overflow_hidden");
+}
+function ShowPredajneSkladom(kodId, mestoId, ibaSkladom, mode)
+{
+	if(mestoId == null)
+	{
+		mestoId = "";
+	}
+	
+	if(kodId == null)
+	{
+		kodId = "";
+	}
+	
+	if(ibaSkladom == null)
+	{
+		ibaSkladom = 1;
+	}
+	
+	if(mode == null)
+	{
+		mode = "1";
+	}
+	
+	iDetail(20334,'ID_MESTO;' + mestoId + ';ID_SK;' + kodId + ';IBA_SKLADOM;' + ibaSkladom + ';MODE;' + mode,2,this,'predajne_pop_up');
+	$("#predajne_pop_up").show();
+	$("body").addClass("body_overflow_hidden");
+}
+function ShowPredajneKosik()
+{
+	ShowPredajneSkladom(null, null, 1, 2);
+}
+function ShowPredajne(mestoId)
+{
+	if(mestoId == null)
+	{
+		mestoId = "";
+	}
+	
+	iDetail(20332,'ID_MESTO;' + mestoId,2,this,'predajne_pop_up');
+	$("#predajne_pop_up").show();
+	$("body").addClass("body_overflow_hidden");
+}
+function HidePredajne()
+{
+	$("#predajne_pop_up").html("").hide();
+	$("body").removeClass("body_overflow_hidden");
+}
+var search_timer;
+SearchMestaPobocky = function(event,obj)
+{
+	if(event.target.value.length > 1){
+		if(search_timer != null) clearTimeout(search_timer);
+		search_timer = setTimeout(function(){
+			if(event.target.value == "") $("#SearchMestaPobockyRes").html("").removeClass("opened");
+			else getBosData({"Query":"BSHOP_SEARCH_POBOCKY","Format":"I","Values":{ "VAL":event.target.value}}, renderSearchMestaPobocky);
+			search_timer = null;
+			},300);
+		return false;
+	}else{
+		clearTimeout(search_timer);
+		closeMestaSearch();
+	}
+}
+
+function SearchMestaPobockyKeyD(event)
+{
+	if(event.which == 13)
+	{
+		event.preventDefault();
+	if($("#SearchMestaPobockyRes .mesta_row a").length > 0)
+	{
+		predajnePopUpSelMesto($("#SearchMestaPobockyRes .mesta_row a")[0]);
+		return false;
+	}
+	else{
+		snackbarTeta("Vyberte mesto zo zoznamu",2);
+		return false;
+	}
+}
+}
+
+function predajnePopUpSelMestoBtn()
+{
+	if($("#SearchMestaPobockyRes .mesta_row a").length > 0)
+	{
+		predajnePopUpSelMesto($("#SearchMestaPobockyRes .mesta_row a")[0]);
+		return false;
+	}
+	else{
+		snackbarTeta("Vyberte mesto zo zoznamu",2);
+		return false;
+	}
+}
+function closeMestaSearch()
+{
+	setTimeout(function(){$("#SearchMestaPobockyRes").html("").removeClass("opened");},200);
+}
+
+renderSearchMestaPobocky = function(resp){
+	if(resp.StateCode != 0){
+		alert("Niečo sa pokazilo pri vyhľadávaní.");
+		console.error(resp);
+		$("#SearchMestaPobockyRes").html("").removeClass("opened");
+	}else{
+		var html = "";
+		if(resp.Data.length == 0) html = "<p class='no_data'>Žiadne mestá sa nenašli</p>";
+		else{
+			var last_kat;
+			html += "<div style='max-height: 350px;overflow-y: auto;'>";
+			for(var i = 0; i < resp.Data.length; i++){
+				html += "<div class='mesta_row'>";
+				html += "<a onclick='predajnePopUpSelMesto(this)' data-id_mesto='" + resp.Data[i].FULLTEXT + "'>"
+				html += resp.Data[i].LABEL + " " + resp.Data[i].TEXT;
+				html += "</a></div>";
+			}
+		}
+		html += "</div>";
+		$("#SearchMestaPobockyRes").html(html);
+		$("#SearchMestaPobockyRes").addClass("opened");
+	}
+}
+
+function predajnePopUpSelMesto(obj)
+{
+	var kodId = $("#predajne_pop_up input#ID_SK").val();
+	
+	if(kodId == null)
+	{
+		ShowPredajne($(obj).data("id_mesto"));
+		return false;
+	}
+	var skladom = $("#predajne_pop_up input#cb_predajne_skladom").prop("checked") ? 1 : 0;
+	var mode = $("#predajne_pop_up input#MODE").val();
+	
+	ShowPredajneSkladom(kodId, $(obj).data("id_mesto"),skladom, mode);
+}
+
+function predajnePopUpFilter(obj)
+{
+	var kodId = $("#predajne_pop_up input#ID_SK").val();
+	var idMesto = $("#predajne_pop_up input#ID_MESTO").val();
+	var skladom = $("#predajne_pop_up input#cb_predajne_skladom").prop("checked") ? 1 : 0;
+	var mode = $("#predajne_pop_up input#MODE").val();
+	
+	ShowPredajneSkladom(kodId,idMesto,skladom, mode);
+}
+(function(){
+
+  var doc = document.documentElement;
+  var w = window;
+
+  var prevScroll = w.scrollY || doc.scrollTop;
+  var curScroll;
+  var direction = 0;
+  var prevDirection = 0;
+
+  var header = document.getElementById('site-header');
+
+  var checkScroll = function() {
+	if(window.outerWidth<480)
+	{
+		/*
+		** Find the direction of scroll
+		** 0 - initial, 1 - up, 2 - down
+		*/
+
+		curScroll = w.scrollY || doc.scrollTop;
+		if (curScroll > prevScroll) { 
+		  //scrolled up
+		  direction = 2;
+		}
+		else if (curScroll < prevScroll) { 
+		  //scrolled down
+		  direction = 1;
+		}
+
+		if (direction !== prevDirection) {
+		  toggleHeader(direction, curScroll);
+		}
+
+		if (curScroll > 150) {
+			header.classList.add('fixed');
+		}
+		else{
+			header.classList.remove('fixed');
+		}
+		
+		prevScroll = curScroll;
+	}
+  };
+
+  var toggleHeader = function(direction, curScroll) {
+    if (direction === 2 && curScroll > 150) {
+
+      //replace 52 with the height of your header in px
+
+      header.classList.add('hide');
+      prevDirection = direction;
+    }
+    else if (direction === 1) {
+      header.classList.remove('hide');
+      prevDirection = direction;
+    }
+	
+  };
+
+	
+		window.addEventListener('scroll', checkScroll);
+	
+
+})();
+</script>
+
+<script type="text/javascript">
+var search_timer;
+SearchPredajne = function(obj)
+{
+	//if(obj.value.length > 1){
+		if(search_timer != null) clearTimeout(search_timer);
+		search_timer = setTimeout(function(){
+			var data = { "VAL":obj.value, "KOD_ID":$(".search_stock_wrap #ID_SK").val(), "IBA_SKLADOM": 1, "T_RID":$(".search_stock_wrap #T_RID").val()};
+			if(data["KOD_ID"] == null)
+			{
+				data["KOD_ID"] = "null";
+			}
+			if($("#predajne_pop_up #cb_predajne_skladom").length = 0 || !$("#predajne_pop_up #cb_predajne_skladom").prop("checked"))
+			{
+				data["IBA_SKLADOM"] = 0;
+			}
+			
+			getBosData({"Query":"BSHOP_SEARCH_PREDAJNE","Format":"I","Values":data}, renderSearchPredajne);
+			search_timer = null;
+			},300);
+		//return false;
+	//}else{
+	if(obj.value.length <= 1)
+	{
+		//clearTimeout(search_timer);
+		/*$("#predajne_resp_wrap").hide();
+		$("#predajne_resp_wrap > div").html("");
+		$("#moja_predajna_wrap, #najblizsie_predajne_wrap").show();*/
+		$("#moja_predajna_wrap").show();
+	}
+	else{
+		$("#moja_predajna_wrap").hide();
+	}
+}
+
+renderSearchPredajne = function(resp){
+	var JeNajblizsiaPredajna = 0;
+	
+	if(resp.StateCode != 0){
+		alert("Niečo sa pokazilo pri vyhľadávaní.");
+		console.error(resp);
+		$("#predajne_resp_wrap").hide();
+		$("#moja_predajna_wrap, #najblizsie_predajne_wrap").show();
+	}else{
+		var html = "";
+		if(resp.Data.length == 0) html = "<p class='no_data'>Žiadne predajne sa nenašli</p>";
+		else{
+			for(var i = 0; i < resp.Data.length; i++){
+				html += "<div>";
+				html += "<h4>" + resp.Data[i].ULICA + "</h4>";
+				if(resp.Data[i].CAS_CC != null)
+				{
+					html += "<div class=\"mb_2\">" + resp.Data[i].CAS_CC + "</div>";
+				}
+				html += "<div>" + resp.Data[i].MESTO + "</div>";
+				html += "<div>Tel: " + resp.Data[i].TELEFON + "</div>";
+				if(resp.Data[i].SKLADOM != null)
+				{
+					html += "<div class=\"skladom\">" + resp.Data[i].SKLADOM + "</div>";
+				}
+				html += "<div class=\"flex justify-between flex_wrap align_end gap_2 mt_4\">";
+				html += "<div>";
+				html += "<div>" + resp.Data[i].OTVORENE + "</div>";
+				html += "<div class=\"zobraz_mapu\">";
+				html += "<a href=\"/predajne/?predajna=" + resp.Data[i].ID + "\" target=\"_blank\">> Zobraziť predajňu na mape</a>";
+				html += "</div>";
+				html += "</div>";
+				html += "<div>";
+				if("900" == resp.Data[i].ID)
+				{
+					html += "<a href=\"javascript:void(0)\" class=\"btn btn_gray text_transform_none\" onclick=\"zrusPredajnu()\">Zrušiť ako Moju predajňu</a>";
+				}else{
+					html += "<a href=\"javascript:void(0)\" class=\"btn text_transform_none\" onclick=\"vyberPredajnu(" + resp.Data[i].ID + ")\">Vybrať ako Moju predajňu</a>";
+				}
+				html += "</div>";
+				html += "</div>";
+				html += "</div>";
+			}
+			
+			if(resp.Data[0].TYP == 1)
+			{
+				JeNajblizsiaPredajna = 1;
+			}
+		}
+		$("#predajne_resp_wrap > div").html(html);
+		$("#najblizsie_predajne_wrap").hide();
+		$("#predajne_resp_wrap").show();
+		
+		if(JeNajblizsiaPredajna == 1)
+		{
+			$("#predajne_resp_wrap h3").text("Najbližšie predajne");
+		}
+		else{
+			$("#predajne_resp_wrap h3").text("Predajne");
+		}
+	}
+}
+
+</script>
+
+
+<script type="text/javascript">
+function SearchPredajnePopUp_keyD(ev)
+{
+	if (ev.which == 13) {
+		ev.preventDefault();
+		if($("#predajne_resp_wrap .najblizsie_predajne > div").length > 0)
+		{
+			closeSearchMestaPredajnePopUp();
+		}
+		else if($("#SearchMestaPredajneRes div.mesta_row").length > 0)
+		{
+			$("#SearchMestaPredajneRes div.mesta_row").first().find("a").trigger("click");
+		}
+		return false;
+	}
+	
+	return true;
+}
+SearchPredajnePopUp = function(obj, mesto_id, showMesta)
+{
+	var val = $("#SearchPredajna").val();
+	console.log("mesto_id: " + mesto_id);
+	//if(val > 1){
+		if(search_timer != null) clearTimeout(search_timer);
+		search_timer = setTimeout(function(){
+			var data = { "VAL":obj.value, "KOD_ID":$(".search_stock_wrap #ID_SK").val(), "IBA_SKLADOM": 1, "T_RID":$(".search_stock_wrap #T_RID").val()};
+
+			if($("#predajne_pop_up #cb_predajne_skladom").length = 0 || !$("#predajne_pop_up #cb_predajne_skladom").prop("checked"))
+			{
+				data["IBA_SKLADOM"] = 0;
+			}
+			
+			$("#ID_MESTO").val(mesto_id);
+			if(mesto_id != null)
+			{
+				data["MESTO_ID"] = mesto_id;
+			}
+			
+			if($(".predajne_filter input[data-stojan_id]:checked").length > 0)
+			{
+				var stojany_val = [];
+				
+				$(".predajne_filter input[data-stojan_id]:checked").each(function() {
+					stojany_val.push($(this).data('stojan_id'));
+				});
+
+				data["STOJANY"] = stojany_val.join(",");
+			}
+			
+			//console.log(data);
+			
+			if(val.length > 1 && showMesta == 1)
+			{
+				getBosData({"Query":"BSHOP_SEARCH_POBOCKY","Format":"I","Values":{ "VAL":val}}, renderSearchMestaPredajnePopUp);
+			}
+			else{
+				closeSearchMestaPredajnePopUp();
+			}
+			getBosData({"Query":"BSHOP_SEARCH_PREDAJNE_TEST","Format":"I","Values":data}, renderSearchPredajne);
+			
+			
+			search_timer = null;
+			},300);
+		//return false;
+	//}else{
+	if(val.length <= 1)
+	{
+		//clearTimeout(search_timer);
+		/*$("#predajne_resp_wrap").hide();
+		$("#predajne_resp_wrap > div").html("");
+		$("#moja_predajna_wrap, #najblizsie_predajne_wrap").show();*/
+		$("#moja_predajna_wrap").show();
+	}
+	else{
+		$("#moja_predajna_wrap").hide();
+	}
+}
+
+renderSearchMestaPredajnePopUp = function(resp){
+	if(resp.StateCode != 0){
+		alert("Niečo sa pokazilo pri vyhľadávaní.");
+		console.error(resp);
+		$("#SearchMestaPredajneRes").html("").removeClass("opened");
+	}else{
+		var html = "";
+		if(resp.Data.length == 0) html = "<p class='no_data'>Žiadne mestá sa nenašli</p>";
+		else{
+			var last_kat;
+			html += "<div style='max-height: 350px;overflow-y: auto;'>";
+			for(var i = 0; i < resp.Data.length; i++){
+				html += "<div class='mesta_row'>";
+				html += "<a onclick='SearchPredajne_mesto(" + resp.Data[i].FULLTEXT + ", \"" + resp.Data[i].TEXT + "\")'>"
+				html += resp.Data[i].LABEL + " " + resp.Data[i].TEXT;
+				html += "</a></div>";
+			}
+		}
+		html += "</div>";
+		$("#SearchMestaPredajneRes").html(html);
+		$("#SearchMestaPredajneRes").addClass("opened");
+	}
+}
+function closeSearchMestaPredajnePopUp()
+{
+	setTimeout(function(){$("#SearchMestaPredajneRes").html("").removeClass("opened");},200);
+}
+
+function SearchPredajne_mesto(mesto_id, mesto_nazov)
+{
+	SearchPredajnePopUp($("#SearchPredajna")[0], mesto_id, 0);
+	$("#SearchPredajna").val(mesto_nazov);
+}
+</script>
+
+
+
+
+
+<section id="main-part">
+	<div class="container ">
+		<style>
+.error404{
+	text-align: center;
+	max-width: 1280px;
+	margin: 5rem auto;
+}
+.error_icon{
+	margin-bottom: 1rem;
+}
+.error_icon img{
+	width: 150px;
+}
+.error404 p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+</style>
+
+<div class="error404">
+	<div class="error_icon">
+		<img src="/TetaShop/images/sad_404.svg">
+	</div>
+	<p>Mrzí nás to, ale hľadaná stránka nebola nájdená.</p>
+	<div>
+		<a href="/intro/" class="btn mt_4">Späť na hlavnú stránku</a>
+	</div>
+</div><input id="SSB_MP_PI0_20259" name="B:MP:PI0_20259" value="0" type="hidden" />
+	</div>
+</section>
+
+<div id="inlineData"></div>
+
+<script type="text/javascript">
+<!--
+(function() {var fn = function() {$get('ScriptManager1_HiddenField').value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();// -->
+</script>
+<script type="text/javascript">
+sticker9920207 = new Sticker();
+sticker9920207.init({
+ PID: '9920207', stateId: '8812278', stickerId: '20207', bindVars:'', containerId : '9920207', chainEvents : true, eventHandler : '', zal: '-1', fzal: false});
+</script>
+<script type="text/javascript">
+<!--
+Sys.Application.initialize();
+// -->
+</script>
+</form>
+				<footer>
+					
+					<div class="f_part1">
+						<div>
+							<div>
+								<!--<img src="/TetaShop/Images/car.png">Doprava zadarmo pri nákupe nad 20€-->
+								
+
+<span id="footer_doprava_info">
+	<img src="/TetaShop/Images/car.png">
+	
+		Doprava zadarmo pri nákupe od 49 €
+	
+	
+</span>
+<input id="SS0" name="H20255P0" value="0" type="hidden" />
+							</div>
+							<div data-show_mobile>
+								<h2>Potrebujete poradiť?</h2>
+								<div class="f_tel"><img src="/TetaShop/Images/tel.png">037 / 3 211 211</div>
+								<span style="padding-left:14px">Po - Pia: 8:00 - 16:00</span>
+								<div class="f_mail"><img src="/TetaShop/Images/mail.png"><a href="mailto:eshop@tetadrogerie.sk">eshop@tetadrogerie.sk</a></div>
+								<h2>Platobné možnosti</h2>
+								<div>
+									<a href="/platobne_podmienky/">
+										<img src="/TetaShop/Images/logo-karty-footer.png" alt="platobné možnosti" style="display:inline-block;width:100%;max-width:270px">
+									</a>
+								</div>
+							</div>
+							<div id="newsletter_wrap">
+								<img src="/TetaShop/Images/bell.png">
+								<input id="newsletter" type="text" onKeyDown="if(event.which == 13){SaveNewsletter()};" placeholder="menopriezvisko@email.sk" name="newsletter" autocomplete="off"> <!--placeholder="menopriezvisko@email.sk"-->
+								<a href="javascript:void(0)" onclick="SaveNewsletter()">
+									Prihlásiť sa na odber emailu
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="f_part2">
+						<div>
+							<div>
+								<h2>Eshop</h2>
+								<a href="/doprava/">Doprava</a>
+								<a href="/platobne_podmienky/">Platobné podmienky</a>
+								<a href="/vop/">Všeobecné podmienky</a>
+								<a href="/reklamacie_info/">Reklamácie</a>
+								<!--<a href="/vratenie_tovaru/">Vrátenie tovaru</a>-->
+								<!--<a href="/faq/">Často kladené otázky</a>-->
+								<a href="/cookies/">Cookies</a>
+								<a href="/ochrana_osobnych_udajov/">Ochrana osobných údajov</a>
+								<a href="javascript:void(0)" onclick="iDetail('20310','','7',this);">Overenie účtu</a>
+								<a href="/odstupenie_od_zmluvy/">Odstúpiť od zmluvy</a>
+							</div>
+							<div>
+								<h2>O nás</h2>
+								<a href="/predajne/">Predajne</a>
+								<a href="/nase_znacky/">Naše značky</a>
+								<a href="/klub/">Teta klub</a>
+								<a href="/foto/">Teta foto</a>
+								<!--<a href="/premiove_kupony/">Prémiové kupóny</a>-->
+								<a href="/teta_kava/">Teta káva</a>
+								<a href="/pomahame/">Pomáhame</a>
+								<a href="/kariera/">Kariéra</a>
+								<a href="/kontakty/">Kontakty</a>
+								<a href="/hladame_priestory/">Hľadáme priestory</a>
+								<a href="/darcekova-karta/">Darčeková karta</a>
+								<a href="/sutaze/">Súťaže</a>
+								<a href="/sodastream-vymena-bombicky/">SodaStream</a>
+								<!--<a href="/mapa_stranok/">Mapa stránok</a>-->
+							</div>
+							<div data-hide_mobile>
+								<h2>Potrebujete poradiť?</h2>
+								<div class="f_tel"><img src="/TetaShop/Images/tel.png">037 / 3 211 211</div>
+								<span style="padding-left:46px">Po - Pia: 8:00 - 16:00</span>
+								<div class="f_mail"><img src="/TetaShop/Images/mail.png"><a href="mailto:eshop@tetadrogerie.sk">eshop@tetadrogerie.sk</a></div>
+								<h2>Platobné možnosti</h2>
+								<div>
+									<a href="/platobne_podmienky/">
+										<img src="/TetaShop/Images/logo-karty-footer.png" alt="platobné možnosti" style="width:100%;max-width:270px">
+									</a>
+								</div>
+							</div>
+							<div>
+								<div>
+									<h2>Sledujte nás</h2>
+									<a href="https://sk-sk.facebook.com/tetadrogerieslovensko/" class="social_link" target="_blank"><img src="/TetaShop/Images/i_facebook.svg">Facebook</a>
+									<a href="https://www.instagram.com/tetask/" class="social_link" target="_blank"><img src="/TetaShop/Images/i_instagram.svg">Instagram</a>
+									<a href="https://www.youtube.com/channel/UCH0wuCjjuQjiNArDabw_JgQ" class="social_link" target="_blank"><img src="/TetaShop/Images/i_youtube.svg">Youtube</a>
+									<a href="https://www.tiktok.com/@tetadrogeria" class="social_link" target="_blank"><img src="/TetaShop/Images/i_tiktok.svg">TikTok</a>
+									<br>
+								</div>
+								<div>
+									<div class="f_logo">
+										<div>
+											<h2>Prevádzkovateľ</h2>
+											<p>Teta drogérie SR s.r.o.</p>
+											<p>Hlohovecká 6</p>
+											<p>951 41 Lužianky</p>
+										</div>
+										<div>
+											<img src="/TetaShop/images/logo_footer.png">
+										</div>
+									</div>
+									<br>
+									<p class="f_small">IČO: 35 694 254</p>
+									<p class="f_small">IČ DPH: SK2020340322</p>
+									<p class="f_small">Zapísené v OR OS Nitra, oddiel: Sro, vložka číslo 29286/N</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+				
+				<div class="copyright">
+					<div>
+						<a href="/Admin/editor.aspx">V</a>ytvorené na technológii BarIS .NET&nbsp;&nbsp;<a target="_blank" href="http://www.baris.sk">(c) KASO Technologies s.r.o</a>,&nbsp;&nbsp;<a href="mailto:obchod@baris.sk">obchod@baris.sk</a>
+					</div>
+					<div class="copyright_stats">20/2930/0</div>
+				</div>
+	        </div>
+        </div>
+	
+	</body>
+</html>
+
