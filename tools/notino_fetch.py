@@ -58,7 +58,7 @@ def get(url, imps=('safari', 'chrome', 'firefox', 'safari', 'chrome')):
         if r.status_code == 200 and 'Just a moment' not in r.text[:3000]:
             return r
         last = r
-        time.sleep(4)
+        time.sleep(4 if len(imps) == 1 else 12)
     return last
 
 
@@ -166,6 +166,15 @@ def main():
         status[cc] = {'status': 'ok' if got else 'empty', 'domain': dom, 'name': name, 'currency': cur, 'count': len(got), 'brands': used,
                       'limited': LIMITED.get(cc, [])}
         log(cc, dom, len(got), used)
+    prev_path = os.path.join(OUT, f'{day}.json')
+    if only and os.path.exists(prev_path):  # дописать к уже собранным странам этого дня
+        prev = json.load(open(prev_path, encoding='utf-8'))
+        for k, v in prev['status'].items():
+            if k not in status or (status[k]['count'] < v['count'] and k not in only):
+                status[k] = v
+        items = [x for x in prev['items'] if x['country'] not in only] + items
+    order = [c for c, _, _ in SITES]
+    status = dict(sorted(status.items(), key=lambda kv: order.index(kv[0])))
     out = {'date': day, 'fetched_at': dt.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'), 'fx': fx,
            'brands': [b for b, _ in BRANDS], 'countries': [{'id': c, 'domain': d, 'name': n} for c, d, n in SITES if c in status],
            'status': status, 'items': items, 'log': LOG[-300:]}
