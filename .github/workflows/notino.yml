@@ -1,0 +1,28 @@
+name: "Цены: Notino по странам"
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Только эти страны (например: de cz), пусто = все"
+        default: ""
+permissions:
+  contents: write
+concurrency: notino
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install curl_cffi
+      - name: Сбор
+        run: python tools/notino_fetch.py "$(TZ=Europe/Moscow date +%F)" ${{ inputs.only }}
+      - name: Сохранить
+        if: always()
+        run: |
+          git config user.name "prices-bot"
+          git config user.email "prices-bot@users.noreply.github.com"
+          git add data/prices/notino
+          git diff --cached --quiet || (git commit -m "Notino: $(TZ=Europe/Moscow date +%F)" && git pull --rebase && git push)
