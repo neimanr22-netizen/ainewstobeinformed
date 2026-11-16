@@ -189,6 +189,16 @@
   .ptbl .pdesc{white-space:normal;max-width:230px;margin-left:auto;text-align:right}
   .ptbl .pprod a,.pmore a{color:var(--muted)}
   .ppromo{color:var(--accent)}
+  a.chip{text-decoration:none;color:var(--ink)}
+  .peu table{min-width:100%}
+  .peu th,.peu td{white-space:nowrap}
+  .peu td.pst2{white-space:normal;min-width:200px}
+  .peu .pst{position:sticky;left:0;background:var(--card);z-index:1}
+  .peu th.num small{font-weight:400;text-transform:none;letter-spacing:0}
+  .peu td.num a{color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--line)}
+  .pmin,.peu td.num a.pmin{color:#1a8a4a!important;font-weight:700}
+  .pmax,.peu td.num a.pmax{color:#d03b3b!important;font-weight:700}
+  .peu .pdesc{max-width:none}
   .pmore summary{cursor:pointer;color:var(--accent);display:inline}
   .pmore div{margin:3px 0}
   .ptbl th small{font-weight:400;text-transform:none;letter-spacing:0}
@@ -535,6 +545,6 @@ loadBase().then(() => { window.addEventListener('hashchange', route); route(); }
 </script>
 <script src="fx.js?v=2"></script>
 <script src="macro.js?v=3"></script>
-<script src="prices.js?v=4"></script>
+<script src="prices.js?v=6"></script>
 </body>
 </html>

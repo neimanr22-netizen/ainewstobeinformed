@@ -74,6 +74,15 @@
   Rossmann DE — закрыт защитой от ботов; Teta CZ/SK — каталоги; Kaufland DE/CZ/SK — только акции из еженедельной
   листовки; Lidl — поиск lidl.*/q/api/search (только акционные позиции; в Швейцарии поиска нет).
   Сетей нет: Teta — вне CZ/SK; Kaufland — в AT/CH/HU; Rossmann — в AT/CH/SK; dm — в CH.
+- «Пан-Европа» (`#/stats/prices/eu` → dm / Amazon / Notino → дата → таблица): строки — бренд и линейка, столбцы —
+  страны, цены в евро по курсу ЕЦБ; фильтры по типу, бренду, странам (`?t=&b=&c=`). dm берёт данные основного сбора,
+  Amazon — пока заглушка «Информация появится позже».
+- Notino: `data/prices/notino/ДАТА.json` и `.csv`, `manifest.json`; 26 сайтов Notino в Европе. Собирает
+  `tools/notino_fetch.py`: `gh api -X POST repos/neimanr22-netizen/ainewstobeinformed/actions/workflows/notino.yml/dispatches -f ref=main`
+  (страны: `-f 'inputs[only]=de cz'` — внимание: файл за день перезаписывается только выбранными странами), ~30–40 минут.
+  Notino закрыт Cloudflare: проходит curl_cffi с отпечатком Safari, но адреса с параметрами (`?f=2-…`, страницы 2+)
+  не открываются даже настоящим Chrome — поэтому по бренду берутся первые 24 товара (по популярности).
+  Товар в разных странах сопоставляется по `productCode`; цена с промокодом — `promotionData.discountedPrice`.
 
 ## Порядок обновления
 1. Посмотреть, чего не хватает: `python3 tools/stats.py 2026-11-01 2026-11-14 10`

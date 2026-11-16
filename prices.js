@@ -42,7 +42,8 @@ function viewPrices(){
     <h1>Цены</h1>
     <p class="sub">Цены на зубные пасты и зубные щётки в сетях dm, Rossmann, Teta, Kaufland и Lidl. Выберите страну или сравните цены.</p>
     <a class="mwide" href="#/stats/prices/compare">Сравнить цены</a>
-    <div class="m3">${COUNTRIES.map(c => `<a class="mbtn" href="#/stats/prices/${c.id}">${esc(c.name)}</a>`).join('')}</div>`;
+    <div class="m3">${COUNTRIES.map(c => `<a class="mbtn" href="#/stats/prices/${c.id}">${esc(c.name)}</a>`).join('')}
+      <a class="mbtn" href="#/stats/prices/eu">Пан-Европа<small>dm · Amazon · Notino</small></a></div>`;
 }
 
 /* ---------- шаг 2: магазины ---------- */
@@ -257,9 +258,132 @@ async function viewCompare(q){
   drawMatrix(out.querySelector('.pplot'), rows.map(r => ({...r, pts: r.pts.map(p => ({...p, color: p.color}))})), 'EUR');
 }
 
+
+/* ================= Пан-Европа ================= */
+const EU_STORES = [{id: 'dm', name: 'dm'}, {id: 'amazon', name: 'Amazon'}, {id: 'notino', name: 'Notino'}];
+const EU_TYPES = [{id: 'paste', name: 'Зубные пасты'}, {id: 'brush', name: 'Зубные щётки'}, {id: 'other', name: 'Другое для полости рта'}, {id: 'all', name: 'Всё'}];
+const euCrumbs = (...xs) => crumbs('<a href="#/stats/prices">Цены</a>', '<a href="#/stats/prices/eu">Пан-Европа</a>', ...xs);
+
+function viewEu(){
+  setPeriodBox();
+  app.innerHTML = `${crumbs('<a href="#/stats/prices">Цены</a>')}
+    <h1>Пан-Европа</h1>
+    <p class="sub">Сети и интернет-магазины, которые продают в нескольких странах: цены одного товара по странам в евро.</p>
+    <div class="m3">${EU_STORES.map(s => `<a class="mbtn" href="#/stats/prices/eu/${s.id}">${esc(s.name)}</a>`).join('')}</div>`;
+}
+
+const N = {manifest: null, days: {}};
+async function euDates(st){
+  if (st === 'notino'){
+    if (!N.manifest) N.manifest = await fetch('data/prices/notino/manifest.json?v=' + Date.now()).then(r => { if (!r.ok) throw 0; return r.json(); });
+    return N.manifest.dates.map(d => ({date: d.date, info: `${d.items} товаров · ${d.countries} стран`}));
+  }
+  const m = await loadManifest();
+  return m.dates.map(d => ({date: d.date, info: Object.entries(d.stores).filter(([k, v]) => k.endsWith('/dm') && v.status === 'ok').length + ' стран'}));
+}
+
+async function viewEuDates(st){
+  setPeriodBox();
+  const S = EU_STORES.find(x => x.id === st);
+  if (st === 'amazon'){
+    app.innerHTML = `${euCrumbs()}<h1>Amazon</h1><div class="empty-msg">Информация появится позже.</div>`;
+    return;
+  }
+  app.innerHTML = '<p class="loading">Загрузка…</p>';
+  let ds = [];
+  try { ds = (await euDates(st)).sort((a, b) => b.date.localeCompare(a.date)); } catch (e){}
+  app.innerHTML = `${euCrumbs()}<h1>${esc(S.name)} · Пан-Европа</h1>
+    <p class="sub">Выберите дату, на которую показать цены.</p>
+    ${ds.length ? `<div class="m3">${ds.map(d => `<a class="mbtn" href="#/stats/prices/eu/${st}/${d.date}">${dfmt(d.date)}<small>${esc(d.info)}</small></a>`).join('')}</div>`
+      : '<div class="empty-msg">Цены ещё не собирались.</div>'}`;
+}
+
+/* строки таблицы: {brand, line, sub, type, cells:{cc:{eur, promo, local, url, name}}} */
+async function euRows(st, day){
+  if (st === 'notino'){
+    if (!N.days[day]) N.days[day] = await fetch(`data/prices/notino/${day}.json`).then(r => r.json());
+    const D = N.days[day], by = {};
+    const pref = ['ie', 'uk', 'de', 'at'];
+    D.items.forEach(x => {
+      const k = x.code || (x.brand + '|' + x.line + '|' + x.annotation + '|' + x.size);
+      const r = by[k] ||= {brand: x.brand, line: x.line, type: x.type, cells: {}, ann: {}, size: x.size};
+      r.ann[x.country] = x.annotation;
+      if (!r.size && x.size) r.size = x.size;
+      const c = r.cells[x.country];
+      if (!c || (x.price_eur ?? 1e9) < c.eur) r.cells[x.country] = {eur: x.price_eur, promo: x.promo_price_eur, desc: x.promo_desc,
+        local: x.currency !== 'EUR' ? money(x.price, x.currency) : '', old: x.old_price, url: x.url};
+    });
+    const rows = Object.values(by).map(r => ({...r, sub: (() => { const an = pref.map(c => r.ann[c]).find(Boolean) || Object.values(r.ann)[0] || ''; return [an, r.size && !an.includes(r.size) ? r.size : ''].filter(Boolean).join(' · '); })()}));
+    const cols = D.countries.filter(c => D.status[c.id] && D.status[c.id].count).map(c => ({id: c.id, name: c.name, cur: D.status[c.id].currency, dom: c.domain}));
+    const lim = [...new Set(Object.values(D.status).flatMap(x => x.limited || []))];
+    return {rows, cols, fx: D.fx, D, note: 'Цена — на сайте Notino страны, пересчитана в евро по курсу ЕЦБ. Мелким шрифтом — цена с промокодом, если он действует. Один и тот же товар сопоставлен по коду Notino.' +
+      (lim.length ? ` По брендам ${lim.join(', ')} показаны 24 самых популярных товара в каждой стране (дальнейшие страницы каталога Notino закрыты защитой от ботов).` : '')};
+  }
+  await loadManifest();
+  const D = await loadDay(day), ccs = COUNTRIES.filter(c => (D.status[c.id + '/dm'] || {}).status === 'ok');
+  const rate = cur => cur === 'EUR' ? 1 : (D.fx && D.fx[cur]) || null, by = {};
+  ccs.forEach(c => ['paste', 'brush'].forEach(t => lineRows(D.items.filter(x => x.country === c.id && x.store === 'dm' && x.type === t)).forEach(r => {
+    const row = by[t + '|' + r.brand + '|' + r.line] ||= {brand: r.brand, line: r.line, type: t, sub: '', cells: {}};
+    row.cells[c.id] = {eur: r.regular != null && rate(r.currency) ? Math.round(r.regular / rate(r.currency) * 100) / 100 : null,
+      promo: r.promo != null && rate(r.currency) ? Math.round(r.promo / rate(r.currency) * 100) / 100 : null, desc: r.promo_desc,
+      local: r.currency !== 'EUR' ? money(r.regular, r.currency) : '', url: r.url, name: r.name + (r.size ? ' · ' + r.size : '')};
+  })));
+  return {rows: Object.values(by), cols: ccs.map(c => ({id: c.id, name: c.name})), fx: D.fx, D,
+    note: 'Цены dm по странам, пересчитаны в евро по курсу ЕЦБ. Для каждой линейки взята стандартная упаковка (товар — во всплывающей подсказке).'};
+}
+
+async function viewEuTable(st, day, q){
+  setPeriodBox();
+  const S = EU_STORES.find(x => x.id === st);
+  app.innerHTML = '<p class="loading">Загрузка…</p>';
+  let R;
+  try { R = await euRows(st, day); } catch (e){ app.innerHTML = `${euCrumbs()}<div class="empty-msg">Нет данных за эту дату.</div>`; return; }
+  const types = EU_TYPES.filter(t => t.id === 'all' || R.rows.some(r => r.type === t.id));
+  const type = types.some(t => t.id === q.get('t')) ? q.get('t') : 'paste';
+  const brands = (R.D.brands || []).filter(b => R.rows.some(r => r.brand === b));
+  const bsel = (q.get('b') || '').split(',').filter(b => brands.includes(b));
+  let csel = (q.get('c') || '').split(',').filter(c => R.cols.some(x => x.id === c));
+  const cols = csel.length ? R.cols.filter(c => csel.includes(c.id)) : R.cols;
+  const rows = R.rows.filter(r => (type === 'all' || r.type === type) && (!bsel.length || bsel.includes(r.brand)) && cols.some(c => r.cells[c.id]))
+    .sort((a, b) => (R.D.brands.indexOf(a.brand) - R.D.brands.indexOf(b.brand)) || a.line.localeCompare(b.line) || (a.sub || '').localeCompare(b.sub || ''));
+  const fx = R.fx || {};
+  const curs = [...new Set(cols.map(c => c.cur).filter(c => c && c !== 'EUR'))];
+  const link = (k, v) => { const qs = new URLSearchParams(q); if (v) qs.set(k, v); else qs.delete(k); return `#/stats/prices/eu/${st}/${day}?${qs}`; };
+  const toggle = (arr, v) => (arr.includes(v) ? arr.filter(x => x !== v) : [...arr, v]).join(',');
+  app.innerHTML = `${euCrumbs(`<a href="#/stats/prices/eu/${st}">${esc(S.name)}</a>`)}
+    <h1>${esc(S.name)} · Пан-Европа · ${dfmt(day)}</h1>
+    <p class="sub">${esc(R.note)}${fx.date ? ` Курс ЕЦБ на ${dfmt(fx.date)}` + (curs.length ? ': ' + curs.map(c => `1 € = ${fx[c]} ${CUR[c] || c}`).join(', ') : '') + '.' : ''}</p>
+    <div class="picker fxctl">
+      <div class="presets">${types.map(t => `<a class="chip mcc${t.id === type ? ' on' : ''}" href="${link('t', t.id)}">${t.name}</a>`).join('')}</div>
+      <div class="hint">Бренды (пусто — все):</div>
+      <div class="presets">${brands.map(b => `<a class="chip mcc${bsel.includes(b) ? ' on' : ''}" href="${link('b', toggle(bsel, b))}">${esc(b)}</a>`).join('')}</div>
+      <div class="hint">Страны (пусто — все):</div>
+      <div class="presets">${R.cols.map(c => `<a class="chip mcc${csel.includes(c.id) ? ' on' : ''}" href="${link('c', toggle(csel, c.id))}">${esc(c.name)}</a>`).join('')}</div>
+    </div>
+    ${rows.length ? `<p class="note">Строк: ${rows.length}. <b class="pmin">Зелёным</b> — самая низкая цена в строке, <b class="pmax">красным</b> — самая высокая.</p>
+    <div class="tbl ptbl peu"><table class="src"><thead><tr><th class="pst">Бренд</th><th class="pst2">Линейка</th>${cols.map(c => `<th class="num">${esc(c.name)}<br><small>${esc(c.dom || '')}${c.cur && c.cur !== 'EUR' ? ' · ' + c.cur : ''}</small></th>`).join('')}</tr></thead><tbody>${
+      rows.map(r => {
+        const vals = cols.map(c => r.cells[c.id] && r.cells[c.id].eur).filter(v => v != null);
+        const mn = Math.min(...vals), mx = Math.max(...vals);
+        return `<tr><td class="pst">${esc(r.brand)}</td><td class="pst2"><b>${esc(r.line)}</b>${r.sub ? `<div class="pprod">${esc(r.sub)}</div>` : ''}</td>${cols.map(c => {
+          const x = r.cells[c.id];
+          if (!x || x.eur == null) return '<td class="num muted">—</td>';
+          const cls = vals.length > 1 && x.eur === mn ? 'pmin' : vals.length > 1 && x.eur === mx ? 'pmax' : '';
+          const tip = [x.name, x.local ? 'в местной валюте: ' + x.local : '', x.desc].filter(Boolean).join(' · ');
+          return `<td class="num"><a class="${cls}" href="${esc(x.url)}" target="_blank" rel="noopener" title="${esc(tip)}">${money(x.eur, 'EUR')}</a>${x.promo != null && x.promo < x.eur ? `<div class="pdesc" title="${esc(x.desc || '')}">${money(x.promo, 'EUR')}${st === 'notino' ? ' с кодом' + ((x.desc || '').match(/кодом (\S+)/) ? ' ' + esc((x.desc || '').match(/кодом (\S+)/)[1]) : '') : ' промо'}</div>` : ''}</td>`;
+        }).join('')}</tr>`;
+      }).join('')}</tbody></table></div>` : '<div class="empty-msg">Нет товаров для выбранных фильтров.</div>'}`;
+}
+
 window.viewPrices = viewPrices;
 window.routePrices = (p, q) => {
   if (p[0] === 'compare') return viewCompare(q);
+  if (p[0] === 'eu'){
+    if (!p[1]) return viewEu();
+    if (!EU_STORES.some(x => x.id === p[1])) return viewEu();
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(p[2] || '') || p[1] === 'amazon') return viewEuDates(p[1]);
+    return viewEuTable(p[1], p[2], q);
+  }
   if (!p[0]) return viewPrices();
   if (!PRESENT[p[0]]) return viewPrices();
   if (!p[1]) return viewCountry(p[0]);
