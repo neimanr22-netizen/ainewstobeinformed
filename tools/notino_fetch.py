@@ -82,7 +82,10 @@ def browser_get(url):
             if '"numberOfProducts"' in pg.content():
                 break
             pg.wait_for_timeout(1500)
-        return pg.content()
+        h = pg.content()
+        if '"numberOfProducts"' not in h:
+            log('browser: нет списка', url, pg.title(), len(h), re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', h))[:300])
+        return h
     except Exception as e:
         log('browser err', url, e)
         return ''
