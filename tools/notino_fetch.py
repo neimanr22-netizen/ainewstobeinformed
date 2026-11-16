@@ -35,6 +35,7 @@ BRANDS = [('SPLAT', ['splat']), ('Biomed', ['biomed', 'splat-biomed']), ('Elmex'
           ('Parodontax', ['parodontax']), ('Lacalut', ['lacalut']), ('Odol', ['odol', 'odol-med3']),
           ('Marvis', ['marvis']), ('Curaprox', ['curaprox'])]
 TYPES = {'Toothpastes': 'paste', 'Toothbrushes': 'brush'}
+KIDS_TYPES = {'Kids’ Toothpastes': 'paste', 'Kids’ Toothbrushes': 'brush'}
 S = http.Session()
 LOG = []
 LIMITED = {}
@@ -88,6 +89,29 @@ def listing(html):
     return lst, cur.group(1) if cur else None
 
 
+def pack_key(label):
+    """Упаковка без языка: '2x75 ml' -> '2x75ml', '1 St.'/'1 ks' -> '1pc'."""
+    t = (label or '').lower().replace(',', '.')
+    m = re.search(r'(?:(\d+) ?x ?)?(\d+(?:\.\d+)?) ?(ml|g)\b', t)
+    if m:
+        return f"{m.group(1) or 1}x{float(m.group(2)):g}{m.group(3)}"
+    m = re.search(r'(\d+) ?[^\d\s]{1,5}\.?$', t.strip())
+    return f'{m.group(1)}pc' if m else ''
+
+
+def variant_qty(label, unit):
+    """'2x75 ml' -> 0.15 (л); '3 St.' -> 3 (шт.)"""
+    t = (label or '').lower().replace(',', '.')
+    if unit.lower() in ('l', 'л'):
+        m = re.search(r'(?:(\d+) ?x ?)?(\d+(?:\.\d+)?) ?ml', t)
+        return (int(m.group(1) or 1) * float(m.group(2)) / 1000) if m else None
+    if unit.lower() in ('kg',):
+        m = re.search(r'(?:(\d+) ?x ?)?(\d+(?:\.\d+)?) ?g\b', t)
+        return (int(m.group(1) or 1) * float(m.group(2)) / 1000) if m else None
+    m = re.search(r'(\d+) ?(st|ks|pcs|db|szt|buc|бр|τεμ|kpl|kom|pz|ud|un|stk)', t)
+    return int(m.group(1)) if m else (1 if not t.strip() else None)
+
+
 def fetch_site(cc, dom):
     items, used = [], {}
     for brand, slugs in BRANDS:
@@ -115,20 +139,37 @@ def fetch_site(cc, dom):
                 if (p.get('brandName') or '').lower().replace(' ', '') not in (brand.lower(), slug.replace('-', ''), 'odolmed3', 'splatbiomed', 'biomed'):
                     if brand.lower() not in (p.get('brandName') or '').lower():
                         continue
-                if p.get('primaryCategory') not in ('Teeth', None):
+                if p.get('primaryCategory') not in ('Teeth', None) and p.get('primarySubcategory') != 'Kids’ Teeth':
                     continue
                 pi = p.get('priceInformation') or {}
                 pd = p.get('promotionData') or {}
-                var = next((v.get('additionalInfo') for v in p.get('variants') or [] if v.get('id') == p.get('id')), '')
-                items.append({
-                    'country': cc, 'brand': brand, 'brand_site': p.get('brandName'), 'line': ' '.join(x for x in [p.get('name'), p.get('subName')] if x).strip(),
-                    'annotation': p.get('annotation') or '', 'size': var or '', 'code': p.get('productCode') or '',
-                    'master': p.get('masterProductCode') or '', 'type': TYPES.get(p.get('primarySubcategory'), 'other'),
-                    'subcategory': p.get('primarySubcategory') or '', 'price': pi.get('price'), 'old_price': pi.get('originalPrice'),
-                    'promo_price': pd.get('discountedPrice') if pd.get('isDiscount') else None,
-                    'promo_desc': (f"−{pd.get('discountValue')}{' %' if pd.get('discountType') == 'Relative' else ''} с кодом {pd.get('voucherCode')}"
-                                   if pd.get('isDiscount') and pd.get('voucherCode') else ''),
-                    'currency': cur, 'url': f'https://www.{dom}' + (p.get('url') or ''), 'available': p.get('stockAvailability')})
+                variants = [v.get('additionalInfo') or '' for v in p.get('variants') or []]
+                var = next((v.get('additionalInfo') for v in p.get('variants') or [] if v.get('id') == p.get('id')), '') or ''
+                base = {'country': cc, 'brand': brand, 'brand_site': p.get('brandName'),
+                        'line': ' '.join(x for x in [p.get('name'), p.get('subName')] if x).strip(),
+                        'annotation': p.get('annotation') or '', 'master': p.get('masterProductCode') or p.get('productCode') or '',
+                        'type': TYPES.get(p.get('primarySubcategory')) or KIDS_TYPES.get(p.get('primaryType'), 'other'), 'subcategory': p.get('primarySubcategory') or '',
+                        'currency': cur, 'url': f'https://www.{dom}' + (p.get('url') or ''), 'available': p.get('stockAvailability')}
+                pct = pd.get('discountValue') if pd.get('isDiscount') and pd.get('discountType') == 'Relative' else None
+                code_desc = (f"−{pd.get('discountValue')}{' %' if pd.get('discountType') == 'Relative' else ''} с кодом {pd.get('voucherCode')}"
+                             if pd.get('isDiscount') and pd.get('voucherCode') else '')
+                price, up = pi.get('price'), (pi.get('unitPrice') or {})
+                qty = variant_qty(var, (up.get('unit') or {}).get('unitName', ''))
+                vprice = round(up['pricePerUnit'] * qty, 2) if (len(variants) > 1 and up.get('pricePerUnit') and qty) else price
+                rows = [(var, vprice, pi.get('originalPrice') if vprice == price else None)]
+                # в списке Notino цена = минимальная по вариантам; при двух вариантах она относится ко второму
+                if len(variants) == 2 and vprice and price and vprice > price + 0.01:
+                    other = next(v for v in variants if v != var) if var in variants else ''
+                    rows.append((other, price, pi.get('originalPrice')))
+                for size, pr, old in rows:
+                    if pr is None:
+                        continue
+                    promo = (round(pr * (1 - pct / 100), 2) if pct else (pd.get('discountedPrice') if pr == price and pd.get('isDiscount') else None))
+                    items.append({**base, 'size': size, 'key': base['master'] + '|' + pack_key(size),
+                                  'code': p.get('productCode') or '', 'variants': len(variants), 'price': pr, 'old_price': old,
+                                  'promo_price': promo, 'promo_desc': code_desc if promo else '',
+                                  'unit_price': up.get('pricePerUnit') if pr == vprice else None,
+                                  'unit': (up.get('unit') or {}).get('unitName', '')})
                 n_ok += 1
             used[brand] = used.get(brand, 0) + n_ok
             time.sleep(1.2)
@@ -183,11 +224,11 @@ def main():
         json.dump(out, f, ensure_ascii=False, separators=(',', ':'))
     with open(os.path.join(OUT, f'{day}.csv'), 'w', encoding='utf-8-sig', newline='') as f:
         w = csv.writer(f, delimiter=';')
-        w.writerow(['Дата', 'Страна', 'Сайт', 'Бренд', 'Линейка', 'Описание', 'Упаковка', 'Тип', 'Код Notino', 'Цена', 'Старая цена',
+        w.writerow(['Дата', 'Страна', 'Сайт', 'Бренд', 'Линейка', 'Описание', 'Упаковка', 'Тип', 'Код товара Notino', 'Цена', 'Старая цена',
                     'Цена с промокодом', 'Промо', 'Валюта', 'Цена, €', 'Цена с промокодом, €', 'Ссылка'])
         for x in items:
             w.writerow([day, x['country'], status[x['country']]['domain'], x['brand'], x['line'], x['annotation'], x['size'], x['subcategory'],
-                        x['code'], x['price'], x['old_price'] or '', x['promo_price'] or '', x['promo_desc'], x['currency'],
+                        x['master'], x['price'], x['old_price'] or '', x['promo_price'] or '', x['promo_desc'], x['currency'],
                         x['price_eur'], x['promo_price_eur'] or '', x['url']])
     dates = []
     for p in sorted(glob.glob(os.path.join(OUT, '20*.json'))):
