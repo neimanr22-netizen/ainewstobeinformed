@@ -169,10 +169,10 @@ def main():
     prev_path = os.path.join(OUT, f'{day}.json')
     if only and os.path.exists(prev_path):  # дописать к уже собранным странам этого дня
         prev = json.load(open(prev_path, encoding='utf-8'))
-        for k, v in prev['status'].items():
-            if k not in status or (status[k]['count'] < v['count'] and k not in only):
-                status[k] = v
-        items = [x for x in prev['items'] if x['country'] not in only] + items
+        keep_prev = {k for k, v in prev['status'].items() if k not in status or status[k]['count'] < v['count']}
+        for k in keep_prev:
+            status[k] = prev['status'][k]
+        items = [x for x in prev['items'] if x['country'] in keep_prev] + [x for x in items if x['country'] not in keep_prev]
     order = [c for c, _, _ in SITES]
     status = dict(sorted(status.items(), key=lambda kv: order.index(kv[0])))
     out = {'date': day, 'fetched_at': dt.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'), 'fx': fx,
