@@ -1,0 +1,5 @@
+f1 403 text/html; charset=UTF-8 5496 https://www.notino.de/elmex/
+f2 403 text/html; charset=UTF-8 5496 https://www.notino.cz/elmex/
+f3 403 text/html; charset=UTF-8 5529 https://www.notino.de/zahnpasta/
+f4 403 text/html; charset=UTF-8 5496 https://www.notino.hu/elmex/
+f5 403 text/html; charset=UTF-8 5496 https://www.notino.it/elmex/
