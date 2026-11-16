@@ -1,0 +1,11 @@
+f1 200 text/html; charset=utf-8 819746 https://shop.rossmann.hu/kategoria/szajapolas/fogkremek?oldal=2
+f2 200 text/html; charset=utf-8 819738 https://shop.rossmann.hu/kategoria/szajapolas/fogkremek?p=2
+f3 200 text/html; charset=utf-8 819770 https://shop.rossmann.hu/kategoria/szajapolas/fogkremek?page=2&limit=96
+f4 200 text/html; charset=utf-8 819756 https://shop.rossmann.hu/kategoria/szajapolas/fogkremek?per_page=100
+f5 200 text/html; charset=utf-8 819729 https://shop.rossmann.hu/kategoria/szajapolas/fogkremek?limit=100
+f6 404 text/html; charset=utf-8 402924 https://shop.rossmann.hu/kategoria/szajapolas/fogkremek?brand=Sensodyne
+f7 200 text/html; charset=utf-8 819741 https://shop.rossmann.hu/kategoria/szajapolas/fogkremek?marka=sensodyne
+f8 404 text/html; charset=utf-8 402319 https://shop.rossmann.hu/kereses?keresett=sensodyne
+f9 404 text/html; charset=utf-8 402317 https://shop.rossmann.hu/kereses?search=sensodyne
+f10 404 text/html; charset=utf-8 402297 https://shop.rossmann.hu/kereses/sensodyne
+f11 404 text/html; charset=utf-8 402297 https://shop.rossmann.hu/marka/sensodyne
