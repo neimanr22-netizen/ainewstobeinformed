@@ -1,0 +1,13 @@
+f1 404 text/html; charset=utf-8 402297 https://shop.rossmann.hu/termekek/szajapolas/fogkremek
+f2 404 text/html; charset=utf-8 402297 https://shop.rossmann.hu/szajapolas/fogkremek
+f3 200 text/html; charset=utf-8 819726 https://shop.rossmann.hu/kategoria/szajapolas/fogkremek
+f4 200 text/html;charset=utf-8 932563 https://www.tetadrogerie.cz/eshop/produkty/pece-o-zuby
+f5 200 text/html;charset=utf-8 947063 https://www.tetadrogerie.cz/eshop/produkty/pece-o-zuby?strana=2
+f6 404 text/html; charset=UTF-8 159096 https://prodejny.kaufland.cz/aktualni-nabidka/prehled.html
+f7 200 text/html; charset=UTF-8 2961668 https://predajne.kaufland.sk/aktualna-ponuka/prehlad.html
+f8 200 application/xml 106308 https://www.rossmann.cz/vyhledavani$d4063-search.xml?query=sensodyne&async=true&limit=100&offset=0
+f9 200 application/json 229696 https://product-search.services.dmtech.com/de/search?query=zahnpasta&searchType=product&pageSize=60&currentPage=0
+f10 200 application/mindshift.search+json;version=2 127 https://www.lidl.at/q/api/search?assortment=AT&locale=de_AT&version=v2.0.0&q=elmex
+f11 200 application/mindshift.search+json;version=2 127 https://www.lidl.ch/q/api/search?assortment=CH&locale=de_CH&version=v2.0.0&q=elmex
+f12 404 text/html;charset=utf-8 238973 https://www.lidl.ch/q/search?q=elmex
+f13 200 text/html; charset=utf-8 3038 https://www.rossmann.de/de/marken/elmex/b/elmex

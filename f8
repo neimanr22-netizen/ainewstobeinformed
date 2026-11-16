@@ -1,0 +1,2678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+	<status>OK</status>
+
+	<update selector="#search-filter" replace="true">
+		<![CDATA[ 
+<div id="search-filter">
+
+	
+	<div class="stack" id="active-filters-sidemenu">
+
+</div>
+
+	
+	<div id="fulltext-search-hidden-inputs">
+		<input type="hidden" name="url" value="/vyhledavani$d4063-search.xml">
+		<input type="hidden" name="async" value="true">
+		<input type="hidden" name="query" value="sensodyne">
+		<input type="hidden" name="offset" value="0">
+		<input type="hidden" name="limit" value="100">
+		<input type="hidden" name="sorting" value="RELEVANCE">
+		<input type="hidden" name="newUrl" value="/vyhledavani$d4063-search?query=sensodyne&amp;limit=100&amp;offset=0">
+	</div>
+
+<div class="stack stack--top-16">
+					<h2 class="typo--h3 stack">Cena</h2>
+					
+
+<div class="js-slider stack stack--top-16"
+	data-slider-start="[24, 219]"
+	data-slider-min="24"
+	data-slider-max="219"
+	data-slider-step="5"
+	data-slider-input-start=" #fp_price_MIN"
+	data-slider-input-end=" #fp_price_MAX"
+	data-slider-input-reset-name="fp_price_MIN"
+	data-slider-unit=""
+	
+	data-product-filter-slider-start-value="24"
+	data-product-filter-slider-end-value="219"
+></div>
+
+<div class="stack stack--top-16">
+	<div class="row row--justify">
+		<span class="row__item">
+			<span class="input__wrapper">
+				<input type="text" id="fp_price_MIN" name="fp_price_MIN" class="input js-product-filter-price" min="0" aria-label="Filtrovat cenu vyžší než  Kč">
+				<div class="input__icon input__icon--right">Kč</div>
+			</span>
+		</span>
+		<span> - </span>
+	    <span class="row__item">
+	    	<span class="input__wrapper stack stack--top-8">
+				<input type="text" id="fp_price_MAX" name="fp_price_MAX" class="input js-product-filter-price" min="0" aria-label="Filtrovat cenu nižší než  Kč">
+				<div class="input__icon input__icon--right">Kč</div>
+			</span>
+	    </span>
+	</div>
+</div></div>
+<hr class="stack stack--top-16">
+<div class="stack stack--top-16">
+					<h2 class="typo--h3 stack">Značka</h2>
+					
+
+<ul class="stack stack--top-8">
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_producer" id="fp_producer" value="5fda169ae5d9cf68c7a552e5" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Sensodyne<span>&nbsp;(34)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_producer" id="fp_producer" value="69167f10a5b12561f821b495" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Sensodyne &amp; Parodontax<span>&nbsp;(1)</span>
+			</div>
+		</label>
+	</li>
+</ul>
+</div>
+<hr class="stack stack--top-16">
+<div class="stack stack--top-16">
+					<h2 class="typo--h3 stack">Akce</h2>
+					
+
+<ul class="stack stack--top-8">
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_specialOffer" id="fp_specialOffer" value="ACTION" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Akce<span>&nbsp;(17)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_specialOffer" id="fp_specialOffer" value="PERCENTAGE" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+% sleva<span>&nbsp;(17)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_specialOffer" id="fp_specialOffer" value="CLEARANCE_SALE_PRICE" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Výprodej<span>&nbsp;(4)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_specialOffer" id="fp_specialOffer" value="SUPER_PRICE" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Super cena<span>&nbsp;(3)</span>
+			</div>
+		</label>
+	</li>
+</ul>
+</div>
+<hr class="stack stack--top-16">
+<div class="stack stack--top-16">
+					<h2 class="typo--h3 stack">Kategorie</h2>
+					
+
+<ul class="stack stack--top-8">
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_category" id="fp_category" value="5fe07abfe5d9cf68c70c5eb6" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Zubní pasty<span>&nbsp;(30)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_category" id="fp_category" value="5fe07abde5d9cf68c70c5e7e" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Zubní kartáčky<span>&nbsp;(3)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_category" id="fp_category" value="5fe07ab9e5d9cf68c70c5e19" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Doplňky k ústní hygieně<span>&nbsp;(1)</span>
+			</div>
+		</label>
+	</li>
+<li class="stack stack--top-8 stack--lg-top-0 p-0">
+		<label class="row">	
+			<div class="row__item">
+				<input class="checkbox" type="checkbox" name="fp_category" id="fp_category" value="5fe07abce5d9cf68c70c5e64" 
+				>
+			</div>
+<div class="row__item typo--b1 typo--book">
+Mezizubní kartáčky a nitě<span>&nbsp;(1)</span>
+			</div>
+		</label>
+	</li>
+</ul>
+</div>
+</div>		]]>
+	</update>
+	<update selector="#search-results-pagination">
+		<![CDATA[ 
+
+		]]>
+	</update>
+	<update selector="#search-results-categories">
+		<![CDATA[ 
+
+	<h3 class="typo--b3 typo--bold stack">Kategorie</h3>
+	
+	<div class="stack stack--top-16">
+
+<div class="row row--wrap row--stretch row--gap-16 row--gap-col-40 row--md-gap-32">
+<div class="row__item">
+ProdCategoryInfoFDTO[5fe07abfe5d9cf68c70c5eb6:97]/TOP</div>
+<div class="row__item">
+ProdCategoryInfoFDTO[5fe07abce5d9cf68c70c5e64:91]/TOP</div>
+<div class="row__item">
+ProdCategoryInfoFDTO[5fe07abde5d9cf68c70c5e7e:93]/TOP</div>
+<div class="row__item">
+ProdCategoryInfoFDTO[5fe07ab9e5d9cf68c70c5e19:85]/TOP</div>
+</div>
+	</div>
+		]]>
+	</update>
+	<update selector="#active-fulltext-filters">
+		<![CDATA[ 
+
+		]]>
+	</update>
+	<update selector="#active-filters-sidemenu">
+		<![CDATA[ 
+
+		]]>
+	</update>
+	<update selector="#sorting">
+		<![CDATA[ 
+
+<div class="stack typo--right">
+35 produktů</div>
+		<div class="row row--wrap stack">
+			<div class="row__item row__item--fill">
+				<div class="display--none display--md-block">
+					<ul class="row row--wrap">
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable " data-product-filter-sorting="RECOMMENDED">Doporučené</a>
+						</li>
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable " data-product-filter-sorting="BEST_SELLING">Nejprodávanější</a>
+						</li>
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable " data-product-filter-sorting="PRICE_ASC">Od nejlevnějších</a>
+						</li>
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable " data-product-filter-sorting="PRICE_DESC">Od nejdražších</a>
+						</li>
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable " data-product-filter-sorting="TITLE_ASC">Dle titulku A-Z</a>
+						</li>
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable " data-product-filter-sorting="TITLE_DESC">Dle titulku Z-A</a>
+						</li>
+<li class="row__item">
+							<a href='#' class="js-product-filter-sorting tab tab--clickable tab--active" data-product-filter-sorting="RELEVANCE">Dle relevance</a>
+						</li>
+</ul>
+				</div>
+				
+				<div class="display--md-none">
+<a href='#' class="tab tab--clickable js-toggle" data-toggle-media="xs sm" data-toggle-target="#sorting-dropdown">
+Dle relevance<span class="icon icon--red icon--chevron-down icon--10"></span>
+							</a>
+</div>
+			</div>
+			
+			<div class="stack stack--top-16 display--md-none js-loading-hidden" id="sorting-dropdown">
+				<div>
+<a href='#' class="js-product-filter-sorting tab tab--clickable" data-product-filter-sorting="RECOMMENDED">Doporučené</a>
+<a href='#' class="js-product-filter-sorting tab tab--clickable" data-product-filter-sorting="BEST_SELLING">Nejprodávanější</a>
+<a href='#' class="js-product-filter-sorting tab tab--clickable" data-product-filter-sorting="PRICE_ASC">Od nejlevnějších</a>
+<a href='#' class="js-product-filter-sorting tab tab--clickable" data-product-filter-sorting="PRICE_DESC">Od nejdražších</a>
+<a href='#' class="js-product-filter-sorting tab tab--clickable" data-product-filter-sorting="TITLE_ASC">Dle titulku A-Z</a>
+<a href='#' class="js-product-filter-sorting tab tab--clickable" data-product-filter-sorting="TITLE_DESC">Dle titulku Z-A</a>
+</div>
+			</div>
+		</div>
+<script>
+dataLayer.push({event:"ec_list_check",item_list_name:"search_result",items_found:35});</script>		]]>
+	</update>
+	<update selector="#fulltext-header">
+		<![CDATA[ 
+<div id="fulltext-header">
+<h1 class="stack">Výsledky pro výraz „sensodyne“</h1>
+		
+
+
+<div class="stack stack--32">
+		<h2 class="stack">Kategorie</h2>
+		<div class="stack stack--top-16">
+
+<div class="slider js-carousel-slider">
+			<div class="slider__track" data-slider-track>
+<div class="slider__item" data-slider-item>
+
+<a href="/zubni-pasty" class="autocomplete__item" data-lb-entity="category" data-lb-id="5fe07abfe5d9cf68c70c5eb6">
+		<span class="autocomplete__item-title autocomplete__item-title--bold">Zubní pasty</span>
+		<span class="autocomplete__item-subtitle">Péče o zuby</span>
+	</a>
+</div>
+<div class="slider__item" data-slider-item>
+
+<a href="/mezizubni-kartacky-a-nite" class="autocomplete__item" data-lb-entity="category" data-lb-id="5fe07abce5d9cf68c70c5e64">
+		<span class="autocomplete__item-title autocomplete__item-title--bold">Mezizubní kartáčky a nitě</span>
+		<span class="autocomplete__item-subtitle">Péče o zuby</span>
+	</a>
+</div>
+<div class="slider__item" data-slider-item>
+
+<a href="/zubni-kartacky" class="autocomplete__item" data-lb-entity="category" data-lb-id="5fe07abde5d9cf68c70c5e7e">
+		<span class="autocomplete__item-title autocomplete__item-title--bold">Zubní kartáčky</span>
+		<span class="autocomplete__item-subtitle">Péče o zuby</span>
+	</a>
+</div>
+<div class="slider__item" data-slider-item>
+
+<a href="/doplnky-k-ustni-hygiene" class="autocomplete__item" data-lb-entity="category" data-lb-id="5fe07ab9e5d9cf68c70c5e19">
+		<span class="autocomplete__item-title autocomplete__item-title--bold">Doplňky k ústní hygieně</span>
+		<span class="autocomplete__item-subtitle">Péče o zuby</span>
+	</a>
+</div>
+</div>
+<button class="slider__arrow slider__arrow--prev" aria-label="Předchozí" data-slider-arrow="prev">
+					<i class="icon icon--chevron-left icon--red icon--md"></i>
+				</button>
+				<button class="slider__arrow slider__arrow--next" aria-label="Další" data-slider-arrow="next">
+					<i class="icon icon--chevron-right icon--red icon--md"></i>
+				</button>
+</div>
+	</div>
+	</div>
+<div class="stack stack--32">
+		<h2 class="stack">Značky</h2>
+		<div class="stack stack--top-16">
+
+<div class="slider js-carousel-slider">
+			<div class="slider__track" data-slider-track>
+<div class="slider__item" data-slider-item>
+<a href="/sensodyne" class="box bgr--white clickable">
+	<div class="box__content">
+Sensodyne</div>
+</a></div>
+<div class="slider__item" data-slider-item>
+<a href="/sensodyne-parodontax-2" class="box bgr--white clickable">
+	<div class="box__content">
+Sensodyne &amp; Parodontax</div>
+</a></div>
+</div>
+<button class="slider__arrow slider__arrow--prev" aria-label="Předchozí" data-slider-arrow="prev">
+					<i class="icon icon--chevron-left icon--red icon--md"></i>
+				</button>
+				<button class="slider__arrow slider__arrow--next" aria-label="Další" data-slider-arrow="next">
+					<i class="icon icon--chevron-right icon--red icon--md"></i>
+				</button>
+</div>
+	</div>
+	</div>
+</div>
+
+
+
+		]]>
+	</update>
+<update selector="#search-results">
+			<![CDATA[ 
+<div class="product-grid" id="fulltext-search-result-tiles">
+
+
+
+	<div class="product-tile" id="product-id--sp951951" data-lb-entity="product" data-lb-id="6295877b7a8e155d33564a01" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-extra-whitening-duopack-2x-75-ml" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-951951/b14837985bfc9d328a6486d0?v=d1a680b2&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-951951/b14837985bfc9d328a6486d0?v=d1a680b2&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-951951/b14837985bfc9d328a6486d0?v=d1a680b2&size=240px" alt="Zubní pasta s fluoridem Extra Whitening duopack 2x 75 ml" title="Zubní pasta s fluoridem Extra Whitening duopack 2x 75 ml" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-extra-whitening-duopack-2x-75-ml" id="product-linksp951951">Zubní pasta s fluoridem Extra Whitening duopack 2x 75 ml</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">150 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>169 Kč</s>
+</span>
+<div>149 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6295877b7a8e155d33564a01" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp951951&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=0&amp;indx=0"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Extra Whitening duopack 2x 75 ml"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 951951
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp267618" data-lb-entity="product" data-lb-id="60def5d9c0630a4ca308dc52" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-whitening-repair-protect-s-fluoridem" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-267618/577a6ff7ddaf087ca752d050?v=95cda000&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-267618/577a6ff7ddaf087ca752d050?v=95cda000&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-267618/577a6ff7ddaf087ca752d050?v=95cda000&size=240px" alt="Zubní pasta Whitening Repair &amp; Protect s fluoridem" title="Zubní pasta Whitening Repair &amp; Protect s fluoridem" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-whitening-repair-protect-s-fluoridem" id="product-linksp267618">Zubní pasta Whitening Repair &amp; Protect s fluoridem</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>109 Kč</s>
+</span>
+<div>89.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def5d9c0630a4ca308dc52" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp267618&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=1&amp;indx=1"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Whitening Repair &amp; Protect s fluoridem"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 267618
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1315028" data-lb-entity="product" data-lb-id="67802c63975c14aad74844a2" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/-zubni-pasta-s-fluoridem-clinical-white-stain-protector" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1315028/ad4915fe6962713fcf4aa5cd?v=9931cd41&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1315028/ad4915fe6962713fcf4aa5cd?v=9931cd41&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1315028/ad4915fe6962713fcf4aa5cd?v=9931cd41&size=240px" alt=" Zubní pasta s fluoridem Clinical White Stain Protector" title=" Zubní pasta s fluoridem Clinical White Stain Protector" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/-zubni-pasta-s-fluoridem-clinical-white-stain-protector" id="product-linksp1315028"> Zubní pasta s fluoridem Clinical White Stain Protector</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>149 Kč</s>
+</span>
+<div>129 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="67802c63975c14aad74844a2" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1315028&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=2&amp;indx=2"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks  Zubní pasta s fluoridem Clinical White Stain Protector"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1315028
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp154772" data-lb-entity="product" data-lb-id="60def5c9c0630a4ca3080e73" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-repair-protect-cool-mint" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-154772/f1e1f8d632662a2d4d944903?v=3c9bc548&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-154772/f1e1f8d632662a2d4d944903?v=3c9bc548&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-154772/f1e1f8d632662a2d4d944903?v=3c9bc548&size=240px" alt="Zubní pasta s fluoridem Repair &amp; Protect Cool Mint " title="Zubní pasta s fluoridem Repair &amp; Protect Cool Mint " width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-repair-protect-cool-mint" id="product-linksp154772">Zubní pasta s fluoridem Repair &amp; Protect Cool Mint </a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>109 Kč</s>
+</span>
+<div>89.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def5c9c0630a4ca3080e73" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp154772&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=3&amp;indx=3"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Repair &amp; Protect Cool Mint "
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 154772
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1168907" data-lb-entity="product" data-lb-id="63f91829b37471f38c6c3350" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-whitening-kompletni-ochrana-s-fluoridem-duopack-2x-75-ml" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1168907/54bb34711657ce49f6b9c884?v=8921b10e&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1168907/54bb34711657ce49f6b9c884?v=8921b10e&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1168907/54bb34711657ce49f6b9c884?v=8921b10e&size=240px" alt="Zubní pasta Whitening Kompletní ochrana+ s fluoridem duopack 2x 75 ml" title="Zubní pasta Whitening Kompletní ochrana+ s fluoridem duopack 2x 75 ml" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-whitening-kompletni-ochrana-s-fluoridem-duopack-2x-75-ml" id="product-linksp1168907">Zubní pasta Whitening Kompletní ochrana+ s fluoridem duopack 2x 75 ml</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">150 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>199 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="63f91829b37471f38c6c3350" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1168907&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=4&amp;indx=4"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Whitening Kompletní ochrana+ s fluoridem duopack 2x 75 ml"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1168907
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1266689" data-lb-entity="product" data-lb-id="6647aa3936682278bb0cd0c6" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-clinical-repair-active-white" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1266689/430072d7ab9c91c8bedfd9f2?v=ea0ef10b&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1266689/430072d7ab9c91c8bedfd9f2?v=ea0ef10b&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1266689/430072d7ab9c91c8bedfd9f2?v=ea0ef10b&size=240px" alt="Zubní pasta s fluoridem Clinical Repair Active White " title="Zubní pasta s fluoridem Clinical Repair Active White " width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-clinical-repair-active-white" id="product-linksp1266689">Zubní pasta s fluoridem Clinical Repair Active White </a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>149 Kč</s>
+</span>
+<div>129 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6647aa3936682278bb0cd0c6" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1266689&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=5&amp;indx=5"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Clinical Repair Active White "
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1266689
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1366006" data-lb-entity="product" data-lb-id="68b740ce7c578ce5513ef4d5" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-repair-protect-whitening-multipack" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1366006/e1ae33a97fcfa8114db0f2d2?v=91943a02&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1366006/e1ae33a97fcfa8114db0f2d2?v=91943a02&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1366006/e1ae33a97fcfa8114db0f2d2?v=91943a02&size=240px" alt="Zubní pasta s fluoridem Repair &amp; Protect Whitening Multipack" title="Zubní pasta s fluoridem Repair &amp; Protect Whitening Multipack" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-repair-protect-whitening-multipack" id="product-linksp1366006">Zubní pasta s fluoridem Repair &amp; Protect Whitening Multipack</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">150 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>199 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="68b740ce7c578ce5513ef4d5" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1366006&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=6&amp;indx=6"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Repair &amp; Protect Whitening Multipack"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1366006
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp433211" data-lb-entity="product" data-lb-id="60def5f0c0630a4ca309f0e4" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-extra-whitening" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-433211/5f8c1aefa544814c683d0eaf?v=ba99dec6&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-433211/5f8c1aefa544814c683d0eaf?v=ba99dec6&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-433211/5f8c1aefa544814c683d0eaf?v=ba99dec6&size=240px" alt="Zubní pasta s fluoridem Extra Whitening " title="Zubní pasta s fluoridem Extra Whitening " width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-extra-whitening" id="product-linksp433211">Zubní pasta s fluoridem Extra Whitening </a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>109 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def5f0c0630a4ca309f0e4" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp433211&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=7&amp;indx=7"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Extra Whitening "
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 433211
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp105811" data-lb-entity="product" data-lb-id="60def5c1c0630a4ca307b74e" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-pro-citlive-zuby-pronamel" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-105811/735d411784f04215f21d461b?v=503ac1cb&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-105811/735d411784f04215f21d461b?v=503ac1cb&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-105811/735d411784f04215f21d461b?v=503ac1cb&size=240px" alt="Zubní pasta pro citlivé zuby Pronamel " title="Zubní pasta pro citlivé zuby Pronamel " width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-pro-citlive-zuby-pronamel" id="product-linksp105811">Zubní pasta pro citlivé zuby Pronamel </a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>109 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def5c1c0630a4ca307b74e" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp105811&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=8&amp;indx=8"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta pro citlivé zuby Pronamel "
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 105811
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp647236" data-lb-entity="product" data-lb-id="60def62ac0630a4ca30cc47d" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-rapid-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-647236/3fb5067d0c92ac7e4f254ae8?v=36cc4d77&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-647236/3fb5067d0c92ac7e4f254ae8?v=36cc4d77&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-647236/3fb5067d0c92ac7e4f254ae8?v=36cc4d77&size=240px" alt="Zubní pasta s fluoridem Rapid " title="Zubní pasta s fluoridem Rapid " width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-rapid-2" id="product-linksp647236">Zubní pasta s fluoridem Rapid </a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>129 Kč</s>
+</span>
+<div>109 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def62ac0630a4ca30cc47d" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp647236&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=9&amp;indx=9"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Rapid "
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 647236
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1266696" data-lb-entity="product" data-lb-id="6647aa3936682278bb0cd142" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-clinical-repair-active-clean" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1266696/6a9e1f02ccb864238d561ac2?v=2877907e&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1266696/6a9e1f02ccb864238d561ac2?v=2877907e&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1266696/6a9e1f02ccb864238d561ac2?v=2877907e&size=240px" alt="Zubní pasta s fluoridem Clinical Repair Active Clean" title="Zubní pasta s fluoridem Clinical Repair Active Clean" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-clinical-repair-active-clean" id="product-linksp1266696">Zubní pasta s fluoridem Clinical Repair Active Clean</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>149 Kč</s>
+</span>
+<div>129 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6647aa3936682278bb0cd142" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1266696&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=10&amp;indx=10"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Clinical Repair Active Clean"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1266696
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1555950" data-lb-entity="product" data-lb-id="6a221181f0e7fffb51c78386" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span>
+
+<span class="sticker sticker--percentage" title="% sleva" data-val="-32%">
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/detska-zubni-pasta-junior-bubble-mint-s-fluoridem" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1555950/e1edbe94fc9fdb80bf51dec8?v=14e3b525&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1555950/e1edbe94fc9fdb80bf51dec8?v=14e3b525&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1555950/e1edbe94fc9fdb80bf51dec8?v=14e3b525&size=240px" alt="Dětská zubní pasta Junior Bubble Mint s fluoridem" title="Dětská zubní pasta Junior Bubble Mint s fluoridem" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/detska-zubni-pasta-junior-bubble-mint-s-fluoridem" id="product-linksp1555950">Dětská zubní pasta Junior Bubble Mint s fluoridem</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">150 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>189 Kč</s>
+</span>
+<div>129 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6a221181f0e7fffb51c78386" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1555950&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=11&amp;indx=11"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Dětská zubní pasta Junior Bubble Mint s fluoridem"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1555950
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp328753" data-lb-entity="product" data-lb-id="60def5e4c0630a4ca309637f" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-kompletni-ochrana-whitening" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-328753/e20cee815b344d19e9cf99c5?v=b1c92fd1&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-328753/e20cee815b344d19e9cf99c5?v=b1c92fd1&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-328753/e20cee815b344d19e9cf99c5?v=b1c92fd1&size=240px" alt="Zubní pasta Kompletní Ochrana+ Whitening" title="Zubní pasta Kompletní Ochrana+ Whitening" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-kompletni-ochrana-whitening" id="product-linksp328753">Zubní pasta Kompletní Ochrana+ Whitening</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>129 Kč</s>
+</span>
+<div>109 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def5e4c0630a4ca309637f" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp328753&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=12&amp;indx=12"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Kompletní Ochrana+ Whitening"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 328753
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1266702" data-lb-entity="product" data-lb-id="6647aa3936682278bb0cd1cb" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-pro-deti-s-fluoridem-0-6-let-jahodova-prichut" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1266702/e48ffbada864cef73ed2bf43?v=ebe42e8b&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1266702/e48ffbada864cef73ed2bf43?v=ebe42e8b&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1266702/e48ffbada864cef73ed2bf43?v=ebe42e8b&size=240px" alt="Zubní pasta pro děti s fluoridem 0-6 let jahodová příchuť" title="Zubní pasta pro děti s fluoridem 0-6 let jahodová příchuť" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-pro-deti-s-fluoridem-0-6-let-jahodova-prichut" id="product-linksp1266702">Zubní pasta pro děti s fluoridem 0-6 let jahodová příchuť</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">50 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>99.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6647aa3936682278bb0cd1cb" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1266702&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=13&amp;indx=13"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta pro děti s fluoridem 0-6 let jahodová příchuť"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1266702
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp566162" data-lb-entity="product" data-lb-id="60def608c0630a4ca30b291a" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-repair-protect-extra-fresh-s-fluoridem" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-566162/e212858bad47a47371acb223?v=8abde207&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-566162/e212858bad47a47371acb223?v=8abde207&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-566162/e212858bad47a47371acb223?v=8abde207&size=240px" alt="Zubní pasta Repair &amp; Protect Extra Fresh s fluoridem" title="Zubní pasta Repair &amp; Protect Extra Fresh s fluoridem" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-repair-protect-extra-fresh-s-fluoridem" id="product-linksp566162">Zubní pasta Repair &amp; Protect Extra Fresh s fluoridem</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>109 Kč</s>
+</span>
+<div>89.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def608c0630a4ca30b291a" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp566162&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=14&amp;indx=14"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Repair &amp; Protect Extra Fresh s fluoridem"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 566162
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1366013" data-lb-entity="product" data-lb-id="68b740ce7c578ce5513ef602" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-clinical-white" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1366013/380e3dfa5aea72fe800dc623?v=4729ffc9&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1366013/380e3dfa5aea72fe800dc623?v=4729ffc9&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1366013/380e3dfa5aea72fe800dc623?v=4729ffc9&size=240px" alt="Zubní pasta s fluoridem Clinical White Enamel Strengthening" title="Zubní pasta s fluoridem Clinical White Enamel Strengthening" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-clinical-white" id="product-linksp1366013">Zubní pasta s fluoridem Clinical White Enamel Strengthening</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>149 Kč</s>
+</span>
+<div>129 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="68b740ce7c578ce5513ef602" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1366013&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=15&amp;indx=15"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Clinical White Enamel Strengthening"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1366013
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1377804" data-lb-entity="product" data-lb-id="691637a27c578ce55150d73d" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span>
+
+<span class="sticker sticker--percentage" title="% sleva" data-val="-28%">
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/belici-zubni-pasta-pro-citlive-zuby-advanced-white-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1377804/4b14688d1ee1d23a253d1ad6?v=82539df8&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1377804/4b14688d1ee1d23a253d1ad6?v=82539df8&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1377804/4b14688d1ee1d23a253d1ad6?v=82539df8&size=240px" alt="Bělicí zubní pasta pro citlivé zuby Advanced White Deep Clean" title="Bělicí zubní pasta pro citlivé zuby Advanced White Deep Clean" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/belici-zubni-pasta-pro-citlive-zuby-advanced-white-2" id="product-linksp1377804">Bělicí zubní pasta pro citlivé zuby Advanced White Deep Clean</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>139 Kč</s>
+</span>
+<div>99.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="691637a27c578ce55150d73d" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1377804&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=16&amp;indx=16"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Bělicí zubní pasta pro citlivé zuby Advanced White Deep Clean"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1377804
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1016123" data-lb-entity="product" data-lb-id="60def712c0630a4ca317e6d4" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-anti-caries-s-fluoridem" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1016123/d4857abcf37f6436b62159bf?v=1a5f50fb&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1016123/d4857abcf37f6436b62159bf?v=1a5f50fb&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1016123/d4857abcf37f6436b62159bf?v=1a5f50fb&size=240px" alt="Zubní pasta Anti-Caries s fluoridem" title="Zubní pasta Anti-Caries s fluoridem" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-anti-caries-s-fluoridem" id="product-linksp1016123">Zubní pasta Anti-Caries s fluoridem</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>109 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def712c0630a4ca317e6d4" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1016123&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=17&amp;indx=17"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Anti-Caries s fluoridem"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1016123
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1555356" data-lb-entity="product" data-lb-id="6a1e1d073c78b4f37a95481f" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/belici-zubni-pasta-rapid-relief" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1555356/c93a4382f7043cdb70d33c1e?v=0a24f0be&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1555356/c93a4382f7043cdb70d33c1e?v=0a24f0be&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1555356/c93a4382f7043cdb70d33c1e?v=0a24f0be&size=240px" alt="Bělicí zubní pasta Rapid Relief" title="Bělicí zubní pasta Rapid Relief" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/belici-zubni-pasta-rapid-relief" id="product-linksp1555356">Bělicí zubní pasta Rapid Relief</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>129 Kč</s>
+</span>
+<div>109 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6a1e1d073c78b4f37a95481f" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1555356&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=18&amp;indx=18"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Bělicí zubní pasta Rapid Relief"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1555356
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp288026" data-lb-entity="product" data-lb-id="60def5dec0630a4ca309143c" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-288026/2a2048d6da52ce25b8edc039?v=19b33515&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-288026/2a2048d6da52ce25b8edc039?v=19b33515&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-288026/2a2048d6da52ce25b8edc039?v=19b33515&size=240px" alt="Zubní pasta s fluoridem" title="Zubní pasta s fluoridem" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-2" id="product-linksp288026">Zubní pasta s fluoridem</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>109 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def5dec0630a4ca309143c" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp288026&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=19&amp;indx=19"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 288026
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1377798" data-lb-entity="product" data-lb-id="691637a27c578ce55150d62d" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span>
+
+<span class="sticker sticker--percentage" title="% sleva" data-val="-28%">
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/belici-zubni-pasta-pro-citlive-zuby-advanced-white" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1377798/fba07ca0e73a7baeca668c54?v=50ad2592&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1377798/fba07ca0e73a7baeca668c54?v=50ad2592&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1377798/fba07ca0e73a7baeca668c54?v=50ad2592&size=240px" alt="Bělicí zubní pasta pro citlivé zuby Advanced White Enamel Defence" title="Bělicí zubní pasta pro citlivé zuby Advanced White Enamel Defence" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/belici-zubni-pasta-pro-citlive-zuby-advanced-white" id="product-linksp1377798">Bělicí zubní pasta pro citlivé zuby Advanced White Enamel Defence</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>139 Kč</s>
+</span>
+<div>99.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="691637a27c578ce55150d62d" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1377798&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=20&amp;indx=20"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Bělicí zubní pasta pro citlivé zuby Advanced White Enamel Defence"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1377798
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp913911" data-lb-entity="product" data-lb-id="60def684c0630a4ca3112492" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-sensodyne-sensitivity-gum-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-913911/94d612145d52ba71d6986d8f?v=19b029e5&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-913911/94d612145d52ba71d6986d8f?v=19b029e5&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-913911/94d612145d52ba71d6986d8f?v=19b029e5&size=240px" alt="Zubní pasta s fluoridem Sensodyne Sensitivity &amp; Gum" title="Zubní pasta s fluoridem Sensodyne Sensitivity &amp; Gum" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-sensodyne-sensitivity-gum-2" id="product-linksp913911">Zubní pasta s fluoridem Sensodyne Sensitivity &amp; Gum</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>129 Kč</s>
+</span>
+<div>109 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def684c0630a4ca3112492" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp913911&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=21&amp;indx=21"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Sensodyne Sensitivity &amp; Gum"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 913911
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp387040" data-lb-entity="product" data-lb-id="60def5ecc0630a4ca309c03e" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--super-cena" title="Super cena" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/expandujici-zubni-nit-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-387040/83376c312cb193b30556951e?v=39301668&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-387040/83376c312cb193b30556951e?v=39301668&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-387040/83376c312cb193b30556951e?v=39301668&size=240px" alt="Expandující zubní nit" title="Expandující zubní nit" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/expandujici-zubni-nit-2" id="product-linksp387040">Expandující zubní nit</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">30 m</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>89.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def5ecc0630a4ca309c03e" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp387040&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=22&amp;indx=22"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Expandující zubní nit"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 387040
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1266719" data-lb-entity="product" data-lb-id="6647aa3a36682278bb0cd212" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--vyprodej" title="Výprodeje" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-pro-deti-s-fluoridem-junior-6-12-let-matova-prichut" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1266719/99487955989160c08ddddf08?v=5858049c&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1266719/99487955989160c08ddddf08?v=5858049c&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1266719/99487955989160c08ddddf08?v=5858049c&size=240px" alt="Zubní pasta pro děti s fluoridem Junior 6-12 let mátová příchuť" title="Zubní pasta pro děti s fluoridem Junior 6-12 let mátová příchuť" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-pro-deti-s-fluoridem-junior-6-12-let-matova-prichut" id="product-linksp1266719">Zubní pasta pro děti s fluoridem Junior 6-12 let mátová příchuť</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">50 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>79.90 Kč</s>
+</span>
+<div>34.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6647aa3a36682278bb0cd212" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1266719&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=23&amp;indx=23"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta pro děti s fluoridem Junior 6-12 let mátová příchuť"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1266719
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1253702" data-lb-entity="product" data-lb-id="660640aa36682278bb16df6c" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-kartacky-advanced-clean-extra-soft-3-ks" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1253702/057aa806b9e54b2581c5d073?v=86594ed3&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1253702/057aa806b9e54b2581c5d073?v=86594ed3&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1253702/057aa806b9e54b2581c5d073?v=86594ed3&size=240px" alt="Zubní kartáčky Advanced Clean Extra Soft 3 ks" title="Zubní kartáčky Advanced Clean Extra Soft 3 ks" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-kartacky-advanced-clean-extra-soft-3-ks" id="product-linksp1253702">Zubní kartáčky Advanced Clean Extra Soft 3 ks</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">3 ks</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>199 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="660640aa36682278bb16df6c" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1253702&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=24&amp;indx=24"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní kartáčky Advanced Clean Extra Soft 3 ks"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1253702
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1267440" data-lb-entity="product" data-lb-id="664f933136682278bb53630f" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-repair-protect-cool-mint-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1267440/6ff6535a1cf79f0f27c30d26?v=0a9dc61a&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1267440/6ff6535a1cf79f0f27c30d26?v=0a9dc61a&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1267440/6ff6535a1cf79f0f27c30d26?v=0a9dc61a&size=240px" alt="Zubní pasta s fluoridem Repair &amp; Protect Cool Mint" title="Zubní pasta s fluoridem Repair &amp; Protect Cool Mint" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-repair-protect-cool-mint-2" id="product-linksp1267440">Zubní pasta s fluoridem Repair &amp; Protect Cool Mint</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">15 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>54.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="664f933136682278bb53630f" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1267440&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=25&amp;indx=25"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Repair &amp; Protect Cool Mint"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1267440
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1315707" data-lb-entity="product" data-lb-id="6786c3cf975c14aad77cad34" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-complete-protection-cool-mint-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1315707/7be97ee4533f9e221a149b91?v=6adafb39&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1315707/7be97ee4533f9e221a149b91?v=6adafb39&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1315707/7be97ee4533f9e221a149b91?v=6adafb39&size=240px" alt="Zubní pasta s fluoridem Complete Protection + Cool Mint" title="Zubní pasta s fluoridem Complete Protection + Cool Mint" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-complete-protection-cool-mint-2" id="product-linksp1315707">Zubní pasta s fluoridem Complete Protection + Cool Mint</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>129 Kč</s>
+</span>
+<div>109 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6786c3cf975c14aad77cad34" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1315707&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=26&amp;indx=26"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Complete Protection + Cool Mint"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1315707
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1355352" data-lb-entity="product" data-lb-id="6887cab17c578ce551e529b2" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--vyprodej" title="Výprodeje" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-healthy-white" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1355352/f8b9829ea2d08510fbdf60fa?v=84e3d183&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1355352/f8b9829ea2d08510fbdf60fa?v=84e3d183&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1355352/f8b9829ea2d08510fbdf60fa?v=84e3d183&size=240px" alt="Zubní pasta Healthy white" title="Zubní pasta Healthy white" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-healthy-white" id="product-linksp1355352">Zubní pasta Healthy white</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>79.90 Kč</s>
+</span>
+<div>24.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6887cab17c578ce551e529b2" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1355352&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=27&amp;indx=27"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Healthy white"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1355352
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp913959" data-lb-entity="product" data-lb-id="60def684c0630a4ca3112549" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--vyprodej" title="Výprodeje" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-s-fluoridem-sensitivity-gum-whitening-2" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-913959/6713f58acf3335e52da76cb5?v=bde23a3b&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-913959/6713f58acf3335e52da76cb5?v=bde23a3b&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-913959/6713f58acf3335e52da76cb5?v=bde23a3b&size=240px" alt="Zubní pasta s fluoridem Sensitivity &amp; Gum Whitening" title="Zubní pasta s fluoridem Sensitivity &amp; Gum Whitening" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-s-fluoridem-sensitivity-gum-whitening-2" id="product-linksp913959">Zubní pasta s fluoridem Sensitivity &amp; Gum Whitening</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>99.90 Kč</s>
+</span>
+<div>34.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="60def684c0630a4ca3112549" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp913959&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=28&amp;indx=28"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta s fluoridem Sensitivity &amp; Gum Whitening"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 913959
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1555943" data-lb-entity="product" data-lb-id="6a221181f0e7fffb51c78346" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/detska-zubni-pasta-junior-bubble-mint" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1555943/6c018938ba4dad01f99bf580?v=a9fce484&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1555943/6c018938ba4dad01f99bf580?v=a9fce484&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1555943/6c018938ba4dad01f99bf580?v=a9fce484&size=240px" alt="Dětská zubní pasta Junior Bubble Mint" title="Dětská zubní pasta Junior Bubble Mint" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/detska-zubni-pasta-junior-bubble-mint" id="product-linksp1555943">Dětská zubní pasta Junior Bubble Mint</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">75 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>99.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6a221181f0e7fffb51c78346" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1555943&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=29&amp;indx=29"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Dětská zubní pasta Junior Bubble Mint"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1555943
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1318944" data-lb-entity="product" data-lb-id="6792a1ab975c14aad771e77b" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--vyprodej" title="Výprodeje" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-junior-6-12-let-2-x-50-ml" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1318944/a4052c84986c6115a9d71fe6?v=d24c9728&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1318944/a4052c84986c6115a9d71fe6?v=d24c9728&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1318944/a4052c84986c6115a9d71fe6?v=d24c9728&size=240px" alt="Zubní pasta Junior 6-12 let 2 x 50 ml" title="Zubní pasta Junior 6-12 let 2 x 50 ml" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-junior-6-12-let-2-x-50-ml" id="product-linksp1318944">Zubní pasta Junior 6-12 let 2 x 50 ml</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">100 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>149 Kč</s>
+</span>
+<div>39.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6792a1ab975c14aad771e77b" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1318944&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=30&amp;indx=30"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Junior 6-12 let 2 x 50 ml"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1318944
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1318937" data-lb-entity="product" data-lb-id="6792a1ab975c14aad771e67b" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--akce" title="AKCE" >
+</span>
+
+<span class="sticker sticker--percentage" title="% sleva" data-val="-32%">
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-kids-0-6-let-2-x-50-ml" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1318937/8104ce4163c1c9e356d41da0?v=574f37e4&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1318937/8104ce4163c1c9e356d41da0?v=574f37e4&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1318937/8104ce4163c1c9e356d41da0?v=574f37e4&size=240px" alt="Zubní pasta Kids 0-6 let 2 x 50 ml" title="Zubní pasta Kids 0-6 let 2 x 50 ml" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-kids-0-6-let-2-x-50-ml" id="product-linksp1318937">Zubní pasta Kids 0-6 let 2 x 50 ml</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">100 ml</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<span class="product-tile__price--original">
+<s>189 Kč</s>
+</span>
+<div>129 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="6792a1ab975c14aad771e67b" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1318937&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=31&amp;indx=31"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Kids 0-6 let 2 x 50 ml"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1318937
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1354492" data-lb-entity="product" data-lb-id="688133227c578ce551122bf8" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--super-cena" title="Super cena" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-kartacek-complete-protection-medium" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1354492/5b1ced99d8577ad00e5c6ffe?v=0d256780&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1354492/5b1ced99d8577ad00e5c6ffe?v=0d256780&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1354492/5b1ced99d8577ad00e5c6ffe?v=0d256780&size=240px" alt="Zubní kartáček Complete Protection Medium" title="Zubní kartáček Complete Protection Medium" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-kartacek-complete-protection-medium" id="product-linksp1354492">Zubní kartáček Complete Protection Medium</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">1 ks</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>99.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="688133227c578ce551122bf8" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1354492&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=32&amp;indx=32"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní kartáček Complete Protection Medium"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1354492
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1354508" data-lb-entity="product" data-lb-id="688133227c578ce551122d14" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+
+
+<span class="sticker sticker--super-cena" title="Super cena" >
+</span></div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/detsky-zubni-kartacek-pronamel-kids-36-let" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1354508/79df656ecf90a20ae000b601?v=b6fab67c&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1354508/79df656ecf90a20ae000b601?v=b6fab67c&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1354508/79df656ecf90a20ae000b601?v=b6fab67c&size=240px" alt="Dětský zubní kartáček Pronamel Kids 3–6 let" title="Dětský zubní kartáček Pronamel Kids 3–6 let" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/detsky-zubni-kartacek-pronamel-kids-36-let" id="product-linksp1354508">Dětský zubní kartáček Pronamel Kids 3–6 let</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne</span>
+<span class="product-tile__sub--amount">1 ks</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>79.90 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="688133227c578ce551122d14" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1354508&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=33&amp;indx=33"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Dětský zubní kartáček Pronamel Kids 3–6 let"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1354508
+		</div>
+	</div>
+
+
+
+	<div class="product-tile" id="product-id--sp1377835" data-lb-entity="product" data-lb-id="691637a27c578ce55150d927" data-ord="" onclick="document.cookie='dataOrd=' + this.getAttribute('data-ord') + '; path=/;'">
+
+<div class="sticker__holder" >
+</div>
+
+<div class="sticker__holder sticker__holder--right" >
+</div>
+
+<a href="/zubni-pasta-extra-whitening-ustni-voda-active-gum-health" class="product-tile__image" tabindex="-1">
+
+
+<picture>
+		<source srcset="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1377835/3abf0034dd2f6a195bbb7c94?v=b5685eb8&size=240px 1x, https://binbox.rossmann.cz/binbox/pub/PRODUCT-1377835/3abf0034dd2f6a195bbb7c94?v=b5685eb8&size=480px 2x" type="image/webp">
+		<img class="" src="https://binbox.rossmann.cz/binbox/pub/PRODUCT-1377835/3abf0034dd2f6a195bbb7c94?v=b5685eb8&size=240px" alt="Zubní pasta Extra Whitening + ústní voda Active Gum Health" title="Zubní pasta Extra Whitening + ústní voda Active Gum Health" width="200" height="200" >
+	</picture>
+</a>
+	
+	
+<h3 class="product-tile__title">
+			<a href="/zubni-pasta-extra-whitening-ustni-voda-active-gum-health" id="product-linksp1377835">Zubní pasta Extra Whitening + ústní voda Active Gum Health</a>
+		</h3>
+		<div class="product-tile__sub">
+<span class="product-tile__sub--title">Sensodyne &amp; Parodontax</span>
+<span class="product-tile__sub--amount">1 ks</span>
+</div>
+		
+<div class="product-tile__price">
+			
+			<span class="product-tile__price--club">
+</span>
+			
+<span class="product-tile__price--final">
+<div>219 Kč</div>
+</span>
+		</div>
+	
+<div class="row--gap-4 row--md-gap-10 product-tile__buy">
+
+
+<a class="row" href="/prihlaseni" data-favorite-login="691637a27c578ce55150d927" aria-label="Přidat do oblíbených">
+        <span class="icon icon--heart icon--24 icon--md-24 padding--spacing-4"></span>
+    </a>
+
+
+<a 
+	class="tdi btn btn--small js-loader"
+	title="Do košíku"
+	href="/vyhledavani$d4019-add.xml?qty=1&amp;product=sp1377835&amp;async=true&amp;itemListName=search_result&amp;itemListIndex=34&amp;indx=34"
+	data-loader-classes="loader loader--is-loading loader--button loader--relative"
+	rel="nofollow"
+	aria-label="Do košíku 1 ks Zubní pasta Extra Whitening + ústní voda Active Gum Health"
+>
+Do košíku</a>
+</div>
+<div class="product-tile__code">
+			Obj. č.: 1377835
+		</div>
+	</div>
+<script>
+dataLayer.push({event:"ec_list_view",item_list_name:"search_result",search_term:"sensodyne",ecommerce:{items:[{item_id:"951951",item_name:"sp951951",item_brand:"Sensodyne",item_variant:"150 ml",index:1,price:"123.14"},{item_id:"267618",item_name:"sp267618",item_brand:"Sensodyne",item_variant:"75 ml",index:2,price:"74.30"},{item_id:"1315028",item_name:"sp1315028",item_brand:"Sensodyne",item_variant:"75 ml",index:3,price:"106.61"},{item_id:"154772",item_name:"sp154772",item_brand:"Sensodyne",item_variant:"75 ml",
+index:4,price:"74.30"},{item_id:"1168907",item_name:"sp1168907",item_brand:"Sensodyne",item_variant:"150 ml",index:5,price:"164.46"},{item_id:"1266689",item_name:"sp1266689",item_brand:"Sensodyne",item_variant:"75 ml",index:6,price:"106.61"},{item_id:"1366006",item_name:"sp1366006",item_brand:"Sensodyne",item_variant:"150 ml",index:7,price:"164.46"},{item_id:"433211",item_name:"sp433211",item_brand:"Sensodyne",item_variant:"75 ml",index:8,price:"90.08"},{item_id:"105811",item_name:"sp105811",item_brand:"Sensodyne",
+item_variant:"75 ml",index:9,price:"90.08"},{item_id:"647236",item_name:"sp647236",item_brand:"Sensodyne",item_variant:"75 ml",index:10,price:"90.08"},{item_id:"1266696",item_name:"sp1266696",item_brand:"Sensodyne",item_variant:"75 ml",index:11,price:"106.61"},{item_id:"1555950",item_name:"sp1555950",item_brand:"Sensodyne",item_variant:"150 ml",index:12,price:"106.61"},{item_id:"328753",item_name:"sp328753",item_brand:"Sensodyne",item_variant:"75 ml",index:13,price:"90.08"},{item_id:"1266702",item_name:"sp1266702",
+item_brand:"Sensodyne",item_variant:"50 ml",index:14,price:"82.56"},{item_id:"566162",item_name:"sp566162",item_brand:"Sensodyne",item_variant:"75 ml",index:15,price:"74.30"},{item_id:"1366013",item_name:"sp1366013",item_brand:"Sensodyne",item_variant:"75 ml",index:16,price:"106.61"},{item_id:"1377804",item_name:"sp1377804",item_brand:"Sensodyne",item_variant:"75 ml",index:17,price:"82.56"},{item_id:"1016123",item_name:"sp1016123",item_brand:"Sensodyne",item_variant:"75 ml",index:18,price:"90.08"},
+{item_id:"1555356",item_name:"sp1555356",item_brand:"Sensodyne",item_variant:"75 ml",index:19,price:"90.08"},{item_id:"288026",item_name:"sp288026",item_brand:"Sensodyne",item_variant:"75 ml",index:20,price:"90.08"},{item_id:"1377798",item_name:"sp1377798",item_brand:"Sensodyne",item_variant:"75 ml",index:21,price:"82.56"},{item_id:"913911",item_name:"sp913911",item_brand:"Sensodyne",item_variant:"75 ml",index:22,price:"90.08"},{item_id:"387040",item_name:"sp387040",item_brand:"Sensodyne",item_variant:"30 m",
+index:23,price:"74.30"},{item_id:"1266719",item_name:"sp1266719",item_brand:"Sensodyne",item_variant:"50 ml",index:24,price:"28.84"},{item_id:"1253702",item_name:"sp1253702",item_brand:"Sensodyne",item_variant:"3 ks",index:25,price:"164.46"},{item_id:"1267440",item_name:"sp1267440",item_brand:"Sensodyne",item_variant:"15 ml",index:26,price:"45.37"},{item_id:"1315707",item_name:"sp1315707",item_brand:"Sensodyne",item_variant:"75 ml",index:27,price:"90.08"},{item_id:"1355352",item_name:"sp1355352",
+item_brand:"Sensodyne",item_variant:"75 ml",index:28,price:"20.58"},{item_id:"913959",item_name:"sp913959",item_brand:"Sensodyne",item_variant:"75 ml",index:29,price:"28.84"},{item_id:"1555943",item_name:"sp1555943",item_brand:"Sensodyne",item_variant:"75 ml",index:30,price:"82.56"},{item_id:"1318944",item_name:"sp1318944",item_brand:"Sensodyne",item_variant:"100 ml",index:31,price:"32.98"},{item_id:"1318937",item_name:"sp1318937",item_brand:"Sensodyne",item_variant:"100 ml",index:32,price:"106.61"},
+{item_id:"1354492",item_name:"sp1354492",item_brand:"Sensodyne",item_variant:"1 ks",index:33,price:"82.56"},{item_id:"1354508",item_name:"sp1354508",item_brand:"Sensodyne",item_variant:"1 ks",index:34,price:"66.03"},{item_id:"1377835",item_name:"sp1377835",item_brand:"Sensodyne \x26amp; Parodontax",item_variant:"1 ks",index:35,price:"180.99"}]}});</script>
+<script>
+lbLayer.push({event:"view_item_list",ecommerce:{item_list_name:"Search Results",search_term:"sensodyne",items:[{item_id:"5fda169ae5d9cf68c7a552e5",item_name:"Sensodyne",index:1,type:"PRODUCER"},{item_id:"69167f10a5b12561f821b495",item_name:"Sensodyne \x26amp; Parodontax",index:2,type:"PRODUCER"},{item_id:"5fe07abfe5d9cf68c70c5eb6",item_name:"Zubn\u00ed pasty",index:3,type:"CATEGORY"},{item_id:"5fe07abce5d9cf68c70c5e64",item_name:"Mezizubn\u00ed kart\u00e1\u010dky a nit\u011b",index:4,type:"CATEGORY"},
+{item_id:"5fe07abde5d9cf68c70c5e7e",item_name:"Zubn\u00ed kart\u00e1\u010dky",index:5,type:"CATEGORY"},{item_id:"5fe07ab9e5d9cf68c70c5e19",item_name:"Dopl\u0148ky k \u00fastn\u00ed hygien\u011b",index:6,type:"CATEGORY"},{item_id:"6295877b7a8e155d33564a01",item_name:"Zubn\u00ed pasta s fluoridem Extra Whitening duopack 2x 75 ml",index:7,price:149,type:"PRODUCT"},{item_id:"60def5d9c0630a4ca308dc52",item_name:"Zubn\u00ed pasta Whitening Repair \x26amp; Protect s fluoridem",index:8,price:89.9,type:"PRODUCT"},
+{item_id:"67802c63975c14aad74844a2",item_name:" Zubn\u00ed pasta s fluoridem Clinical White Stain Protector",index:9,price:129,type:"PRODUCT"},{item_id:"60def5c9c0630a4ca3080e73",item_name:"Zubn\u00ed pasta s fluoridem Repair \x26amp; Protect Cool Mint ",index:10,price:89.9,type:"PRODUCT"},{item_id:"63f91829b37471f38c6c3350",item_name:"Zubn\u00ed pasta Whitening Kompletn\u00ed ochrana+ s fluoridem duopack 2x 75 ml",index:11,price:199,type:"PRODUCT"},{item_id:"6647aa3936682278bb0cd0c6",item_name:"Zubn\u00ed pasta s fluoridem Clinical Repair Active White ",
+index:12,price:129,type:"PRODUCT"},{item_id:"68b740ce7c578ce5513ef4d5",item_name:"Zubn\u00ed pasta s fluoridem Repair \x26amp; Protect Whitening Multipack",index:13,price:199,type:"PRODUCT"},{item_id:"60def5f0c0630a4ca309f0e4",item_name:"Zubn\u00ed pasta s fluoridem Extra Whitening ",index:14,price:109,type:"PRODUCT"},{item_id:"60def5c1c0630a4ca307b74e",item_name:"Zubn\u00ed pasta pro citliv\u00e9 zuby Pronamel ",index:15,price:109,type:"PRODUCT"},{item_id:"60def62ac0630a4ca30cc47d",item_name:"Zubn\u00ed pasta s fluoridem Rapid ",
+index:16,price:109,type:"PRODUCT"},{item_id:"6647aa3936682278bb0cd142",item_name:"Zubn\u00ed pasta s fluoridem Clinical Repair Active Clean",index:17,price:129,type:"PRODUCT"},{item_id:"6a221181f0e7fffb51c78386",item_name:"D\u011btsk\u00e1 zubn\u00ed pasta Junior Bubble Mint s fluoridem",index:18,price:129,type:"PRODUCT"},{item_id:"60def5e4c0630a4ca309637f",item_name:"Zubn\u00ed pasta Kompletn\u00ed Ochrana+ Whitening",index:19,price:109,type:"PRODUCT"},{item_id:"6647aa3936682278bb0cd1cb",item_name:"Zubn\u00ed pasta pro d\u011bti s fluoridem 0-6 let jahodov\u00e1 p\u0159\u00edchu\u0165",
+index:20,price:99.9,type:"PRODUCT"},{item_id:"60def608c0630a4ca30b291a",item_name:"Zubn\u00ed pasta Repair \x26amp; Protect Extra Fresh s fluoridem",index:21,price:89.9,type:"PRODUCT"},{item_id:"68b740ce7c578ce5513ef602",item_name:"Zubn\u00ed pasta s fluoridem Clinical White Enamel Strengthening",index:22,price:129,type:"PRODUCT"},{item_id:"691637a27c578ce55150d73d",item_name:"B\u011blic\u00ed zubn\u00ed pasta pro citliv\u00e9 zuby Advanced White Deep Clean",index:23,price:99.9,type:"PRODUCT"},{item_id:"60def712c0630a4ca317e6d4",
+item_name:"Zubn\u00ed pasta Anti-Caries s fluoridem",index:24,price:109,type:"PRODUCT"},{item_id:"6a1e1d073c78b4f37a95481f",item_name:"B\u011blic\u00ed zubn\u00ed pasta Rapid Relief",index:25,price:109,type:"PRODUCT"},{item_id:"60def5dec0630a4ca309143c",item_name:"Zubn\u00ed pasta s fluoridem",index:26,price:109,type:"PRODUCT"},{item_id:"691637a27c578ce55150d62d",item_name:"B\u011blic\u00ed zubn\u00ed pasta pro citliv\u00e9 zuby Advanced White Enamel Defence",index:27,price:99.9,type:"PRODUCT"},{item_id:"60def684c0630a4ca3112492",
+item_name:"Zubn\u00ed pasta s fluoridem Sensodyne Sensitivity \x26amp; Gum",index:28,price:109,type:"PRODUCT"},{item_id:"60def5ecc0630a4ca309c03e",item_name:"Expanduj\u00edc\u00ed zubn\u00ed nit",index:29,price:89.9,type:"PRODUCT"},{item_id:"6647aa3a36682278bb0cd212",item_name:"Zubn\u00ed pasta pro d\u011bti s fluoridem Junior 6-12 let m\u00e1tov\u00e1 p\u0159\u00edchu\u0165",index:30,price:34.9,type:"PRODUCT"},{item_id:"660640aa36682278bb16df6c",item_name:"Zubn\u00ed kart\u00e1\u010dky Advanced Clean Extra Soft 3 ks",
+index:31,price:199,type:"PRODUCT"},{item_id:"664f933136682278bb53630f",item_name:"Zubn\u00ed pasta s fluoridem Repair \x26amp; Protect Cool Mint",index:32,price:54.9,type:"PRODUCT"},{item_id:"6786c3cf975c14aad77cad34",item_name:"Zubn\u00ed pasta s fluoridem Complete Protection + Cool Mint",index:33,price:109,type:"PRODUCT"},{item_id:"6887cab17c578ce551e529b2",item_name:"Zubn\u00ed pasta Healthy white",index:34,price:24.9,type:"PRODUCT"},{item_id:"60def684c0630a4ca3112549",item_name:"Zubn\u00ed pasta s fluoridem Sensitivity \x26amp; Gum Whitening",
+index:35,price:34.9,type:"PRODUCT"},{item_id:"6a221181f0e7fffb51c78346",item_name:"D\u011btsk\u00e1 zubn\u00ed pasta Junior Bubble Mint",index:36,price:99.9,type:"PRODUCT"},{item_id:"6792a1ab975c14aad771e77b",item_name:"Zubn\u00ed pasta Junior 6-12 let 2 x 50 ml",index:37,price:39.9,type:"PRODUCT"},{item_id:"6792a1ab975c14aad771e67b",item_name:"Zubn\u00ed pasta Kids 0-6 let 2 x 50 ml",index:38,price:129,type:"PRODUCT"},{item_id:"688133227c578ce551122bf8",item_name:"Zubn\u00ed kart\u00e1\u010dek Complete Protection Medium",
+index:39,price:99.9,type:"PRODUCT"},{item_id:"688133227c578ce551122d14",item_name:"D\u011btsk\u00fd zubn\u00ed kart\u00e1\u010dek Pronamel Kids 3\u20136 let",index:40,price:79.9,type:"PRODUCT"},{item_id:"691637a27c578ce55150d927",item_name:"Zubn\u00ed pasta Extra Whitening + \u00fastn\u00ed voda Active Gum Health",index:41,price:219,type:"PRODUCT"}],filters:{}}});</script>
+
+</div>
+			]]>
+		</update>
+</response>
