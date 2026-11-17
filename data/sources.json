@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-17T15:31:58+00:00",
- "total_news": 821,
- "total_sites": 226,
+ "updated": "2026-11-17T22:30:51+00:00",
+ "total_news": 871,
+ "total_sites": 225,
  "groups": [
   {
    "name": "Новостные порталы",
    "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
-   "count": 496,
+   "count": 548,
    "sites": [
     {
      "name": "Российская газета",
@@ -82,43 +82,50 @@
     {
      "name": "РБК",
      "url": "https://www.rbc.ru/",
-     "count": 91,
-     "last": "2026-11-16",
+     "count": 143,
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Политика",
        "url": "https://www.rbc.ru/politics/",
-       "count": 28,
+       "count": 36,
        "first": "2026-10-08",
-       "last": "2026-11-16"
-      },
-      {
-       "name": "Лента новостей",
-       "url": "https://www.rbc.ru/rbcfreenews/",
-       "count": 16,
-       "first": "2026-10-10",
-       "last": "2026-11-16"
+       "last": "2026-11-17"
       },
       {
        "name": "Quote (инвестиции и рынки)",
        "url": "https://www.rbc.ru/quote/",
-       "count": 10,
+       "count": 19,
        "first": "2026-10-09",
-       "last": "2026-11-16"
+       "last": "2026-11-17"
       },
       {
-       "name": "Бизнес",
-       "url": "https://www.rbc.ru/business/",
-       "count": 8,
-       "first": "2026-10-09",
-       "last": "2026-11-16"
+       "name": "Лента новостей",
+       "url": "https://www.rbc.ru/rbcfreenews/",
+       "count": 17,
+       "first": "2026-10-10",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Недвижимость",
+       "url": "https://realty.rbc.ru/news/",
+       "count": 16,
+       "first": "2026-10-12",
+       "last": "2026-11-17"
       },
       {
        "name": "Технологии и медиа",
        "url": "https://www.rbc.ru/technology_and_media/",
-       "count": 7,
+       "count": 12,
        "first": "2026-10-09",
-       "last": "2026-11-16"
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Бизнес",
+       "url": "https://www.rbc.ru/business/",
+       "count": 9,
+       "first": "2026-10-09",
+       "last": "2026-11-17"
       },
       {
        "name": "Экономика",
@@ -128,36 +135,64 @@
        "last": "2026-11-14"
       },
       {
-       "name": "Недвижимость",
-       "url": "https://realty.rbc.ru/news/",
+       "name": "РБК Новосибирск",
+       "url": "https://nsk.rbc.ru/",
        "count": 5,
-       "first": "2026-10-12",
-       "last": "2026-11-16"
+       "first": "2026-11-15",
+       "last": "2026-11-17"
       },
       {
        "name": "РБК Уфа",
        "url": "https://ufa.rbc.ru/",
-       "count": 1,
+       "count": 5,
        "first": "2026-10-12",
-       "last": "2026-10-12"
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Отрасли",
+       "url": "https://www.rbc.ru/industries/",
+       "count": 4,
+       "first": "2026-11-16",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Общество",
+       "url": "https://www.rbc.ru/society/",
+       "count": 3,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "РБК Тренды",
+       "url": "https://trends.rbc.ru/",
+       "count": 2,
+       "first": "2026-11-16",
+       "last": "2026-11-16"
+      },
+      {
+       "name": "РБК Радио",
+       "url": "https://www.rbc.ru/radio/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Финансы",
+       "url": "https://www.rbc.ru/finances/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       },
       {
        "name": "Сайт целиком",
        "url": "https://www.rbc.ru/",
-       "count": 7,
+       "count": 5,
        "first": "2026-11-16",
        "last": "2026-11-16"
       },
       {
        "name": "Сайт целиком",
        "url": "https://amp.rbc.ru/",
-       "count": 1,
-       "first": "2026-11-15",
-       "last": "2026-11-15"
-      },
-      {
-       "name": "Сайт целиком",
-       "url": "https://nsk.rbc.ru/",
        "count": 1,
        "first": "2026-11-15",
        "last": "2026-11-15"
@@ -3779,28 +3814,6 @@
        "count": 1,
        "first": "2026-10-22",
        "last": "2026-10-22"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Не распределено",
-   "about": "Домены, которых ещё нет в tools/sources_map.json",
-   "count": 2,
-   "sites": [
-    {
-     "name": "РБК Тренды",
-     "url": "https://trends.rbc.ru/",
-     "count": 2,
-     "last": "2026-11-16",
-     "sections": [
-      {
-       "name": "Сайт целиком",
-       "url": "https://trends.rbc.ru/",
-       "count": 2,
-       "first": "2026-11-16",
-       "last": "2026-11-16"
       }
      ]
     }

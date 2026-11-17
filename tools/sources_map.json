@@ -57,6 +57,11 @@
       "name": "РБК",
       "site": "rbc.ru"
     },
+    "trends.rbc.ru": {
+      "group": "Новостные порталы",
+      "name": "РБК",
+      "site": "rbc.ru"
+    },
     "ufa.rbc.ru": {
       "group": "Новостные порталы",
       "name": "РБК",
@@ -974,7 +979,9 @@
       "quote": "Quote (инвестиции и рынки)|https://www.rbc.ru/quote/",
       "rbcfreenews": "Лента новостей|https://www.rbc.ru/rbcfreenews/",
       "society": "Общество|https://www.rbc.ru/society/",
-      "finances": "Финансы|https://www.rbc.ru/finances/"
+      "finances": "Финансы|https://www.rbc.ru/finances/",
+      "industries": "Отрасли|https://www.rbc.ru/industries/",
+      "radio": "РБК Радио|https://www.rbc.ru/radio/"
     },
     "amp.rbc.ru": {
       "rbcnews/politics": "Политика|https://www.rbc.ru/politics/",
@@ -989,6 +996,12 @@
     },
     "ufa.rbc.ru": {
       "ufa": "РБК Уфа|https://ufa.rbc.ru/"
+    },
+    "nsk.rbc.ru": {
+      "nsk": "РБК Новосибирск|https://nsk.rbc.ru/"
+    },
+    "trends.rbc.ru": {
+      "trends": "РБК Тренды|https://trends.rbc.ru/"
     },
     "interfax.ru": {
       "russia": "В России",
