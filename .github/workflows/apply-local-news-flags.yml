@@ -1,0 +1,49 @@
+name: Apply local news flags and verify publication
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/apply-local-news-flags.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: apply-local-news-flags
+  cancel-in-progress: false
+jobs:
+  apply:
+    if: github.repository == 'neimanr22-netizen/ainewstobeinformed'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply embedded SVG flags without downloads
+        run: python tools/apply_local_news_flags.py
+      - name: Commit HTML and SVG files
+        run: |
+          if [ -z "$(git status --porcelain -- index.html assets/news-flags)" ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- index.html assets/news-flags
+          git commit -m 'Apply remaining country flags and regional flag backgrounds'
+          git push origin HEAD:main
+      - name: Request website publication
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST repos/${{ github.repository }}/pages/builds
+      - name: Verify published HTML contains new flags
+        run: |
+          for attempt in $(seq 1 24); do
+            if curl --fail --silent --show-error --max-time 20 "https://ainewstobeinformed.ru/?flags-check=$(date +%s)" | grep -q 'id="news-remaining-flags-v4"'; then
+              echo 'New flag styles verified on the published website.'
+              exit 0
+            fi
+            sleep 10
+          done
+          echo 'Repository updated, but website publication could not be verified.'
+          exit 1
