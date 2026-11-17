@@ -1,0 +1,39 @@
+name: Restyle news countries and order
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/restyle-news-countries.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: restyle-news-countries
+  cancel-in-progress: false
+jobs:
+  apply:
+    if: github.repository == 'neimanr22-netizen/ainewstobeinformed'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply guarded layout patch
+        run: python tools/restyle_news_countries.py
+      - name: Commit only categories and HTML
+        run: |
+          if git diff --quiet -- index.html data/categories.json; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- index.html data/categories.json
+          git commit -m 'Use EU flag tiles, three columns and requested news country order'
+          git push origin HEAD:main
+      - name: Request GitHub Pages rebuild
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST repos/${{ github.repository }}/pages/builds
