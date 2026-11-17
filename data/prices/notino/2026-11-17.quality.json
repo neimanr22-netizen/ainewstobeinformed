@@ -1,0 +1,719 @@
+{
+  "date": "2026-11-17",
+  "assembled_at": "2026-11-17T18:56:26.756905Z",
+  "items": 5155,
+  "countries_with_data": 26,
+  "countries_attempted": 26,
+  "partial": true,
+  "fx_date": "2026-11-17",
+  "countries": {
+    "at": {
+      "fetched_at": "2026-11-17T18:48:07Z",
+      "items": 208,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 16,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Curaprox"
+      ]
+    },
+    "be": {
+      "fetched_at": "2026-11-17T18:49:32Z",
+      "items": 208,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 16,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "bg": {
+      "fetched_at": "2026-11-17T18:47:20Z",
+      "items": 205,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 23,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 14,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "ch": {
+      "fetched_at": "2026-11-17T18:56:11Z",
+      "items": 72,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Biorepair": 24,
+        "Marvis": 15
+      },
+      "missing_brands": [
+        "Elmex",
+        "Sensodyne",
+        "Colgate",
+        "Parodontax",
+        "Lacalut",
+        "Odol",
+        "Curaprox"
+      ],
+      "limited": [
+        "Biorepair"
+      ]
+    },
+    "cz": {
+      "fetched_at": "2026-11-17T18:47:32Z",
+      "items": 208,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 16,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "de": {
+      "fetched_at": "2026-11-17T18:47:57Z",
+      "items": 231,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 14,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Curaprox"
+      ]
+    },
+    "dk": {
+      "fetched_at": "2026-11-17T18:48:59Z",
+      "items": 206,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 14,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "ee": {
+      "fetched_at": "2026-11-17T18:50:16Z",
+      "items": 205,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 17,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 14,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "es": {
+      "fetched_at": "2026-11-17T18:51:21Z",
+      "items": 201,
+      "brands": {
+        "SPLAT": 12,
+        "Biomed": 18,
+        "Elmex": 22,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 14,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "fi": {
+      "fetched_at": "2026-11-17T18:55:10Z",
+      "items": 153,
+      "brands": {
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "SPLAT",
+        "Biorepair",
+        "Lacalut",
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "fr": {
+      "fetched_at": "2026-11-17T18:51:12Z",
+      "items": 208,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 16,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "gr": {
+      "fetched_at": "2026-11-17T18:50:18Z",
+      "items": 205,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 23,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 14,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "hr": {
+      "fetched_at": "2026-11-17T18:47:43Z",
+      "items": 208,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 16,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "hu": {
+      "fetched_at": "2026-11-17T18:47:23Z",
+      "items": 209,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 16,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "ie": {
+      "fetched_at": "2026-11-17T18:48:48Z",
+      "items": 208,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 16,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "it": {
+      "fetched_at": "2026-11-17T18:47:44Z",
+      "items": 201,
+      "brands": {
+        "SPLAT": 12,
+        "Biomed": 18,
+        "Elmex": 22,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 14,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "lt": {
+      "fetched_at": "2026-11-17T18:49:51Z",
+      "items": 205,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 17,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 14,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "lv": {
+      "fetched_at": "2026-11-17T18:50:15Z",
+      "items": 205,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 17,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 14,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "nl": {
+      "fetched_at": "2026-11-17T18:55:00Z",
+      "items": 184,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 16,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Sensodyne",
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "pl": {
+      "fetched_at": "2026-11-17T18:51:47Z",
+      "items": 166,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 17,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 14,
+        "Odol": 0,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Biorepair",
+        "Odol",
+        "Marvis"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "pt": {
+      "fetched_at": "2026-11-17T18:48:17Z",
+      "items": 201,
+      "brands": {
+        "SPLAT": 12,
+        "Biomed": 18,
+        "Elmex": 22,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 14,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "ro": {
+      "fetched_at": "2026-11-17T18:47:56Z",
+      "items": 205,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 23,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 14,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "se": {
+      "fetched_at": "2026-11-17T18:52:08Z",
+      "items": 205,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 13,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "si": {
+      "fetched_at": "2026-11-17T18:47:28Z",
+      "items": 208,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 16,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "sk": {
+      "fetched_at": "2026-11-17T18:49:15Z",
+      "items": 208,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 18,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 16,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    },
+    "uk": {
+      "fetched_at": "2026-11-17T18:49:16Z",
+      "items": 232,
+      "brands": {
+        "SPLAT": 15,
+        "Biomed": 17,
+        "Elmex": 24,
+        "Sensodyne": 24,
+        "Biorepair": 24,
+        "Colgate": 24,
+        "Parodontax": 24,
+        "Lacalut": 16,
+        "Odol": 0,
+        "Marvis": 15,
+        "Curaprox": 24
+      },
+      "missing_brands": [
+        "Odol"
+      ],
+      "limited": [
+        "Elmex",
+        "Sensodyne",
+        "Biorepair",
+        "Colgate",
+        "Parodontax",
+        "Curaprox"
+      ]
+    }
+  },
+  "note": "Only fresh observations; unavailable data are not copied from 16 November. Existing collector matching and variant-price rules retained."
+}
