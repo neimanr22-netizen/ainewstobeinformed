@@ -1,74 +1,74 @@
 {
- "updated": "2026-11-17T22:30:51+00:00",
- "total_news": 871,
+ "updated": "2026-11-17T22:32:19+00:00",
+ "total_news": 941,
  "total_sites": 225,
  "groups": [
   {
    "name": "Новостные порталы",
    "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
-   "count": 548,
+   "count": 618,
    "sites": [
     {
      "name": "Российская газета",
      "url": "https://rg.ru/",
-     "count": 272,
-     "last": "2026-11-16",
+     "count": 342,
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "В мире",
        "url": "https://rg.ru/tema/mir",
-       "count": 43,
+       "count": 53,
        "first": "2026-10-02",
-       "last": "2026-11-16"
+       "last": "2026-11-17"
       },
       {
        "name": "Происшествия",
        "url": "https://rg.ru/tema/bezopasnost",
-       "count": 41,
+       "count": 51,
        "first": "2026-10-02",
-       "last": "2026-11-16"
+       "last": "2026-11-17"
       },
       {
        "name": "Власть",
        "url": "https://rg.ru/tema/gos",
-       "count": 39,
+       "count": 49,
        "first": "2026-10-01",
-       "last": "2026-11-16"
+       "last": "2026-11-17"
       },
       {
        "name": "Экономика — Отрасли",
        "url": "https://rg.ru/tema/ekonomika/industria",
-       "count": 35,
+       "count": 45,
        "first": "2026-10-10",
-       "last": "2026-11-16"
+       "last": "2026-11-17"
       },
       {
        "name": "Экономика — Финансы",
        "url": "https://rg.ru/tema/ekonomika/finansy",
-       "count": 30,
+       "count": 41,
        "first": "2026-10-09",
-       "last": "2026-11-16"
+       "last": "2026-11-17"
       },
       {
        "name": "Экономика — Бизнес",
        "url": "https://rg.ru/tema/ekonomika/business",
-       "count": 29,
+       "count": 39,
        "first": "2026-10-02",
-       "last": "2026-11-16"
+       "last": "2026-11-17"
       },
       {
        "name": "Экономика — Макроэкономика",
        "url": "https://rg.ru/tema/ekonomika/politekonom",
-       "count": 26,
+       "count": 31,
        "first": "2026-10-12",
-       "last": "2026-11-16"
+       "last": "2026-11-17"
       },
       {
        "name": "Экономика — Товары и цены",
        "url": "https://rg.ru/tema/ekonomika/tovary",
-       "count": 24,
+       "count": 28,
        "first": "2026-10-09",
-       "last": "2026-11-16"
+       "last": "2026-11-17"
       },
       {
        "name": "Сайт целиком",
