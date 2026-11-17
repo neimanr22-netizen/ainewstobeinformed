@@ -1,74 +1,74 @@
 {
- "updated": "2026-11-15T20:54:00+00:00",
- "total_news": 712,
- "total_sites": 225,
+ "updated": "2026-11-17T15:31:58+00:00",
+ "total_news": 821,
+ "total_sites": 226,
  "groups": [
   {
    "name": "Новостные порталы",
    "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
-   "count": 389,
+   "count": 496,
    "sites": [
     {
      "name": "Российская газета",
      "url": "https://rg.ru/",
-     "count": 192,
-     "last": "2026-11-15",
+     "count": 272,
+     "last": "2026-11-16",
      "sections": [
       {
        "name": "В мире",
        "url": "https://rg.ru/tema/mir",
-       "count": 33,
+       "count": 43,
        "first": "2026-10-02",
-       "last": "2026-11-15"
+       "last": "2026-11-16"
       },
       {
        "name": "Происшествия",
        "url": "https://rg.ru/tema/bezopasnost",
-       "count": 31,
+       "count": 41,
        "first": "2026-10-02",
-       "last": "2026-11-15"
+       "last": "2026-11-16"
       },
       {
        "name": "Власть",
        "url": "https://rg.ru/tema/gos",
-       "count": 29,
+       "count": 39,
        "first": "2026-10-01",
-       "last": "2026-11-15"
+       "last": "2026-11-16"
       },
       {
        "name": "Экономика — Отрасли",
        "url": "https://rg.ru/tema/ekonomika/industria",
-       "count": 25,
+       "count": 35,
        "first": "2026-10-10",
-       "last": "2026-11-15"
+       "last": "2026-11-16"
       },
       {
        "name": "Экономика — Финансы",
        "url": "https://rg.ru/tema/ekonomika/finansy",
-       "count": 20,
+       "count": 30,
        "first": "2026-10-09",
-       "last": "2026-11-15"
+       "last": "2026-11-16"
       },
       {
        "name": "Экономика — Бизнес",
        "url": "https://rg.ru/tema/ekonomika/business",
-       "count": 19,
+       "count": 29,
        "first": "2026-10-02",
-       "last": "2026-11-12"
+       "last": "2026-11-16"
       },
       {
        "name": "Экономика — Макроэкономика",
        "url": "https://rg.ru/tema/ekonomika/politekonom",
-       "count": 16,
+       "count": 26,
        "first": "2026-10-12",
-       "last": "2026-11-15"
+       "last": "2026-11-16"
       },
       {
        "name": "Экономика — Товары и цены",
        "url": "https://rg.ru/tema/ekonomika/tovary",
-       "count": 14,
+       "count": 24,
        "first": "2026-10-09",
-       "last": "2026-11-13"
+       "last": "2026-11-16"
       },
       {
        "name": "Сайт целиком",
@@ -82,36 +82,43 @@
     {
      "name": "РБК",
      "url": "https://www.rbc.ru/",
-     "count": 64,
-     "last": "2026-11-15",
+     "count": 91,
+     "last": "2026-11-16",
      "sections": [
       {
        "name": "Политика",
        "url": "https://www.rbc.ru/politics/",
-       "count": 19,
+       "count": 28,
        "first": "2026-10-08",
-       "last": "2026-11-15"
+       "last": "2026-11-16"
       },
       {
        "name": "Лента новостей",
        "url": "https://www.rbc.ru/rbcfreenews/",
-       "count": 12,
+       "count": 16,
        "first": "2026-10-10",
-       "last": "2026-11-15"
+       "last": "2026-11-16"
       },
       {
        "name": "Quote (инвестиции и рынки)",
        "url": "https://www.rbc.ru/quote/",
-       "count": 9,
+       "count": 10,
        "first": "2026-10-09",
-       "last": "2026-10-30"
+       "last": "2026-11-16"
+      },
+      {
+       "name": "Бизнес",
+       "url": "https://www.rbc.ru/business/",
+       "count": 8,
+       "first": "2026-10-09",
+       "last": "2026-11-16"
       },
       {
        "name": "Технологии и медиа",
        "url": "https://www.rbc.ru/technology_and_media/",
-       "count": 6,
+       "count": 7,
        "first": "2026-10-09",
-       "last": "2026-10-26"
+       "last": "2026-11-16"
       },
       {
        "name": "Экономика",
@@ -121,18 +128,11 @@
        "last": "2026-11-14"
       },
       {
-       "name": "Бизнес",
-       "url": "https://www.rbc.ru/business/",
-       "count": 5,
-       "first": "2026-10-09",
-       "last": "2026-11-15"
-      },
-      {
        "name": "Недвижимость",
        "url": "https://realty.rbc.ru/news/",
-       "count": 4,
+       "count": 5,
        "first": "2026-10-12",
-       "last": "2026-10-15"
+       "last": "2026-11-16"
       },
       {
        "name": "РБК Уфа",
@@ -140,6 +140,13 @@
        "count": 1,
        "first": "2026-10-12",
        "last": "2026-10-12"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.rbc.ru/",
+       "count": 7,
+       "first": "2026-11-16",
+       "last": "2026-11-16"
       },
       {
        "name": "Сайт целиком",
@@ -154,6 +161,13 @@
        "count": 1,
        "first": "2026-11-15",
        "last": "2026-11-15"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://realty.rbc.ru/",
+       "count": 1,
+       "first": "2026-11-16",
+       "last": "2026-11-16"
       }
      ]
     },
@@ -3765,6 +3779,28 @@
        "count": 1,
        "first": "2026-10-22",
        "last": "2026-10-22"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Не распределено",
+   "about": "Домены, которых ещё нет в tools/sources_map.json",
+   "count": 2,
+   "sites": [
+    {
+     "name": "РБК Тренды",
+     "url": "https://trends.rbc.ru/",
+     "count": 2,
+     "last": "2026-11-16",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://trends.rbc.ru/",
+       "count": 2,
+       "first": "2026-11-16",
+       "last": "2026-11-16"
       }
      ]
     }
