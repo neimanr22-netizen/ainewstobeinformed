@@ -1300,6 +1300,98 @@
     "expats.cz": {
       "group": "Новостные порталы",
       "name": "Expats.cz"
+    },
+    "conseil-etat.public.lu": {
+      "group": "Государственные органы и статистика",
+      "name": "Государственный совет Люксембурга"
+    },
+    "rd.nl": {
+      "group": "Новостные порталы",
+      "name": "Reformatorisch Dagblad"
+    },
+    "bnrnews.bg": {
+      "group": "Новостные порталы",
+      "name": "BNR News"
+    },
+    "english.rekenkamer.nl": {
+      "group": "Государственные органы и статистика",
+      "name": "Счётная палата Нидерландов"
+    },
+    "gov.si": {
+      "group": "Государственные органы и статистика",
+      "name": "Правительство Словении"
+    },
+    "efe.com": {
+      "group": "Информационные агентства",
+      "name": "EFE"
+    },
+    "dutchnews.nl": {
+      "group": "Новостные порталы",
+      "name": "DutchNews.nl"
+    },
+    "dailysabah.com": {
+      "group": "Новостные порталы",
+      "name": "Daily Sabah"
+    },
+    "commodity-board.com": {
+      "group": "Отраслевые издания",
+      "name": "CMB News"
+    },
+    "economy-finance.ec.europa.eu": {
+      "group": "Государственные органы и статистика",
+      "name": "Европейская комиссия — экономика и финансы"
+    },
+    "pm.gc.ca": {
+      "group": "Государственные органы и статистика",
+      "name": "Премьер-министр Канады"
+    },
+    "dagsavisen.no": {
+      "group": "Новостные порталы",
+      "name": "Dagsavisen"
+    },
+    "mbl.is": {
+      "group": "Новостные порталы",
+      "name": "mbl.is (Morgunblaðið)"
+    },
+    "regfollower.com": {
+      "group": "Отраслевые издания",
+      "name": "Regfollower"
+    },
+    "nin.rs": {
+      "group": "Новостные порталы",
+      "name": "NIN (Nedeljne informativne novine)"
+    },
+    "theportjournal.com": {
+      "group": "Отраслевые издания",
+      "name": "The Port Journal"
+    },
+    "cnfp.public.lu": {
+      "group": "Государственные органы и статистика",
+      "name": "Conseil national des finances publiques (CNFP)"
+    },
+    "cij.world": {
+      "group": "Отраслевые издания",
+      "name": "CIJ.World"
+    },
+    "croatiaweek.com": {
+      "group": "Новостные порталы",
+      "name": "Croatia Week"
+    },
+    "forvismazars.us": {
+      "group": "Сайты компаний",
+      "name": "Forvis Mazars"
+    },
+    "rus.postimees.ee": {
+      "group": "Новостные порталы",
+      "name": "Postimees"
+    },
+    "chronicle.lu": {
+      "group": "Новостные порталы",
+      "name": "Chronicle.lu"
+    },
+    "sullcrom.com": {
+      "group": "Сайты компаний",
+      "name": "Sullivan & Cromwell"
     }
   },
   "sections": {
@@ -1928,6 +2020,47 @@
     },
     "expats.cz": {
       "czech-news": "Новости Чехии"
+    },
+    "conseil-etat.public.lu": {
+      "content/dam/conseil_etat/fr/avis": "Заключения"
+    },
+    "english.rekenkamer.nl": {
+      "latest/news": "Новости"
+    },
+    "gov.si": {
+      "novice": "Новости"
+    },
+    "efe.com": {
+      "espana": "Испания"
+    },
+    "dailysabah.com": {
+      "business/economy": "Бизнес и экономика"
+    },
+    "economy-finance.ec.europa.eu": {
+      "economic-surveillance-eu-member-states/country-pages-including-country-reports": "Экономические обзоры государств ЕС"
+    },
+    "pm.gc.ca": {
+      "en/news/backgrounders": "Справочные материалы"
+    },
+    "dagsavisen.no": {
+      "nyheter": "Новости"
+    },
+    "mbl.is": {
+      "frettir/innlent": "Внутренние новости"
+    },
+    "nin.rs": {
+      "ekonomija": "Экономика",
+      "ekonomija/vesti": "Новости экономики"
+    },
+    "forvismazars.us": {
+      "forsights": "Аналитика"
+    },
+    "chronicle.lu": {
+      "category/business-1": "Бизнес"
+    },
+    "sullcrom.com": {
+      "insights": "Аналитика",
+      "insights/memo": "Меморандумы"
     }
   },
   "rg_by_sub": {
