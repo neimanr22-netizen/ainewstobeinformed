@@ -972,6 +972,334 @@
     "adindex.ru": {
       "group": "Отраслевые издания",
       "name": "AdIndex"
+    },
+    "fakti.bg": {
+      "group": "Новостные порталы",
+      "name": "Fakti.bg"
+    },
+    "portugal.gov.pt": {
+      "group": "Государственные органы и статистика",
+      "name": "Правительство Португалии"
+    },
+    "gouvernement.lu": {
+      "group": "Государственные органы и статистика",
+      "name": "Правительство Люксембурга"
+    },
+    "diepresse.com": {
+      "group": "Новостные порталы",
+      "name": "Die Presse"
+    },
+    "straitstimes.com": {
+      "group": "Новостные порталы",
+      "name": "The Straits Times"
+    },
+    "krone.at": {
+      "group": "Новостные порталы",
+      "name": "Kronen Zeitung"
+    },
+    "thediplomat.ro": {
+      "group": "Деловые и финансовые издания",
+      "name": "The Diplomat Bucharest"
+    },
+    "delfi.lt": {
+      "group": "Новостные порталы",
+      "name": "Delfi"
+    },
+    "wam.ae": {
+      "group": "Информационные агентства",
+      "name": "Emirates News Agency (WAM)"
+    },
+    "belta.by": {
+      "group": "Информационные агентства",
+      "name": "Белорусское телеграфное агентство (БелТА)"
+    },
+    "kommersant.ru": {
+      "group": "Деловые и финансовые издания",
+      "name": "Коммерсантъ"
+    },
+    "tvp.info": {
+      "group": "Новостные порталы",
+      "name": "TVP Info"
+    },
+    "tasr.sk": {
+      "group": "Информационные агентства",
+      "name": "TASR"
+    },
+    "vrt.be": {
+      "group": "Новостные порталы",
+      "name": "VRT NWS"
+    },
+    "malaymail.com": {
+      "group": "Новостные порталы",
+      "name": "Malay Mail"
+    },
+    "polskieradio.pl": {
+      "group": "Новостные порталы",
+      "name": "Polskie Radio"
+    },
+    "agerpres.ro": {
+      "group": "Информационные агентства",
+      "name": "AGERPRES"
+    },
+    "ansa.it": {
+      "group": "Информационные агентства",
+      "name": "ANSA"
+    },
+    "sana.sy": {
+      "group": "Информационные агентства",
+      "name": "САНА"
+    },
+    "sicnoticias.pt": {
+      "group": "Новостные порталы",
+      "name": "SIC Notícias"
+    },
+    "publicsenat.fr": {
+      "group": "Новостные порталы",
+      "name": "Public Sénat"
+    },
+    "rijksoverheid.nl": {
+      "group": "Государственные органы и статистика",
+      "name": "Rijksoverheid"
+    },
+    "diarioaveiro.pt": {
+      "group": "Новостные порталы",
+      "name": "Diário de Aveiro"
+    },
+    "rapsinews.ru": {
+      "group": "Информационные агентства",
+      "name": "РАПСИ — Российское агентство правовой и судебной информации"
+    },
+    "bfs.admin.ch": {
+      "group": "Государственные органы и статистика",
+      "name": "Федеральное статистическое ведомство Швейцарии"
+    },
+    "antena3.ro": {
+      "group": "Новостные порталы",
+      "name": "Antena 3 CNN"
+    },
+    "channelnewsasia.com": {
+      "group": "Новостные порталы",
+      "name": "Channel NewsAsia (CNA)"
+    },
+    "mojkraj.hr": {
+      "group": "Новостные порталы",
+      "name": "Moj Kraj"
+    },
+    "eldebate.com": {
+      "group": "Новостные порталы",
+      "name": "El Debate"
+    },
+    "lemonde.fr": {
+      "group": "Новостные порталы",
+      "name": "Le Monde"
+    },
+    "today.rtl.lu": {
+      "group": "Новостные порталы",
+      "name": "RTL Today"
+    },
+    "nccs.gov.sg": {
+      "group": "Государственные органы и статистика",
+      "name": "Национальный секретариат по изменению климата Сингапура"
+    },
+    "lrt.lt": {
+      "group": "Новостные порталы",
+      "name": "LRT"
+    },
+    "majorcadailybulletin.com": {
+      "group": "Новостные порталы",
+      "name": "Majorca Daily Bulletin"
+    },
+    "open.kg": {
+      "group": "Новостные порталы",
+      "name": "Open.kg"
+    },
+    "dp.ru": {
+      "group": "Деловые и финансовые издания",
+      "name": "Деловой Петербург"
+    },
+    "lapresse.us": {
+      "group": "Информационные агентства",
+      "name": "LaPresse"
+    },
+    "zaobao.com.sg": {
+      "group": "Новостные порталы",
+      "name": "Lianhe Zaobao"
+    },
+    "nlnow.nl": {
+      "group": "Новостные порталы",
+      "name": "NLnow"
+    },
+    "nzz.ch": {
+      "group": "Новостные порталы",
+      "name": "Neue Zürcher Zeitung (NZZ)"
+    },
+    "karachi.china-consulate.gov.cn": {
+      "group": "Государственные органы и статистика",
+      "name": "Генеральное консульство КНР в Карачи"
+    },
+    "cmjornal.pt": {
+      "group": "Новостные порталы",
+      "name": "Correio da Manhã"
+    },
+    "rte.ie": {
+      "group": "Новостные порталы",
+      "name": "RTÉ News"
+    },
+    "english.www.gov.cn": {
+      "group": "Государственные органы и статистика",
+      "name": "China.gov.cn"
+    },
+    "turkishminute.com": {
+      "group": "Новостные порталы",
+      "name": "Turkish Minute"
+    },
+    "hurriyetdailynews.com": {
+      "group": "Новостные порталы",
+      "name": "Hürriyet Daily News"
+    },
+    "expresso.pt": {
+      "group": "Новостные порталы",
+      "name": "Expresso"
+    },
+    "noticiasaominuto.com": {
+      "group": "Новостные порталы",
+      "name": "Notícias ao Minuto"
+    },
+    "eng.lsm.lv": {
+      "group": "Новостные порталы",
+      "name": "LSM"
+    },
+    "rtvslo.si": {
+      "group": "Новостные порталы",
+      "name": "RTV SLO"
+    },
+    "delano.lu": {
+      "group": "Деловые и финансовые издания",
+      "name": "Delano"
+    },
+    "index.hr": {
+      "group": "Новостные порталы",
+      "name": "Index.hr"
+    },
+    "radiomaryja.pl": {
+      "group": "Новостные порталы",
+      "name": "Radio Maryja"
+    },
+    "overtdefense.com": {
+      "group": "Отраслевые издания",
+      "name": "Overt Defense"
+    },
+    "en.yenisafak.com": {
+      "group": "Новостные порталы",
+      "name": "Yeni Şafak"
+    },
+    "24sata.hr": {
+      "group": "Новостные порталы",
+      "name": "24sata"
+    },
+    "russpain.com": {
+      "group": "Новостные порталы",
+      "name": "RUSSPAIN.com"
+    },
+    "babel.ua": {
+      "group": "Новостные порталы",
+      "name": "Бабель"
+    },
+    "notesfrompoland.com": {
+      "group": "Новостные порталы",
+      "name": "Notes from Poland"
+    },
+    "azertag.az": {
+      "group": "Информационные агентства",
+      "name": "AZERTAC"
+    },
+    "stockholmcf.org": {
+      "group": "Исследовательские центры и ассоциации",
+      "name": "Stockholm Center for Freedom (Стокгольмский центр свободы)"
+    },
+    "pmo.gov.sg": {
+      "group": "Государственные органы и статистика",
+      "name": "Prime Minister’s Office Singapore (Канцелярия премьер-министра Сингапура)"
+    },
+    "n-tv.de": {
+      "group": "Новостные порталы",
+      "name": "n-tv"
+    },
+    "elpais.com": {
+      "group": "Новостные порталы",
+      "name": "El País"
+    },
+    "sbfi.admin.ch": {
+      "group": "Государственные органы и статистика",
+      "name": "Государственный секретариат Швейцарии по вопросам образования, исследований и инноваций (SERI)"
+    },
+    "magyarnemzet.hu": {
+      "group": "Новостные порталы",
+      "name": "Magyar Nemzet"
+    },
+    "reuters.com": {
+      "group": "Информационные агентства",
+      "name": "Reuters"
+    },
+    "adelaide.china-consulate.gov.cn": {
+      "group": "Государственные органы и статистика",
+      "name": "Генеральное консульство КНР в Аделаиде"
+    },
+    "24ur.com": {
+      "group": "Новостные порталы",
+      "name": "24ur"
+    },
+    "crta.plus": {
+      "group": "Исследовательские центры и ассоциации",
+      "name": "CRTA Plus"
+    },
+    "lrytas.lt": {
+      "group": "Новостные порталы",
+      "name": "Lrytas"
+    },
+    "bta.bg": {
+      "group": "Информационные агентства",
+      "name": "Болгарское телеграфное агентство (БТА)"
+    },
+    "swissinfo.ch": {
+      "group": "Новостные порталы",
+      "name": "SWI swissinfo.ch"
+    },
+    "businesstimes.com.sg": {
+      "group": "Деловые и финансовые издания",
+      "name": "The Business Times"
+    },
+    "nordiskpost.com": {
+      "group": "Новостные порталы",
+      "name": "Nordisk Post"
+    },
+    "aljazeera.net": {
+      "group": "Новостные порталы",
+      "name": "Al Jazeera"
+    },
+    "english.sta.si": {
+      "group": "Информационные агентства",
+      "name": "Словенское информационное агентство (STA)"
+    },
+    "vedomosti.ru": {
+      "group": "Деловые и финансовые издания",
+      "name": "Ведомости"
+    },
+    "columbusjewishnews.com": {
+      "group": "Новостные порталы",
+      "name": "Columbus Jewish News"
+    },
+    "michiganadvance.com": {
+      "group": "Новостные порталы",
+      "name": "Michigan Advance"
+    },
+    "nordictimes.com": {
+      "group": "Новостные порталы",
+      "name": "The Nordic Times"
+    },
+    "expats.cz": {
+      "group": "Новостные порталы",
+      "name": "Expats.cz"
     }
   },
   "sections": {
@@ -1419,6 +1747,187 @@
     },
     "adindex.ru": {
       "news/creative": "Креатив"
+    },
+    "fakti.bg": {
+      "en/bulgaria": "Болгария"
+    },
+    "portugal.gov.pt": {
+      "pt/gc25/comunicacao/comunicados": "Сообщения правительства",
+      "gc25/comunicacao/noticias": "Новости правительства"
+    },
+    "gouvernement.lu": {
+      "fr/actualites/agenda": "Повестка"
+    },
+    "straitstimes.com": {
+      "singapore/politics": "Политика Сингапура"
+    },
+    "delfi.lt": {
+      "ru/news/lithuania": "Литва"
+    },
+    "belta.by": {
+      "video": "Видео"
+    },
+    "malaymail.com": {
+      "news/malaysia": "Новости Малайзии"
+    },
+    "agerpres.ro": {
+      "politic": "Политика"
+    },
+    "ansa.it": {
+      "sito/notizie/topnews": "Главные новости",
+      "english/news/politics": "Политика",
+      "canale_motori/notizie/istituzioni": "Автомобильная отрасль — учреждения"
+    },
+    "sana.sy": {
+      "syria-and-the-world": "Сирия и мир"
+    },
+    "sicnoticias.pt": {
+      "economia/habitacao": "Экономика — жильё",
+      "especiais/orcamento-do-estado": "Спецпроект — государственный бюджет"
+    },
+    "publicsenat.fr": {
+      "actualites/politique": "Политика"
+    },
+    "rijksoverheid.nl": {
+      "actueel/nieuws": "Новости",
+      "documenten": "Документы"
+    },
+    "rapsinews.ru": {
+      "international_news": "Международные новости"
+    },
+    "bfs.admin.ch": {
+      "de/newnsb": "Новости"
+    },
+    "antena3.ro": {
+      "politica": "Политика"
+    },
+    "channelnewsasia.com": {
+      "watch": "Видео"
+    },
+    "mojkraj.hr": {
+      "en/croatia": "Хорватия"
+    },
+    "eldebate.com": {
+      "espana": "Испания",
+      "espana/andalucia": "Андалусия"
+    },
+    "lemonde.fr": {
+      "en/france": "Франция"
+    },
+    "today.rtl.lu": {
+      "news/luxembourg": "Люксембург"
+    },
+    "nccs.gov.sg": {
+      "media": "Медиа"
+    },
+    "lrt.lt": {
+      "naujienos/lietuvoje": "Литва",
+      "naujienos/verslas": "Бизнес"
+    },
+    "majorcadailybulletin.com": {
+      "news/local": "Местные новости"
+    },
+    "open.kg": {
+      "en/news/political-news": "Политика"
+    },
+    "lapresse.us": {
+      "politics": "Политика"
+    },
+    "zaobao.com.sg": {
+      "en/en/news/singapore": "Новости Сингапура"
+    },
+    "nzz.ch": {
+      "schweiz": "Швейцария"
+    },
+    "cmjornal.pt": {
+      "politica": "Политика"
+    },
+    "rte.ie": {
+      "news/a-european-perspective": "Новости / Европейская перспектива"
+    },
+    "english.www.gov.cn": {
+      "news": "Новости"
+    },
+    "expresso.pt": {
+      "noticias-lisboa": "Новости Лиссабона"
+    },
+    "noticiasaominuto.com": {
+      "pais": "Страна"
+    },
+    "rtvslo.si": {
+      "slovenija": "Словения"
+    },
+    "index.hr": {
+      "vijesti": "Новости"
+    },
+    "radiomaryja.pl": {
+      "informacje": "Новости"
+    },
+    "en.yenisafak.com": {
+      "turkiye": "Турция",
+      "world": "Мир"
+    },
+    "24sata.hr": {
+      "news": "Новости"
+    },
+    "russpain.com": {
+      "news": "Новости"
+    },
+    "babel.ua": {
+      "texts": "Тексты"
+    },
+    "azertag.az": {
+      "en/xeber": "Новости"
+    },
+    "pmo.gov.sg": {
+      "newsroom": "Новости"
+    },
+    "n-tv.de": {
+      "politik": "Политика"
+    },
+    "elpais.com": {
+      "espana": "Испания"
+    },
+    "magyarnemzet.hu": {
+      "belfold": "Внутренние новости"
+    },
+    "reuters.com": {
+      "world": "Мир"
+    },
+    "adelaide.china-consulate.gov.cn": {
+      "eng/zgxw": "Новости Китая"
+    },
+    "24ur.com": {
+      "novice": "Новости",
+      "novice/tujina": "Зарубежье"
+    },
+    "crta.plus": {
+      "updates": "Обновления"
+    },
+    "lrytas.lt": {
+      "english/politics": "Политика"
+    },
+    "bta.bg": {
+      "en/news/bulgaria": "Болгария"
+    },
+    "swissinfo.ch": {
+      "eng/various": "Разное"
+    },
+    "businesstimes.com.sg": {
+      "singapore": "Сингапур"
+    },
+    "vedomosti.ru": {
+      "society": "Общество"
+    },
+    "columbusjewishnews.com": {
+      "jns": "JNS"
+    },
+    "nordictimes.com": {
+      "the-nordics": "Северные страны",
+      "the-nordics/denmark": "Дания"
+    },
+    "expats.cz": {
+      "czech-news": "Новости Чехии"
     }
   },
   "rg_by_sub": {

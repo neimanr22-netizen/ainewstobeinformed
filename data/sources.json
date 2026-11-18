@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-18T01:48:04+00:00",
- "total_news": 972,
- "total_sites": 226,
+ "updated": "2026-11-18T01:56:51+00:00",
+ "total_news": 1150,
+ "total_sites": 308,
  "groups": [
   {
    "name": "Новостные порталы",
    "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
-   "count": 622,
+   "count": 731,
    "sites": [
     {
      "name": "Российская газета",
@@ -209,15 +209,15 @@
     {
      "name": "Index.hu",
      "url": "https://index.hu/",
-     "count": 6,
-     "last": "2026-10-20",
+     "count": 8,
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Внутренние новости",
        "url": "https://index.hu/belfold/",
-       "count": 3,
+       "count": 5,
        "first": "2026-10-09",
-       "last": "2026-10-19"
+       "last": "2026-11-17"
       },
       {
        "name": "Экономика",
@@ -229,17 +229,83 @@
      ]
     },
     {
+     "name": "Telex",
+     "url": "https://telex.hu/",
+     "count": 7,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Внутренние новости",
+       "url": "https://telex.hu/belfold/",
+       "count": 4,
+       "first": "2026-10-11",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Экономика",
+       "url": "https://telex.hu/gazdasag/",
+       "count": 2,
+       "first": "2026-10-21",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "English",
+       "url": "https://telex.hu/english/",
+       "count": 1,
+       "first": "2026-11-05",
+       "last": "2026-11-05"
+      }
+     ]
+    },
+    {
      "name": "Al Jazeera",
      "url": "https://www.aljazeera.com/",
-     "count": 5,
-     "last": "2026-11-10",
+     "count": 6,
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Новости",
        "url": "https://www.aljazeera.com/news/",
-       "count": 5,
+       "count": 6,
        "first": "2026-10-09",
-       "last": "2026-11-10"
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Public Sénat",
+     "url": "https://www.publicsenat.fr/",
+     "count": 6,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://www.publicsenat.fr/actualites/politique/",
+       "count": 5,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.publicsenat.fr/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/",
+     "count": 5,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.euronews.com/",
+       "count": 5,
+       "first": "2026-10-13",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -259,61 +325,39 @@
      ]
     },
     {
-     "name": "Москва 24",
-     "url": "https://www.m24.ru/",
+     "name": "U.S. News",
+     "url": "https://www.usnews.com/",
      "count": 5,
      "last": "2026-11-17",
      "sections": [
       {
+       "name": "Бизнес",
+       "url": "https://www.usnews.com/news/business/",
+       "count": 1,
+       "first": "2026-10-28",
+       "last": "2026-10-28"
+      },
+      {
        "name": "Сайт целиком",
-       "url": "https://www.m24.ru/",
-       "count": 5,
-       "first": "2026-11-15",
+       "url": "https://www.usnews.com/",
+       "count": 4,
+       "first": "2026-11-17",
        "last": "2026-11-17"
-      }
-     ]
-    },
-    {
-     "name": "Telex",
-     "url": "https://telex.hu/",
-     "count": 4,
-     "last": "2026-11-05",
-     "sections": [
-      {
-       "name": "Внутренние новости",
-       "url": "https://telex.hu/belfold/",
-       "count": 2,
-       "first": "2026-10-11",
-       "last": "2026-10-23"
-      },
-      {
-       "name": "English",
-       "url": "https://telex.hu/english/",
-       "count": 1,
-       "first": "2026-11-05",
-       "last": "2026-11-05"
-      },
-      {
-       "name": "Экономика",
-       "url": "https://telex.hu/gazdasag/",
-       "count": 1,
-       "first": "2026-10-21",
-       "last": "2026-10-21"
       }
      ]
     },
     {
      "name": "ZDFheute",
      "url": "https://www.zdfheute.de/",
-     "count": 4,
-     "last": "2026-10-13",
+     "count": 5,
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Политика — Германия",
        "url": "https://www.zdfheute.de/politik/deutschland/",
-       "count": 2,
+       "count": 3,
        "first": "2026-10-08",
-       "last": "2026-10-12"
+       "last": "2026-11-17"
       },
       {
        "name": "Политика",
@@ -332,17 +376,129 @@
      ]
     },
     {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/",
-     "count": 3,
-     "last": "2026-10-15",
+     "name": "Москва 24",
+     "url": "https://www.m24.ru/",
+     "count": 5,
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Сайт целиком",
-       "url": "https://www.euronews.com/",
+       "url": "https://www.m24.ru/",
+       "count": 5,
+       "first": "2026-11-15",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Malay Mail",
+     "url": "https://www.malaymail.com/",
+     "count": 4,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости Малайзии",
+       "url": "https://www.malaymail.com/news/malaysia/",
+       "count": 4,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "ORF",
+     "url": "https://orf.at/",
+     "count": 4,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://orf.at/",
+       "count": 4,
+       "first": "2026-10-14",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Polskie Radio",
+     "url": "https://www.polskieradio.pl/",
+     "count": 4,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.polskieradio.pl/",
+       "count": 4,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "The Star (Малайзия)",
+     "url": "https://www.thestar.com.my/",
+     "count": 4,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Мир",
+       "url": "https://www.thestar.com.my/news/world/",
+       "count": 1,
+       "first": "2026-11-02",
+       "last": "2026-11-02"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.thestar.com.my/",
+       "count": 3,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Eunews",
+     "url": "https://www.eunews.it/",
+     "count": 3,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "English",
+       "url": "https://www.eunews.it/en/",
+       "count": 3,
+       "first": "2026-10-09",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "HVG",
+     "url": "https://hvg.hu/",
+     "count": 3,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Внутренние новости",
+       "url": "https://hvg.hu/itthon/",
        "count": 3,
        "first": "2026-10-13",
-       "last": "2026-10-15"
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Le Monde",
+     "url": "https://www.lemonde.fr/",
+     "count": 3,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Франция",
+       "url": "https://www.lemonde.fr/en/france/",
+       "count": 3,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -384,6 +540,58 @@
      ]
     },
     {
+     "name": "RUSSPAIN.com",
+     "url": "https://russpain.com/",
+     "count": 3,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://russpain.com/news/",
+       "count": 3,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "SIC Notícias",
+     "url": "https://sicnoticias.pt/",
+     "count": 3,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Экономика — жильё",
+       "url": "https://sicnoticias.pt/economia/habitacao/",
+       "count": 2,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Спецпроект — государственный бюджет",
+       "url": "https://sicnoticias.pt/especiais/orcamento-do-estado/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "SRF",
+     "url": "https://www.srf.ch/",
+     "count": 3,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости — Швейцария",
+       "url": "https://www.srf.ch/news/schweiz/",
+       "count": 3,
+       "first": "2026-11-08",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "STVR (Správy)",
      "url": "https://spravy.stvr.sk/",
      "count": 3,
@@ -395,6 +603,43 @@
        "count": 3,
        "first": "2026-10-14",
        "last": "2026-10-25"
+      }
+     ]
+    },
+    {
+     "name": "Volksstimme",
+     "url": "https://www.volksstimme.de/",
+     "count": 3,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.volksstimme.de/",
+       "count": 3,
+       "first": "2026-11-04",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Yeni Şafak",
+     "url": "https://en.yenisafak.com/",
+     "count": 3,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Мир",
+       "url": "https://en.yenisafak.com/world/",
+       "count": 2,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Турция",
+       "url": "https://en.yenisafak.com/turkiye/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -436,17 +681,17 @@
      ]
     },
     {
-     "name": "Eunews",
-     "url": "https://www.eunews.it/",
+     "name": "evangelisch.de",
+     "url": "https://www.evangelisch.de/",
      "count": 2,
-     "last": "2026-11-04",
+     "last": "2026-11-17",
      "sections": [
       {
-       "name": "English",
-       "url": "https://www.eunews.it/en/",
+       "name": "Сайт целиком",
+       "url": "https://www.evangelisch.de/",
        "count": 2,
-       "first": "2026-10-09",
-       "last": "2026-11-04"
+       "first": "2026-11-08",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -495,17 +740,99 @@
      ]
     },
     {
-     "name": "HVG",
-     "url": "https://hvg.hu/",
+     "name": "Infostart",
+     "url": "https://infostart.hu/",
      "count": 2,
-     "last": "2026-10-23",
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Внутренние новости",
-       "url": "https://hvg.hu/itthon/",
+       "url": "https://infostart.hu/belfold/",
        "count": 2,
        "first": "2026-10-13",
-       "last": "2026-10-23"
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Just the News",
+     "url": "https://justthenews.com/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Власть",
+       "url": "https://justthenews.com/government/",
+       "count": 2,
+       "first": "2026-11-05",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "KSAT",
+     "url": "https://www.ksat.com/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.ksat.com/",
+       "count": 2,
+       "first": "2026-11-15",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "LRT",
+     "url": "https://www.lrt.lt/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Бизнес",
+       "url": "https://www.lrt.lt/naujienos/verslas/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Литва",
+       "url": "https://www.lrt.lt/naujienos/lietuvoje/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Magyar Nemzet",
+     "url": "https://magyarnemzet.hu/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Внутренние новости",
+       "url": "https://magyarnemzet.hu/belfold/",
+       "count": 2,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "n-tv",
+     "url": "https://www.n-tv.de/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://www.n-tv.de/politik/",
+       "count": 2,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -532,17 +859,69 @@
      ]
     },
     {
-     "name": "ORF",
-     "url": "https://orf.at/",
+     "name": "News4JAX",
+     "url": "https://www.news4jax.com/",
      "count": 2,
-     "last": "2026-11-06",
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Местные новости",
+       "url": "https://www.news4jax.com/news/local/",
+       "count": 1,
+       "first": "2026-10-27",
+       "last": "2026-10-27"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.news4jax.com/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Newstream.cz",
+     "url": "https://www.newstream.cz/",
+     "count": 2,
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Сайт целиком",
-       "url": "https://orf.at/",
+       "url": "https://www.newstream.cz/",
        "count": 2,
-       "first": "2026-10-14",
-       "last": "2026-11-06"
+       "first": "2026-11-04",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Open.kg",
+     "url": "https://open.kg/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://open.kg/en/news/political-news/",
+       "count": 2,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Roll Call",
+     "url": "https://rollcall.com/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://rollcall.com/",
+       "count": 2,
+       "first": "2026-10-15",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -569,6 +948,51 @@
      ]
     },
     {
+     "name": "Tagesspiegel",
+     "url": "https://www.tagesspiegel.de/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://www.tagesspiegel.de/politik/",
+       "count": 2,
+       "first": "2026-10-23",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "The Brussels Times",
+     "url": "https://www.brusselstimes.com/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.brusselstimes.com/",
+       "count": 2,
+       "first": "2026-10-09",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "The Kyiv Independent",
+     "url": "https://kyivindependent.com/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://kyivindependent.com/",
+       "count": 2,
+       "first": "2026-11-10",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "The Local Switzerland",
      "url": "https://www.thelocal.ch/",
      "count": 2,
@@ -580,6 +1004,21 @@
        "count": 2,
        "first": "2026-10-08",
        "last": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "name": "Turkish Minute",
+     "url": "https://www.turkishminute.com/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.turkishminute.com/",
+       "count": 2,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -610,6 +1049,36 @@
        "count": 2,
        "first": "2026-11-02",
        "last": "2026-11-11"
+      }
+     ]
+    },
+    {
+     "name": "24sata",
+     "url": "https://www.24sata.hr/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.24sata.hr/news/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "24ur",
+     "url": "https://www.24ur.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Зарубежье",
+       "url": "https://www.24ur.com/novice/tujina/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -670,6 +1139,36 @@
        "count": 1,
        "first": "2026-11-08",
        "last": "2026-11-08"
+      }
+     ]
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.net/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.aljazeera.net/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Antena 3 CNN",
+     "url": "https://www.antena3.ro/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://www.antena3.ro/politica/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -764,6 +1263,51 @@
      ]
     },
     {
+     "name": "Channel NewsAsia (CNA)",
+     "url": "https://www.channelnewsasia.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Видео",
+       "url": "https://www.channelnewsasia.com/watch/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Columbus Jewish News",
+     "url": "https://www.columbusjewishnews.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "JNS",
+       "url": "https://www.columbusjewishnews.com/jns/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Correio da Manhã",
+     "url": "https://www.cmjornal.pt/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://www.cmjornal.pt/politica/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "CP24",
      "url": "https://www.cp24.com/",
      "count": 1,
@@ -805,6 +1349,21 @@
        "count": 1,
        "first": "2026-11-10",
        "last": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "name": "Delfi",
+     "url": "https://www.delfi.lt/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Литва",
+       "url": "https://www.delfi.lt/ru/news/lithuania/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -854,6 +1413,36 @@
      ]
     },
     {
+     "name": "Die Presse",
+     "url": "https://www.diepresse.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.diepresse.com/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Diário de Aveiro",
+     "url": "https://www.diarioaveiro.pt/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.diarioaveiro.pt/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Echo24",
      "url": "https://www.echo24.cz/",
      "count": 1,
@@ -865,6 +1454,36 @@
        "count": 1,
        "first": "2026-10-20",
        "last": "2026-10-20"
+      }
+     ]
+    },
+    {
+     "name": "El Debate",
+     "url": "https://www.eldebate.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Андалусия",
+       "url": "https://www.eldebate.com/espana/andalucia/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "El País",
+     "url": "https://elpais.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Испания",
+       "url": "https://elpais.com/espana/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -899,17 +1518,47 @@
      ]
     },
     {
-     "name": "evangelisch.de",
-     "url": "https://www.evangelisch.de/",
+     "name": "Expats.cz",
+     "url": "https://www.expats.cz/",
      "count": 1,
-     "last": "2026-11-08",
+     "last": "2026-11-17",
      "sections": [
       {
-       "name": "Сайт целиком",
-       "url": "https://www.evangelisch.de/",
+       "name": "Новости Чехии",
+       "url": "https://www.expats.cz/czech-news/",
        "count": 1,
-       "first": "2026-11-08",
-       "last": "2026-11-08"
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Expresso",
+     "url": "https://expresso.pt/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости Лиссабона",
+       "url": "https://expresso.pt/noticias-lisboa/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Fakti.bg",
+     "url": "https://fakti.bg/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Болгария",
+       "url": "https://fakti.bg/en/bulgaria/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -974,6 +1623,36 @@
      ]
     },
     {
+     "name": "Hürriyet Daily News",
+     "url": "https://www.hurriyetdailynews.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.hurriyetdailynews.com/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Index.hr",
+     "url": "https://www.index.hr/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.index.hr/vijesti/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "InfoDnes",
      "url": "https://www.infodnes.sk/",
      "count": 1,
@@ -985,36 +1664,6 @@
        "count": 1,
        "first": "2026-10-14",
        "last": "2026-10-14"
-      }
-     ]
-    },
-    {
-     "name": "Infostart",
-     "url": "https://infostart.hu/",
-     "count": 1,
-     "last": "2026-10-13",
-     "sections": [
-      {
-       "name": "Внутренние новости",
-       "url": "https://infostart.hu/belfold/",
-       "count": 1,
-       "first": "2026-10-13",
-       "last": "2026-10-13"
-      }
-     ]
-    },
-    {
-     "name": "Just the News",
-     "url": "https://justthenews.com/",
-     "count": 1,
-     "last": "2026-11-05",
-     "sections": [
-      {
-       "name": "Власть",
-       "url": "https://justthenews.com/government/",
-       "count": 1,
-       "first": "2026-11-05",
-       "last": "2026-11-05"
       }
      ]
     },
@@ -1049,17 +1698,17 @@
      ]
     },
     {
-     "name": "KSAT",
-     "url": "https://www.ksat.com/",
+     "name": "Kronen Zeitung",
+     "url": "https://www.krone.at/",
      "count": 1,
-     "last": "2026-11-15",
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Сайт целиком",
-       "url": "https://www.ksat.com/",
+       "url": "https://www.krone.at/",
        "count": 1,
-       "first": "2026-11-15",
-       "last": "2026-11-15"
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -1094,6 +1743,66 @@
      ]
     },
     {
+     "name": "Lianhe Zaobao",
+     "url": "https://www.zaobao.com.sg/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости Сингапура",
+       "url": "https://www.zaobao.com.sg/en/en/news/singapore/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Lrytas",
+     "url": "https://www.lrytas.lt/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://www.lrytas.lt/english/politics/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "LSM",
+     "url": "https://eng.lsm.lv/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://eng.lsm.lv/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Majorca Daily Bulletin",
+     "url": "https://www.majorcadailybulletin.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Местные новости",
+       "url": "https://www.majorcadailybulletin.com/news/local/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Meduza",
      "url": "https://meduza.io/",
      "count": 1,
@@ -1124,6 +1833,21 @@
      ]
     },
     {
+     "name": "Michigan Advance",
+     "url": "https://michiganadvance.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://michiganadvance.com/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Mississippi Today",
      "url": "https://mississippitoday.org/",
      "count": 1,
@@ -1135,6 +1859,21 @@
        "count": 1,
        "first": "2026-11-05",
        "last": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "name": "Moj Kraj",
+     "url": "https://www.mojkraj.hr/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Хорватия",
+       "url": "https://www.mojkraj.hr/en/croatia/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -1184,6 +1923,21 @@
      ]
     },
     {
+     "name": "Neue Zürcher Zeitung (NZZ)",
+     "url": "https://www.nzz.ch/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Швейцария",
+       "url": "https://www.nzz.ch/schweiz/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "News.at",
      "url": "https://www.news.at/",
      "count": 1,
@@ -1199,32 +1953,32 @@
      ]
     },
     {
-     "name": "News4JAX",
-     "url": "https://www.news4jax.com/",
+     "name": "NLnow",
+     "url": "https://nlnow.nl/",
      "count": 1,
-     "last": "2026-10-27",
+     "last": "2026-11-17",
      "sections": [
       {
-       "name": "Местные новости",
-       "url": "https://www.news4jax.com/news/local/",
+       "name": "Сайт целиком",
+       "url": "https://nlnow.nl/",
        "count": 1,
-       "first": "2026-10-27",
-       "last": "2026-10-27"
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
     {
-     "name": "Newstream.cz",
-     "url": "https://www.newstream.cz/",
+     "name": "Nordisk Post",
+     "url": "https://www.nordiskpost.com/",
      "count": 1,
-     "last": "2026-11-04",
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Сайт целиком",
-       "url": "https://www.newstream.cz/",
+       "url": "https://www.nordiskpost.com/",
        "count": 1,
-       "first": "2026-11-04",
-       "last": "2026-11-04"
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -1240,6 +1994,36 @@
        "count": 1,
        "first": "2026-11-13",
        "last": "2026-11-13"
+      }
+     ]
+    },
+    {
+     "name": "Notes from Poland",
+     "url": "https://notesfrompoland.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://notesfrompoland.com/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Notícias ao Minuto",
+     "url": "https://www.noticiasaominuto.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Страна",
+       "url": "https://www.noticiasaominuto.com/pais/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -1319,6 +2103,21 @@
      ]
     },
     {
+     "name": "Radio Maryja",
+     "url": "https://www.radiomaryja.pl/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.radiomaryja.pl/informacje/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "RFJ",
      "url": "https://www.rfj.ch/",
      "count": 1,
@@ -1334,32 +2133,47 @@
      ]
     },
     {
-     "name": "Roll Call",
-     "url": "https://rollcall.com/",
+     "name": "RTL Today",
+     "url": "https://today.rtl.lu/",
      "count": 1,
-     "last": "2026-10-15",
+     "last": "2026-11-17",
      "sections": [
       {
-       "name": "Сайт целиком",
-       "url": "https://rollcall.com/",
+       "name": "Люксембург",
+       "url": "https://today.rtl.lu/news/luxembourg/",
        "count": 1,
-       "first": "2026-10-15",
-       "last": "2026-10-15"
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
     {
-     "name": "SRF",
-     "url": "https://www.srf.ch/",
+     "name": "RTV SLO",
+     "url": "https://www.rtvslo.si/",
      "count": 1,
-     "last": "2026-11-08",
+     "last": "2026-11-17",
      "sections": [
       {
-       "name": "Новости — Швейцария",
-       "url": "https://www.srf.ch/news/schweiz/",
+       "name": "Словения",
+       "url": "https://www.rtvslo.si/slovenija/",
        "count": 1,
-       "first": "2026-11-08",
-       "last": "2026-11-08"
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "RTÉ News",
+     "url": "https://www.rte.ie/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости / Европейская перспектива",
+       "url": "https://www.rte.ie/news/a-european-perspective/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -1375,6 +2189,21 @@
        "count": 1,
        "first": "2026-10-22",
        "last": "2026-10-22"
+      }
+     ]
+    },
+    {
+     "name": "SWI swissinfo.ch",
+     "url": "https://www.swissinfo.ch/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Разное",
+       "url": "https://www.swissinfo.ch/eng/various/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -1409,21 +2238,6 @@
      ]
     },
     {
-     "name": "Tagesspiegel",
-     "url": "https://www.tagesspiegel.de/",
-     "count": 1,
-     "last": "2026-10-23",
-     "sections": [
-      {
-       "name": "Политика",
-       "url": "https://www.tagesspiegel.de/politik/",
-       "count": 1,
-       "first": "2026-10-23",
-       "last": "2026-10-23"
-      }
-     ]
-    },
-    {
      "name": "The Boston Globe",
      "url": "https://www.bostonglobe.com/",
      "count": 1,
@@ -1435,21 +2249,6 @@
        "count": 1,
        "first": "2026-11-08",
        "last": "2026-11-08"
-      }
-     ]
-    },
-    {
-     "name": "The Brussels Times",
-     "url": "https://www.brusselstimes.com/",
-     "count": 1,
-     "last": "2026-10-09",
-     "sections": [
-      {
-       "name": "Сайт целиком",
-       "url": "https://www.brusselstimes.com/",
-       "count": 1,
-       "first": "2026-10-09",
-       "last": "2026-10-09"
       }
      ]
     },
@@ -1469,17 +2268,17 @@
      ]
     },
     {
-     "name": "The Kyiv Independent",
-     "url": "https://kyivindependent.com/",
+     "name": "The Nordic Times",
+     "url": "https://nordictimes.com/",
      "count": 1,
-     "last": "2026-11-10",
+     "last": "2026-11-17",
      "sections": [
       {
-       "name": "Сайт целиком",
-       "url": "https://kyivindependent.com/",
+       "name": "Дания",
+       "url": "https://nordictimes.com/the-nordics/denmark/",
        "count": 1,
-       "first": "2026-11-10",
-       "last": "2026-11-10"
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -1514,17 +2313,17 @@
      ]
     },
     {
-     "name": "The Star (Малайзия)",
-     "url": "https://www.thestar.com.my/",
+     "name": "The Straits Times",
+     "url": "https://www.straitstimes.com/",
      "count": 1,
-     "last": "2026-11-02",
+     "last": "2026-11-17",
      "sections": [
       {
-       "name": "Мир",
-       "url": "https://www.thestar.com.my/news/world/",
+       "name": "Политика Сингапура",
+       "url": "https://www.straitstimes.com/singapore/politics/",
        "count": 1,
-       "first": "2026-11-02",
-       "last": "2026-11-02"
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -1544,32 +2343,32 @@
      ]
     },
     {
-     "name": "U.S. News",
-     "url": "https://www.usnews.com/",
+     "name": "TVP Info",
+     "url": "https://www.tvp.info/",
      "count": 1,
-     "last": "2026-10-28",
+     "last": "2026-11-17",
      "sections": [
       {
-       "name": "Бизнес",
-       "url": "https://www.usnews.com/news/business/",
+       "name": "Сайт целиком",
+       "url": "https://www.tvp.info/",
        "count": 1,
-       "first": "2026-10-28",
-       "last": "2026-10-28"
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
     {
-     "name": "Volksstimme",
-     "url": "https://www.volksstimme.de/",
+     "name": "VRT NWS",
+     "url": "https://www.vrt.be/",
      "count": 1,
-     "last": "2026-11-04",
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Сайт целиком",
-       "url": "https://www.volksstimme.de/",
+       "url": "https://www.vrt.be/",
        "count": 1,
-       "first": "2026-11-04",
-       "last": "2026-11-04"
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -1634,6 +2433,21 @@
      ]
     },
     {
+     "name": "Бабель",
+     "url": "https://babel.ua/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Тексты",
+       "url": "https://babel.ua/texts/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Важные истории",
      "url": "https://istories.media/",
      "count": 1,
@@ -1683,18 +2497,18 @@
   {
    "name": "Информационные агентства",
    "about": "Новостные агентства, которые первыми выпускают сообщения (их перепечатывают другие СМИ)",
-   "count": 121,
+   "count": 162,
    "sites": [
     {
      "name": "Интерфакс",
      "url": "https://www.interfax.ru/",
-     "count": 100,
+     "count": 103,
      "last": "2026-11-17",
      "sections": [
       {
        "name": "В мире",
        "url": "https://www.interfax.ru/world/",
-       "count": 41,
+       "count": 44,
        "first": "2026-10-12",
        "last": "2026-11-17"
       },
@@ -1724,8 +2538,8 @@
     {
      "name": "TASR (Teraz.sk)",
      "url": "https://www.teraz.sk/",
-     "count": 8,
-     "last": "2026-10-29",
+     "count": 11,
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Экономика",
@@ -1740,29 +2554,146 @@
        "count": 1,
        "first": "2026-10-08",
        "last": "2026-10-08"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.teraz.sk/",
+       "count": 3,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "ANSA",
+     "url": "https://www.ansa.it/",
+     "count": 8,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://www.ansa.it/english/news/politics/",
+       "count": 3,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Автомобильная отрасль — учреждения",
+       "url": "https://www.ansa.it/canale_motori/notizie/istituzioni/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Главные новости",
+       "url": "https://www.ansa.it/sito/notizie/topnews/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.ansa.it/",
+       "count": 3,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
     {
      "name": "ČTK (České noviny)",
      "url": "https://www.ceskenoviny.cz/",
-     "count": 6,
-     "last": "2026-11-03",
+     "count": 7,
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Новости",
        "url": "https://www.ceskenoviny.cz/zpravy/",
-       "count": 6,
+       "count": 7,
        "first": "2026-10-08",
-       "last": "2026-11-03"
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/",
+     "count": 5,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Европа",
+       "url": "https://www.aa.com.tr/en/europe/",
+       "count": 1,
+       "first": "2026-11-04",
+       "last": "2026-11-04"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.aa.com.tr/",
+       "count": 4,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "AGERPRES",
+     "url": "https://agerpres.ro/",
+     "count": 4,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://agerpres.ro/politic/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://agerpres.ro/",
+       "count": 3,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "TASR",
+     "url": "https://www.tasr.sk/",
+     "count": 4,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.tasr.sk/",
+       "count": 4,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "ПРАЙМ",
+     "url": "https://1prime.ru/",
+     "count": 4,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://1prime.ru/",
+       "count": 4,
+       "first": "2026-10-28",
+       "last": "2026-11-17"
       }
      ]
     },
     {
      "name": "Bernama",
      "url": "https://bernama.com/",
-     "count": 2,
-     "last": "2026-11-09",
+     "count": 3,
+     "last": "2026-11-17",
      "sections": [
       {
        "name": "Bernama TV",
@@ -1777,6 +2708,28 @@
        "count": 1,
        "first": "2026-11-09",
        "last": "2026-11-09"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://bernama.com/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Мир",
+       "url": "https://www.reuters.com/world/",
+       "count": 2,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -1796,17 +2749,47 @@
      ]
     },
     {
-     "name": "Anadolu Agency",
-     "url": "https://aa.com.tr/",
+     "name": "AZERTAC",
+     "url": "https://azertag.az/",
      "count": 1,
-     "last": "2026-11-04",
+     "last": "2026-11-17",
      "sections": [
       {
-       "name": "Европа",
-       "url": "https://aa.com.tr/en/europe/",
+       "name": "Новости",
+       "url": "https://azertag.az/en/xeber/",
        "count": 1,
-       "first": "2026-11-04",
-       "last": "2026-11-04"
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Emirates News Agency (WAM)",
+     "url": "https://www.wam.ae/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.wam.ae/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "LaPresse",
+     "url": "https://lapresse.us/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Политика",
+       "url": "https://lapresse.us/politics/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -1826,17 +2809,47 @@
      ]
     },
     {
-     "name": "ПРАЙМ",
-     "url": "https://1prime.ru/",
+     "name": "Белорусское телеграфное агентство (БелТА)",
+     "url": "https://belta.by/",
      "count": 1,
-     "last": "2026-10-28",
+     "last": "2026-11-17",
      "sections": [
       {
-       "name": "Сайт целиком",
-       "url": "https://1prime.ru/",
+       "name": "Видео",
+       "url": "https://belta.by/video/",
        "count": 1,
-       "first": "2026-10-28",
-       "last": "2026-10-28"
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Болгарское телеграфное агентство (БТА)",
+     "url": "https://www.bta.bg/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Болгария",
+       "url": "https://www.bta.bg/en/news/bulgaria/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "РАПСИ — Российское агентство правовой и судебной информации",
+     "url": "https://rapsinews.ru/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Международные новости",
+       "url": "https://rapsinews.ru/international_news/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -1854,13 +2867,43 @@
        "last": "2026-11-07"
       }
      ]
+    },
+    {
+     "name": "САНА",
+     "url": "https://sana.sy/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сирия и мир",
+       "url": "https://sana.sy/syria-and-the-world/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Словенское информационное агентство (STA)",
+     "url": "https://english.sta.si/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://english.sta.si/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
     }
    ]
   },
   {
    "name": "Деловые и финансовые издания",
    "about": "Экономика, рынки, компании, инвестиции",
-   "count": 55,
+   "count": 65,
    "sites": [
     {
      "name": "Economx",
@@ -1946,6 +2989,21 @@
        "count": 1,
        "first": "2026-10-14",
        "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "Коммерсантъ",
+     "url": "https://www.kommersant.ru/",
+     "count": 5,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.kommersant.ru/",
+       "count": 5,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -2158,6 +3216,21 @@
      ]
     },
     {
+     "name": "Delano",
+     "url": "https://delano.lu/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://delano.lu/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Finanz und Wirtschaft",
      "url": "https://www.fuw.ch/",
      "count": 1,
@@ -2338,6 +3411,36 @@
      ]
     },
     {
+     "name": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сингапур",
+       "url": "https://www.businesstimes.com.sg/singapore/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "The Diplomat Bucharest",
+     "url": "https://www.thediplomat.ro/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.thediplomat.ro/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "The Edge Malaysia",
      "url": "https://theedgemalaysia.com/",
      "count": 1,
@@ -2398,6 +3501,36 @@
      ]
     },
     {
+     "name": "Ведомости",
+     "url": "https://www.vedomosti.ru/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Общество",
+       "url": "https://www.vedomosti.ru/society/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Деловой Петербург",
+     "url": "https://www.dp.ru/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.dp.ru/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Эксперт",
      "url": "https://expert.ru/",
      "count": 1,
@@ -2417,7 +3550,7 @@
   {
    "name": "Отраслевые издания",
    "about": "Ритейл и FMCG, стоматология и уход за полостью рта, технологии",
-   "count": 66,
+   "count": 67,
    "sites": [
     {
      "name": "New Retail",
@@ -2787,6 +3920,21 @@
      ]
     },
     {
+     "name": "Overt Defense",
+     "url": "https://www.overtdefense.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.overtdefense.com/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Retail Dive",
      "url": "https://www.retaildive.com/",
      "count": 1,
@@ -2941,7 +4089,7 @@
   {
    "name": "Государственные органы и статистика",
    "about": "Правительства, парламенты, министерства, центральные банки, статистические службы, ЕС",
-   "count": 59,
+   "count": 74,
    "sites": [
     {
      "name": "Официальный сайт Мэра Москвы (mos.ru)",
@@ -3025,6 +4173,21 @@
      ]
     },
     {
+     "name": "China.gov.cn",
+     "url": "https://english.www.gov.cn/",
+     "count": 3,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://english.www.gov.cn/news/",
+       "count": 3,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Eurostat (Европейская комиссия)",
      "url": "https://ec.europa.eu/",
      "count": 3,
@@ -3036,6 +4199,28 @@
        "count": 3,
        "first": "2026-10-15",
        "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "Rijksoverheid",
+     "url": "https://www.rijksoverheid.nl/",
+     "count": 3,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.rijksoverheid.nl/actueel/nieuws/",
+       "count": 2,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Документы",
+       "url": "https://www.rijksoverheid.nl/documenten/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -3152,6 +4337,28 @@
      ]
     },
     {
+     "name": "Правительство Португалии",
+     "url": "https://portugal.gov.pt/",
+     "count": 2,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости правительства",
+       "url": "https://portugal.gov.pt/gc25/comunicacao/noticias/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Сообщения правительства",
+       "url": "https://portugal.gov.pt/pt/gc25/comunicacao/comunicados/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "BEA — Бюро экономического анализа США",
      "url": "https://www.bea.gov/",
      "count": 1,
@@ -3208,6 +4415,21 @@
        "count": 1,
        "first": "2026-10-20",
        "last": "2026-10-20"
+      }
+     ]
+    },
+    {
+     "name": "Prime Minister’s Office Singapore (Канцелярия премьер-министра Сингапура)",
+     "url": "https://www.pmo.gov.sg/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.pmo.gov.sg/newsroom/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -3287,6 +4509,51 @@
      ]
     },
     {
+     "name": "Генеральное консульство КНР в Аделаиде",
+     "url": "https://adelaide.china-consulate.gov.cn/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости Китая",
+       "url": "https://adelaide.china-consulate.gov.cn/eng/zgxw/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Генеральное консульство КНР в Карачи",
+     "url": "https://karachi.china-consulate.gov.cn/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://karachi.china-consulate.gov.cn/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Государственный секретариат Швейцарии по вопросам образования, исследований и инноваций (SERI)",
+     "url": "https://www.sbfi.admin.ch/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.sbfi.admin.ch/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "МИД Германии",
      "url": "https://www.auswaertiges-amt.de/",
      "count": 1,
@@ -3317,6 +4584,21 @@
      ]
     },
     {
+     "name": "Национальный секретариат по изменению климата Сингапура",
+     "url": "https://www.nccs.gov.sg/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Медиа",
+       "url": "https://www.nccs.gov.sg/media/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Парламент Швейцарии",
      "url": "https://www.parlament.ch/",
      "count": 1,
@@ -3328,6 +4610,21 @@
        "count": 1,
        "first": "2026-11-06",
        "last": "2026-11-06"
+      }
+     ]
+    },
+    {
+     "name": "Правительство Люксембурга",
+     "url": "https://gouvernement.lu/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Повестка",
+       "url": "https://gouvernement.lu/fr/actualites/agenda/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -3358,6 +4655,21 @@
        "count": 1,
        "first": "2026-10-16",
        "last": "2026-10-16"
+      }
+     ]
+    },
+    {
+     "name": "Федеральное статистическое ведомство Швейцарии",
+     "url": "https://www.bfs.admin.ch/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.bfs.admin.ch/de/newnsb/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -3575,7 +4887,7 @@
   {
    "name": "Исследовательские центры и ассоциации",
    "about": "Экономические институты, отраслевые ассоциации, организации потребителей",
-   "count": 8,
+   "count": 10,
    "sites": [
     {
      "name": "dTest — организация потребителей Чехии",
@@ -3589,6 +4901,21 @@
        "count": 2,
        "first": "2026-11-03",
        "last": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "name": "CRTA Plus",
+     "url": "https://crta.plus/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Обновления",
+       "url": "https://crta.plus/updates/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -3679,6 +5006,21 @@
        "count": 1,
        "first": "2026-10-21",
        "last": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "name": "Stockholm Center for Freedom (Стокгольмский центр свободы)",
+     "url": "https://stockholmcf.org/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://stockholmcf.org/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     }
