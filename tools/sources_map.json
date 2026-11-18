@@ -968,6 +968,10 @@
     "tipranks.com": {
       "group": "Деловые и финансовые издания",
       "name": "TipRanks"
+    },
+    "adindex.ru": {
+      "group": "Отраслевые издания",
+      "name": "AdIndex"
     }
   },
   "sections": {
@@ -1412,6 +1416,9 @@
     },
     "buttondown.com": {
       "frontpageseu": "Front Pages EU — архив выпусков|https://buttondown.com/frontpageseu/archive/"
+    },
+    "adindex.ru": {
+      "news/creative": "Креатив"
     }
   },
   "rg_by_sub": {
