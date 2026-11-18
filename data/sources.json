@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-18T22:12:26+00:00",
- "total_news": 1226,
+ "updated": "2026-11-18T22:12:29+00:00",
+ "total_news": 1236,
  "total_sites": 343,
  "groups": [
   {
@@ -2751,25 +2751,25 @@
   {
    "name": "Информационные агентства",
    "about": "Новостные агентства, которые первыми выпускают сообщения (их перепечатывают другие СМИ)",
-   "count": 175,
+   "count": 185,
    "sites": [
     {
      "name": "Интерфакс",
      "url": "https://www.interfax.ru/",
-     "count": 106,
+     "count": 116,
      "last": "2026-11-18",
      "sections": [
+      {
+       "name": "В России",
+       "url": "https://www.interfax.ru/russia/",
+       "count": 50,
+       "first": "2026-10-12",
+       "last": "2026-11-18"
+      },
       {
        "name": "В мире",
        "url": "https://www.interfax.ru/world/",
        "count": 44,
-       "first": "2026-10-12",
-       "last": "2026-11-17"
-      },
-      {
-       "name": "В России",
-       "url": "https://www.interfax.ru/russia/",
-       "count": 40,
        "first": "2026-10-12",
        "last": "2026-11-17"
       },
