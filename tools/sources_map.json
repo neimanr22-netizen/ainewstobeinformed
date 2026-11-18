@@ -39,6 +39,54 @@
     }
   ],
   "sites": {
+    "portalspozywczy.pl": {
+      "group": "Отраслевые издания",
+      "name": "Portal Spożywczy"
+    },
+    "pv-magazine.de": {
+      "group": "Отраслевые издания",
+      "name": "pv magazine Deutschland"
+    },
+    "rundschau-online.de": {
+      "group": "Новостные порталы",
+      "name": "Rundschau Online"
+    },
+    "brandit.touchit.sk": {
+      "group": "Сервисы пресс-релизов",
+      "name": "TOUCHIT: пресс-служба"
+    },
+    "rossmann.pl": {
+      "group": "Сайты компаний",
+      "name": "Rossmann Polska"
+    },
+    "corporate.lidl.com.cy": {
+      "group": "Сайты компаний",
+      "name": "Lidl Cyprus"
+    },
+    "rus.delfi.ee": {
+      "group": "Новостные порталы",
+      "name": "Delfi Eesti"
+    },
+    "newsletter.co.uk": {
+      "group": "Новостные порталы",
+      "name": "Belfast News Letter"
+    },
+    "storeinsider.hu": {
+      "group": "Отраслевые издания",
+      "name": "Store Insider"
+    },
+    "vienna.at": {
+      "group": "Новостные порталы",
+      "name": "VIENNA.AT"
+    },
+    "thescottishsun.co.uk": {
+      "group": "Новостные порталы",
+      "name": "The Scottish Sun"
+    },
+    "firstbalkanmedia.com": {
+      "group": "Новостные порталы",
+      "name": "First Balkan Media"
+    },
     "rg.ru": {
       "group": "Новостные порталы",
       "name": "Российская газета"
@@ -1395,6 +1443,30 @@
     }
   },
   "sections": {
+    "portalspozywczy.pl": {
+      "handel/wiadomosci": "Розничная торговля"
+    },
+    "pv-magazine.de": {
+      "unternehmensmeldungen": "Сообщения компаний"
+    },
+    "rundschau-online.de": {
+      "shoppingwelt": "Розничная торговля и потребление"
+    },
+    "rossmann.pl": {
+      "firma/de/pressestelle/information": "Пресс-центр|https://www.rossmann.pl/firma/de/pressestelle/news"
+    },
+    "corporate.lidl.com.cy": {
+      "en/media-center/pressreleases": "Пресс-релизы"
+    },
+    "newsletter.co.uk": {
+      "business": "Бизнес"
+    },
+    "storeinsider.hu": {
+      "cikk": "Розничная торговля|https://storeinsider.hu/"
+    },
+    "thescottishsun.co.uk": {
+      "money": "Деньги и потребительские новости"
+    },
     "rbc.ru": {
       "politics": "Политика|https://www.rbc.ru/politics/",
       "economics": "Экономика|https://www.rbc.ru/economics/",

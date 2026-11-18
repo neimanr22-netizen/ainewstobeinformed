@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-18T01:59:12+00:00",
- "total_news": 1204,
- "total_sites": 331,
+ "updated": "2026-11-18T02:05:41+00:00",
+ "total_news": 1216,
+ "total_sites": 343,
  "groups": [
   {
    "name": "Новостные порталы",
    "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
-   "count": 758,
+   "count": 764,
    "sites": [
     {
      "name": "Российская газета",
@@ -1292,6 +1292,21 @@
      ]
     },
     {
+     "name": "Belfast News Letter",
+     "url": "https://www.newsletter.co.uk/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Бизнес",
+       "url": "https://www.newsletter.co.uk/business/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Blick",
      "url": "https://www.blick.ch/",
      "count": 1,
@@ -1532,6 +1547,21 @@
      ]
     },
     {
+     "name": "Delfi Eesti",
+     "url": "https://rus.delfi.ee/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://rus.delfi.ee/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Democracy Now!",
      "url": "https://www.democracynow.org/",
      "count": 1,
@@ -1720,6 +1750,21 @@
       {
        "name": "Новости Лиссабона",
        "url": "https://expresso.pt/noticias-lisboa/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "First Balkan Media",
+     "url": "https://firstbalkanmedia.com/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://firstbalkanmedia.com/",
        "count": 1,
        "first": "2026-11-17",
        "last": "2026-11-17"
@@ -2372,6 +2417,21 @@
      ]
     },
     {
+     "name": "Rundschau Online",
+     "url": "https://www.rundschau-online.de/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Розничная торговля и потребление",
+       "url": "https://www.rundschau-online.de/shoppingwelt/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "St. Galler Tagblatt",
      "url": "https://www.tagblatt.ch/",
      "count": 1,
@@ -2507,6 +2567,21 @@
      ]
     },
     {
+     "name": "The Scottish Sun",
+     "url": "https://www.thescottishsun.co.uk/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Деньги и потребительские новости",
+       "url": "https://www.thescottishsun.co.uk/money/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "The Straits Times",
      "url": "https://www.straitstimes.com/",
      "count": 1,
@@ -2545,6 +2620,21 @@
       {
        "name": "Сайт целиком",
        "url": "https://www.tvp.info/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "VIENNA.AT",
+     "url": "https://www.vienna.at/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.vienna.at/",
        "count": 1,
        "first": "2026-11-17",
        "last": "2026-11-17"
@@ -3743,7 +3833,7 @@
   {
    "name": "Отраслевые издания",
    "about": "Ритейл и FMCG, стоматология и уход за полостью рта, технологии",
-   "count": 71,
+   "count": 74,
    "sites": [
     {
      "name": "New Retail",
@@ -4158,6 +4248,36 @@
      ]
     },
     {
+     "name": "Portal Spożywczy",
+     "url": "https://www.portalspozywczy.pl/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Розничная торговля",
+       "url": "https://www.portalspozywczy.pl/handel/wiadomosci/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сообщения компаний",
+       "url": "https://www.pv-magazine.de/unternehmensmeldungen/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Regfollower",
      "url": "https://regfollower.com/",
      "count": 1,
@@ -4244,6 +4364,21 @@
        "count": 1,
        "first": "2026-11-02",
        "last": "2026-11-02"
+      }
+     ]
+    },
+    {
+     "name": "Store Insider",
+     "url": "https://storeinsider.hu/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Розничная торговля",
+       "url": "https://storeinsider.hu/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -5058,7 +5193,7 @@
   {
    "name": "Сайты компаний",
    "about": "Пресс-релизы и отчёты на сайтах самих компаний",
-   "count": 20,
+   "count": 22,
    "sites": [
     {
      "name": "dm-drogerie markt — пресс-центр",
@@ -5151,6 +5286,21 @@
      ]
     },
     {
+     "name": "Lidl Cyprus",
+     "url": "https://corporate.lidl.com.cy/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Пресс-релизы",
+       "url": "https://corporate.lidl.com.cy/en/media-center/pressreleases/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "Lidl Österreich — пресс-центр",
      "url": "https://corporate.lidl.at/",
      "count": 1,
@@ -5177,6 +5327,21 @@
        "count": 1,
        "first": "2026-11-03",
        "last": "2026-11-03"
+      }
+     ]
+    },
+    {
+     "name": "Rossmann Polska",
+     "url": "https://www.rossmann.pl/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Пресс-центр",
+       "url": "https://www.rossmann.pl/firma/de/pressestelle/news",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     },
@@ -5230,7 +5395,7 @@
   {
    "name": "Сервисы пресс-релизов",
    "about": "Площадки, через которые компании и организации распространяют пресс-релизы",
-   "count": 6,
+   "count": 7,
    "sites": [
     {
      "name": "APA-OTS (Австрия)",
@@ -5259,6 +5424,21 @@
        "count": 2,
        "first": "2026-10-20",
        "last": "2026-10-27"
+      }
+     ]
+    },
+    {
+     "name": "TOUCHIT: пресс-служба",
+     "url": "https://brandit.touchit.sk/",
+     "count": 1,
+     "last": "2026-11-17",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://brandit.touchit.sk/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
       }
      ]
     }
