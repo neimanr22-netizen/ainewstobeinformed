@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-18T22:12:33+00:00",
- "total_news": 1246,
- "total_sites": 343,
+ "updated": "2026-11-19T09:54:56+00:00",
+ "total_news": 1256,
+ "total_sites": 344,
  "groups": [
   {
    "name": "Новостные порталы",
    "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
-   "count": 764,
+   "count": 771,
    "sites": [
     {
      "name": "Российская газета",
      "url": "https://rg.ru/",
-     "count": 342,
-     "last": "2026-11-17",
+     "count": 343,
+     "last": "2026-11-18",
      "sections": [
       {
        "name": "В мире",
@@ -45,9 +45,9 @@
       {
        "name": "Экономика — Финансы",
        "url": "https://rg.ru/tema/ekonomika/finansy",
-       "count": 41,
+       "count": 42,
        "first": "2026-10-09",
-       "last": "2026-11-17"
+       "last": "2026-11-18"
       },
       {
        "name": "Экономика — Бизнес",
@@ -82,15 +82,15 @@
     {
      "name": "РБК",
      "url": "https://www.rbc.ru/",
-     "count": 143,
-     "last": "2026-11-17",
+     "count": 149,
+     "last": "2026-11-18",
      "sections": [
       {
        "name": "Политика",
        "url": "https://www.rbc.ru/politics/",
-       "count": 36,
+       "count": 37,
        "first": "2026-10-08",
-       "last": "2026-11-17"
+       "last": "2026-11-18"
       },
       {
        "name": "Quote (инвестиции и рынки)",
@@ -102,9 +102,9 @@
       {
        "name": "Лента новостей",
        "url": "https://www.rbc.ru/rbcfreenews/",
-       "count": 17,
+       "count": 18,
        "first": "2026-10-10",
-       "last": "2026-11-17"
+       "last": "2026-11-18"
       },
       {
        "name": "Недвижимость",
@@ -123,9 +123,9 @@
       {
        "name": "Бизнес",
        "url": "https://www.rbc.ru/business/",
-       "count": 9,
+       "count": 10,
        "first": "2026-10-09",
-       "last": "2026-11-17"
+       "last": "2026-11-18"
       },
       {
        "name": "Экономика",
@@ -133,6 +133,13 @@
        "count": 6,
        "first": "2026-11-13",
        "last": "2026-11-14"
+      },
+      {
+       "name": "Отрасли",
+       "url": "https://www.rbc.ru/industries/",
+       "count": 5,
+       "first": "2026-11-16",
+       "last": "2026-11-18"
       },
       {
        "name": "РБК Новосибирск",
@@ -146,13 +153,6 @@
        "url": "https://ufa.rbc.ru/",
        "count": 5,
        "first": "2026-10-12",
-       "last": "2026-11-17"
-      },
-      {
-       "name": "Отрасли",
-       "url": "https://www.rbc.ru/industries/",
-       "count": 4,
-       "first": "2026-11-16",
        "last": "2026-11-17"
       },
       {
@@ -186,9 +186,9 @@
       {
        "name": "Сайт целиком",
        "url": "https://www.rbc.ru/",
-       "count": 5,
+       "count": 7,
        "first": "2026-11-16",
-       "last": "2026-11-16"
+       "last": "2026-11-18"
       },
       {
        "name": "Сайт целиком",
@@ -2751,12 +2751,12 @@
   {
    "name": "Информационные агентства",
    "about": "Новостные агентства, которые первыми выпускают сообщения (их перепечатывают другие СМИ)",
-   "count": 195,
+   "count": 198,
    "sites": [
     {
      "name": "Интерфакс",
      "url": "https://www.interfax.ru/",
-     "count": 126,
+     "count": 127,
      "last": "2026-11-18",
      "sections": [
       {
@@ -2776,9 +2776,9 @@
       {
        "name": "Экономика",
        "url": "https://www.interfax.ru/business/",
-       "count": 17,
+       "count": 18,
        "first": "2026-10-12",
-       "last": "2026-11-17"
+       "last": "2026-11-18"
       },
       {
        "name": "Москва",
@@ -2870,6 +2870,21 @@
      ]
     },
     {
+     "name": "ПРАЙМ",
+     "url": "https://1prime.ru/",
+     "count": 6,
+     "last": "2026-11-18",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://1prime.ru/",
+       "count": 6,
+       "first": "2026-10-28",
+       "last": "2026-11-18"
+      }
+     ]
+    },
+    {
      "name": "AGERPRES",
      "url": "https://agerpres.ro/",
      "count": 5,
@@ -2924,21 +2939,6 @@
        "url": "https://www.tasr.sk/",
        "count": 5,
        "first": "2026-11-17",
-       "last": "2026-11-17"
-      }
-     ]
-    },
-    {
-     "name": "ПРАЙМ",
-     "url": "https://1prime.ru/",
-     "count": 5,
-     "last": "2026-11-17",
-     "sections": [
-      {
-       "name": "Сайт целиком",
-       "url": "https://1prime.ru/",
-       "count": 5,
-       "first": "2026-10-28",
        "last": "2026-11-17"
       }
      ]
@@ -3118,6 +3118,21 @@
        "count": 1,
        "first": "2026-11-17",
        "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "НИА «Экология»",
+     "url": "https://nia.eco/",
+     "count": 1,
+     "last": "2026-11-18",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://nia.eco/",
+       "count": 1,
+       "first": "2026-11-18",
+       "last": "2026-11-18"
       }
      ]
     },
