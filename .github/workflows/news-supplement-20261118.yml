@@ -1,0 +1,95 @@
+name: Append verified news for 2026-11-18
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/news_batches/2026-11-18-supplement.json'
+      - '.github/workflows/news-supplement-20261118.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: news-archive-update
+  cancel-in-progress: false
+jobs:
+  append:
+    if: github.repository == 'neimanr22-netizen/ainewstobeinformed'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Append news and verify preservation of existing records
+        shell: python
+        run: |
+          import hashlib, json, subprocess
+          from pathlib import Path
+          from datetime import datetime, timezone
+          from urllib.parse import urlsplit
+          target = Path('data/days/2026-11-18.json')
+          before = {p: p.read_bytes() for p in Path('data/days').glob('*.json')}
+          old = json.loads(target.read_text(encoding='utf-8'))
+          batch = json.loads(Path('tools/news_batches/2026-11-18-supplement.json').read_text(encoding='utf-8'))
+          allowed = {'rbc', 'rg', 'world', 'russia', 'moscow'}
+          assert all(x['date'] == '2026-11-18' and x['cat'] in allowed for x in batch)
+          cfg = json.loads(Path('data/categories.json').read_text(encoding='utf-8'))
+          cats = {c['id']: c for c in cfg['categories']}
+          import sys
+          sys.path.insert(0, 'tools')
+          from add_news import norm_url, norm_title
+          all_items = [x for raw in before.values() for x in json.loads(raw)]
+          seen = {norm_url(x['url']) for x in all_items}
+          titles = {(x['cat'], x.get('sub'), norm_title(x['title'])) for x in all_items}
+          new = []
+          for x in batch:
+              subs = cats[x['cat']]['subs']
+              assert isinstance(subs, list)
+              assert x.get('sub') in {s['id'] for s in subs} if subs else x.get('sub') is None
+              assert all(x.get(k) for k in ['title', 'summary', 'url', 'source'])
+              host = urlsplit(x['url']).netloc.removeprefix('www.')
+              assert x['cat'] != 'rbc' or host == 'rbc.ru' or host.endswith('.rbc.ru')
+              assert x['cat'] != 'rg' or host == 'rg.ru'
+              u = norm_url(x['url'])
+              t = (x['cat'], x.get('sub'), norm_title(x['title']))
+              if u in seen or t in titles:
+                  continue
+              rec = dict(x, id=hashlib.sha1(u.encode()).hexdigest()[:10], added='2026-11-19')
+              new.append(rec)
+              seen.add(u)
+              titles.add(t)
+          merged = old + new
+          assert merged[:len(old)] == old
+          assert len({x['id'] for x in merged}) == len(merged)
+          target.write_text(json.dumps(merged, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+          for p, raw in before.items():
+              if p != target:
+                  assert p.read_bytes() == raw, str(p)
+          manifest_path = Path('data/manifest.json')
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          manifest['days']['2026-11-18'] = len(merged)
+          manifest['updated'] = datetime.now(timezone.utc).isoformat(timespec='seconds')
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+          map_path = Path('tools/sources_map.json')
+          source_map = json.loads(map_path.read_text(encoding='utf-8'))
+          if 'nia.eco' not in source_map['sites']:
+              assert 'Информационные агентства' in {g['name'] for g in source_map['groups']}
+              source_map['sites']['nia.eco'] = {'group': 'Информационные агентства', 'name': 'НИА «Экология»'}
+              map_path.write_text(json.dumps(source_map, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          subprocess.run([sys.executable, 'tools/sources.py'], check=True)
+          print(json.dumps({'added': len(new), 'preserved': len(old), 'total_for_day': len(merged)}, ensure_ascii=False))
+      - name: Commit only news data and source index
+        run: |
+          if [ -z "$(git status --porcelain -- data/days/2026-11-18.json data/manifest.json data/sources.json SOURCES.md tools/sources_map.json)" ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/days/2026-11-18.json data/manifest.json data/sources.json SOURCES.md tools/sources_map.json
+          git commit -m 'Append verified 2026-11-18 news without altering historical records'
+          git push origin HEAD:main
+      - name: Request GitHub Pages rebuild
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST repos/${{ github.repository }}/pages/builds
