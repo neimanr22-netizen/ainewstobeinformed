@@ -1460,6 +1460,10 @@
     "dailynorthern.com": {
       "name": "Daily Northern",
       "group": "Новостные порталы"
+    },
+    "cdn.noticiasaominuto.com": {
+      "name": "Notícias ao Minuto",
+      "group": "Новостные порталы"
     }
   },
   "sections": {

@@ -4,13 +4,13 @@
 Здесь ссылки на источники (сайт или раздел сайта), а не на отдельные новости.
 Файл создаётся автоматически скриптом `tools/sources.py` — вручную не править.
 
-Всего: 348 сайтов, 1386 новостей. Обновлено: 22.11.2026.
+Всего: 349 сайтов, 1393 новости. Обновлено: 22.11.2026.
 
 ## Оглавление
 
-- [Новостные порталы](#новостные-порталы) — 166 сайтов, 869 новостей
-- [Информационные агентства](#информационные-агентства) — 23 сайта, 222 новости
-- [Деловые и финансовые издания](#деловые-и-финансовые-издания) — 38 сайтов, 67 новостей
+- [Новостные порталы](#новостные-порталы) — 167 сайтов, 872 новости
+- [Информационные агентства](#информационные-агентства) — 23 сайта, 224 новости
+- [Деловые и финансовые издания](#деловые-и-финансовые-издания) — 38 сайтов, 69 новостей
 - [Отраслевые издания](#отраслевые-издания) — 42 сайта, 74 новости
 - [Государственные органы и статистика](#государственные-органы-и-статистика) — 44 сайта, 97 новостей
 - [Сайты компаний](#сайты-компаний) — 13 сайтов, 22 новости
@@ -59,7 +59,7 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Al Jazeera](https://www.aljazeera.com/)** | [Новости](https://www.aljazeera.com/news/) | 7 | 09.10.2026 – 21.11.2026 |
 | **[Public Sénat](https://www.publicsenat.fr/)** | [Политика](https://www.publicsenat.fr/actualites/politique/) | 5 | 17.11.2026 |
 |  | [Сайт целиком](https://www.publicsenat.fr/) | 2 | 17.11.2026 |
-| **[Euronews](https://www.euronews.com/)** | [Сайт целиком](https://www.euronews.com/) | 5 | 13.10.2026 – 17.11.2026 |
+| **[Euronews](https://www.euronews.com/)** | [Сайт целиком](https://www.euronews.com/) | 6 | 13.10.2026 – 21.11.2026 |
 | **[ORF](https://orf.at/)** | [Сайт целиком](https://orf.at/) | 5 | 14.10.2026 – 17.11.2026 |
 | **[The Moscow Times](https://ru.themoscowtimes.com/)** | [Сайт целиком](https://ru.themoscowtimes.com/) | 5 | 02.11.2026 – 11.11.2026 |
 | **[The Star (Малайзия)](https://www.thestar.com.my/)** | [Мир](https://www.thestar.com.my/news/world/) | 1 | 02.11.2026 |
@@ -108,6 +108,8 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Infostart](https://infostart.hu/)** | [Внутренние новости](https://infostart.hu/belfold/) | 2 | 13.10.2026 – 17.11.2026 |
 | **[Just the News](https://justthenews.com/)** | [Власть](https://justthenews.com/government/) | 2 | 05.11.2026 – 17.11.2026 |
 | **[KSAT](https://www.ksat.com/)** | [Сайт целиком](https://www.ksat.com/) | 2 | 15.11.2026 – 17.11.2026 |
+| **[Lianhe Zaobao](https://www.zaobao.com.sg/)** | [Новости Сингапура](https://www.zaobao.com.sg/en/en/news/singapore/) | 1 | 17.11.2026 |
+|  | [Сайт целиком](https://www.zaobao.com.sg/) | 1 | 21.11.2026 |
 | **[Magyar Nemzet](https://magyarnemzet.hu/)** | [Внутренние новости](https://magyarnemzet.hu/belfold/) | 2 | 17.11.2026 |
 | **[n-tv](https://www.n-tv.de/)** | [Политика](https://www.n-tv.de/politik/) | 2 | 17.11.2026 |
 | **[Nation Thailand](https://www.nationthailand.com/)** | [Мир](https://www.nationthailand.com/news/world/) | 1 | 10.11.2026 |
@@ -181,7 +183,6 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Kronen Zeitung](https://www.krone.at/)** | [Сайт целиком](https://www.krone.at/) | 1 | 17.11.2026 |
 | **[KY3](https://www.ky3.com/)** | [Сайт целиком](https://www.ky3.com/) | 1 | 07.11.2026 |
 | **[Kyiv Post](https://www.kyivpost.com/)** | [Сайт целиком](https://www.kyivpost.com/) | 1 | 03.11.2026 |
-| **[Lianhe Zaobao](https://www.zaobao.com.sg/)** | [Новости Сингапура](https://www.zaobao.com.sg/en/en/news/singapore/) | 1 | 17.11.2026 |
 | **[Lrytas](https://www.lrytas.lt/)** | [Политика](https://www.lrytas.lt/english/politics/) | 1 | 17.11.2026 |
 | **[LSM](https://eng.lsm.lv/)** | [Сайт целиком](https://eng.lsm.lv/) | 1 | 17.11.2026 |
 | **[Majorca Daily Bulletin](https://www.majorcadailybulletin.com/)** | [Местные новости](https://www.majorcadailybulletin.com/news/local/) | 1 | 17.11.2026 |
@@ -203,6 +204,7 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Northern Virginia Magazine](https://northernvirginiamag.com/)** | [Сайт целиком](https://northernvirginiamag.com/) | 1 | 13.11.2026 |
 | **[Notes from Poland](https://notesfrompoland.com/)** | [Сайт целиком](https://notesfrompoland.com/) | 1 | 17.11.2026 |
 | **[Notícias ao Minuto](https://www.noticiasaominuto.com/)** | [Страна](https://www.noticiasaominuto.com/pais/) | 1 | 17.11.2026 |
+| **[Notícias ao Minuto](https://cdn.noticiasaominuto.com/)** | [Сайт целиком](https://cdn.noticiasaominuto.com/) | 1 | 21.11.2026 |
 | **[NPR](https://www.npr.org/)** | [Сайт целиком](https://www.npr.org/) | 1 | 27.10.2026 |
 | **[Oberösterreichische Nachrichten](https://www.nachrichten.at/)** | [Экономика](https://www.nachrichten.at/wirtschaft/) | 1 | 09.10.2026 |
 | **[PBS NewsHour](https://www.pbs.org/)** | [NewsHour — политика](https://www.pbs.org/newshour/politics/) | 1 | 13.10.2026 |
@@ -253,7 +255,7 @@ _Новостные агентства, которые первыми выпус
 | **[TASR (Teraz.sk)](https://www.teraz.sk/)** | [Экономика](https://www.teraz.sk/ekonomika/) | 7 | 08.10.2026 – 29.10.2026 |
 |  | [Последние новости](https://www.teraz.sk/najnovsie/) | 1 | 08.10.2026 |
 |  | [Сайт целиком](https://www.teraz.sk/) | 3 | 17.11.2026 |
-| **[ČTK (České noviny)](https://www.ceskenoviny.cz/)** | [Новости](https://www.ceskenoviny.cz/zpravy/) | 7 | 08.10.2026 – 17.11.2026 |
+| **[ČTK (České noviny)](https://www.ceskenoviny.cz/)** | [Новости](https://www.ceskenoviny.cz/zpravy/) | 8 | 08.10.2026 – 21.11.2026 |
 | **[ПРАЙМ](https://1prime.ru/)** | [Сайт целиком](https://1prime.ru/) | 6 | 28.10.2026 – 18.11.2026 |
 | **[AGERPRES](https://agerpres.ro/)** | [Политика](https://agerpres.ro/politic/) | 1 | 17.11.2026 |
 |  | [Сайт целиком](https://agerpres.ro/) | 4 | 17.11.2026 |
@@ -265,7 +267,7 @@ _Новостные агентства, которые первыми выпус
 | **[Bernama](https://bernama.com/)** | [Bernama TV](https://bernama.com/tv/) | 1 | 07.11.2026 |
 |  | [Мир](https://bernama.com/en/world/) | 1 | 09.11.2026 |
 |  | [Сайт целиком](https://bernama.com/) | 1 | 17.11.2026 |
-| **[EFE](https://efe.com/)** | [Испания](https://efe.com/espana/) | 2 | 17.11.2026 – 21.11.2026 |
+| **[EFE](https://efe.com/)** | [Испания](https://efe.com/espana/) | 3 | 17.11.2026 – 21.11.2026 |
 | **[LaPresse](https://lapresse.us/)** | [Политика](https://lapresse.us/politics/) | 2 | 17.11.2026 – 21.11.2026 |
 | **[Белорусское телеграфное агентство (БелТА)](https://belta.by/)** | [Видео](https://belta.by/video/) | 1 | 17.11.2026 |
 |  | [Сайт целиком](https://belta.by/) | 1 | 17.11.2026 |
@@ -286,7 +288,7 @@ _Экономика, рынки, компании, инвестиции_
 
 | Сайт | Раздел | Новостей | Период |
 |---|---|---:|---|
-| **[Economx](https://www.economx.hu/)** | [Экономика Венгрии](https://www.economx.hu/magyar-gazdasag/) | 3 | 14.10.2026 – 15.11.2026 |
+| **[Economx](https://www.economx.hu/)** | [Экономика Венгрии](https://www.economx.hu/magyar-gazdasag/) | 4 | 14.10.2026 – 21.11.2026 |
 |  | [Экономика](https://www.economx.hu/gazdasag/) | 2 | 12.10.2026 – 29.10.2026 |
 |  | [Внутренние новости](https://www.economx.hu/belfold/) | 1 | 31.10.2026 |
 | **[Коммерсантъ](https://www.kommersant.ru/)** | [Сайт целиком](https://www.kommersant.ru/) | 6 | 17.11.2026 |
@@ -302,6 +304,7 @@ _Экономика, рынки, компании, инвестиции_
 | **[Investing.com](https://www.investing.com/)** | [Новости фондового рынка](https://www.investing.com/news/stock-market-news/) | 1 | 13.10.2026 |
 |  | [Стенограммы](https://www.investing.com/news/transcripts/) | 1 | 29.10.2026 |
 | **[Portfolio.hu](https://www.portfolio.hu/)** | [Экономика](https://www.portfolio.hu/gazdasag/) | 2 | 28.10.2026 – 15.11.2026 |
+| **[The Business Times](https://www.businesstimes.com.sg/)** | [Сингапур](https://www.businesstimes.com.sg/singapore/) | 2 | 17.11.2026 – 21.11.2026 |
 | **[The Edge Malaysia](https://theedgemalaysia.com/)** | [Сайт целиком](https://theedgemalaysia.com/) | 2 | 09.11.2026 – 17.11.2026 |
 | **[TheStreet](https://www.thestreet.com/)** | [Комментарии к рынку](https://pro.thestreet.com/market-commentary/) | 1 | 10.11.2026 |
 |  | [Ритейл](https://www.thestreet.com/retail/) | 1 | 11.11.2026 |
@@ -326,7 +329,6 @@ _Экономика, рынки, компании, инвестиции_
 | **[Quartz](https://qz.com/)** | [Сайт целиком](https://qz.com/) | 1 | 30.10.2026 |
 | **[Simply Wall St](https://simplywall.st/)** | [Акции США](https://simplywall.st/stocks/us/) | 1 | 14.11.2026 |
 | **[StockAnalysis](https://stockanalysis.com/)** | [Сайт целиком](https://stockanalysis.com/) | 1 | 10.11.2026 |
-| **[The Business Times](https://www.businesstimes.com.sg/)** | [Сингапур](https://www.businesstimes.com.sg/singapore/) | 1 | 17.11.2026 |
 | **[The Diplomat Bucharest](https://www.thediplomat.ro/)** | [Сайт целиком](https://www.thediplomat.ro/) | 1 | 17.11.2026 |
 | **[TipRanks](https://www.tipranks.com/)** | [Сайт целиком](https://www.tipranks.com/) | 1 | 09.11.2026 |
 | **[TradingKey](https://www.tradingkey.com/)** | [Движение рынка](https://www.tradingkey.com/news/market-movers/) | 1 | 06.11.2026 |

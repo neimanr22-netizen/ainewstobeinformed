@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T00:16:23+00:00",
- "total_news": 1386,
- "total_sites": 348,
+ "updated": "2026-11-22T00:16:29+00:00",
+ "total_news": 1393,
+ "total_sites": 349,
  "groups": [
   {
    "name": "Новостные порталы",
    "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
-   "count": 869,
+   "count": 872,
    "sites": [
     {
      "name": "Российская газета",
@@ -312,15 +312,15 @@
     {
      "name": "Euronews",
      "url": "https://www.euronews.com/",
-     "count": 5,
-     "last": "2026-11-17",
+     "count": 6,
+     "last": "2026-11-21",
      "sections": [
       {
        "name": "Сайт целиком",
        "url": "https://www.euronews.com/",
-       "count": 5,
+       "count": 6,
        "first": "2026-10-13",
-       "last": "2026-11-17"
+       "last": "2026-11-21"
       }
      ]
     },
@@ -937,6 +937,28 @@
        "count": 2,
        "first": "2026-11-15",
        "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Lianhe Zaobao",
+     "url": "https://www.zaobao.com.sg/",
+     "count": 2,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Новости Сингапура",
+       "url": "https://www.zaobao.com.sg/en/en/news/singapore/",
+       "count": 1,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.zaobao.com.sg/",
+       "count": 1,
+       "first": "2026-11-21",
+       "last": "2026-11-21"
       }
      ]
     },
@@ -2004,21 +2026,6 @@
      ]
     },
     {
-     "name": "Lianhe Zaobao",
-     "url": "https://www.zaobao.com.sg/",
-     "count": 1,
-     "last": "2026-11-17",
-     "sections": [
-      {
-       "name": "Новости Сингапура",
-       "url": "https://www.zaobao.com.sg/en/en/news/singapore/",
-       "count": 1,
-       "first": "2026-11-17",
-       "last": "2026-11-17"
-      }
-     ]
-    },
-    {
      "name": "Lrytas",
      "url": "https://www.lrytas.lt/",
      "count": 1,
@@ -2330,6 +2337,21 @@
        "count": 1,
        "first": "2026-11-17",
        "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "Notícias ao Minuto",
+     "url": "https://cdn.noticiasaominuto.com/",
+     "count": 1,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://cdn.noticiasaominuto.com/",
+       "count": 1,
+       "first": "2026-11-21",
+       "last": "2026-11-21"
       }
      ]
     },
@@ -2818,7 +2840,7 @@
   {
    "name": "Информационные агентства",
    "about": "Новостные агентства, которые первыми выпускают сообщения (их перепечатывают другие СМИ)",
-   "count": 222,
+   "count": 224,
    "sites": [
     {
      "name": "Интерфакс",
@@ -2924,15 +2946,15 @@
     {
      "name": "ČTK (České noviny)",
      "url": "https://www.ceskenoviny.cz/",
-     "count": 7,
-     "last": "2026-11-17",
+     "count": 8,
+     "last": "2026-11-21",
      "sections": [
       {
        "name": "Новости",
        "url": "https://www.ceskenoviny.cz/zpravy/",
-       "count": 7,
+       "count": 8,
        "first": "2026-10-08",
-       "last": "2026-11-17"
+       "last": "2026-11-21"
       }
      ]
     },
@@ -3064,13 +3086,13 @@
     {
      "name": "EFE",
      "url": "https://efe.com/",
-     "count": 2,
+     "count": 3,
      "last": "2026-11-21",
      "sections": [
       {
        "name": "Испания",
        "url": "https://efe.com/espana/",
-       "count": 2,
+       "count": 3,
        "first": "2026-11-17",
        "last": "2026-11-21"
       }
@@ -3268,20 +3290,20 @@
   {
    "name": "Деловые и финансовые издания",
    "about": "Экономика, рынки, компании, инвестиции",
-   "count": 67,
+   "count": 69,
    "sites": [
     {
      "name": "Economx",
      "url": "https://www.economx.hu/",
-     "count": 6,
-     "last": "2026-11-15",
+     "count": 7,
+     "last": "2026-11-21",
      "sections": [
       {
        "name": "Экономика Венгрии",
        "url": "https://www.economx.hu/magyar-gazdasag/",
-       "count": 3,
+       "count": 4,
        "first": "2026-10-14",
-       "last": "2026-11-15"
+       "last": "2026-11-21"
       },
       {
        "name": "Экономика",
@@ -3443,6 +3465,21 @@
        "count": 2,
        "first": "2026-10-28",
        "last": "2026-11-15"
+      }
+     ]
+    },
+    {
+     "name": "The Business Times",
+     "url": "https://www.businesstimes.com.sg/",
+     "count": 2,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Сингапур",
+       "url": "https://www.businesstimes.com.sg/singapore/",
+       "count": 2,
+       "first": "2026-11-17",
+       "last": "2026-11-21"
       }
      ]
     },
@@ -3787,21 +3824,6 @@
        "count": 1,
        "first": "2026-11-10",
        "last": "2026-11-10"
-      }
-     ]
-    },
-    {
-     "name": "The Business Times",
-     "url": "https://www.businesstimes.com.sg/",
-     "count": 1,
-     "last": "2026-11-17",
-     "sections": [
-      {
-       "name": "Сингапур",
-       "url": "https://www.businesstimes.com.sg/singapore/",
-       "count": 1,
-       "first": "2026-11-17",
-       "last": "2026-11-17"
       }
      ]
     },
