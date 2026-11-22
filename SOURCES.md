@@ -4,12 +4,12 @@
 Здесь ссылки на источники (сайт или раздел сайта), а не на отдельные новости.
 Файл создаётся автоматически скриптом `tools/sources.py` — вручную не править.
 
-Всего: 344 сайта, 1370 новостей. Обновлено: 21.11.2026.
+Всего: 348 сайтов, 1386 новостей. Обновлено: 22.11.2026.
 
 ## Оглавление
 
-- [Новостные порталы](#новостные-порталы) — 162 сайта, 855 новостей
-- [Информационные агентства](#информационные-агентства) — 23 сайта, 220 новостей
+- [Новостные порталы](#новостные-порталы) — 166 сайтов, 869 новостей
+- [Информационные агентства](#информационные-агентства) — 23 сайта, 222 новости
 - [Деловые и финансовые издания](#деловые-и-финансовые-издания) — 38 сайтов, 67 новостей
 - [Отраслевые издания](#отраслевые-издания) — 42 сайта, 74 новости
 - [Государственные органы и статистика](#государственные-органы-и-статистика) — 44 сайта, 97 новостей
@@ -55,10 +55,10 @@ _Общественно-политические СМИ: газеты, инте�
 |  | [English](https://telex.hu/english/) | 1 | 05.11.2026 |
 | **[Index.hu](https://index.hu/)** | [Внутренние новости](https://index.hu/belfold/) | 5 | 09.10.2026 – 17.11.2026 |
 |  | [Экономика](https://index.hu/gazdasag/) | 3 | 10.10.2026 – 20.10.2026 |
+| **[Malay Mail](https://www.malaymail.com/)** | [Новости Малайзии](https://www.malaymail.com/news/malaysia/) | 8 | 17.11.2026 – 21.11.2026 |
+| **[Al Jazeera](https://www.aljazeera.com/)** | [Новости](https://www.aljazeera.com/news/) | 7 | 09.10.2026 – 21.11.2026 |
 | **[Public Sénat](https://www.publicsenat.fr/)** | [Политика](https://www.publicsenat.fr/actualites/politique/) | 5 | 17.11.2026 |
 |  | [Сайт целиком](https://www.publicsenat.fr/) | 2 | 17.11.2026 |
-| **[Al Jazeera](https://www.aljazeera.com/)** | [Новости](https://www.aljazeera.com/news/) | 6 | 09.10.2026 – 17.11.2026 |
-| **[Malay Mail](https://www.malaymail.com/)** | [Новости Малайзии](https://www.malaymail.com/news/malaysia/) | 6 | 17.11.2026 |
 | **[Euronews](https://www.euronews.com/)** | [Сайт целиком](https://www.euronews.com/) | 5 | 13.10.2026 – 17.11.2026 |
 | **[ORF](https://orf.at/)** | [Сайт целиком](https://orf.at/) | 5 | 14.10.2026 – 17.11.2026 |
 | **[The Moscow Times](https://ru.themoscowtimes.com/)** | [Сайт целиком](https://ru.themoscowtimes.com/) | 5 | 02.11.2026 – 11.11.2026 |
@@ -70,11 +70,11 @@ _Общественно-политические СМИ: газеты, инте�
 |  | [Политика](https://www.zdfheute.de/politik/) | 1 | 08.10.2026 |
 |  | [Экономика](https://www.zdfheute.de/wirtschaft/) | 1 | 13.10.2026 |
 | **[Москва 24](https://www.m24.ru/)** | [Сайт целиком](https://www.m24.ru/) | 5 | 15.11.2026 – 17.11.2026 |
+| **[Index.hr](https://www.index.hr/)** | [Новости](https://www.index.hr/vijesti/) | 4 | 17.11.2026 – 21.11.2026 |
 | **[Polskie Radio](https://www.polskieradio.pl/)** | [Сайт целиком](https://www.polskieradio.pl/) | 4 | 17.11.2026 |
 | **[Eunews](https://www.eunews.it/)** | [English](https://www.eunews.it/en/) | 3 | 09.10.2026 – 17.11.2026 |
 | **[Fakti.bg](https://fakti.bg/)** | [Болгария](https://fakti.bg/en/bulgaria/) | 3 | 17.11.2026 |
 | **[HVG](https://hvg.hu/)** | [Внутренние новости](https://hvg.hu/itthon/) | 3 | 13.10.2026 – 17.11.2026 |
-| **[Index.hr](https://www.index.hr/)** | [Новости](https://www.index.hr/vijesti/) | 3 | 17.11.2026 |
 | **[Le Monde](https://www.lemonde.fr/)** | [Франция](https://www.lemonde.fr/en/france/) | 3 | 17.11.2026 |
 | **[LRT](https://www.lrt.lt/)** | [Бизнес](https://www.lrt.lt/naujienos/verslas/) | 1 | 17.11.2026 |
 |  | [Литва](https://www.lrt.lt/naujienos/lietuvoje/) | 1 | 17.11.2026 |
@@ -94,13 +94,17 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Медиазона](https://zona.media/)** | [Новости](https://zona.media/news/) | 3 | 02.11.2026 – 06.11.2026 |
 | **[Blesk](https://www.blesk.cz/)** | [Новости — политика](https://www.blesk.cz/clanek/zpravy-politika/) | 1 | 24.10.2026 |
 |  | [Сайт целиком](https://www.blesk.cz/) | 1 | 04.11.2026 |
+| **[BNR News](https://bnrnews.bg/)** | [Сайт целиком](https://bnrnews.bg/) | 2 | 17.11.2026 – 21.11.2026 |
 | **[Channel NewsAsia (CNA)](https://www.channelnewsasia.com/)** | [Видео](https://www.channelnewsasia.com/watch/) | 1 | 17.11.2026 |
 |  | [Сайт целиком](https://www.channelnewsasia.com/) | 1 | 17.11.2026 |
+| **[Echo24](https://www.echo24.cz/)** | [Сайт целиком](https://www.echo24.cz/) | 2 | 20.10.2026 – 21.11.2026 |
 | **[evangelisch.de](https://www.evangelisch.de/)** | [Сайт целиком](https://www.evangelisch.de/) | 2 | 08.11.2026 – 17.11.2026 |
+| **[Expats.cz](https://www.expats.cz/)** | [Новости Чехии](https://www.expats.cz/czech-news/) | 2 | 17.11.2026 – 21.11.2026 |
 | **[eXXpress](https://exxpress.at/)** | [Новости](https://exxpress.at/news/) | 1 | 08.11.2026 |
 |  | [Экономика](https://exxpress.at/economy/) | 1 | 09.10.2026 |
 | **[Fox News](https://www.foxnews.com/)** | [Политика](https://www.foxnews.com/politics/) | 1 | 12.10.2026 |
 |  | [Сайт целиком](https://www.foxnews.com/) | 1 | 21.10.2026 |
+| **[Hürriyet Daily News](https://www.hurriyetdailynews.com/)** | [Сайт целиком](https://www.hurriyetdailynews.com/) | 2 | 17.11.2026 – 21.11.2026 |
 | **[Infostart](https://infostart.hu/)** | [Внутренние новости](https://infostart.hu/belfold/) | 2 | 13.10.2026 – 17.11.2026 |
 | **[Just the News](https://justthenews.com/)** | [Власть](https://justthenews.com/government/) | 2 | 05.11.2026 – 17.11.2026 |
 | **[KSAT](https://www.ksat.com/)** | [Сайт целиком](https://www.ksat.com/) | 2 | 15.11.2026 – 17.11.2026 |
@@ -114,8 +118,11 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Open.kg](https://open.kg/)** | [Политика](https://open.kg/en/news/political-news/) | 2 | 17.11.2026 |
 | **[Roll Call](https://rollcall.com/)** | [Сайт целиком](https://rollcall.com/) | 2 | 15.10.2026 – 17.11.2026 |
 | **[RTV SLO](https://www.rtvslo.si/)** | [Словения](https://www.rtvslo.si/slovenija/) | 2 | 17.11.2026 |
+| **[SWI swissinfo.ch](https://www.swissinfo.ch/)** | [Разное](https://www.swissinfo.ch/eng/various/) | 1 | 17.11.2026 |
+|  | [Сайт целиком](https://www.swissinfo.ch/) | 1 | 21.11.2026 |
 | **[t-online](https://t-online.de/)** | [Новости — Германия](https://t-online.de/nachrichten/deutschland/) | 1 | 20.10.2026 |
 |  | [Сайт целиком](https://t-online.de/) | 1 | 14.11.2026 |
+| **[TA3](https://www.ta3.com/)** | [Сайт целиком](https://www.ta3.com/) | 2 | 09.10.2026 – 21.11.2026 |
 | **[Tagesspiegel](https://www.tagesspiegel.de/)** | [Политика](https://www.tagesspiegel.de/politik/) | 2 | 23.10.2026 – 17.11.2026 |
 | **[The Kyiv Independent](https://kyivindependent.com/)** | [Сайт целиком](https://kyivindependent.com/) | 2 | 10.11.2026 – 17.11.2026 |
 | **[The Local Switzerland](https://www.thelocal.ch/)** | [Сайт целиком](https://www.thelocal.ch/) | 2 | 08.10.2026 – 09.10.2026 |
@@ -135,7 +142,6 @@ _Общественно-политические СМИ: газеты, инте�
 | **[bdnews24.com](https://bdnews24.com/)** | [Мир](https://bdnews24.com/world/) | 1 | 02.11.2026 |
 | **[Belfast News Letter](https://www.newsletter.co.uk/)** | [Бизнес](https://www.newsletter.co.uk/business/) | 1 | 17.11.2026 |
 | **[Blick](https://www.blick.ch/)** | [Экономика](https://www.blick.ch/wirtschaft/) | 1 | 15.10.2026 |
-| **[BNR News](https://bnrnews.bg/)** | [Сайт целиком](https://bnrnews.bg/) | 1 | 17.11.2026 |
 | **[Bratislavak.sk](https://www.bratislavak.sk/)** | [Сайт целиком](https://www.bratislavak.sk/) | 1 | 29.10.2026 |
 | **[Brussels Signal](https://brusselssignal.eu/)** | [Сайт целиком](https://brusselssignal.eu/) | 1 | 04.11.2026 |
 | **[Business FM](https://www.bfm.ru/)** | [Сайт целиком](https://www.bfm.ru/) | 1 | 09.11.2026 |
@@ -147,7 +153,9 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Croatia Week](https://www.croatiaweek.com/)** | [Сайт целиком](https://www.croatiaweek.com/) | 1 | 17.11.2026 |
 | **[Cyprus Mail](https://cyprus-mail.com/)** | [Сайт целиком](https://cyprus-mail.com/) | 1 | 02.11.2026 |
 | **[Dagsavisen](https://www.dagsavisen.no/)** | [Новости](https://www.dagsavisen.no/nyheter/) | 1 | 17.11.2026 |
+| **[Daily Alpine](https://www.dailyalpine.com/)** | [Сайт целиком](https://www.dailyalpine.com/) | 1 | 21.11.2026 |
 | **[Daily News Hungary](https://dailynewshungary.com/)** | [Сайт целиком](https://dailynewshungary.com/) | 1 | 10.11.2026 |
+| **[Daily Northern](https://www.dailynorthern.com/)** | [Сайт целиком](https://www.dailynorthern.com/) | 1 | 21.11.2026 |
 | **[Daily Sabah](https://www.dailysabah.com/)** | [Бизнес и экономика](https://www.dailysabah.com/business/economy/) | 1 | 17.11.2026 |
 | **[Delfi](https://www.delfi.lt/)** | [Литва](https://www.delfi.lt/ru/news/lithuania/) | 1 | 17.11.2026 |
 | **[Delfi Eesti](https://rus.delfi.ee/)** | [Сайт целиком](https://rus.delfi.ee/) | 1 | 17.11.2026 |
@@ -157,19 +165,16 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Die Presse](https://www.diepresse.com/)** | [Сайт целиком](https://www.diepresse.com/) | 1 | 17.11.2026 |
 | **[Diário de Aveiro](https://www.diarioaveiro.pt/)** | [Сайт целиком](https://www.diarioaveiro.pt/) | 1 | 17.11.2026 |
 | **[DutchNews.nl](https://www.dutchnews.nl/)** | [Сайт целиком](https://www.dutchnews.nl/) | 1 | 17.11.2026 |
-| **[Echo24](https://www.echo24.cz/)** | [Сайт целиком](https://www.echo24.cz/) | 1 | 20.10.2026 |
 | **[El Debate](https://www.eldebate.com/)** | [Андалусия](https://www.eldebate.com/espana/andalucia/) | 1 | 17.11.2026 |
 | **[El País](https://elpais.com/)** | [Испания](https://elpais.com/espana/) | 1 | 17.11.2026 |
 | **[Epoch Times Slovensko](https://www.epochtimes.sk/)** | [Сайт целиком](https://www.epochtimes.sk/) | 1 | 15.10.2026 |
 | **[EUobserver](https://euobserver.com/)** | [Сайт целиком](https://euobserver.com/) | 1 | 09.11.2026 |
-| **[Expats.cz](https://www.expats.cz/)** | [Новости Чехии](https://www.expats.cz/czech-news/) | 1 | 17.11.2026 |
 | **[Expresso](https://expresso.pt/)** | [Новости Лиссабона](https://expresso.pt/noticias-lisboa/) | 1 | 17.11.2026 |
 | **[First Balkan Media](https://firstbalkanmedia.com/)** | [Сайт целиком](https://firstbalkanmedia.com/) | 1 | 17.11.2026 |
 | **[Forum24](https://forum24.cz/)** | [Сайт целиком](https://forum24.cz/) | 1 | 15.11.2026 |
 | **[Fox Baltimore](https://foxbaltimore.com/)** | [Страна и мир](https://foxbaltimore.com/news/nation-world/) | 1 | 05.11.2026 |
 | **[Heute](https://www.heute.at/)** | [Сайт целиком](https://www.heute.at/) | 1 | 09.10.2026 |
 | **[Hlavné správy](https://www.hlavnespravy.sk/)** | [Сайт целиком](https://www.hlavnespravy.sk/) | 1 | 16.10.2026 |
-| **[Hürriyet Daily News](https://www.hurriyetdailynews.com/)** | [Сайт целиком](https://www.hurriyetdailynews.com/) | 1 | 17.11.2026 |
 | **[InfoDnes](https://www.infodnes.sk/)** | [Сайт целиком](https://www.infodnes.sk/) | 1 | 14.10.2026 |
 | **[Khaleej Times](https://www.khaleejtimes.com/)** | [Сайт целиком](https://www.khaleejtimes.com/) | 1 | 07.11.2026 |
 | **[KroneHit](https://www.kronehit.at/)** | [Новости](https://www.kronehit.at/news/) | 1 | 21.10.2026 |
@@ -190,6 +195,7 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Netky.sk](https://www.netky.sk/)** | [Сайт целиком](https://www.netky.sk/) | 1 | 28.10.2026 |
 | **[Neue Westfälische](https://nw.de/)** | [Сайт целиком](https://nw.de/) | 1 | 15.11.2026 |
 | **[Neue Zürcher Zeitung (NZZ)](https://www.nzz.ch/)** | [Швейцария](https://www.nzz.ch/schweiz/) | 1 | 17.11.2026 |
+| **[News Central Asia](https://www.newscentralasia.net/)** | [Сайт целиком](https://www.newscentralasia.net/) | 1 | 21.11.2026 |
 | **[News.at](https://www.news.at/)** | [Экономика](https://www.news.at/wirtschaft/) | 1 | 14.10.2026 |
 | **[NIN (Nedeljne informativne novine)](https://www.nin.rs/)** | [Новости экономики](https://www.nin.rs/ekonomija/vesti/) | 1 | 17.11.2026 |
 | **[NLnow](https://nlnow.nl/)** | [Сайт целиком](https://nlnow.nl/) | 1 | 17.11.2026 |
@@ -210,8 +216,6 @@ _Общественно-политические СМИ: газеты, инте�
 | **[RTÉ News](https://www.rte.ie/)** | [Новости / Европейская перспектива](https://www.rte.ie/news/a-european-perspective/) | 1 | 17.11.2026 |
 | **[Rundschau Online](https://www.rundschau-online.de/)** | [Розничная торговля и потребление](https://www.rundschau-online.de/shoppingwelt/) | 1 | 17.11.2026 |
 | **[St. Galler Tagblatt](https://www.tagblatt.ch/)** | [Экономика](https://www.tagblatt.ch/wirtschaft/) | 1 | 22.10.2026 |
-| **[SWI swissinfo.ch](https://www.swissinfo.ch/)** | [Разное](https://www.swissinfo.ch/eng/various/) | 1 | 17.11.2026 |
-| **[TA3](https://www.ta3.com/)** | [Сайт целиком](https://www.ta3.com/) | 1 | 09.10.2026 |
 | **[Tages-Anzeiger](https://www.tagesanzeiger.ch/)** | [Сайт целиком](https://www.tagesanzeiger.ch/) | 1 | 23.10.2026 |
 | **[The Boston Globe](https://www.bostonglobe.com/)** | [Сайт целиком](https://www.bostonglobe.com/) | 1 | 08.11.2026 |
 | **[The Irish Times](https://www.irishtimes.com/)** | [Редакционные статьи](https://www.irishtimes.com/opinion/editorials/) | 1 | 10.11.2026 |
@@ -225,6 +229,7 @@ _Общественно-политические СМИ: газеты, инте�
 | **[VIENNA.AT](https://www.vienna.at/)** | [Сайт целиком](https://www.vienna.at/) | 1 | 17.11.2026 |
 | **[Wetterauer Zeitung](https://www.wetterauer-zeitung.de/)** | [Сайт целиком](https://www.wetterauer-zeitung.de/) | 1 | 12.11.2026 |
 | **[WSB-TV](https://www.wsbtv.com/)** | [Новости](https://www.wsbtv.com/news/) | 1 | 04.11.2026 |
+| **[Átlátszó](https://english.atlatszo.hu/)** | [Сайт целиком](https://english.atlatszo.hu/) | 1 | 21.11.2026 |
 | **[ČT24](https://ct24.ceskatelevize.cz/)** | [Мир](https://ct24.ceskatelevize.cz/clanek/svet/) | 1 | 13.10.2026 |
 | **[АиФ](https://aif.ru/)** | [Здоровье](https://aif.ru/health/) | 1 | 03.11.2026 |
 | **[Бабель](https://babel.ua/)** | [Тексты](https://babel.ua/texts/) | 1 | 17.11.2026 |
@@ -260,13 +265,13 @@ _Новостные агентства, которые первыми выпус
 | **[Bernama](https://bernama.com/)** | [Bernama TV](https://bernama.com/tv/) | 1 | 07.11.2026 |
 |  | [Мир](https://bernama.com/en/world/) | 1 | 09.11.2026 |
 |  | [Сайт целиком](https://bernama.com/) | 1 | 17.11.2026 |
+| **[EFE](https://efe.com/)** | [Испания](https://efe.com/espana/) | 2 | 17.11.2026 – 21.11.2026 |
+| **[LaPresse](https://lapresse.us/)** | [Политика](https://lapresse.us/politics/) | 2 | 17.11.2026 – 21.11.2026 |
 | **[Белорусское телеграфное агентство (БелТА)](https://belta.by/)** | [Видео](https://belta.by/video/) | 1 | 17.11.2026 |
 |  | [Сайт целиком](https://belta.by/) | 1 | 17.11.2026 |
 | **[Agence Europe](https://agenceurope.eu/)** | [Бюллетень](https://agenceurope.eu/en/bulletin/) | 1 | 21.10.2026 |
 | **[AZERTAC](https://azertag.az/)** | [Новости](https://azertag.az/en/xeber/) | 1 | 17.11.2026 |
-| **[EFE](https://efe.com/)** | [Испания](https://efe.com/espana/) | 1 | 17.11.2026 |
 | **[Emirates News Agency (WAM)](https://www.wam.ae/)** | [Сайт целиком](https://www.wam.ae/) | 1 | 17.11.2026 |
-| **[LaPresse](https://lapresse.us/)** | [Политика](https://lapresse.us/politics/) | 1 | 17.11.2026 |
 | **[SITA](https://sita.sk/)** | [Сайт целиком](https://sita.sk/) | 1 | 15.11.2026 |
 | **[Болгарское телеграфное агентство (БТА)](https://www.bta.bg/)** | [Болгария](https://www.bta.bg/en/news/bulgaria/) | 1 | 17.11.2026 |
 | **[НИА «Экология»](https://nia.eco/)** | [Сайт целиком](https://nia.eco/) | 1 | 18.11.2026 |

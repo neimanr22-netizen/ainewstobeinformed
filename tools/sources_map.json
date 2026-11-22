@@ -1444,6 +1444,22 @@
     "nia.eco": {
       "group": "Информационные агентства",
       "name": "НИА «Экология»"
+    },
+    "dailyalpine.com": {
+      "name": "Daily Alpine",
+      "group": "Новостные порталы"
+    },
+    "english.atlatszo.hu": {
+      "name": "Átlátszó",
+      "group": "Новостные порталы"
+    },
+    "newscentralasia.net": {
+      "name": "News Central Asia",
+      "group": "Новостные порталы"
+    },
+    "dailynorthern.com": {
+      "name": "Daily Northern",
+      "group": "Новостные порталы"
     }
   },
   "sections": {
