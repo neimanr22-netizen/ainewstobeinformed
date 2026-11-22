@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-22T00:17:58+00:00",
- "total_news": 1402,
- "total_sites": 353,
+ "updated": "2026-11-22T00:18:02+00:00",
+ "total_news": 1403,
+ "total_sites": 354,
  "groups": [
   {
    "name": "Новостные порталы",
@@ -3981,7 +3981,7 @@
   {
    "name": "Отраслевые издания",
    "about": "Ритейл и FMCG, стоматология и уход за полостью рта, технологии",
-   "count": 78,
+   "count": 79,
    "sites": [
     {
      "name": "New Retail",
@@ -4587,6 +4587,21 @@
        "count": 1,
        "first": "2026-10-29",
        "last": "2026-10-29"
+      }
+     ]
+    },
+    {
+     "name": "The Beauty Brief",
+     "url": "https://www.beautybrief.co/",
+     "count": 1,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.beautybrief.co/",
+       "count": 1,
+       "first": "2026-11-21",
+       "last": "2026-11-21"
       }
      ]
     },

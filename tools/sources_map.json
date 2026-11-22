@@ -1480,6 +1480,10 @@
     "thecheckout.eu": {
       "name": "The Checkout",
       "group": "Отраслевые издания"
+    },
+    "beautybrief.co": {
+      "name": "The Beauty Brief",
+      "group": "Отраслевые издания"
     }
   },
   "sections": {
