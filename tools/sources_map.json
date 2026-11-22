@@ -1464,6 +1464,22 @@
     "cdn.noticiasaominuto.com": {
       "name": "Notícias ao Minuto",
       "group": "Новостные порталы"
+    },
+    "51.ru": {
+      "name": "51.ру",
+      "group": "Новостные порталы"
+    },
+    "lne.es": {
+      "name": "La Nueva España",
+      "group": "Новостные порталы"
+    },
+    "retail-insight-network.com": {
+      "name": "Retail Insight Network",
+      "group": "Отраслевые издания"
+    },
+    "thecheckout.eu": {
+      "name": "The Checkout",
+      "group": "Отраслевые издания"
     }
   },
   "sections": {
@@ -2157,6 +2173,15 @@
     "sullcrom.com": {
       "insights": "Аналитика",
       "insights/memo": "Меморандумы"
+    },
+    "51.ru": {
+      "text/business": "Бизнес"
+    },
+    "lne.es": {
+      "videos/villaviciosa": "Вильявисьоса"
+    },
+    "retail-insight-network.com": {
+      "news": "Новости"
     }
   },
   "rg_by_sub": {

@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T00:16:29+00:00",
- "total_news": 1393,
- "total_sites": 349,
+ "updated": "2026-11-22T00:17:58+00:00",
+ "total_news": 1402,
+ "total_sites": 353,
  "groups": [
   {
    "name": "Новостные порталы",
    "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
-   "count": 872,
+   "count": 875,
    "sites": [
     {
      "name": "Российская газета",
@@ -207,6 +207,28 @@
      ]
     },
     {
+     "name": "Malay Mail",
+     "url": "https://www.malaymail.com/",
+     "count": 9,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Новости Малайзии",
+       "url": "https://www.malaymail.com/news/malaysia/",
+       "count": 8,
+       "first": "2026-11-17",
+       "last": "2026-11-21"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.malaymail.com/",
+       "count": 1,
+       "first": "2026-11-21",
+       "last": "2026-11-21"
+      }
+     ]
+    },
+    {
      "name": "Telex",
      "url": "https://telex.hu/",
      "count": 9,
@@ -254,21 +276,6 @@
        "count": 3,
        "first": "2026-10-10",
        "last": "2026-10-20"
-      }
-     ]
-    },
-    {
-     "name": "Malay Mail",
-     "url": "https://www.malaymail.com/",
-     "count": 8,
-     "last": "2026-11-21",
-     "sections": [
-      {
-       "name": "Новости Малайзии",
-       "url": "https://www.malaymail.com/news/malaysia/",
-       "count": 8,
-       "first": "2026-11-17",
-       "last": "2026-11-21"
       }
      ]
     },
@@ -1321,6 +1328,21 @@
      ]
     },
     {
+     "name": "51.ру",
+     "url": "https://51.ru/",
+     "count": 1,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Бизнес",
+       "url": "https://51.ru/text/business/",
+       "count": 1,
+       "first": "2026-11-21",
+       "last": "2026-11-21"
+      }
+     ]
+    },
+    {
      "name": "6abc",
      "url": "https://6abc.com/",
      "count": 1,
@@ -2022,6 +2044,21 @@
        "count": 1,
        "first": "2026-11-03",
        "last": "2026-11-03"
+      }
+     ]
+    },
+    {
+     "name": "La Nueva España",
+     "url": "https://www.lne.es/",
+     "count": 1,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Вильявисьоса",
+       "url": "https://www.lne.es/videos/villaviciosa/",
+       "count": 1,
+       "first": "2026-11-21",
+       "last": "2026-11-21"
       }
      ]
     },
@@ -2840,7 +2877,7 @@
   {
    "name": "Информационные агентства",
    "about": "Новостные агентства, которые первыми выпускают сообщения (их перепечатывают другие СМИ)",
-   "count": 224,
+   "count": 226,
    "sites": [
     {
      "name": "Интерфакс",
@@ -2879,6 +2916,35 @@
      ]
     },
     {
+     "name": "TASR (Teraz.sk)",
+     "url": "https://www.teraz.sk/",
+     "count": 12,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Экономика",
+       "url": "https://www.teraz.sk/ekonomika/",
+       "count": 7,
+       "first": "2026-10-08",
+       "last": "2026-10-29"
+      },
+      {
+       "name": "Последние новости",
+       "url": "https://www.teraz.sk/najnovsie/",
+       "count": 2,
+       "first": "2026-10-08",
+       "last": "2026-11-21"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.teraz.sk/",
+       "count": 3,
+       "first": "2026-11-17",
+       "last": "2026-11-17"
+      }
+     ]
+    },
+    {
      "name": "ANSA",
      "url": "https://www.ansa.it/",
      "count": 11,
@@ -2909,35 +2975,6 @@
        "name": "Сайт целиком",
        "url": "https://www.ansa.it/",
        "count": 6,
-       "first": "2026-11-17",
-       "last": "2026-11-17"
-      }
-     ]
-    },
-    {
-     "name": "TASR (Teraz.sk)",
-     "url": "https://www.teraz.sk/",
-     "count": 11,
-     "last": "2026-11-17",
-     "sections": [
-      {
-       "name": "Экономика",
-       "url": "https://www.teraz.sk/ekonomika/",
-       "count": 7,
-       "first": "2026-10-08",
-       "last": "2026-10-29"
-      },
-      {
-       "name": "Последние новости",
-       "url": "https://www.teraz.sk/najnovsie/",
-       "count": 1,
-       "first": "2026-10-08",
-       "last": "2026-10-08"
-      },
-      {
-       "name": "Сайт целиком",
-       "url": "https://www.teraz.sk/",
-       "count": 3,
        "first": "2026-11-17",
        "last": "2026-11-17"
       }
@@ -3101,7 +3138,7 @@
     {
      "name": "LaPresse",
      "url": "https://lapresse.us/",
-     "count": 2,
+     "count": 3,
      "last": "2026-11-21",
      "sections": [
       {
@@ -3109,6 +3146,13 @@
        "url": "https://lapresse.us/politics/",
        "count": 2,
        "first": "2026-11-17",
+       "last": "2026-11-21"
+      },
+      {
+       "name": "Сайт целиком",
+       "url": "https://lapresse.us/",
+       "count": 1,
+       "first": "2026-11-21",
        "last": "2026-11-21"
       }
      ]
@@ -3937,7 +3981,7 @@
   {
    "name": "Отраслевые издания",
    "about": "Ритейл и FMCG, стоматология и уход за полостью рта, технологии",
-   "count": 74,
+   "count": 78,
    "sites": [
     {
      "name": "New Retail",
@@ -3957,15 +4001,15 @@
     {
      "name": "Retail.ru",
      "url": "https://www.retail.ru/",
-     "count": 9,
-     "last": "2026-11-15",
+     "count": 10,
+     "last": "2026-11-21",
      "sections": [
       {
        "name": "Новости",
        "url": "https://www.retail.ru/news/",
-       "count": 9,
+       "count": 10,
        "first": "2026-10-20",
-       "last": "2026-11-15"
+       "last": "2026-11-21"
       }
      ]
     },
@@ -4052,6 +4096,21 @@
      ]
     },
     {
+     "name": "Antenna Daily",
+     "url": "https://antennadaily.ru/",
+     "count": 2,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://antennadaily.ru/",
+       "count": 2,
+       "first": "2026-10-21",
+       "last": "2026-11-21"
+      }
+     ]
+    },
+    {
      "name": "Leadersnet",
      "url": "https://www.leadersnet.at/",
      "count": 2,
@@ -4120,21 +4179,6 @@
       {
        "name": "Новости",
        "url": "https://agentcos.com/news/",
-       "count": 1,
-       "first": "2026-10-21",
-       "last": "2026-10-21"
-      }
-     ]
-    },
-    {
-     "name": "Antenna Daily",
-     "url": "https://antennadaily.ru/",
-     "count": 1,
-     "last": "2026-10-21",
-     "sections": [
-      {
-       "name": "Сайт целиком",
-       "url": "https://antennadaily.ru/",
        "count": 1,
        "first": "2026-10-21",
        "last": "2026-10-21"
@@ -4427,6 +4471,21 @@
      ]
     },
     {
+     "name": "Retail Insight Network",
+     "url": "https://www.retail-insight-network.com/",
+     "count": 1,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Новости",
+       "url": "https://www.retail-insight-network.com/news/",
+       "count": 1,
+       "first": "2026-11-21",
+       "last": "2026-11-21"
+      }
+     ]
+    },
+    {
      "name": "Retail Life",
      "url": "https://retail-life.ru/",
      "count": 1,
@@ -4528,6 +4587,21 @@
        "count": 1,
        "first": "2026-10-29",
        "last": "2026-10-29"
+      }
+     ]
+    },
+    {
+     "name": "The Checkout",
+     "url": "https://www.thecheckout.eu/",
+     "count": 1,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://www.thecheckout.eu/",
+       "count": 1,
+       "first": "2026-11-21",
+       "last": "2026-11-21"
       }
      ]
     },
