@@ -1,5 +1,60 @@
 [
  {
+  "id": "8e42016b0c",
+  "date": "2026-11-21",
+  "cat": "chains",
+  "sub": "dm",
+  "title": "dm оснастит более 2 100 магазинов в Германии электронными ценниками",
+  "summary": "По данным RUHR24, dm планирует за три года заменить бумажные ценники электронными во всех немецких магазинах. На дисплеях, помимо цены и QR-кода, указывают, как долго цена не повышалась. В одной из точек Карлсруэ сеть также тестирует карту в приложении, которая показывает покупателю, на какой полке находится нужный товар.",
+  "url": "https://www.ruhr24.de/service/supermaerkte-discounter/dm-aenderung-filiale-deutschland-elektronisches-preisschild-display-led-app-technik-produkte-finden-94599836.html",
+  "source": "RUHR24",
+  "added": "2026-11-22"
+ },
+ {
+  "id": "0374655750",
+  "date": "2026-11-21",
+  "cat": "chains",
+  "sub": "lidl",
+  "title": "Lidl вернул бронирование товаров к Чёрной пятнице в 1 010 магазинах Великобритании",
+  "summary": "До 22 ноября покупатели могут бронировать отдельные непродовольственные товары в приложении Lidl Plus. Забрать заказ можно в магазине с 26 по 28 ноября. Так сеть разделила по времени бронирование и выдачу товаров в дни распродажи.",
+  "url": "https://www.thescottishsun.co.uk/money/17096096/lidl-feature-skips-black-friday-queues/",
+  "source": "The Scottish Sun",
+  "added": "2026-11-22"
+ },
+ {
+  "id": "fae0533502",
+  "date": "2026-11-21",
+  "cat": "chains",
+  "sub": "lidl",
+  "title": "Lidl займёт помещение супермаркета Migros в цюрихском Зеефельде",
+  "summary": "Lidl Schweiz подтвердил, что откроет магазин на месте Migros по адресу Seefeldstrasse 111, у трамвайной остановки Höschgasse. Migros рассчитывает завершить продажи 31 января 2027 года в связи с окончанием аренды. Дату открытия Lidl пока не назвали.",
+  "url": "https://www.bilanz.ch/unternehmen/seefeld-zuerich-discounter-lidl-uebernimmt-migros-standort/1zxhk8z",
+  "source": "Bilanz",
+  "added": "2026-11-22"
+ },
+ {
+  "id": "fef5eee6de",
+  "date": "2026-11-21",
+  "cat": "chains",
+  "sub": "lidl",
+  "title": "Lidl отозвал во Франции партию красного картофеля Côté marché",
+  "summary": "Сеть объявила добровольный отзыв картофеля сорта Chérie в пакетах по 2,5 кг после обнаружения повышенного содержания гликоалкалоидов. Речь идёт о партии 26128774, которую продавали с 22 октября по 9 ноября. Покупатели могут вернуть товар в магазин и получить деньги обратно.",
+  "url": "https://rappel.conso.gouv.fr/fiche-rappel/24142/interne",
+  "source": "RappelConso",
+  "added": "2026-11-22"
+ },
+ {
+  "id": "ff0826280b",
+  "date": "2026-11-21",
+  "cat": "chains",
+  "sub": "lidl",
+  "title": "Lidl предупредил о незаявленном арахисе в батончиках Healthy Fit в Нидерландах",
+  "summary": "Нидерландский регулятор NVWA сообщил, что протеиновые батончики Healthy Fit Vegan со вкусом ореховой нуги содержат арахис, не указанный на упаковке. Предупреждение касается партий 4245 и 4343, которые продавались в Lidl Nederland. Покупателям с аллергией на арахис регулятор рекомендует не употреблять эти батончики.",
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/21/veiligheidswaarschuwing-healthyfit-vegan-protein-bar-hazelnut-nougat",
+  "source": "NVWA",
+  "added": "2026-11-22"
+ },
+ {
   "id": "14d814b0d4",
   "date": "2026-11-21",
   "cat": "macro",

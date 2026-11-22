@@ -1484,6 +1484,18 @@
     "beautybrief.co": {
       "name": "The Beauty Brief",
       "group": "Отраслевые издания"
+    },
+    "ruhr24.de": {
+      "name": "RUHR24",
+      "group": "Новостные порталы"
+    },
+    "nvwa.nl": {
+      "name": "NVWA",
+      "group": "Государственные органы и статистика"
+    },
+    "rappel.conso.gouv.fr": {
+      "name": "RappelConso",
+      "group": "Государственные органы и статистика"
     }
   },
   "sections": {
@@ -2186,6 +2198,12 @@
     },
     "retail-insight-network.com": {
       "news": "Новости"
+    },
+    "ruhr24.de": {
+      "service/supermaerkte-discounter": "Супермаркеты и дискаунтеры"
+    },
+    "nvwa.nl": {
+      "actueel/nieuws": "Новости и предупреждения"
     }
   },
   "rg_by_sub": {

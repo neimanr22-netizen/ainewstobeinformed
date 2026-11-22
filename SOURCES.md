@@ -4,15 +4,15 @@
 Здесь ссылки на источники (сайт или раздел сайта), а не на отдельные новости.
 Файл создаётся автоматически скриптом `tools/sources.py` — вручную не править.
 
-Всего: 354 сайта, 1403 новости. Обновлено: 22.11.2026.
+Всего: 357 сайтов, 1408 новостей. Обновлено: 22.11.2026.
 
 ## Оглавление
 
-- [Новостные порталы](#новостные-порталы) — 169 сайтов, 875 новостей
+- [Новостные порталы](#новостные-порталы) — 170 сайтов, 877 новостей
 - [Информационные агентства](#информационные-агентства) — 23 сайта, 226 новостей
-- [Деловые и финансовые издания](#деловые-и-финансовые-издания) — 38 сайтов, 69 новостей
+- [Деловые и финансовые издания](#деловые-и-финансовые-издания) — 38 сайтов, 70 новостей
 - [Отраслевые издания](#отраслевые-издания) — 45 сайтов, 79 новостей
-- [Государственные органы и статистика](#государственные-органы-и-статистика) — 44 сайта, 97 новостей
+- [Государственные органы и статистика](#государственные-органы-и-статистика) — 46 сайтов, 99 новостей
 - [Сайты компаний](#сайты-компаний) — 13 сайтов, 22 новости
 - [Сервисы пресс-релизов](#сервисы-пресс-релизов) — 3 сайта, 7 новостей
 - [Исследовательские центры и ассоциации](#исследовательские-центры-и-ассоциации) — 9 сайтов, 10 новостей
@@ -129,6 +129,7 @@ _Общественно-политические СМИ: газеты, инте�
 | **[Tagesspiegel](https://www.tagesspiegel.de/)** | [Политика](https://www.tagesspiegel.de/politik/) | 2 | 23.10.2026 – 17.11.2026 |
 | **[The Kyiv Independent](https://kyivindependent.com/)** | [Сайт целиком](https://kyivindependent.com/) | 2 | 10.11.2026 – 17.11.2026 |
 | **[The Local Switzerland](https://www.thelocal.ch/)** | [Сайт целиком](https://www.thelocal.ch/) | 2 | 08.10.2026 – 09.10.2026 |
+| **[The Scottish Sun](https://www.thescottishsun.co.uk/)** | [Деньги и потребительские новости](https://www.thescottishsun.co.uk/money/) | 2 | 17.11.2026 – 21.11.2026 |
 | **[Turkish Minute](https://www.turkishminute.com/)** | [Сайт целиком](https://www.turkishminute.com/) | 2 | 17.11.2026 |
 | **[VRT NWS](https://www.vrt.be/)** | [Сайт целиком](https://www.vrt.be/) | 2 | 17.11.2026 |
 | **[Известия](https://iz.ru/)** | [Сайт целиком](https://iz.ru/) | 2 | 14.11.2026 – 15.11.2026 |
@@ -219,6 +220,7 @@ _Общественно-политические СМИ: газеты, инте�
 | **[RFJ](https://www.rfj.ch/)** | [Новости](https://www.rfj.ch/rfj/Actualite/) | 1 | 15.10.2026 |
 | **[RTL Today](https://today.rtl.lu/)** | [Люксембург](https://today.rtl.lu/news/luxembourg/) | 1 | 17.11.2026 |
 | **[RTÉ News](https://www.rte.ie/)** | [Новости / Европейская перспектива](https://www.rte.ie/news/a-european-perspective/) | 1 | 17.11.2026 |
+| **[RUHR24](https://www.ruhr24.de/)** | [Супермаркеты и дискаунтеры](https://www.ruhr24.de/service/supermaerkte-discounter/) | 1 | 21.11.2026 |
 | **[Rundschau Online](https://www.rundschau-online.de/)** | [Розничная торговля и потребление](https://www.rundschau-online.de/shoppingwelt/) | 1 | 17.11.2026 |
 | **[St. Galler Tagblatt](https://www.tagblatt.ch/)** | [Экономика](https://www.tagblatt.ch/wirtschaft/) | 1 | 22.10.2026 |
 | **[Tages-Anzeiger](https://www.tagesanzeiger.ch/)** | [Сайт целиком](https://www.tagesanzeiger.ch/) | 1 | 23.10.2026 |
@@ -227,7 +229,6 @@ _Общественно-политические СМИ: газеты, инте�
 | **[The Nordic Times](https://nordictimes.com/)** | [Дания](https://nordictimes.com/the-nordics/denmark/) | 1 | 17.11.2026 |
 | **[The Philadelphia Inquirer](https://www.inquirer.com/)** | [Страна и мир](https://www.inquirer.com/news/nation-world/) | 1 | 10.11.2026 |
 | **[The Rio Times](https://www.riotimesonline.com/)** | [Сайт целиком](https://www.riotimesonline.com/) | 1 | 08.11.2026 |
-| **[The Scottish Sun](https://www.thescottishsun.co.uk/)** | [Деньги и потребительские новости](https://www.thescottishsun.co.uk/money/) | 1 | 17.11.2026 |
 | **[The Straits Times](https://www.straitstimes.com/)** | [Политика Сингапура](https://www.straitstimes.com/singapore/politics/) | 1 | 17.11.2026 |
 | **[The Washington Post](https://www.washingtonpost.com/)** | [Национальная безопасность](https://www.washingtonpost.com/national-security/) | 1 | 26.10.2026 |
 | **[TVP Info](https://www.tvp.info/)** | [Сайт целиком](https://www.tvp.info/) | 1 | 17.11.2026 |
@@ -305,6 +306,7 @@ _Экономика, рынки, компании, инвестиции_
 | **[CNBC](https://www.cnbc.com/)** | [Сайт целиком](https://www.cnbc.com/) | 4 | 16.10.2026 – 28.10.2026 |
 | **[Pénzcentrum](https://www.penzcentrum.hu/)** | [Покупки](https://www.penzcentrum.hu/vasarlas/) | 2 | 13.10.2026 – 14.10.2026 |
 |  | [Экономика](https://www.penzcentrum.hu/gazdasag/) | 1 | 14.10.2026 |
+| **[Bilanz](https://www.bilanz.ch/)** | [Компании](https://www.bilanz.ch/unternehmen/) | 2 | 26.10.2026 – 21.11.2026 |
 | **[Investing.com](https://www.investing.com/)** | [Новости фондового рынка](https://www.investing.com/news/stock-market-news/) | 1 | 13.10.2026 |
 |  | [Стенограммы](https://www.investing.com/news/transcripts/) | 1 | 29.10.2026 |
 | **[Portfolio.hu](https://www.portfolio.hu/)** | [Экономика](https://www.portfolio.hu/gazdasag/) | 2 | 28.10.2026 – 15.11.2026 |
@@ -317,7 +319,6 @@ _Экономика, рынки, компании, инвестиции_
 | **[Банкирос](https://bankiros.ru/)** | [Новости](https://bankiros.ru/news/) | 2 | 09.11.2026 – 10.11.2026 |
 | **[AD HOC NEWS](https://ad-hoc-news.de/)** | [Сайт целиком](https://ad-hoc-news.de/) | 1 | 14.11.2026 |
 | **[Benzinga](https://benzinga.com/)** | [Рынки](https://benzinga.com/markets/) | 1 | 12.11.2026 |
-| **[Bilanz](https://www.bilanz.ch/)** | [Компании](https://www.bilanz.ch/unternehmen/) | 1 | 26.10.2026 |
 | **[Bloomberg](https://www.bloomberg.com/)** | [Сайт целиком](https://www.bloomberg.com/) | 1 | 29.10.2026 |
 | **[Börse Express](https://www.boerse-express.com/)** | [Новости](https://www.boerse-express.com/news/) | 1 | 27.10.2026 |
 | **[Delano](https://delano.lu/)** | [Сайт целиком](https://delano.lu/) | 1 | 17.11.2026 |
@@ -427,7 +428,9 @@ _Правительства, парламенты, министерства, ц�
 | **[CBO — бюджетное управление Конгресса США](https://www.cbo.gov/)** | [Публикации](https://www.cbo.gov/publication/) | 1 | 08.10.2026 |
 | **[Conseil national des finances publiques (CNFP)](https://cnfp.public.lu/)** | [Сайт целиком](https://cnfp.public.lu/) | 1 | 17.11.2026 |
 | **[Deutsche Bundesbank](https://publikationen.bundesbank.de/)** | [Отчёты и исследования](https://publikationen.bundesbank.de/publikationen-de/berichte-studien/) | 1 | 21.10.2026 |
+| **[NVWA](https://www.nvwa.nl/)** | [Новости и предупреждения](https://www.nvwa.nl/actueel/nieuws/) | 1 | 21.11.2026 |
 | **[Prime Minister’s Office Singapore (Канцелярия премьер-министра Сингапура)](https://www.pmo.gov.sg/)** | [Новости](https://www.pmo.gov.sg/newsroom/) | 1 | 17.11.2026 |
+| **[RappelConso](https://rappel.conso.gouv.fr/)** | [Сайт целиком](https://rappel.conso.gouv.fr/) | 1 | 21.11.2026 |
 | **[SEC — комиссия по ценным бумагам США (отчёты компаний)](https://www.sec.gov/)** | [Сайт целиком](https://www.sec.gov/) | 1 | 08.10.2026 |
 | **[SEM — государственный секретариат по миграции Швейцарии](https://www.sem.admin.ch/)** | [Новости](https://www.sem.admin.ch/en/newnsb/) | 1 | 06.11.2026 |
 | **[swisstopo — федеральное ведомство топографии Швейцарии](https://www.swisstopo.admin.ch/)** | [Новости](https://www.swisstopo.admin.ch/en/newnsb/) | 1 | 04.11.2026 |

@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T00:18:02+00:00",
- "total_news": 1403,
- "total_sites": 354,
+ "updated": "2026-11-22T02:09:02+00:00",
+ "total_news": 1408,
+ "total_sites": 357,
  "groups": [
   {
    "name": "Новостные порталы",
    "about": "Общественно-политические СМИ: газеты, интернет-издания, телеканалы и радио",
-   "count": 875,
+   "count": 877,
    "sites": [
     {
      "name": "Российская газета",
@@ -1204,6 +1204,21 @@
        "count": 2,
        "first": "2026-10-08",
        "last": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "name": "The Scottish Sun",
+     "url": "https://www.thescottishsun.co.uk/",
+     "count": 2,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Деньги и потребительские новости",
+       "url": "https://www.thescottishsun.co.uk/money/",
+       "count": 2,
+       "first": "2026-11-17",
+       "last": "2026-11-21"
       }
      ]
     },
@@ -2558,6 +2573,21 @@
      ]
     },
     {
+     "name": "RUHR24",
+     "url": "https://www.ruhr24.de/",
+     "count": 1,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Супермаркеты и дискаунтеры",
+       "url": "https://www.ruhr24.de/service/supermaerkte-discounter/",
+       "count": 1,
+       "first": "2026-11-21",
+       "last": "2026-11-21"
+      }
+     ]
+    },
+    {
      "name": "Rundschau Online",
      "url": "https://www.rundschau-online.de/",
      "count": 1,
@@ -2674,21 +2704,6 @@
        "count": 1,
        "first": "2026-11-08",
        "last": "2026-11-08"
-      }
-     ]
-    },
-    {
-     "name": "The Scottish Sun",
-     "url": "https://www.thescottishsun.co.uk/",
-     "count": 1,
-     "last": "2026-11-17",
-     "sections": [
-      {
-       "name": "Деньги и потребительские новости",
-       "url": "https://www.thescottishsun.co.uk/money/",
-       "count": 1,
-       "first": "2026-11-17",
-       "last": "2026-11-17"
       }
      ]
     },
@@ -3334,7 +3349,7 @@
   {
    "name": "Деловые и финансовые издания",
    "about": "Экономика, рынки, компании, инвестиции",
-   "count": 69,
+   "count": 70,
    "sites": [
     {
      "name": "Economx",
@@ -3472,6 +3487,21 @@
        "count": 1,
        "first": "2026-10-14",
        "last": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "name": "Bilanz",
+     "url": "https://www.bilanz.ch/",
+     "count": 2,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Компании",
+       "url": "https://www.bilanz.ch/unternehmen/",
+       "count": 2,
+       "first": "2026-10-26",
+       "last": "2026-11-21"
       }
      ]
     },
@@ -3628,21 +3658,6 @@
        "count": 1,
        "first": "2026-11-12",
        "last": "2026-11-12"
-      }
-     ]
-    },
-    {
-     "name": "Bilanz",
-     "url": "https://www.bilanz.ch/",
-     "count": 1,
-     "last": "2026-10-26",
-     "sections": [
-      {
-       "name": "Компании",
-       "url": "https://www.bilanz.ch/unternehmen/",
-       "count": 1,
-       "first": "2026-10-26",
-       "last": "2026-10-26"
       }
      ]
     },
@@ -4670,7 +4685,7 @@
   {
    "name": "Государственные органы и статистика",
    "about": "Правительства, парламенты, министерства, центральные банки, статистические службы, ЕС",
-   "count": 97,
+   "count": 99,
    "sites": [
     {
      "name": "Официальный сайт Мэра Москвы (mos.ru)",
@@ -5022,6 +5037,21 @@
      ]
     },
     {
+     "name": "NVWA",
+     "url": "https://www.nvwa.nl/",
+     "count": 1,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Новости и предупреждения",
+       "url": "https://www.nvwa.nl/actueel/nieuws/",
+       "count": 1,
+       "first": "2026-11-21",
+       "last": "2026-11-21"
+      }
+     ]
+    },
+    {
      "name": "Prime Minister’s Office Singapore (Канцелярия премьер-министра Сингапура)",
      "url": "https://www.pmo.gov.sg/",
      "count": 1,
@@ -5033,6 +5063,21 @@
        "count": 1,
        "first": "2026-11-17",
        "last": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "name": "RappelConso",
+     "url": "https://rappel.conso.gouv.fr/",
+     "count": 1,
+     "last": "2026-11-21",
+     "sections": [
+      {
+       "name": "Сайт целиком",
+       "url": "https://rappel.conso.gouv.fr/",
+       "count": 1,
+       "first": "2026-11-21",
+       "last": "2026-11-21"
       }
      ]
     },
