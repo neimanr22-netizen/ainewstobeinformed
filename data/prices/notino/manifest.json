@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-22",
  "dates": [
   {
    "date": "2026-11-16",
@@ -16,6 +16,13 @@
   {
    "date": "2026-11-18",
    "items": 5008,
+   "countries": 26,
+   "attempted_countries": 26,
+   "partial": true
+  },
+  {
+   "date": "2026-11-22",
+   "items": 5291,
    "countries": 26,
    "attempted_countries": 26,
    "partial": true
